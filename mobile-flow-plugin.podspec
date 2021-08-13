@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://github.com/SKIDATA"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  # spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Sven Kastner" => "s.kastner@chitinsoftware.de" }
 
   spec.ios.deployment_target = "9.0"
