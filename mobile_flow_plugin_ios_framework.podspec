@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "mobile_flow_plugin_ios_framework"
-  spec.version      = "1.1.7"
+  spec.version      = "1.2.0"
   spec.summary      = "A plugin for contactless entry via iPhone and BLE Technologly."
   
   spec.description  = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.6"
   spec.ios.vendored_frameworks = 'mobile_flow_plugin_ios_framework.xcframework'
 
-  spec.source = { :http => 'https://github.com/SKIDATA/mobileFlowPodRepo/blob/main/mobile_flow_plugin_ios_framework.xcframework.zip?raw=true' }
+  spec.source = { :git => "https://github.com/SKIDATA/mobileFlowPodRepo.git", :tag => "1.2.0" }
   
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
