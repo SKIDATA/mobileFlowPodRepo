@@ -20,8 +20,5 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = 'mobile_flow_plugin_ios_framework.xcframework'
 
   spec.source = { :git => "https://github.com/SKIDATA/mobileFlowPodRepo.git", :tag => "1.2.0" }
-  
-  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
