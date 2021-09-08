@@ -17,9 +17,9 @@ Pod::Spec.new do |spec|
   spec.author       = { "Sven Kastner" => "s.kastner@chitinsoftware.de" }
 
   spec.ios.deployment_target = "13.6"
-  spec.ios.vendored_frameworks = 'mobile-flow-plugin.xcframework'
+  spec.ios.vendored_frameworks = 'mobile_flow_plugin_ios_framework.xcframework'
 
-  spec.source = { :http => 'https://github.com/SKIDATA/mobileFlowPodRepo/blob/main/mobile-flow-plugin.xcframework.zip?raw=true' }
+  spec.source = { :http => 'https://github.com/SKIDATA/mobileFlowPodRepo/blob/main/mobile_flow_plugin_ios_framework.xcframework.zip?raw=true' }
   
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
