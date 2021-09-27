@@ -49,15 +49,15 @@ public enum TicketError : Swift.Error {
   @objc deinit
 }
 @objc public class MobileFlowTicket : ObjectiveC.NSObject {
-  final public let barcode: Swift.String
-  final public let validAreaId: Swift.String
-  final public let validAreaName: Swift.String
-  final public let validInCompanyIds: Swift.String
-  final public let productName: Swift.String?
-  final public let validFrom: Swift.String?
-  final public let validTo: Swift.String?
-  final public let psnr: Swift.String?
-  final public let image: UIKit.UIImage?
+  @objc final public let barcode: Swift.String
+  @objc final public let validAreaId: Swift.String
+  @objc final public let validAreaName: Swift.String
+  @objc final public let validInCompanyIds: Swift.String
+  @objc final public let productName: Swift.String?
+  @objc final public let validFrom: Swift.String?
+  @objc final public let validTo: Swift.String?
+  @objc final public let psnr: Swift.String?
+  @objc final public let image: UIKit.UIImage?
   public var validAreaIdInt: Swift.UInt? {
     get
   }
