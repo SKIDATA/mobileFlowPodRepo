@@ -54,12 +54,12 @@ public enum TicketError : Swift.Error {
   final public let validAreaId: Swift.String
   final public let validAreaName: Swift.String
   final public let validInCompanyIds: Swift.String
-  final public let productName: Swift.String?
-  final public let validFrom: Swift.String?
-  final public let validTo: Swift.String?
-  final public let psnr: Swift.String?
+  final public let productName: Swift.String
+  final public let validFrom: Swift.String
+  final public let validTo: Swift.String
+  final public let psnr: Swift.String
   final public let image: UIKit.UIImage?
-  final public let downloadTimestamp: Swift.String
+  final public let downloadTimestamp: Swift.UInt
   public var validAreaIdInt: Swift.UInt? {
     get
   }
@@ -72,18 +72,7 @@ public enum TicketError : Swift.Error {
   @objc public var validToDate: Foundation.Date? {
     @objc get
   }
-  @objc public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String?, validFrom: Swift.String?, validTo: Swift.String?, psnr: Swift.String?, image: UIKit.UIImage?)
-  @objc convenience public init(barcode: Swift.String, areaId: Swift.String, areaName: Swift.String, companyIds: Swift.String)
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class MobileFlowTicketBuilder : ObjectiveC.NSObject {
-  @objc public func setProductName(_ val: Swift.String)
-  @objc public func setValidFrom(_ val: Swift.String)
-  @objc public func setValidTo(_ val: Swift.String)
-  @objc public func setPSNR(_ val: Swift.String)
-  @objc public func setImage(_ val: UIKit.UIImage)
-  @objc public func build(barcode: Swift.String, areaId: Swift.String, areaName: Swift.String, companyIds: Swift.String) -> mobile_flow_plugin_ios_framework.MobileFlowTicket
-  @objc override dynamic public init()
+  @objc public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String, image: UIKit.UIImage?)
   @objc deinit
 }
 @objc public enum MobileFlowError : Swift.Int, Swift.Error {

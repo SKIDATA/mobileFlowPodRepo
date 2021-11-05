@@ -326,22 +326,9 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16MobileFlowTicket")
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nullable validInCompanyIdsList;
 @property (nonatomic, readonly, copy) NSDate * _Nullable validFromDate;
 @property (nonatomic, readonly, copy) NSDate * _Nullable validToDate;
-- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nonnull)validAreaId validAreaName:(NSString * _Nonnull)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nullable)productName validFrom:(NSString * _Nullable)validFrom validTo:(NSString * _Nullable)validTo psnr:(NSString * _Nullable)psnr image:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode areaId:(NSString * _Nonnull)areaId areaName:(NSString * _Nonnull)areaName companyIds:(NSString * _Nonnull)companyIds;
+- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nonnull)validAreaId validAreaName:(NSString * _Nonnull)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nonnull)productName validFrom:(NSString * _Nonnull)validFrom validTo:(NSString * _Nonnull)validTo psnr:(NSString * _Nonnull)psnr image:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework23MobileFlowTicketBuilder")
-@interface MobileFlowTicketBuilder : NSObject
-- (void)setProductName:(NSString * _Nonnull)val;
-- (void)setValidFrom:(NSString * _Nonnull)val;
-- (void)setValidTo:(NSString * _Nonnull)val;
-- (void)setPSNR:(NSString * _Nonnull)val;
-- (void)setImage:(UIImage * _Nonnull)val;
-- (MobileFlowTicket * _Nonnull)buildWithBarcode:(NSString * _Nonnull)barcode areaId:(NSString * _Nonnull)areaId areaName:(NSString * _Nonnull)areaName companyIds:(NSString * _Nonnull)companyIds SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #if __has_attribute(external_source_symbol)
