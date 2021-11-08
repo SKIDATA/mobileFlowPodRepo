@@ -54,10 +54,10 @@ public enum TicketError : Swift.Error {
   final public let validAreaId: Swift.String
   final public let validAreaName: Swift.String
   final public let validInCompanyIds: Swift.String
-  final public let productName: Swift.String?
-  final public let validFrom: Swift.String?
-  final public let validTo: Swift.String?
-  final public let psnr: Swift.String?
+  final public let productName: Swift.String
+  final public let validFrom: Swift.String
+  final public let validTo: Swift.String
+  final public let psnr: Swift.String
   final public let image: UIKit.UIImage?
   final public let downloadTimestamp: Swift.UInt
   public var validAreaIdInt: Swift.UInt? {
@@ -73,6 +73,7 @@ public enum TicketError : Swift.Error {
     @objc get
   }
   @objc public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String, image: UIKit.UIImage?)
+  @objc convenience public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String)
   @objc deinit
 }
 @objc public enum MobileFlowError : Swift.Int, Swift.Error {
