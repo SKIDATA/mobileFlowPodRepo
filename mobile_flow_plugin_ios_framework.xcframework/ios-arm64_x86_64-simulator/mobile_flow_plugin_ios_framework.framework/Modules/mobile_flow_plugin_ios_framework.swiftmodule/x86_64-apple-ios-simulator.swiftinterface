@@ -54,10 +54,10 @@ public enum TicketError : Swift.Error {
   final public let validAreaId: Swift.String
   final public let validAreaName: Swift.String
   final public let validInCompanyIds: Swift.String
-  final public let productName: Swift.String
-  final public let validFrom: Swift.String
-  final public let validTo: Swift.String
-  final public let psnr: Swift.String
+  final public let productName: Swift.String?
+  final public let validFrom: Swift.String?
+  final public let validTo: Swift.String?
+  final public let psnr: Swift.String?
   final public let image: UIKit.UIImage?
   final public let downloadTimestamp: Swift.UInt
   public var validAreaIdInt: Swift.UInt? {
