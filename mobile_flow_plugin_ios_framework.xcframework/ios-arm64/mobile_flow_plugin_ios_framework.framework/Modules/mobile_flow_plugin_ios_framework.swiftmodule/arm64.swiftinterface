@@ -74,6 +74,7 @@ public enum TicketError : Swift.Error {
   }
   @objc public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String, image: UIKit.UIImage?)
   @objc convenience public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String)
+  public func description() -> Swift.String
   @objc deinit
 }
 @objc public enum MobileFlowError : Swift.Int, Swift.Error {
