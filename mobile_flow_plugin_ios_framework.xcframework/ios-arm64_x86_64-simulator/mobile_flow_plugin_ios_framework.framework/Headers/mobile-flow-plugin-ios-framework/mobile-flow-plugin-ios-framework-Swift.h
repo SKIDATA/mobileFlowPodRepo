@@ -190,6 +190,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -319,6 +320,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @end
 
 @class UIImage;
+@class NSNumber;
 @class NSDate;
 
 SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16MobileFlowTicket")
@@ -332,6 +334,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16MobileFlowTicket")
 @property (nonatomic, readonly, copy) NSString * _Nonnull validTo;
 @property (nonatomic, readonly, copy) NSString * _Nonnull psnr;
 @property (nonatomic, readonly, strong) UIImage * _Nullable image;
+@property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nullable validInCompanyIdsList;
 @property (nonatomic, readonly, copy) NSDate * _Nullable validFromDate;
 @property (nonatomic, readonly, copy) NSDate * _Nullable validToDate;
 - (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nonnull)validAreaId validAreaName:(NSString * _Nonnull)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nonnull)productName validFrom:(NSString * _Nonnull)validFrom validTo:(NSString * _Nonnull)validTo psnr:(NSString * _Nonnull)psnr image:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;
@@ -537,6 +540,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -666,6 +670,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @end
 
 @class UIImage;
+@class NSNumber;
 @class NSDate;
 
 SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16MobileFlowTicket")
@@ -679,6 +684,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16MobileFlowTicket")
 @property (nonatomic, readonly, copy) NSString * _Nonnull validTo;
 @property (nonatomic, readonly, copy) NSString * _Nonnull psnr;
 @property (nonatomic, readonly, strong) UIImage * _Nullable image;
+@property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nullable validInCompanyIdsList;
 @property (nonatomic, readonly, copy) NSDate * _Nullable validFromDate;
 @property (nonatomic, readonly, copy) NSDate * _Nullable validToDate;
 - (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nonnull)validAreaId validAreaName:(NSString * _Nonnull)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nonnull)productName validFrom:(NSString * _Nonnull)validFrom validTo:(NSString * _Nonnull)validTo psnr:(NSString * _Nonnull)psnr image:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;

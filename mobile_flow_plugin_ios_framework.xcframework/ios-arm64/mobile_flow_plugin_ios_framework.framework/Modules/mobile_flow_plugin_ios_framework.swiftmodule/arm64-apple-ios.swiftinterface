@@ -63,8 +63,8 @@ public enum TicketError : Swift.Error {
   public var validAreaIdInt: Swift.UInt? {
     get
   }
-  public var validInCompanyIdsList: [Swift.UInt]? {
-    get
+  @objc public var validInCompanyIdsList: [Swift.UInt]? {
+    @objc get
   }
   @objc public var validFromDate: Foundation.Date? {
     @objc get
