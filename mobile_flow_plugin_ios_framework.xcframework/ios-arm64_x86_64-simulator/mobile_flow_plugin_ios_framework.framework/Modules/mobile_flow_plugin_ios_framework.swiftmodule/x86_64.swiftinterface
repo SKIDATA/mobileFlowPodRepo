@@ -112,6 +112,7 @@ public enum TicketError : Swift.Error {
   @objc func receivedError(_ error: mobile_flow_plugin_ios_framework.MobileFlowError)
   @objc func enteredRegion(_ companyId: Swift.String)
   @objc func leftRegion(_ companyId: Swift.String)
+  @objc func accessedGate(_ gateId: Swift.String)
 }
 extension mobile_flow_plugin_ios_framework.TicketError : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.TicketError : Swift.Hashable {}
