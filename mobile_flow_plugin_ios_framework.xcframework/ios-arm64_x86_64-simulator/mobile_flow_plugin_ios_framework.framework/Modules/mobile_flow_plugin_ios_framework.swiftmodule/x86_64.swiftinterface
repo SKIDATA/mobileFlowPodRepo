@@ -113,6 +113,9 @@ public enum TicketError : Swift.Error {
   @objc func enteredRegion(_ companyId: Swift.String)
   @objc func leftRegion(_ companyId: Swift.String)
 }
+@_hasMissingDesignatedInitializers public class Logger {
+  @objc deinit
+}
 extension mobile_flow_plugin_ios_framework.TicketError : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.TicketError : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.Equatable {}
