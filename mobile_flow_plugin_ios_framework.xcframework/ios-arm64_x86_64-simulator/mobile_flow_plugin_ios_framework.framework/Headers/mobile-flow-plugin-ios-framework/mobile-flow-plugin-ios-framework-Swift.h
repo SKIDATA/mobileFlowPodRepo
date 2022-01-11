@@ -297,11 +297,6 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 /// The company id of the left region.
 ///
 - (void)leftRegion:(NSString * _Nonnull)companyId;
-/// This method is called if a gate is accessed.
-/// \param gateId 
-/// The gate id of the accessed gate.
-///
-- (void)accessedGate:(NSString * _Nonnull)gateId;
 @end
 
 
@@ -647,11 +642,6 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 /// The company id of the left region.
 ///
 - (void)leftRegion:(NSString * _Nonnull)companyId;
-/// This method is called if a gate is accessed.
-/// \param gateId 
-/// The gate id of the accessed gate.
-///
-- (void)accessedGate:(NSString * _Nonnull)gateId;
 @end
 
 
