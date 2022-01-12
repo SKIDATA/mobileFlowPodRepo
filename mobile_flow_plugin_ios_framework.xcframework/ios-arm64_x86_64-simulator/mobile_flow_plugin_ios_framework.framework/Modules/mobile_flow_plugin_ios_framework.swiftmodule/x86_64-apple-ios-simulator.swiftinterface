@@ -98,6 +98,16 @@ public enum TicketError : Swift.Error {
     get
   }
 }
+@_hasMissingDesignatedInitializers final public class AlgorithmParameterResponse : Swift.Codable {
+  final public var thresholdID: Swift.Int?
+  final public var threshold: Swift.Int?
+  final public var offset: Swift.Int?
+  final public var iphoneModel: Swift.String?
+  final public var testEnv: Swift.Bool?
+  @objc deinit
+  final public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
 @objc public protocol MobileFlowPlugin {
   @objc static func getInstance() -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
   @objc func setDelegate(_ delegate: mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
