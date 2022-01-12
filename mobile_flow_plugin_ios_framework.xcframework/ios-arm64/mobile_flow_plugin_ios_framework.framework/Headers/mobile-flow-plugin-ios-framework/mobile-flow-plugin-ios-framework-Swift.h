@@ -298,16 +298,58 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 @end
 
 
+/// Handles the ability to pass gates with digital tickets via short-range radio.
 SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @interface MobileFlowPluginImpl : NSObject <MobileFlowPlugin>
+/// To be used to get an instance of the plugin.
+///
+/// returns:
+/// Instance of the <code>MobileFlowPlugin</code>
 + (id <MobileFlowPlugin> _Nonnull)getInstance SWIFT_WARN_UNUSED_RESULT;
+/// Delivers the current version
+///
+/// returns:
+/// Current version of the plugin
 + (NSString * _Nonnull)getPluginVersion SWIFT_WARN_UNUSED_RESULT;
+/// Set the delegation of the plugin to the passed object
+/// \param delegate from type <code>MobileFlowPluginDelegate</code>
+///
 - (void)setDelegate:(id <MobileFlowPluginDelegate> _Nonnull)delegate;
+/// Initial call to start the scanning of the ble-beacons with the passed ticket.
+/// For usage it is required that the gateway for the companyID is configured.
+/// Errors will be handled with the <code>delegation.receivedError</code>.
+/// \param ticket from type <code>MobileFlowTicket</code>which should be used for skiing.
+///
 - (void)startSkiingWithTicket:(MobileFlowTicket * _Nonnull)ticket;
+/// Stopped the activity and allow a new start of the plugin. The stored elements get cleared.
 - (void)stopSkiing;
+/// Activates the regionscan, to receive ble beacons.
+/// Events get emited on:
+/// <ul>
+///   <li>
+///     <code>enteredRegionSubject</code> when a new region is entered the cid is emited
+///   </li>
+///   <li>
+///     <code>leftRegionSubject</code> when a region is
+///   </li>
+/// </ul>
 - (void)activateRegionScan;
+/// Deactivates the regionscan and reset the allocated ressources.
 - (void)deactivateRegionScan;
+/// Handles the download of the ticket.
+/// Errors will be handled with the <code>delegation.receivedError</code>.
+/// \param url of type <code>String</code> from where the ticket should be downloaded.
+///
 - (void)downloadTicket:(NSString * _Nonnull)url;
+/// Initialize the MobileFlowPlugin
+/// <ul>
+///   <li>
+///     Set the observers.
+///   </li>
+///   <li>
+///     Handle the subscription of the delegate observables
+///   </li>
+/// </ul>
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
