@@ -89,6 +89,7 @@ public enum TicketError : Swift.Error {
   case GateNotReachableError
   case TicketDownloadError
   case TicketInvalidError
+  case ConfigurationError
   case InternalError
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
