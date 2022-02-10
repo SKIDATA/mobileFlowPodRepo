@@ -110,6 +110,17 @@ public enum TicketError : Swift.Error {
   final public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public enum OpenResponse {
+  case OnGoing
+  case Success
+  case NoGateway
+  case Failure
+  public static func == (a: mobile_flow_plugin_ios_framework.OpenResponse, b: mobile_flow_plugin_ios_framework.OpenResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @objc public protocol MobileFlowPlugin {
   @objc static func getInstance() -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
   @objc func setDelegate(_ delegate: mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
@@ -130,3 +141,5 @@ extension mobile_flow_plugin_ios_framework.TicketError : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.RawRepresentable {}
+extension mobile_flow_plugin_ios_framework.OpenResponse : Swift.Equatable {}
+extension mobile_flow_plugin_ios_framework.OpenResponse : Swift.Hashable {}
