@@ -317,7 +317,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 ///
 - (void)setDelegate:(id <MobileFlowPluginDelegate> _Nonnull)delegate;
 /// Initial call to start the scanning of the ble-beacons with the passed ticket.
-/// For usage it is required that the gateway for the companyID is configured.
+/// For usage it is required that the gateway for the companyId is configured.
 /// Errors will be handled with the <code>delegation.receivedError</code>.
 /// \param ticket from type <code>MobileFlowTicket</code>which should be used for skiing.
 ///
