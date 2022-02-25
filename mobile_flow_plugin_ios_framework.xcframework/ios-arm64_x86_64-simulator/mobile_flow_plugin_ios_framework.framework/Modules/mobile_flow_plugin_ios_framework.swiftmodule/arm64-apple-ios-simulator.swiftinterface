@@ -20,33 +20,6 @@ import _Concurrency
   @objc final public func stopSkiing()
   @objc deinit
 }
-public enum TicketError : Swift.Error {
-  case badURL
-  case download
-  case limitExceeded
-  case fileRead
-  case extraction
-  case parse
-  case unknownGW
-  case missingBarcode
-  case missingProductName
-  case missingValidFromDate
-  case missingValidToDate
-  case invalidValidFromDate
-  case invalidValidToDate
-  case missingCompanyID
-  case invalidCompanyID
-  case missingPSNR
-  case missingAreaName
-  case invalidExpirationDate
-  case missingValidAreaID
-  case invalidValidAreaID
-  public static func == (a: mobile_flow_plugin_ios_framework.TicketError, b: mobile_flow_plugin_ios_framework.TicketError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 @_hasMissingDesignatedInitializers final public class TestingManager {
   public static func getInstance() -> mobile_flow_plugin_ios_framework.TestingManager
   @objc deinit
@@ -78,6 +51,33 @@ public enum TicketError : Swift.Error {
   @objc convenience public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String)
   public func description() -> Swift.String
   @objc deinit
+}
+public enum TicketError : Swift.Error {
+  case badURL
+  case download
+  case limitExceeded
+  case fileRead
+  case extraction
+  case parse
+  case unknownGW
+  case missingBarcode
+  case missingProductName
+  case missingValidFromDate
+  case missingValidToDate
+  case invalidValidFromDate
+  case invalidValidToDate
+  case missingCompanyID
+  case invalidCompanyID
+  case missingPSNR
+  case missingAreaName
+  case invalidExpirationDate
+  case missingValidAreaID
+  case invalidValidAreaID
+  public static func == (a: mobile_flow_plugin_ios_framework.TicketError, b: mobile_flow_plugin_ios_framework.TicketError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @objc public enum MobileFlowError : Swift.Int, Swift.Error {
   case LicenseNotActivatedError
