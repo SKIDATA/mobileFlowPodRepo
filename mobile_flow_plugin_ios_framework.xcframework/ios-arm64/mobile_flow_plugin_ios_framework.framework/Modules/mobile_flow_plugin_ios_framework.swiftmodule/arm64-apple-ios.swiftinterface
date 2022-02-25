@@ -1,0 +1,148 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name mobile_flow_plugin_ios_framework
+import Foundation
+import Network
+import RxSwift
+import Swift
+import UIKit
+import _Concurrency
+@_exported import mobile_flow_plugin_ios_framework
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class MobileFlowPluginImpl : ObjectiveC.NSObject, mobile_flow_plugin_ios_framework.MobileFlowPlugin {
+  @objc final public func getPluginUUID() -> Swift.String
+  @objc public static func getInstance() -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
+  @objc public static func getPluginVersion() -> Swift.String
+  @objc final public func setDelegate(_ delegate: mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
+  @objc final public func startSkiing(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
+  @objc final public func activateRegionScan()
+  @objc final public func deactivateRegionScan()
+  @objc final public func downloadTicket(_ url: Swift.String)
+  @objc final public func stopSkiing()
+  @objc deinit
+}
+public enum TicketError : Swift.Error {
+  case badURL
+  case download
+  case limitExceeded
+  case fileRead
+  case extraction
+  case parse
+  case unknownGW
+  case missingBarcode
+  case missingProductName
+  case missingValidFromDate
+  case missingValidToDate
+  case invalidValidFromDate
+  case invalidValidToDate
+  case missingCompanyID
+  case invalidCompanyID
+  case missingPSNR
+  case missingAreaName
+  case invalidExpirationDate
+  case missingValidAreaID
+  case invalidValidAreaID
+  public static func == (a: mobile_flow_plugin_ios_framework.TicketError, b: mobile_flow_plugin_ios_framework.TicketError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class TestingManager {
+  public static func getInstance() -> mobile_flow_plugin_ios_framework.TestingManager
+  @objc deinit
+}
+@objc public class MobileFlowTicket : ObjectiveC.NSObject {
+  @objc final public let barcode: Swift.String
+  @objc final public let validAreaId: Swift.String
+  @objc final public let validAreaName: Swift.String
+  @objc final public let validInCompanyIds: Swift.String
+  @objc final public let productName: Swift.String
+  @objc final public let validFrom: Swift.String
+  @objc final public let validTo: Swift.String
+  @objc final public let psnr: Swift.String
+  @objc final public let image: UIKit.UIImage?
+  final public let downloadTimestamp: Swift.UInt
+  public var validAreaIdInt: Swift.UInt? {
+    get
+  }
+  @objc public var validInCompanyIdsList: [Swift.UInt]? {
+    @objc get
+  }
+  @objc public var validFromDate: Foundation.Date? {
+    @objc get
+  }
+  @objc public var validToDate: Foundation.Date? {
+    @objc get
+  }
+  @objc public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String, image: UIKit.UIImage?)
+  @objc convenience public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String)
+  public func description() -> Swift.String
+  @objc deinit
+}
+@objc public enum MobileFlowError : Swift.Int, Swift.Error {
+  case LicenseNotActivatedError
+  case LocationPermissionError
+  case BluetoothPermissionError
+  case BluetoothInactiveError
+  case DeviceOfflineError
+  case GatewayUnknownError
+  case GatewayNotReachableError
+  case GateNotReachableError
+  case TicketDownloadError
+  case TicketInvalidError
+  case ConfigurationError
+  case InternalError
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class AlgorithmParameterResponse : Swift.Codable {
+  final public var thresholdID: Swift.Int?
+  final public var threshold: Swift.Int?
+  final public var offset: Swift.Int?
+  final public var iphoneModel: Swift.String?
+  final public var testEnv: Swift.Bool?
+  @objc deinit
+  final public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum OpenResponse {
+  case OnGoing
+  case Success
+  case NoGateway
+  case NoGatewayVersion
+  case Failure
+  public static func == (a: mobile_flow_plugin_ios_framework.OpenResponse, b: mobile_flow_plugin_ios_framework.OpenResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol MobileFlowPlugin {
+  @objc static func getInstance() -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
+  @objc func setDelegate(_ delegate: mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
+  @objc func startSkiing(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
+  @objc func stopSkiing()
+  @objc func activateRegionScan()
+  @objc func deactivateRegionScan()
+  @objc func downloadTicket(_ url: Swift.String)
+  @objc func getPluginUUID() -> Swift.String
+}
+@objc public protocol MobileFlowPluginDelegate {
+  @objc func newTicket(_ ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
+  @objc func receivedError(_ error: mobile_flow_plugin_ios_framework.MobileFlowError)
+  @objc func enteredRegion(_ companyId: Swift.String)
+  @objc func leftRegion(_ companyId: Swift.String)
+}
+extension mobile_flow_plugin_ios_framework.TicketError : Swift.Equatable {}
+extension mobile_flow_plugin_ios_framework.TicketError : Swift.Hashable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.Equatable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.Hashable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.RawRepresentable {}
+extension mobile_flow_plugin_ios_framework.OpenResponse : Swift.Equatable {}
+extension mobile_flow_plugin_ios_framework.OpenResponse : Swift.Hashable {}
