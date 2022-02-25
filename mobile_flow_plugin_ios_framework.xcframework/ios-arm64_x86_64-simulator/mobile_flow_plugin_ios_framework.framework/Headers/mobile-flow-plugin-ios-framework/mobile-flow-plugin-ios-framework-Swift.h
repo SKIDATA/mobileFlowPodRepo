@@ -211,9 +211,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 /// @file
 /// @author  Benjamin Bara - SKIDATA
-/// @version 0.3
+/// @version 0.2
 /// @section LICENSE
-/// Copyright (c) SKIDATA GmbH 3032, all rights reserved.
+/// Copyright (c) SKIDATA GmbH 2022, all rights reserved.
 /// Protected intellectual property.
 /// Reverse-engineering prohibited by this protection.
 typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
@@ -602,9 +602,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 /// @file
 /// @author  Benjamin Bara - SKIDATA
-/// @version 0.3
+/// @version 0.2
 /// @section LICENSE
-/// Copyright (c) SKIDATA GmbH 3032, all rights reserved.
+/// Copyright (c) SKIDATA GmbH 2022, all rights reserved.
 /// Protected intellectual property.
 /// Reverse-engineering prohibited by this protection.
 typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
