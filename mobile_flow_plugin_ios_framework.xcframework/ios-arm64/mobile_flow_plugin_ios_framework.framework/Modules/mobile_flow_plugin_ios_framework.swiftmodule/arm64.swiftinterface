@@ -24,10 +24,9 @@ public struct GATTResponse {
   @objc deinit
 }
 public enum GATTResponseCode : Swift.UInt8 {
+  case gateReady
   case ticketValid
-  case ticketInvalid
-  case gateNotReachable
-  case gateInUse
+  case passageCompleted
   case unknown
   public init?(rawValue: Swift.UInt8)
   public typealias RawValue = Swift.UInt8
@@ -37,8 +36,19 @@ public enum GATTResponseCode : Swift.UInt8 {
 }
 public enum GATTResponseType : Swift.UInt8 {
   case response
-  case passageStatus
   case error
+  case unknown
+  public init?(rawValue: Swift.UInt8)
+  public typealias RawValue = Swift.UInt8
+  public var rawValue: Swift.UInt8 {
+    get
+  }
+}
+public enum GATTErrorResponseCode : Swift.UInt8 {
+  case gateInUse
+  case ticketInvalid
+  case gateNotReachable
+  case passageTimeout
   case unknown
   public init?(rawValue: Swift.UInt8)
   public typealias RawValue = Swift.UInt8
@@ -326,6 +336,9 @@ extension mobile_flow_plugin_ios_framework.GATTResponseCode : Swift.RawRepresent
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.RawRepresentable {}
+extension mobile_flow_plugin_ios_framework.GATTErrorResponseCode : Swift.Equatable {}
+extension mobile_flow_plugin_ios_framework.GATTErrorResponseCode : Swift.Hashable {}
+extension mobile_flow_plugin_ios_framework.GATTErrorResponseCode : Swift.RawRepresentable {}
 extension mobile_flow_plugin_ios_framework.TicketError : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.TicketError : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.Equatable {}
