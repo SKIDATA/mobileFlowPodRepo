@@ -4,6 +4,7 @@
 import CoreBluetooth
 import Foundation
 import Network
+import RxCocoa
 import RxSwift
 import Swift
 import UIKit
