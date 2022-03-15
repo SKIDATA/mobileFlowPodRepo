@@ -158,6 +158,7 @@ public enum GATTError : Swift.Error {
   final public var thresholdID: Swift.Int?
   final public var threshold: Swift.Int?
   final public var offset: Swift.Int?
+  final public var v2Offset: Swift.Int?
   final public var iphoneModel: Swift.String?
   final public var testEnv: Swift.Bool?
   @objc deinit
