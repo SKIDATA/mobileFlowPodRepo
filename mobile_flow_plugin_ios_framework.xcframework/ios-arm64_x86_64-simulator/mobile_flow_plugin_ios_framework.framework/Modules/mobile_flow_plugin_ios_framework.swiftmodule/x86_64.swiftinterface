@@ -299,11 +299,12 @@ extension Swift.String {
   public init(_ value: mobile_flow_plugin_ios_framework.UInt128, radix: Swift.Int = 10, uppercase: Swift.Bool = false)
 }
 public enum OpenResponse {
-  case OnGoing
-  case Success
+  case Error(mobile_flow_plugin_ios_framework.MobileFlowError)
+  case Failed
   case NoGateway(Swift.String)
   case NoGatewayVersion(Swift.String)
-  case Error(mobile_flow_plugin_ios_framework.MobileFlowError)
+  case OnGoing
+  case Success
 }
 @objc public protocol MobileFlowPlugin {
   @objc static func getInstance() -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
