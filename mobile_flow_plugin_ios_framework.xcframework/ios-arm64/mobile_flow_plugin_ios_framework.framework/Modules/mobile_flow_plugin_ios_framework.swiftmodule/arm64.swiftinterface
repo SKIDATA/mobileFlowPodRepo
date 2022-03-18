@@ -141,6 +141,7 @@ public enum TicketError : Swift.Error {
 }
 public enum GATTError : Swift.Error {
   case ByteSizeOutOfRangeError
+  case ConnectionError
   case InvalideArgumentError
   case InvalidResponseError
   case InvalidTicket
@@ -148,6 +149,8 @@ public enum GATTError : Swift.Error {
   case ReadingDataError
   case ReceivedEmptyDataError
   case MissingBleService
+  case MissingBlePeripheral
+  case MissingCentralManager
   case NotificationCharacteristicNotAvailableError
   case PassageTimedOut
   case Unknown
