@@ -148,6 +148,7 @@ public enum GATTError : Swift.Error {
   case InvalidTicketArgumentError
   case ReadingDataError
   case ReceivedEmptyDataError
+  case ReceivedUnknownResponse
   case MissingBleService
   case MissingBlePeripheral
   case MissingCentralManager
