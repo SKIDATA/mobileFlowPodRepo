@@ -152,6 +152,7 @@ public enum GATTError : Swift.Error {
   case MissingBleService
   case MissingBlePeripheral
   case MissingCentralManager
+  case MissingCharacteristic
   case NotificationCharacteristicNotAvailableError
   case NoResponseTimeout
   case PassageTimedOut
