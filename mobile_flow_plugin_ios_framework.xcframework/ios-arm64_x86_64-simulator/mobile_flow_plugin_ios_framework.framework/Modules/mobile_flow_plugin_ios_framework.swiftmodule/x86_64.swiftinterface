@@ -141,6 +141,7 @@ public enum TicketError : Swift.Error {
 }
 public enum GATTError : Swift.Error {
   case ByteSizeOutOfRangeError
+  case CouldNotConnectToSurroundingPeripherals
   case ConnectionError
   case InvalideArgumentError
   case InvalidResponseError
