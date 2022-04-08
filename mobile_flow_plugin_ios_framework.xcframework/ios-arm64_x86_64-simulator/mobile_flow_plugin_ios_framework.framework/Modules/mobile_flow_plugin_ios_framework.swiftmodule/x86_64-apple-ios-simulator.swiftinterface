@@ -316,6 +316,20 @@ extension Swift.BinaryFloatingPoint {
 extension Swift.String {
   public init(_ value: mobile_flow_plugin_ios_framework.UInt128, radix: Swift.Int = 10, uppercase: Swift.Bool = false)
 }
+public enum LocalizationSessionSetupStep : Swift.Int, Swift.CaseIterable {
+  case retrievedParameter
+  case retrievedGateway
+  case checkedGatewayVersion
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public enum OpenResponse {
   case Error(mobile_flow_plugin_ios_framework.MobileFlowError)
   case Failed
@@ -372,6 +386,9 @@ extension mobile_flow_plugin_ios_framework.GATTError : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.GATTError : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.UInt128Errors : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.UInt128Errors : Swift.Hashable {}
+extension mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep : Swift.Equatable {}
+extension mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep : Swift.Hashable {}
+extension mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep : Swift.RawRepresentable {}
 extension mobile_flow_plugin_ios_framework.GATTCommandByte : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.GATTCommandByte : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.GATTCommandByte : Swift.RawRepresentable {}

@@ -394,6 +394,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @end
 
 
+
 @class UIImage;
 @class NSDate;
 
@@ -817,6 +818,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// Stopped the activity and allow a new start of the plugin. The stored elements get cleared.
 - (void)stopSkiing;
 @end
+
 
 
 @class UIImage;

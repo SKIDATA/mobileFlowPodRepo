@@ -392,6 +392,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @end
 
 
+
 @class UIImage;
 @class NSDate;
 
