@@ -20,6 +20,7 @@ public struct GATTResponse {
   @objc final public func activateRegionScan()
   @objc final public func deactivateRegionScan()
   @objc final public func downloadTicket(_ url: Swift.String)
+  @objc final public func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowLocalizationState
   @objc final public func stopSkiing()
   @objc deinit
 }
@@ -31,6 +32,16 @@ public enum GATTResponseCode : Swift.UInt8 {
   public init?(rawValue: Swift.UInt8)
   public typealias RawValue = Swift.UInt8
   public var rawValue: Swift.UInt8 {
+    get
+  }
+}
+@objc public enum MobileFlowLocalizationState : Swift.Int {
+  case off
+  case preparing
+  case running
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }
@@ -322,12 +333,14 @@ public enum OpenResponse {
   @objc func deactivateRegionScan()
   @objc func downloadTicket(_ url: Swift.String)
   @objc func getPluginUUID() -> Swift.String
+  @objc func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowLocalizationState
 }
 @objc public protocol MobileFlowPluginDelegate {
   @objc func newTicket(_ ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
   @objc func receivedError(_ error: mobile_flow_plugin_ios_framework.MobileFlowError)
   @objc func enteredRegion(_ companyId: Swift.String)
   @objc func leftRegion(_ companyId: Swift.String)
+  @objc func localizationStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowLocalizationState)
 }
 public enum GATTCommandByte : Swift.UInt8 {
   case ticket
@@ -341,6 +354,9 @@ public enum GATTCommandByte : Swift.UInt8 {
 extension mobile_flow_plugin_ios_framework.GATTResponseCode : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseCode : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseCode : Swift.RawRepresentable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowLocalizationState : Swift.Equatable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowLocalizationState : Swift.Hashable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowLocalizationState : Swift.RawRepresentable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.RawRepresentable {}

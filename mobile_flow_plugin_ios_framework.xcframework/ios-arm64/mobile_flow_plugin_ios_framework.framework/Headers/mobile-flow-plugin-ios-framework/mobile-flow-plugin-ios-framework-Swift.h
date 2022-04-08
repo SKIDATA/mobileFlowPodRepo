@@ -237,6 +237,27 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 };
 static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_ios_framework.MobileFlowError";
 
+/// MobileFlowLocalizationState represents the state of the plugin.
+/// <ul>
+///   <li>
+///     the default value is <code>.off</code>.
+///   </li>
+///   <li>
+///     if <code>startSkiing()</code> gets called the state change to <code>preparing</code>
+///   </li>
+///   <li>
+///     if the setup is completed the state schange from <code>preparing</code> to <code>running</code>
+///   </li>
+///   <li>
+///     when <code>stopSkiing()</code> is called the state turn back to <code>.off</code>
+///   </li>
+/// </ul>
+typedef SWIFT_ENUM(NSInteger, MobileFlowLocalizationState, open) {
+  MobileFlowLocalizationStateOff = 0,
+  MobileFlowLocalizationStatePreparing = 1,
+  MobileFlowLocalizationStateRunning = 2,
+};
+
 @protocol MobileFlowPluginDelegate;
 @class MobileFlowTicket;
 @class NSString;
@@ -280,6 +301,8 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 - (void)downloadTicket:(NSString * _Nonnull)url;
 /// This method return the UUID from the plugin for the current user
 - (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
+/// This method return the current localizationState of the MobileFlow Plugin
+- (enum MobileFlowLocalizationState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -305,6 +328,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 /// The company id of the left region.
 ///
 - (void)leftRegion:(NSString * _Nonnull)companyId;
+- (void)localizationStateChangedTo:(enum MobileFlowLocalizationState)state;
 @end
 
 
@@ -350,6 +374,8 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// \param url of type <code>String</code> from where the ticket should be downloaded.
 ///
 - (void)downloadTicket:(NSString * _Nonnull)url;
+/// returns the current localizationstate
+- (enum MobileFlowLocalizationState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the MobileFlowPlugin
 /// <ul>
 ///   <li>
