@@ -243,13 +243,13 @@ static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_io
 ///     the default value is <code>.off</code>.
 ///   </li>
 ///   <li>
-///     if <code>startSkiing()</code> gets called the state change to <code>preparing</code>
+///     if <code>startSkiing()</code> gets called, the state change to <code>preparing</code>
 ///   </li>
 ///   <li>
-///     if the setup is completed the state schange from <code>preparing</code> to <code>running</code>
+///     if the setup is completed, the state change from <code>preparing</code> to <code>running</code>
 ///   </li>
 ///   <li>
-///     when <code>stopSkiing()</code> is called the state turn back to <code>.off</code>
+///     when <code>stopSkiing()</code> is called, the state turn back to <code>.off</code>
 ///   </li>
 /// </ul>
 typedef SWIFT_ENUM(NSInteger, MobileFlowLocalizationState, open) {
@@ -328,6 +328,9 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 /// The company id of the left region.
 ///
 - (void)leftRegion:(NSString * _Nonnull)companyId;
+/// This method is called when the pluginState change
+/// \param to state of type <code>MobileFlowLocalizationState</code>´
+///
 - (void)localizationStateChangedTo:(enum MobileFlowLocalizationState)state;
 @end
 
