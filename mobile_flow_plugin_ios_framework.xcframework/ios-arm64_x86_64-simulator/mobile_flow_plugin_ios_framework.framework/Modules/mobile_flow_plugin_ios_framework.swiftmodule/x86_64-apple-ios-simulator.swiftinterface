@@ -355,6 +355,7 @@ public enum OpenResponse {
   @objc func enteredRegion(_ companyId: Swift.String)
   @objc func leftRegion(_ companyId: Swift.String)
   @objc func localizationStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowLocalizationState)
+  @objc func awakeScreen(message: Swift.String)
 }
 public enum GATTCommandByte : Swift.UInt8 {
   case ticket
