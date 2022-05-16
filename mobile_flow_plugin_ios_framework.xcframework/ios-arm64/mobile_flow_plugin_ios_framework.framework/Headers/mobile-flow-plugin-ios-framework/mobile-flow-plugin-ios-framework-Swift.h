@@ -333,9 +333,10 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 ///
 - (void)localizationStateChangedTo:(enum MobileFlowLocalizationState)state;
 /// This method is called when a notification should be presented to awake the locked screen
+/// The method is only called if the device require a none idle mode for passing gates.
 /// \param message String with details of the event´
 ///
-- (void)awakeScreenWithMessage:(NSString * _Nonnull)message;
+- (void)awakeScreen;
 @end
 
 
