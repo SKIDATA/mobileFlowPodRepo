@@ -330,6 +330,8 @@ public enum LocalizationSessionSetupStep : Swift.Int, Swift.CaseIterable {
     get
   }
 }
+public enum Environment {
+}
 public enum OpenResponse {
   case Error(mobile_flow_plugin_ios_framework.MobileFlowError)
   case Failed
