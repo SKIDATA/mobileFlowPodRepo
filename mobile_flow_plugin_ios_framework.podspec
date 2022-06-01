@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "mobile_flow_plugin_ios_framework"
-  spec.version      = "1.6.2"
+  spec.version      = "1.6.2."
   spec.summary      = "A plugin for contactless entry via iPhone and BLE Technologly."
   
   spec.description  = <<-DESC
