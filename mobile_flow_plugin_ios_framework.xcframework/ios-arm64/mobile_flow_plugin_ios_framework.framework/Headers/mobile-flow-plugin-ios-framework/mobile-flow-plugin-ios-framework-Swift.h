@@ -240,8 +240,9 @@ static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_io
 
 typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
   MobileFlowEventGateAccessTriggered = 0,
-  MobileFlowEventPassageCompleted = 1,
-  MobileFlowEventPassageTimeout = 2,
+  MobileFlowEventGateInUse = 1,
+  MobileFlowEventPassageCompleted = 2,
+  MobileFlowEventPassageTimeout = 3,
 };
 
 /// MobileFlowLocalizationState represents the state of the plugin.

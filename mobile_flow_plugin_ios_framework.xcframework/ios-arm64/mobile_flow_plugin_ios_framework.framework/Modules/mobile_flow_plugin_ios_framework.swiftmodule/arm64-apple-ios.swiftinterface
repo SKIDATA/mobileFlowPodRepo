@@ -190,6 +190,7 @@ public enum GATTError : Swift.Error {
 }
 @objc public enum MobileFlowEvent : Swift.Int {
   case gateAccessTriggered
+  case gateInUse
   case passageCompleted
   case passageTimeout
   public init?(rawValue: Swift.Int)
