@@ -236,6 +236,7 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
   MobileFlowErrorTicketInvalidError = 9,
   MobileFlowErrorConfigurationError = 10,
   MobileFlowErrorInternalError = 11,
+  MobileFlowErrorNoGATTConnection = 12,
 };
 static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_ios_framework.MobileFlowError";
 
@@ -678,6 +679,7 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
   MobileFlowErrorTicketInvalidError = 9,
   MobileFlowErrorConfigurationError = 10,
   MobileFlowErrorInternalError = 11,
+  MobileFlowErrorNoGATTConnection = 12,
 };
 static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_ios_framework.MobileFlowError";
 
