@@ -19,6 +19,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "12.0"
   spec.ios.vendored_frameworks = 'mobile_flow_plugin_ios_framework.xcframework'
 
-  spec.source = { :git => "https://github.com/SKIDATA/mobileFlowPodRepo.git", :tag => "1.6.3 }
+  spec.source = { :git => "https://github.com/SKIDATA/mobileFlowPodRepo.git", :tag => "1.6.3" }
 
 end
