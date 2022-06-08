@@ -141,7 +141,7 @@ public enum TicketError : Swift.Error {
   case TicketInvalidError
   case ConfigurationError
   case InternalError
-  case NoGATTConnection
+  case NoGateCommunication
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public static var _nsErrorDomain: Swift.String {
