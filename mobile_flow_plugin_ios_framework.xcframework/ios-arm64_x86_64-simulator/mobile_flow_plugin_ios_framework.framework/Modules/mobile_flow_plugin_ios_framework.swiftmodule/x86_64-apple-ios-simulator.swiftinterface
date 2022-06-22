@@ -171,6 +171,7 @@ public enum GATTError : Swift.Error {
   case NotificationCharacteristicNotAvailableError
   case NoResponseTimeout
   case PassageTimedOut
+  case TransmissionError
   case Unknown
   case WriteCharacteristicNotAvailableError
   public static func == (a: mobile_flow_plugin_ios_framework.GATTError, b: mobile_flow_plugin_ios_framework.GATTError) -> Swift.Bool
