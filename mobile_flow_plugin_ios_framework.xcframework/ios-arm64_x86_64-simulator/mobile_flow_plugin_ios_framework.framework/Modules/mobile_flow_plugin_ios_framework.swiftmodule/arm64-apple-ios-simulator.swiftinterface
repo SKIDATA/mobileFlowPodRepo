@@ -345,6 +345,17 @@ public enum LocalizationSessionSetupStep : Swift.Int, Swift.CaseIterable {
     get
   }
 }
+public enum GlobalLogLevel : Swift.Comparable {
+  case info
+  case debug
+  case high
+  public static func == (a: mobile_flow_plugin_ios_framework.GlobalLogLevel, b: mobile_flow_plugin_ios_framework.GlobalLogLevel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func < (a: mobile_flow_plugin_ios_framework.GlobalLogLevel, b: mobile_flow_plugin_ios_framework.GlobalLogLevel) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum OpenResponse {
   case Error(mobile_flow_plugin_ios_framework.MobileFlowError)
   case Failed
@@ -409,6 +420,7 @@ extension mobile_flow_plugin_ios_framework.UInt128Errors : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep : Swift.RawRepresentable {}
+extension mobile_flow_plugin_ios_framework.GlobalLogLevel : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.GATTCommandByte : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.GATTCommandByte : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.GATTCommandByte : Swift.RawRepresentable {}
