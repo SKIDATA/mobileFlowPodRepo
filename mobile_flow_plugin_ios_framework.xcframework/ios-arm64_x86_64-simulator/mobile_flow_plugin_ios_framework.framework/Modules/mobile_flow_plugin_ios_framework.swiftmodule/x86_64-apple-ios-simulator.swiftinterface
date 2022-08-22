@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name mobile_flow_plugin_ios_framework
 import AudioToolbox
+import Combine
 import CoreBluetooth
 import Foundation
 import Network
@@ -20,7 +21,8 @@ public struct GATTResponse {
   @objc final public func activateRegionScan()
   @objc final public func deactivateRegionScan()
   @objc final public func downloadTicket(_ url: Swift.String)
-  @objc final public func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowLocalizationState
+  @objc final public func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowSessionState
+  @objc final public func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowSessionState
   @objc final public func stopSkiing()
   @objc deinit
 }
@@ -35,10 +37,11 @@ public enum GATTResponseCode : Swift.UInt8 {
     get
   }
 }
-@objc public enum MobileFlowLocalizationState : Swift.Int {
+@objc public enum MobileFlowSessionState : Swift.Int {
   case off
   case preparing
   case running
+  case failedToInitialize
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -178,6 +181,14 @@ public enum GATTError : Swift.Error {
   public static func == (a: mobile_flow_plugin_ios_framework.GATTError, b: mobile_flow_plugin_ios_framework.GATTError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol Describable {
+  var typeName: Swift.String { get }
+}
+extension mobile_flow_plugin_ios_framework.Describable {
+  public var typeName: Swift.String {
     get
   }
 }
@@ -321,19 +332,29 @@ extension Swift.BinaryFloatingPoint {
 extension Swift.String {
   public init(_ value: mobile_flow_plugin_ios_framework.UInt128, radix: Swift.Int = 10, uppercase: Swift.Bool = false)
 }
-public enum LocalizationSessionSetupStep : Swift.Int, Swift.CaseIterable {
-  case retrievedParameter
-  case retrievedGateway
-  case checkedGatewayVersion
-  public init?(rawValue: Swift.Int)
-  public typealias AllCases = [mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep]
-  public typealias RawValue = Swift.Int
-  public static var allCases: [mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep] {
+public struct AlgorithmParameter : Swift.Codable, Swift.CustomStringConvertible, mobile_flow_plugin_ios_framework.Describable {
+  public init(algorithmParameterId: Swift.Int?, v2Offset: Swift.Int?, threshold: Swift.Int?, freeMotionV3Offset: Swift.Int?)
+  public var description: Swift.String {
     get
   }
-  public var rawValue: Swift.Int {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public typealias Headers = [Swift.String : Swift.String]
+public enum HTTPMethod : Swift.String {
+  case GET
+  case POST
+  case PUT
+  case DELETE
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
+}
+public struct NetworkRequest {
+  public init(url: Swift.String, headers: [Swift.String : Swift.String]? = nil, reqBody: Swift.Encodable? = nil, reqTimeout: Swift.Float? = nil, httpMethod: mobile_flow_plugin_ios_framework.HTTPMethod)
+  public init(url: Swift.String, headers: [Swift.String : Swift.String]? = nil, reqBody: Foundation.Data? = nil, reqTimeout: Swift.Float? = nil, httpMethod: mobile_flow_plugin_ios_framework.HTTPMethod)
 }
 public enum OpenResponse {
   case Error(mobile_flow_plugin_ios_framework.MobileFlowError)
@@ -352,7 +373,9 @@ public enum OpenResponse {
   @objc func deactivateRegionScan()
   @objc func downloadTicket(_ url: Swift.String)
   @objc func getPluginUUID() -> Swift.String
-  @objc func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowLocalizationState
+  @available(*, deprecated, renamed: "getMobileFlowState")
+  @objc func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowSessionState
+  @objc func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowSessionState
 }
 @objc public protocol MobileFlowPluginDelegate {
   @objc func newTicket(_ ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
@@ -360,7 +383,10 @@ public enum OpenResponse {
   @objc func receivedEvent(_ event: mobile_flow_plugin_ios_framework.MobileFlowEvent)
   @objc func enteredRegion(_ companyId: Swift.String)
   @objc func leftRegion(_ companyId: Swift.String)
-  @objc func localizationStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowLocalizationState)
+  @available(*, deprecated, renamed: "mobileFlowStateChanged")
+  @objc func localizationStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowSessionState)
+  @objc func mobileFlowStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowSessionState)
+  @available(*, deprecated, message: "Function isn't needed with MF-Plugin 3.*")
   @objc func awakeScreen()
 }
 public enum GATTCommandByte : Swift.UInt8 {
@@ -375,9 +401,9 @@ public enum GATTCommandByte : Swift.UInt8 {
 extension mobile_flow_plugin_ios_framework.GATTResponseCode : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseCode : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseCode : Swift.RawRepresentable {}
-extension mobile_flow_plugin_ios_framework.MobileFlowLocalizationState : Swift.Equatable {}
-extension mobile_flow_plugin_ios_framework.MobileFlowLocalizationState : Swift.Hashable {}
-extension mobile_flow_plugin_ios_framework.MobileFlowLocalizationState : Swift.RawRepresentable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowSessionState : Swift.Equatable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowSessionState : Swift.Hashable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowSessionState : Swift.RawRepresentable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.RawRepresentable {}
@@ -396,9 +422,9 @@ extension mobile_flow_plugin_ios_framework.MobileFlowEvent : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.MobileFlowEvent : Swift.RawRepresentable {}
 extension mobile_flow_plugin_ios_framework.UInt128Errors : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.UInt128Errors : Swift.Hashable {}
-extension mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep : Swift.Equatable {}
-extension mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep : Swift.Hashable {}
-extension mobile_flow_plugin_ios_framework.LocalizationSessionSetupStep : Swift.RawRepresentable {}
+extension mobile_flow_plugin_ios_framework.HTTPMethod : Swift.Equatable {}
+extension mobile_flow_plugin_ios_framework.HTTPMethod : Swift.Hashable {}
+extension mobile_flow_plugin_ios_framework.HTTPMethod : Swift.RawRepresentable {}
 extension mobile_flow_plugin_ios_framework.GATTCommandByte : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.GATTCommandByte : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.GATTCommandByte : Swift.RawRepresentable {}

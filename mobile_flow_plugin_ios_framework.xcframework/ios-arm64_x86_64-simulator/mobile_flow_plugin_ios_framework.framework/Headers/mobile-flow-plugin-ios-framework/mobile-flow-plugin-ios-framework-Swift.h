@@ -439,29 +439,9 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
   MobileFlowEventPassageTimeout = 3,
 };
 
-/// MobileFlowLocalizationState represents the state of the plugin.
-/// <ul>
-///   <li>
-///     the default value is <code>.off</code>.
-///   </li>
-///   <li>
-///     if <code>startSkiing()</code> gets called, the state change to <code>preparing</code>
-///   </li>
-///   <li>
-///     if the setup is completed, the state change from <code>preparing</code> to <code>running</code>
-///   </li>
-///   <li>
-///     when <code>stopSkiing()</code> is called, the state turn back to <code>.off</code>
-///   </li>
-/// </ul>
-typedef SWIFT_ENUM(NSInteger, MobileFlowLocalizationState, open) {
-  MobileFlowLocalizationStateOff = 0,
-  MobileFlowLocalizationStatePreparing = 1,
-  MobileFlowLocalizationStateRunning = 2,
-};
-
 @protocol MobileFlowPluginDelegate;
 @class MobileFlowTicket;
+enum MobileFlowSessionState : NSInteger;
 
 /// @file
 /// @author  Denis Schüle
@@ -502,8 +482,9 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 - (void)downloadTicket:(NSString * _Nonnull)url;
 /// This method return the UUID from the plugin for the current user
 - (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
-/// This method return the current localizationState of the MobileFlow Plugin
-- (enum MobileFlowLocalizationState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
+/// This method return the current MobileFlow state of the MobileFlow Plugin
+- (enum MobileFlowSessionState)getLocalizationState SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "getMobileFlowState");
+- (enum MobileFlowSessionState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -536,10 +517,11 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 /// This method is called when the pluginState change
 /// \param to state of type <code>MobileFlowLocalizationState</code>´
 ///
-- (void)localizationStateChangedTo:(enum MobileFlowLocalizationState)state;
+- (void)localizationStateChangedTo:(enum MobileFlowSessionState)state SWIFT_DEPRECATED_MSG("", "mobileFlowStateChangedTo:");
+- (void)mobileFlowStateChangedTo:(enum MobileFlowSessionState)state;
 /// This method is called when a notification should be presented to awake the locked screen
 /// The method is only called if the device require a none idle mode for passing gates.
-- (void)awakeScreen;
+- (void)awakeScreen SWIFT_DEPRECATED_MSG("Function isn't needed with MF-Plugin 3.*");
 @end
 
 
@@ -586,7 +568,8 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 ///
 - (void)downloadTicket:(NSString * _Nonnull)url;
 /// returns the current localizationstate
-- (enum MobileFlowLocalizationState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
+- (enum MobileFlowSessionState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
+- (enum MobileFlowSessionState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the MobileFlowPlugin
 /// <ul>
 ///   <li>
@@ -602,6 +585,27 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @end
 
 
+/// MobileFlowLocalizationState represents the state of the plugin.
+/// <ul>
+///   <li>
+///     the default value is <code>.off</code>.
+///   </li>
+///   <li>
+///     if <code>startSkiing()</code> gets called, the state change to <code>preparing</code>
+///   </li>
+///   <li>
+///     if the setup is completed, the state change from <code>preparing</code> to <code>running</code>
+///   </li>
+///   <li>
+///     when <code>stopSkiing()</code> is called, the state turn back to <code>.off</code>
+///   </li>
+/// </ul>
+typedef SWIFT_ENUM(NSInteger, MobileFlowSessionState, open) {
+  MobileFlowSessionStateOff = 0,
+  MobileFlowSessionStatePreparing = 1,
+  MobileFlowSessionStateRunning = 2,
+  MobileFlowSessionStateFailedToInitialize = 3,
+};
 
 @class UIImage;
 @class NSDate;
@@ -1073,29 +1077,9 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
   MobileFlowEventPassageTimeout = 3,
 };
 
-/// MobileFlowLocalizationState represents the state of the plugin.
-/// <ul>
-///   <li>
-///     the default value is <code>.off</code>.
-///   </li>
-///   <li>
-///     if <code>startSkiing()</code> gets called, the state change to <code>preparing</code>
-///   </li>
-///   <li>
-///     if the setup is completed, the state change from <code>preparing</code> to <code>running</code>
-///   </li>
-///   <li>
-///     when <code>stopSkiing()</code> is called, the state turn back to <code>.off</code>
-///   </li>
-/// </ul>
-typedef SWIFT_ENUM(NSInteger, MobileFlowLocalizationState, open) {
-  MobileFlowLocalizationStateOff = 0,
-  MobileFlowLocalizationStatePreparing = 1,
-  MobileFlowLocalizationStateRunning = 2,
-};
-
 @protocol MobileFlowPluginDelegate;
 @class MobileFlowTicket;
+enum MobileFlowSessionState : NSInteger;
 
 /// @file
 /// @author  Denis Schüle
@@ -1136,8 +1120,9 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 - (void)downloadTicket:(NSString * _Nonnull)url;
 /// This method return the UUID from the plugin for the current user
 - (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
-/// This method return the current localizationState of the MobileFlow Plugin
-- (enum MobileFlowLocalizationState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
+/// This method return the current MobileFlow state of the MobileFlow Plugin
+- (enum MobileFlowSessionState)getLocalizationState SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "getMobileFlowState");
+- (enum MobileFlowSessionState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -1170,10 +1155,11 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 /// This method is called when the pluginState change
 /// \param to state of type <code>MobileFlowLocalizationState</code>´
 ///
-- (void)localizationStateChangedTo:(enum MobileFlowLocalizationState)state;
+- (void)localizationStateChangedTo:(enum MobileFlowSessionState)state SWIFT_DEPRECATED_MSG("", "mobileFlowStateChangedTo:");
+- (void)mobileFlowStateChangedTo:(enum MobileFlowSessionState)state;
 /// This method is called when a notification should be presented to awake the locked screen
 /// The method is only called if the device require a none idle mode for passing gates.
-- (void)awakeScreen;
+- (void)awakeScreen SWIFT_DEPRECATED_MSG("Function isn't needed with MF-Plugin 3.*");
 @end
 
 
@@ -1220,7 +1206,8 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 ///
 - (void)downloadTicket:(NSString * _Nonnull)url;
 /// returns the current localizationstate
-- (enum MobileFlowLocalizationState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
+- (enum MobileFlowSessionState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
+- (enum MobileFlowSessionState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the MobileFlowPlugin
 /// <ul>
 ///   <li>
@@ -1236,6 +1223,27 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @end
 
 
+/// MobileFlowLocalizationState represents the state of the plugin.
+/// <ul>
+///   <li>
+///     the default value is <code>.off</code>.
+///   </li>
+///   <li>
+///     if <code>startSkiing()</code> gets called, the state change to <code>preparing</code>
+///   </li>
+///   <li>
+///     if the setup is completed, the state change from <code>preparing</code> to <code>running</code>
+///   </li>
+///   <li>
+///     when <code>stopSkiing()</code> is called, the state turn back to <code>.off</code>
+///   </li>
+/// </ul>
+typedef SWIFT_ENUM(NSInteger, MobileFlowSessionState, open) {
+  MobileFlowSessionStateOff = 0,
+  MobileFlowSessionStatePreparing = 1,
+  MobileFlowSessionStateRunning = 2,
+  MobileFlowSessionStateFailedToInitialize = 3,
+};
 
 @class UIImage;
 @class NSDate;
