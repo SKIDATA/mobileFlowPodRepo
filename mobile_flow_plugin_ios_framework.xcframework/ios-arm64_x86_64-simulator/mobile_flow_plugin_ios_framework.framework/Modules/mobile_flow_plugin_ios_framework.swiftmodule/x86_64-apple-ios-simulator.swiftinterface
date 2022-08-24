@@ -98,6 +98,15 @@ public enum GATTErrorResponseCode : Swift.UInt8 {
   @objc public var validToDate: Foundation.Date? {
     @objc get
   }
+  @objc public var downloadTimeStampDate: Foundation.Date {
+    @objc get
+  }
+  @objc public var validFromDateEpoch: Swift.UInt {
+    @objc get
+  }
+  @objc public var validToDateEpoch: Swift.UInt {
+    @objc get
+  }
   @objc public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String, image: UIKit.UIImage?)
   @objc convenience public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String)
   public func description() -> Swift.String
