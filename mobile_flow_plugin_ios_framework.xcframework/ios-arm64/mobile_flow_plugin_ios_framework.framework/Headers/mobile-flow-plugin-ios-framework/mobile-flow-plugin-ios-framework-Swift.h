@@ -605,8 +605,8 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowSessionState, open) {
   MobileFlowSessionStateFailedToInitialize = 3,
 };
 
-@class UIImage;
 @class NSDate;
+@class UIImage;
 
 SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16MobileFlowTicket")
 @interface MobileFlowTicket : NSObject
@@ -615,18 +615,14 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16MobileFlowTicket")
 @property (nonatomic, readonly, copy) NSString * _Nonnull validAreaName;
 @property (nonatomic, readonly, copy) NSString * _Nonnull validInCompanyIds;
 @property (nonatomic, readonly, copy) NSString * _Nonnull productName;
-@property (nonatomic, readonly, copy) NSString * _Nonnull validFrom;
-@property (nonatomic, readonly, copy) NSString * _Nonnull validTo;
+@property (nonatomic, readonly, copy) NSDate * _Nonnull validFrom;
+@property (nonatomic, readonly, copy) NSDate * _Nonnull validTo;
 @property (nonatomic, readonly, copy) NSString * _Nonnull psnr;
 @property (nonatomic, readonly, strong) UIImage * _Nullable image;
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull validInCompanyIdsList;
-@property (nonatomic, readonly, copy) NSDate * _Nullable validFromDate;
-@property (nonatomic, readonly, copy) NSDate * _Nullable validToDate;
 @property (nonatomic, readonly, copy) NSDate * _Nonnull downloadTimeStampDate;
-@property (nonatomic, readonly) NSUInteger validFromDateEpoch;
-@property (nonatomic, readonly) NSUInteger validToDateEpoch;
-- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nonnull)validAreaId validAreaName:(NSString * _Nonnull)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nonnull)productName validFrom:(NSString * _Nonnull)validFrom validTo:(NSString * _Nonnull)validTo psnr:(NSString * _Nonnull)psnr image:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nonnull)validAreaId validAreaName:(NSString * _Nonnull)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nonnull)productName validFrom:(NSString * _Nonnull)validFrom validTo:(NSString * _Nonnull)validTo psnr:(NSString * _Nonnull)psnr;
+- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nonnull)validAreaId validAreaName:(NSString * _Nonnull)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nonnull)productName validFrom:(NSDate * _Nonnull)validFrom validTo:(NSDate * _Nonnull)validTo psnr:(NSString * _Nonnull)psnr image:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nonnull)validAreaId validAreaName:(NSString * _Nonnull)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nonnull)productName validFrom:(NSDate * _Nonnull)validFrom validTo:(NSDate * _Nonnull)validTo psnr:(NSString * _Nonnull)psnr;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

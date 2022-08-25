@@ -86,8 +86,8 @@ public enum GATTErrorResponseCode : Swift.UInt8 {
   @objc final public let validAreaName: Swift.String
   @objc final public let validInCompanyIds: Swift.String
   @objc final public let productName: Swift.String
-  @objc final public let validFrom: Swift.String
-  @objc final public let validTo: Swift.String
+  @objc final public let validFrom: Foundation.Date
+  @objc final public let validTo: Foundation.Date
   @objc final public let psnr: Swift.String
   @objc final public let image: UIKit.UIImage?
   final public let downloadTimestamp: Swift.UInt
@@ -97,23 +97,11 @@ public enum GATTErrorResponseCode : Swift.UInt8 {
   @objc public var validInCompanyIdsList: [Swift.Int] {
     @objc get
   }
-  @objc public var validFromDate: Foundation.Date? {
-    @objc get
-  }
-  @objc public var validToDate: Foundation.Date? {
-    @objc get
-  }
   @objc public var downloadTimeStampDate: Foundation.Date {
     @objc get
   }
-  @objc public var validFromDateEpoch: Swift.UInt {
-    @objc get
-  }
-  @objc public var validToDateEpoch: Swift.UInt {
-    @objc get
-  }
-  @objc public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String, image: UIKit.UIImage?)
-  @objc convenience public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Swift.String, validTo: Swift.String, psnr: Swift.String)
+  @objc public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Foundation.Date, validTo: Foundation.Date, psnr: Swift.String, image: UIKit.UIImage?)
+  @objc convenience public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Foundation.Date, validTo: Foundation.Date, psnr: Swift.String)
   public func description() -> Swift.String
   @objc deinit
 }
