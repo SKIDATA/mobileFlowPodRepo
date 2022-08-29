@@ -134,6 +134,11 @@ public enum TicketError : Swift.Error {
     get
   }
 }
+extension mobile_flow_plugin_ios_framework.TicketError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
 @objc public enum MobileFlowError : Swift.Int, Swift.Error {
   case LicenseNotActivatedError
   case LocationPermissionError
@@ -155,6 +160,11 @@ public enum TicketError : Swift.Error {
     get
   }
   public var rawValue: Swift.Int {
+    get
+  }
+}
+extension mobile_flow_plugin_ios_framework.MobileFlowError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
     get
   }
 }
@@ -181,6 +191,11 @@ public enum GATTError : Swift.Error {
   case TransmissionError
   case Unknown(Swift.String)
   case WriteCharacteristicNotAvailableError
+}
+extension mobile_flow_plugin_ios_framework.GATTError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
 }
 public protocol Describable {
   var typeName: Swift.String { get }
