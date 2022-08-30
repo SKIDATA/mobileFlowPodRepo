@@ -210,6 +210,7 @@ extension mobile_flow_plugin_ios_framework.Describable {
   case gateInUse
   case passageCompleted
   case passageTimeout
+  case ticketValid
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {

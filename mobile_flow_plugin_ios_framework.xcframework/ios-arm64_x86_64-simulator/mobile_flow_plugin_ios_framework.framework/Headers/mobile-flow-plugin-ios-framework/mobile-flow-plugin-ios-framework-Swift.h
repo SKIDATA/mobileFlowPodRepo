@@ -437,6 +437,7 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
   MobileFlowEventGateInUse = 1,
   MobileFlowEventPassageCompleted = 2,
   MobileFlowEventPassageTimeout = 3,
+  MobileFlowEventTicketValid = 4,
 };
 
 @protocol MobileFlowPluginDelegate;
@@ -1073,6 +1074,7 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
   MobileFlowEventGateInUse = 1,
   MobileFlowEventPassageCompleted = 2,
   MobileFlowEventPassageTimeout = 3,
+  MobileFlowEventTicketValid = 4,
 };
 
 @protocol MobileFlowPluginDelegate;
