@@ -26,8 +26,8 @@ extension mobile_flow_plugin_ios_framework.GATTResponse : Swift.CustomStringConv
   @objc final public func activateRegionScan()
   @objc final public func deactivateRegionScan()
   @objc final public func downloadTicket(_ url: Swift.String)
-  @objc final public func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowSessionState
-  @objc final public func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowSessionState
+  @objc final public func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowState
+  @objc final public func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc final public func stopSkiing()
   @objc deinit
 }
@@ -42,11 +42,11 @@ public enum GATTResponseCode : Swift.UInt8 {
     get
   }
 }
-@objc public enum MobileFlowSessionState : Swift.Int {
+@objc public enum MobileFlowState : Swift.Int {
   case off
   case preparing
   case running
-  case failedToInitialize
+  case runningWithIssues
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -208,7 +208,7 @@ extension mobile_flow_plugin_ios_framework.Describable {
 @objc public enum MobileFlowEvent : Swift.Int {
   case gateAccessTriggered
   case gateInUse
-  case passageCompleted
+  case gateAccessCompleted
   case passageTimeout
   case ticketValid
   public init?(rawValue: Swift.Int)
@@ -388,8 +388,8 @@ public enum OpenResponse {
   @objc func downloadTicket(_ url: Swift.String)
   @objc func getPluginUUID() -> Swift.String
   @available(*, deprecated, renamed: "getMobileFlowState")
-  @objc func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowSessionState
-  @objc func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowSessionState
+  @objc func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowState
+  @objc func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowState
 }
 @objc public protocol MobileFlowPluginDelegate {
   @objc func newTicket(_ ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
@@ -398,8 +398,8 @@ public enum OpenResponse {
   @objc func enteredRegion(_ companyId: Swift.String)
   @objc func leftRegion(_ companyId: Swift.String)
   @available(*, deprecated, renamed: "mobileFlowStateChanged")
-  @objc func localizationStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowSessionState)
-  @objc func mobileFlowStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowSessionState)
+  @objc func localizationStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowState)
+  @objc func mobileFlowStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowState)
   @available(*, deprecated, message: "Function isn't needed with MF-Plugin 3.*")
   @objc func awakeScreen()
 }
@@ -415,9 +415,9 @@ public enum GATTCommandByte : Swift.UInt8 {
 extension mobile_flow_plugin_ios_framework.GATTResponseCode : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseCode : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseCode : Swift.RawRepresentable {}
-extension mobile_flow_plugin_ios_framework.MobileFlowSessionState : Swift.Equatable {}
-extension mobile_flow_plugin_ios_framework.MobileFlowSessionState : Swift.Hashable {}
-extension mobile_flow_plugin_ios_framework.MobileFlowSessionState : Swift.RawRepresentable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowState : Swift.Equatable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowState : Swift.Hashable {}
+extension mobile_flow_plugin_ios_framework.MobileFlowState : Swift.RawRepresentable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.GATTResponseType : Swift.RawRepresentable {}

@@ -435,14 +435,14 @@ static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_io
 typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
   MobileFlowEventGateAccessTriggered = 0,
   MobileFlowEventGateInUse = 1,
-  MobileFlowEventPassageCompleted = 2,
+  MobileFlowEventGateAccessCompleted = 2,
   MobileFlowEventPassageTimeout = 3,
   MobileFlowEventTicketValid = 4,
 };
 
 @protocol MobileFlowPluginDelegate;
 @class MobileFlowTicket;
-enum MobileFlowSessionState : NSInteger;
+enum MobileFlowState : NSInteger;
 
 /// @file
 /// @author  Denis Schüle
@@ -484,8 +484,8 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// This method return the UUID from the plugin for the current user
 - (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
 /// This method return the current MobileFlow state of the MobileFlow Plugin
-- (enum MobileFlowSessionState)getLocalizationState SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "getMobileFlowState");
-- (enum MobileFlowSessionState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
+- (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "getMobileFlowState");
+- (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -518,8 +518,8 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 /// This method is called when the pluginState change
 /// \param to state of type <code>MobileFlowLocalizationState</code>´
 ///
-- (void)localizationStateChangedTo:(enum MobileFlowSessionState)state SWIFT_DEPRECATED_MSG("", "mobileFlowStateChangedTo:");
-- (void)mobileFlowStateChangedTo:(enum MobileFlowSessionState)state;
+- (void)localizationStateChangedTo:(enum MobileFlowState)state SWIFT_DEPRECATED_MSG("", "mobileFlowStateChangedTo:");
+- (void)mobileFlowStateChangedTo:(enum MobileFlowState)state;
 /// This method is called when a notification should be presented to awake the locked screen
 /// The method is only called if the device require a none idle mode for passing gates.
 - (void)awakeScreen SWIFT_DEPRECATED_MSG("Function isn't needed with MF-Plugin 3.*");
@@ -568,8 +568,8 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// \param url of type <code>String</code> from where the ticket should be downloaded.
 ///
 - (void)downloadTicket:(NSString * _Nonnull)url;
-- (enum MobileFlowSessionState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
-- (enum MobileFlowSessionState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
+- (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
+- (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the MobileFlowPlugin
 /// <ul>
 ///   <li>
@@ -600,11 +600,11 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 ///     when <code>stopSkiing()</code> is called, the state turn back to <code>.off</code>
 ///   </li>
 /// </ul>
-typedef SWIFT_ENUM(NSInteger, MobileFlowSessionState, open) {
-  MobileFlowSessionStateOff = 0,
-  MobileFlowSessionStatePreparing = 1,
-  MobileFlowSessionStateRunning = 2,
-  MobileFlowSessionStateFailedToInitialize = 3,
+typedef SWIFT_ENUM(NSInteger, MobileFlowState, open) {
+  MobileFlowStateOff = 0,
+  MobileFlowStatePreparing = 1,
+  MobileFlowStateRunning = 2,
+  MobileFlowStateRunningWithIssues = 3,
 };
 
 @class NSDate;
@@ -1072,14 +1072,14 @@ static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_io
 typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
   MobileFlowEventGateAccessTriggered = 0,
   MobileFlowEventGateInUse = 1,
-  MobileFlowEventPassageCompleted = 2,
+  MobileFlowEventGateAccessCompleted = 2,
   MobileFlowEventPassageTimeout = 3,
   MobileFlowEventTicketValid = 4,
 };
 
 @protocol MobileFlowPluginDelegate;
 @class MobileFlowTicket;
-enum MobileFlowSessionState : NSInteger;
+enum MobileFlowState : NSInteger;
 
 /// @file
 /// @author  Denis Schüle
@@ -1121,8 +1121,8 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// This method return the UUID from the plugin for the current user
 - (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
 /// This method return the current MobileFlow state of the MobileFlow Plugin
-- (enum MobileFlowSessionState)getLocalizationState SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "getMobileFlowState");
-- (enum MobileFlowSessionState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
+- (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "getMobileFlowState");
+- (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -1155,8 +1155,8 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 /// This method is called when the pluginState change
 /// \param to state of type <code>MobileFlowLocalizationState</code>´
 ///
-- (void)localizationStateChangedTo:(enum MobileFlowSessionState)state SWIFT_DEPRECATED_MSG("", "mobileFlowStateChangedTo:");
-- (void)mobileFlowStateChangedTo:(enum MobileFlowSessionState)state;
+- (void)localizationStateChangedTo:(enum MobileFlowState)state SWIFT_DEPRECATED_MSG("", "mobileFlowStateChangedTo:");
+- (void)mobileFlowStateChangedTo:(enum MobileFlowState)state;
 /// This method is called when a notification should be presented to awake the locked screen
 /// The method is only called if the device require a none idle mode for passing gates.
 - (void)awakeScreen SWIFT_DEPRECATED_MSG("Function isn't needed with MF-Plugin 3.*");
@@ -1205,8 +1205,8 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// \param url of type <code>String</code> from where the ticket should be downloaded.
 ///
 - (void)downloadTicket:(NSString * _Nonnull)url;
-- (enum MobileFlowSessionState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
-- (enum MobileFlowSessionState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
+- (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
+- (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the MobileFlowPlugin
 /// <ul>
 ///   <li>
@@ -1237,11 +1237,11 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 ///     when <code>stopSkiing()</code> is called, the state turn back to <code>.off</code>
 ///   </li>
 /// </ul>
-typedef SWIFT_ENUM(NSInteger, MobileFlowSessionState, open) {
-  MobileFlowSessionStateOff = 0,
-  MobileFlowSessionStatePreparing = 1,
-  MobileFlowSessionStateRunning = 2,
-  MobileFlowSessionStateFailedToInitialize = 3,
+typedef SWIFT_ENUM(NSInteger, MobileFlowState, open) {
+  MobileFlowStateOff = 0,
+  MobileFlowStatePreparing = 1,
+  MobileFlowStateRunning = 2,
+  MobileFlowStateRunningWithIssues = 3,
 };
 
 @class NSDate;
