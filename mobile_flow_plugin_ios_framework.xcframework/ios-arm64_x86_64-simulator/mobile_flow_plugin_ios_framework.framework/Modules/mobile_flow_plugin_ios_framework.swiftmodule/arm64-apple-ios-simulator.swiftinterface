@@ -156,6 +156,8 @@ extension mobile_flow_plugin_ios_framework.TicketError : Foundation.LocalizedErr
   case ConfigurationError
   case InternalError
   case NoGateCommunication
+  case PluginOutdated
+  case PluginOutdatedSoon
   case TransmissionError
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int

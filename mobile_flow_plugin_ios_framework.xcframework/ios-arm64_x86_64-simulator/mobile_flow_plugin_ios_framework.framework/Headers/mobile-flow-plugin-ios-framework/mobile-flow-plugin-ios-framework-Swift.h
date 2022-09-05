@@ -428,7 +428,9 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
   MobileFlowErrorConfigurationError = 10,
   MobileFlowErrorInternalError = 11,
   MobileFlowErrorNoGateCommunication = 12,
-  MobileFlowErrorTransmissionError = 13,
+  MobileFlowErrorPluginOutdated = 13,
+  MobileFlowErrorPluginOutdatedSoon = 14,
+  MobileFlowErrorTransmissionError = 15,
 };
 static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_ios_framework.MobileFlowError";
 
@@ -1068,7 +1070,9 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
   MobileFlowErrorConfigurationError = 10,
   MobileFlowErrorInternalError = 11,
   MobileFlowErrorNoGateCommunication = 12,
-  MobileFlowErrorTransmissionError = 13,
+  MobileFlowErrorPluginOutdated = 13,
+  MobileFlowErrorPluginOutdatedSoon = 14,
+  MobileFlowErrorTransmissionError = 15,
 };
 static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_ios_framework.MobileFlowError";
 
