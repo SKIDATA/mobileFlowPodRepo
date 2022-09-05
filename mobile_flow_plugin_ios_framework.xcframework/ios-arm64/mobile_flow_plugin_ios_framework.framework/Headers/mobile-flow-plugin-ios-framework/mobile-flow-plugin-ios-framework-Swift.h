@@ -586,16 +586,19 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// MobileFlowLocalizationState represents the state of the plugin.
 /// <ul>
 ///   <li>
-///     the default value is <code>.off</code>.
+///     the default value is <code>.off</code> the plugin doesn’t do anything.
 ///   </li>
 ///   <li>
-///     if <code>startSkiing()</code> gets called, the state change to <code>preparing</code>
+///     if <code>startMobileFlow()</code> gets called, the state change to <code>preparing</code>
 ///   </li>
 ///   <li>
 ///     if the setup is completed, the state change from <code>preparing</code> to <code>running</code>
 ///   </li>
 ///   <li>
-///     when <code>stopSkiing()</code> is called, the state turn back to <code>.off</code>
+///     when <code>stopMobileFlow()</code> is called, the state turn back to <code>.off</code>
+///   </li>
+///   <li>
+///     if an error occure during perperation  <code>.runningWithIssues</code> is set
 ///   </li>
 /// </ul>
 typedef SWIFT_ENUM(NSInteger, MobileFlowState, open) {
