@@ -47,6 +47,9 @@ public enum GATTResponseCode : Swift.UInt8 {
   case preparing
   case running
   case runningWithIssues
+  public var value: Swift.String {
+    get
+  }
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
