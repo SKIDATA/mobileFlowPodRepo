@@ -414,22 +414,21 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework13BlePeripheral")
 /// Protected intellectual property.
 /// Reverse-engineering prohibited by this protection.
 typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
-  MobileFlowErrorLicenseNotActivatedError = 0,
-  MobileFlowErrorLocationPermissionError = 1,
-  MobileFlowErrorBluetoothPermissionError = 2,
-  MobileFlowErrorBluetoothInactiveError = 3,
-  MobileFlowErrorDeviceOfflineError = 4,
-  MobileFlowErrorGatewayUnknownError = 5,
-  MobileFlowErrorGatewayNotReachableError = 6,
-  MobileFlowErrorGateNotReachableError = 7,
-  MobileFlowErrorTicketDownloadError = 8,
-  MobileFlowErrorTicketInvalidError = 9,
-  MobileFlowErrorConfigurationError = 10,
-  MobileFlowErrorInternalError = 11,
-  MobileFlowErrorNoGateCommunication = 12,
-  MobileFlowErrorPluginOutdated = 13,
-  MobileFlowErrorPluginOutdatedSoon = 14,
-  MobileFlowErrorTransmissionError = 15,
+  MobileFlowErrorBluetoothNotActive = 0,
+  MobileFlowErrorBluetoothPermissionMissing = 1,
+  MobileFlowErrorDeviceOffline = 2,
+  MobileFlowErrorGeneralError = 3,
+  MobileFlowErrorInvalidMobileFlowToken = 4,
+  MobileFlowErrorInvalidTicketURL = 5,
+  MobileFlowErrorLocationPermissionMissing = 6,
+  MobileFlowErrorPluginOutdated = 7,
+  MobileFlowErrorPluginOutdatedSoon = 8,
+  MobileFlowErrorTicketDownloadLimitExceeded = 9,
+  MobileFlowErrorTicketInvalidError = 10,
+  MobileFlowErrorTicketNotValidForCompany = 11,
+  MobileFlowErrorTicketParsingError = 12,
+  MobileFlowErrorTicketTransmissionError = 13,
+  MobileFlowErrorUnsupportedDevice = 14,
 };
 static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_ios_framework.MobileFlowError";
 
@@ -465,10 +464,12 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// \param ticket 
 /// The ticket used to access the gate.
 ///
-- (void)startSkiingWithTicket:(MobileFlowTicket * _Nonnull)ticket;
+- (void)startSkiingWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_DEPRECATED_MSG("", "startMobileFlowWithTicket:");
+- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket;
 /// This method stops the plugin.
 /// It also stops the region scan.
-- (void)stopSkiing;
+- (void)stopSkiing SWIFT_DEPRECATED_MSG("", "stopMobileFlow");
+- (void)stopMobileFlow;
 /// This method is optional and can be used to activate region events.
 /// The events can be received by adding the respective observers.
 - (void)activateRegionScan;
@@ -551,6 +552,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// \param ticket from type <code>MobileFlowTicket</code>which should be used for skiing.
 ///
 - (void)startSkiingWithTicket:(MobileFlowTicket * _Nonnull)ticket;
+- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket;
 /// Activates the regionscan, to receive ble beacons.
 /// Events get emited on:
 /// <ul>
@@ -583,6 +585,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 /// Stopped the activity and allow a new start of the plugin. The stored elements get cleared.
 - (void)stopSkiing;
+- (void)stopMobileFlow;
 @end
 
 

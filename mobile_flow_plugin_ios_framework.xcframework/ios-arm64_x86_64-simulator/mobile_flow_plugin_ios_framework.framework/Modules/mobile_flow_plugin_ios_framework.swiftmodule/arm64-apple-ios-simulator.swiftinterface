@@ -23,12 +23,14 @@ extension mobile_flow_plugin_ios_framework.GATTResponse : Swift.CustomStringConv
   @objc public static func getPluginVersion() -> Swift.String
   @objc final public func setDelegate(_ delegate: mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
   @objc final public func startSkiing(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
+  @objc final public func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
   @objc final public func activateRegionScan()
   @objc final public func deactivateRegionScan()
   @objc final public func downloadTicket(_ url: Swift.String)
   @objc final public func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc final public func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc final public func stopSkiing()
+  @objc final public func stopMobileFlow()
   @objc deinit
 }
 public enum GATTResponseCode : Swift.UInt8 {
@@ -143,22 +145,21 @@ extension mobile_flow_plugin_ios_framework.TicketError : Foundation.LocalizedErr
   }
 }
 @objc public enum MobileFlowError : Swift.Int, Swift.Error {
-  case LicenseNotActivatedError
-  case LocationPermissionError
-  case BluetoothPermissionError
-  case BluetoothInactiveError
-  case DeviceOfflineError
-  case GatewayUnknownError
-  case GatewayNotReachableError
-  case GateNotReachableError
-  case TicketDownloadError
-  case TicketInvalidError
-  case ConfigurationError
-  case InternalError
-  case NoGateCommunication
+  case BluetoothNotActive
+  case BluetoothPermissionMissing
+  case DeviceOffline
+  case GeneralError
+  case InvalidMobileFlowToken
+  case InvalidTicketURL
+  case LocationPermissionMissing
   case PluginOutdated
   case PluginOutdatedSoon
-  case TransmissionError
+  case TicketDownloadLimitExceeded
+  case TicketInvalidError
+  case TicketNotValidForCompany
+  case TicketParsingError
+  case TicketTransmissionError
+  case UnsupportedDevice
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public static var _nsErrorDomain: Swift.String {
@@ -386,8 +387,12 @@ public enum OpenResponse {
 @objc public protocol MobileFlowPlugin {
   @objc static func getInstance() -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
   @objc func setDelegate(_ delegate: mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
+  @available(*, deprecated, renamed: "startMobileFlow")
   @objc func startSkiing(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
+  @objc func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
+  @available(*, deprecated, renamed: "stopMobileFlow")
   @objc func stopSkiing()
+  @objc func stopMobileFlow()
   @objc func activateRegionScan()
   @objc func deactivateRegionScan()
   @objc func downloadTicket(_ url: Swift.String)
