@@ -31,9 +31,9 @@ extension mobile_flow_plugin_ios_framework.GATTResponse : Swift.CustomStringConv
   @objc final public func downloadTicket(_ url: Swift.String)
   @objc final public func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc final public func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowState
+  @objc deinit
   @objc final public func stopSkiing()
   @objc final public func stopMobileFlow()
-  @objc deinit
 }
 public enum GATTResponseCode : Swift.UInt8 {
   case gateReady
