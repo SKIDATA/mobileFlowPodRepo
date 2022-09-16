@@ -522,7 +522,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 ///
 - (void)downloadTicket:(NSString * _Nonnull)url;
 /// This method return the UUID from the plugin for the current user
-+ (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
 /// This method return the current MobileFlow state of the MobileFlow Plugin
 - (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "getMobileFlowState");
 - (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
@@ -569,7 +569,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 /// Handles the ability to pass gates with digital tickets via short-range radio.
 SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @interface MobileFlowPluginImpl : NSObject <MobileFlowPlugin>
-+ (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
 /// To be used to get an instance of the plugin.
 ///
 /// returns:

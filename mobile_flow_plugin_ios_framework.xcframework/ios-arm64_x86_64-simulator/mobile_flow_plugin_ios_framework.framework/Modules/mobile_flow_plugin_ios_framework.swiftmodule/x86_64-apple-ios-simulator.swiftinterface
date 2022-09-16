@@ -20,7 +20,7 @@ extension mobile_flow_plugin_ios_framework.GATTResponse : Swift.CustomStringConv
   }
 }
 @_hasMissingDesignatedInitializers @objc final public class MobileFlowPluginImpl : ObjectiveC.NSObject, mobile_flow_plugin_ios_framework.MobileFlowPlugin {
-  @objc public static func getPluginUUID() -> Swift.String
+  @objc final public func getPluginUUID() -> Swift.String
   @objc public static func getInstance(token: Swift.String) -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
   @objc public static func getPluginVersion() -> Swift.String
   @objc final public func setDelegate(_ delegate: mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
@@ -398,7 +398,7 @@ public enum OpenResponse {
   @objc func activateRegionScan()
   @objc func deactivateRegionScan()
   @objc func downloadTicket(_ url: Swift.String)
-  @objc static func getPluginUUID() -> Swift.String
+  @objc func getPluginUUID() -> Swift.String
   @available(*, deprecated, renamed: "getMobileFlowState")
   @objc func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowState

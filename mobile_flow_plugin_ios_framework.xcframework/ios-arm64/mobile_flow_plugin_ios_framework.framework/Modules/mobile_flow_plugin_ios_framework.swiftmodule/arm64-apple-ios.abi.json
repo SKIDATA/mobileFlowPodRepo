@@ -142,10 +142,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowPluginImpl(cm)getPluginUUID",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework20MobileFlowPluginImplC03getH4UUIDSSyFZ",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowPluginImpl(im)getPluginUUID",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework20MobileFlowPluginImplC03getH4UUIDSSyF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "static": true,
             "objc_name": "getPluginUUID",
             "declAttributes": [
               "Final",
@@ -10798,12 +10797,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(pl)MobileFlowPlugin(cm)getPluginUUID",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowPluginP03getH4UUIDSSyFZ",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(pl)MobileFlowPlugin(im)getPluginUUID",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowPluginP03getH4UUIDSSyF",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "genericSig": "<τ_0_0 where τ_0_0 : mobile_flow_plugin_ios_framework.MobileFlowPlugin>",
             "sugared_genericSig": "<Self where Self : mobile_flow_plugin_ios_framework.MobileFlowPlugin>",
-            "static": true,
             "protocolReq": true,
             "declAttributes": [
               "ObjC",
@@ -12176,13 +12174,6 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2429,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
       "offset": 305,
       "length": 20,
       "value": "\"mobile_flow_plugin_ios_framework.MobileFlowPluginImpl\""
@@ -12190,7 +12181,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 24142,
+      "offset": 24313,
       "length": 2,
       "value": "\"\""
     },
@@ -12326,13 +12317,6 @@
       "offset": 444,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/APIs\/MobileFlowServiceAPI\/MobileFlowAPIService.swift",
-      "kind": "StringLiteral",
-      "offset": 232,
-      "length": 169,
-      "value": "\"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfUExVR0lOIiwic3ViIjoicGx1Z2luX2lvcyIsImlhdCI6MTY2MDI4ODgzMSwiZXhwIjo0MTAyNDQxMTk5fQ.FTtYf422T-Mi2PyoKVb-GI3PfKgEp8neDcj7D2YwWz8\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTResponseCode.swift",
