@@ -12245,7 +12245,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 27292,
+      "offset": 27182,
       "length": 2,
       "value": "\"\""
     },
@@ -13235,13 +13235,6 @@
       "offset": 11093,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/SystemServices\/NetworkMonitor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 610,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BleServiceModel.swift",
