@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3qJZGeHHdBGZNhrNbBw0H+Fysuk=
+		3y5FN9kYkWnAItFIqBtlgpxfV9Y=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7GErbOYIFsCK84vGi/3HnemTbfU=
+		RhuO1nNP+9cEj+NisvrVbO5y0uI=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,11 +54,15 @@
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wbpa3LBTGy/zMZEDmEhrtk+Xv+A=
+		BsmUmiHcihV4zRvo2FNfwnCAu0s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		+DW4AnfA4qkPZJ1bcFMuuqwyVdc=
+		</data>
+		<key>mobile-flow-plugin-ios-framework.xcconfig</key>
+		<data>
+		y6j8xsDkQ4uwJSXAi/yfnQcuohU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -109,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VcB7vI7AhOqvGzeT4o2kScdhAAqIiXp1iVRFvHXa4RY=
+			BUNCSKWOzhUKEoX5ayMgMRJjiv8KrxaDlWxsWnQAUys=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -144,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ZpFs+1ag2zSE+UshPVDexZy+a9fObNupFU2CakwCNk=
+			47nGnYm9MrzuSPD3q/Fzb6wP2pvQf6WYADOkuFfGguw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -152,6 +156,13 @@
 			<key>hash2</key>
 			<data>
 			pjjy9/0Pjl6fe+aWtF8WJHeiaI5CjB+6ay79k+vvdXo=
+			</data>
+		</dict>
+		<key>mobile-flow-plugin-ios-framework.xcconfig</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9J0qAgJGqscJGWQnIUJCpssfGj3appGMIyQrp+kdHkY=
 			</data>
 		</dict>
 	</dict>
