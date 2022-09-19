@@ -8,4 +8,11 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-MF_API_URL = https:\/\/int.dev.skidata.net/test/mobileflow
+MF_PLUGIN_VERSION = 2.0.0020-SNAPSHOT
+
+MFS_ENVIRONMENT = sandbox
+
+MFS_API_URL_INT_DEV = https:\/\/int.dev.skidata.net/test/mobileflow
+MFS_API_URL_SANDBOX = https:\/\/sandbox.skidata.com/mobileflow
+MFS_API_URL_QA = https:\/\/int.dev.skidata.net/test/mobileflow
+MFS_API_URL_PRODUCTION = https:\/\/int.dev.skidata.net/test/mobileflow
