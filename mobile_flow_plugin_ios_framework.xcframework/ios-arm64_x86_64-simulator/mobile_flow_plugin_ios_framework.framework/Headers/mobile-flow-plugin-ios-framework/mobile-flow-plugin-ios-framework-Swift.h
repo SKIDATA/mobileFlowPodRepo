@@ -619,6 +619,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @end
 
 
+
 /// MobileFlowLocalizationState represents the state of the plugin.
 /// <ul>
 ///   <li>
@@ -1294,6 +1295,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 /// MobileFlowLocalizationState represents the state of the plugin.
