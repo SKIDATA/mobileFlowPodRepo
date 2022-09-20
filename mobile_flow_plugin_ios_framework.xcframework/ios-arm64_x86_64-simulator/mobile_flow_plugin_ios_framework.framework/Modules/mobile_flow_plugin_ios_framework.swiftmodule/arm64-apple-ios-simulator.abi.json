@@ -12255,7 +12255,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 28185,
+      "offset": 28279,
       "length": 2,
       "value": "\"\""
     },
@@ -12619,9 +12619,16 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TokenValidator.swift",
       "kind": "BooleanLiteral",
-      "offset": 554,
+      "offset": 567,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TokenValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 152,
+      "length": 14,
+      "value": "\"mobile_flow_plugin_ios_framework.TokenValidator\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
