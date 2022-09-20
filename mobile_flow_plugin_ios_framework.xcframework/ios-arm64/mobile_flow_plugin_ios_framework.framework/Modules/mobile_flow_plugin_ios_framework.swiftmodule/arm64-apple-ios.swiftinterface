@@ -6,6 +6,7 @@ import AudioToolbox
 import Combine
 import CoreBluetooth
 import Foundation
+import JWTDecode
 import Network
 import Swift
 import UIKit
@@ -21,7 +22,7 @@ extension mobile_flow_plugin_ios_framework.GATTResponse : Swift.CustomStringConv
 }
 @_hasMissingDesignatedInitializers @objc final public class MobileFlowPluginImpl : ObjectiveC.NSObject, mobile_flow_plugin_ios_framework.MobileFlowPlugin {
   @objc final public func getPluginUUID() -> Swift.String
-  @objc public static func getInstance(token: Swift.String) -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
+  @objc public static func getInstance(token: Swift.String) throws -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
   @objc public static func getPluginVersion() -> Swift.String
   @objc final public func setDelegate(_ delegate: mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
   @objc final public func startSkiing(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
@@ -387,7 +388,7 @@ public enum OpenResponse {
   case Success
 }
 @objc public protocol MobileFlowPlugin {
-  @objc static func getInstance(token: Swift.String) -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
+  @objc static func getInstance(token: Swift.String) throws -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
   @objc func setDelegate(_ delegate: mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
   @available(*, deprecated, renamed: "startMobileFlow")
   @objc func startSkiing(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)

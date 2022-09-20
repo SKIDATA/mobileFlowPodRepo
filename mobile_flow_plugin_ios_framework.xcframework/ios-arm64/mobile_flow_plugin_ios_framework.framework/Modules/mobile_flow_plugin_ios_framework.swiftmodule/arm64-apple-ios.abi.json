@@ -180,17 +180,18 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowPluginImpl(cm)getInstanceWithToken:",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework20MobileFlowPluginImplC11getInstance5tokenAA0fgH0_pSS_tFZ",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowPluginImpl(cm)getInstanceWithToken:error:",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework20MobileFlowPluginImplC11getInstance5tokenAA0fgH0_pSS_tKFZ",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "static": true,
-            "objc_name": "getInstanceWithToken:",
+            "objc_name": "getInstanceWithToken:error:",
             "declAttributes": [
               "Final",
               "ObjC",
               "AccessControl",
               "RawDocComment"
             ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -3281,6 +3282,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "mobile_flow_plugin_ios_framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "JWTDecode",
+        "printedName": "JWTDecode",
+        "declKind": "Import",
+        "moduleName": "mobile_flow_plugin_ios_framework"
       },
       {
         "kind": "Import",
@@ -10615,18 +10633,19 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(pl)MobileFlowPlugin(cm)getInstanceWithToken:",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowPluginP11getInstance5tokenAaB_pSS_tFZ",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(pl)MobileFlowPlugin(cm)getInstanceWithToken:error:",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowPluginP11getInstance5tokenAaB_pSS_tKFZ",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "genericSig": "<τ_0_0 where τ_0_0 : mobile_flow_plugin_ios_framework.MobileFlowPlugin>",
             "sugared_genericSig": "<Self where Self : mobile_flow_plugin_ios_framework.MobileFlowPlugin>",
             "static": true,
             "protocolReq": true,
-            "objc_name": "getInstanceWithToken:",
+            "objc_name": "getInstanceWithToken:error:",
             "declAttributes": [
               "ObjC",
               "RawDocComment"
             ],
+            "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -12227,21 +12246,21 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1658,
+      "offset": 1414,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1708,
+      "offset": 1464,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1761,
+      "offset": 1517,
       "length": 5,
       "value": "false"
     },
@@ -12255,7 +12274,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 27676,
+      "offset": 25826,
       "length": 2,
       "value": "\"\""
     },
@@ -12619,16 +12638,9 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TokenValidator.swift",
       "kind": "BooleanLiteral",
-      "offset": 567,
+      "offset": 615,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TokenValidator.swift",
-      "kind": "StringLiteral",
-      "offset": 152,
-      "length": 14,
-      "value": "\"mobile_flow_plugin_ios_framework.TokenValidator\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",

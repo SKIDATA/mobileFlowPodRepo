@@ -492,7 +492,8 @@ enum MobileFlowState : NSInteger;
 SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 @protocol MobileFlowPlugin
 /// This method returns the singelton instance of the plugin.
-+ (id <MobileFlowPlugin> _Nonnull)getInstanceWithToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
+/// if the passed token is invalid MobileFlowError.InvalidMobileFlowToken will be thrown, the token will be checked online and offline
++ (id <MobileFlowPlugin> _Nullable)getInstanceWithToken:(NSString * _Nonnull)token error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// This method sets the delegate which is used on the respective events.
 /// \param delegate 
 /// The delegate to use.
@@ -574,7 +575,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 ///
 /// returns:
 /// Instance of the <code>MobileFlowPlugin</code>
-+ (id <MobileFlowPlugin> _Nonnull)getInstanceWithToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
++ (id <MobileFlowPlugin> _Nullable)getInstanceWithToken:(NSString * _Nonnull)token error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// Delivers the current version
 ///
 /// returns:
@@ -1170,7 +1171,8 @@ enum MobileFlowState : NSInteger;
 SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 @protocol MobileFlowPlugin
 /// This method returns the singelton instance of the plugin.
-+ (id <MobileFlowPlugin> _Nonnull)getInstanceWithToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
+/// if the passed token is invalid MobileFlowError.InvalidMobileFlowToken will be thrown, the token will be checked online and offline
++ (id <MobileFlowPlugin> _Nullable)getInstanceWithToken:(NSString * _Nonnull)token error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// This method sets the delegate which is used on the respective events.
 /// \param delegate 
 /// The delegate to use.
@@ -1252,7 +1254,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 ///
 /// returns:
 /// Instance of the <code>MobileFlowPlugin</code>
-+ (id <MobileFlowPlugin> _Nonnull)getInstanceWithToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
++ (id <MobileFlowPlugin> _Nullable)getInstanceWithToken:(NSString * _Nonnull)token error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// Delivers the current version
 ///
 /// returns:
