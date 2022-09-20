@@ -1439,6 +1439,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "mobile_flow_plugin_ios_framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "GATTResponseType",
         "printedName": "GATTResponseType",
@@ -3292,13 +3302,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "JWTDecode",
-        "printedName": "JWTDecode",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework"
       },
       {
         "kind": "Import",

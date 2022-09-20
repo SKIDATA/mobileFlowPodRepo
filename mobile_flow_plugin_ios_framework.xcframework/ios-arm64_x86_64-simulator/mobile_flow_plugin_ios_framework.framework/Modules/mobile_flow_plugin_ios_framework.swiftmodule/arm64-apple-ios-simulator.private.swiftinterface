@@ -6,7 +6,6 @@ import AudioToolbox
 import Combine
 import CoreBluetooth
 import Foundation
-import JWTDecode
 import Network
 import Swift
 import UIKit
