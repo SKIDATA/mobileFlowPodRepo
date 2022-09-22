@@ -12277,7 +12277,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 26618,
+      "offset": 26589,
       "length": 2,
       "value": "\"\""
     },
@@ -12291,114 +12291,100 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3359,
+      "offset": 3368,
       "length": 11,
       "value": "\"CONNECTED\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3404,
+      "offset": 3413,
       "length": 25,
       "value": "\"DISCONNECTED_WITH_ERROR\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3465,
+      "offset": 3474,
       "length": 27,
       "value": "\"DISCONNECTED_WITH_PASSAGE\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3517,
+      "offset": 3526,
       "length": 14,
       "value": "\"DISCONNECTED\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3562,
+      "offset": 3571,
       "length": 22,
       "value": "\"FAILED_ON_CONNECTING\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3616,
+      "offset": 3625,
       "length": 23,
       "value": "\"FAILED_ON_DISCOVERING\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3667,
+      "offset": 3676,
       "length": 19,
       "value": "\"FAILED_WITH_ERROR\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3708,
-      "length": 12,
-      "value": "\"SETTING_UP\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
-      "kind": "StringLiteral",
-      "offset": 3359,
+      "offset": 3368,
       "length": 11,
       "value": "\"CONNECTED\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3404,
+      "offset": 3413,
       "length": 25,
       "value": "\"DISCONNECTED_WITH_ERROR\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3465,
+      "offset": 3474,
       "length": 27,
       "value": "\"DISCONNECTED_WITH_PASSAGE\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3517,
+      "offset": 3526,
       "length": 14,
       "value": "\"DISCONNECTED\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3562,
+      "offset": 3571,
       "length": 22,
       "value": "\"FAILED_ON_CONNECTING\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3616,
+      "offset": 3625,
       "length": 23,
       "value": "\"FAILED_ON_DISCOVERING\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
       "kind": "StringLiteral",
-      "offset": 3667,
+      "offset": 3676,
       "length": 19,
       "value": "\"FAILED_WITH_ERROR\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/ConnectionDto.swift",
-      "kind": "StringLiteral",
-      "offset": 3708,
-      "length": 12,
-      "value": "\"SETTING_UP\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
@@ -13082,7 +13068,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/ConnectionDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4387,
+      "offset": 4396,
       "length": 2,
       "value": "\"\""
     },
