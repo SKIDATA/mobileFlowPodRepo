@@ -12277,7 +12277,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 26558,
+      "offset": 26619,
       "length": 2,
       "value": "\"\""
     },
@@ -13251,13 +13251,13 @@
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
       "offset": 1047,
-      "length": 27,
+      "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1539,
       "length": 58,
       "value": "\"GATTError | Stopped scanning without connection attempt.\""
     },
@@ -13271,7 +13271,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 11093,
+      "offset": 11069,
       "length": 2,
       "value": "\"\""
     },
@@ -13348,7 +13348,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/ThresholdBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 38393,
+      "offset": 38398,
       "length": 3,
       "value": "100"
     },
