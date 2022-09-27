@@ -2368,6 +2368,951 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "TicketError",
+        "printedName": "TicketError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "badURL",
+            "printedName": "badURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO6badURLyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO6badURLyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "download",
+            "printedName": "download",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO8downloadyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO8downloadyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "limitExceeded",
+            "printedName": "limitExceeded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO13limitExceededyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO13limitExceededyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "fileRead",
+            "printedName": "fileRead",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO8fileReadyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO8fileReadyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "extraction",
+            "printedName": "extraction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO10extractionyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO10extractionyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "parse",
+            "printedName": "parse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO5parseyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO5parseyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownGW",
+            "printedName": "unknownGW",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO9unknownGWyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO9unknownGWyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "missingBarcode",
+            "printedName": "missingBarcode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO14missingBarcodeyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO14missingBarcodeyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "missingProductName",
+            "printedName": "missingProductName",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO18missingProductNameyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO18missingProductNameyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "missingValidFromDate",
+            "printedName": "missingValidFromDate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO20missingValidFromDateyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO20missingValidFromDateyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "missingValidToDate",
+            "printedName": "missingValidToDate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO18missingValidToDateyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO18missingValidToDateyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidValidFromDate",
+            "printedName": "invalidValidFromDate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO20invalidValidFromDateyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO20invalidValidFromDateyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidValidToDate",
+            "printedName": "invalidValidToDate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO18invalidValidToDateyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO18invalidValidToDateyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "missingCompanyID",
+            "printedName": "missingCompanyID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO16missingCompanyIDyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO16missingCompanyIDyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidCompanyID",
+            "printedName": "invalidCompanyID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO16invalidCompanyIDyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO16invalidCompanyIDyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "missingPSNR",
+            "printedName": "missingPSNR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO11missingPSNRyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO11missingPSNRyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "missingAreaName",
+            "printedName": "missingAreaName",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO15missingAreaNameyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO15missingAreaNameyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidExpirationDate",
+            "printedName": "invalidExpirationDate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO21invalidExpirationDateyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO21invalidExpirationDateyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "missingValidAreaID",
+            "printedName": "missingValidAreaID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO18missingValidAreaIDyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO18missingValidAreaIDyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidValidAreaID",
+            "printedName": "invalidValidAreaID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.TicketError.Type) -> mobile_flow_plugin_ios_framework.TicketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TicketError",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.TicketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TicketError",
+                        "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO18invalidValidAreaIDyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO18invalidValidAreaIDyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TicketError",
+                "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TicketError",
+                "printedName": "mobile_flow_plugin_ios_framework.TicketError",
+                "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO9hashValueSivp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO9hashValueSivp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO9hashValueSivg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO9hashValueSivg",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO16errorDescriptionSSSgvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO16errorDescriptionSSSgvg",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:32mobile_flow_plugin_ios_framework11TicketErrorO",
+        "mangledName": "$s32mobile_flow_plugin_ios_framework11TicketErrorO",
+        "moduleName": "mobile_flow_plugin_ios_framework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "MobileFlowError",
         "printedName": "MobileFlowError",
         "children": [
