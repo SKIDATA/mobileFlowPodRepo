@@ -83,7 +83,6 @@ public enum TicketError : Swift.Error {
   case invalidValidToDate
   case missingCompanyID
   case invalidCompanyID
-  case missingPSNR
   case missingAreaName
   case invalidExpirationDate
   case missingValidAreaID
