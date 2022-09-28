@@ -67,37 +67,6 @@ import _StringProcessing
   }
   @objc deinit
 }
-public enum TicketError : Swift.Error {
-  case badURL
-  case download
-  case limitExceeded
-  case fileRead
-  case extraction
-  case parse
-  case unknownGW
-  case missingBarcode
-  case missingProductName
-  case missingValidFromDate
-  case missingValidToDate
-  case invalidValidFromDate
-  case invalidValidToDate
-  case missingCompanyID
-  case invalidCompanyID
-  case missingAreaName
-  case invalidExpirationDate
-  case missingValidAreaID
-  case invalidValidAreaID
-  public static func == (a: mobile_flow_plugin_ios_framework.TicketError, b: mobile_flow_plugin_ios_framework.TicketError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension mobile_flow_plugin_ios_framework.TicketError : Foundation.LocalizedError {
-  public var errorDescription: Swift.String? {
-    get
-  }
-}
 @objc public enum MobileFlowError : Swift.Int, Swift.Error {
   case BluetoothNotActive
   case BluetoothPermissionMissing
@@ -170,8 +139,6 @@ extension mobile_flow_plugin_ios_framework.MobileFlowError : Foundation.Localize
 extension mobile_flow_plugin_ios_framework.MobileFlowState : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.MobileFlowState : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.MobileFlowState : Swift.RawRepresentable {}
-extension mobile_flow_plugin_ios_framework.TicketError : Swift.Equatable {}
-extension mobile_flow_plugin_ios_framework.TicketError : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.Equatable {}
 extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.Hashable {}
 extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.RawRepresentable {}
