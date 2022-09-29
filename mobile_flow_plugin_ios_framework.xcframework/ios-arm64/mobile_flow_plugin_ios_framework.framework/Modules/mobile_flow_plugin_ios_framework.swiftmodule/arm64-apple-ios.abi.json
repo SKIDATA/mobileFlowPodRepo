@@ -5858,7 +5858,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Session.swift",
       "kind": "Array",
-      "offset": 243,
+      "offset": 233,
       "length": 2,
       "value": "[]"
     },
@@ -6425,7 +6425,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/SessionService.swift",
       "kind": "StringLiteral",
-      "offset": 469,
+      "offset": 506,
       "length": 14,
       "value": "\"Init session\""
     },
