@@ -5015,7 +5015,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 27669,
+      "offset": 27715,
       "length": 2,
       "value": "\"\""
     },
@@ -5834,7 +5834,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/ConnectionDetails.swift",
       "kind": "StringLiteral",
-      "offset": 4396,
+      "offset": 4391,
       "length": 2,
       "value": "\"\""
     },
@@ -6009,7 +6009,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 1643,
+      "offset": 1678,
       "length": 58,
       "value": "\"GATTError | Stopped scanning without connection attempt.\""
     },
@@ -6023,7 +6023,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 13156,
+      "offset": 13191,
       "length": 2,
       "value": "\"\""
     },
