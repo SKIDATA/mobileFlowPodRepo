@@ -5011,7 +5011,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 27931,
+      "offset": 27938,
       "length": 2,
       "value": "\"\""
     },
@@ -6019,7 +6019,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 12809,
+      "offset": 12851,
       "length": 2,
       "value": "\"\""
     },
