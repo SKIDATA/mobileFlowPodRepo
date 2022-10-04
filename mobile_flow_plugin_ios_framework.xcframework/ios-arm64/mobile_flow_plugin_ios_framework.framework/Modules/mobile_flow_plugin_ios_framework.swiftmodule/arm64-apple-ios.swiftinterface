@@ -35,6 +35,7 @@ import _StringProcessing
   public var value: Swift.String {
     get
   }
+  public func name() -> Swift.String
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
