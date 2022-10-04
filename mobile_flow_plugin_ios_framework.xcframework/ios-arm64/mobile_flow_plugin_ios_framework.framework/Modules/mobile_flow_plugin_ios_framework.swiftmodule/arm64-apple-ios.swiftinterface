@@ -95,6 +95,9 @@ import _StringProcessing
     get
   }
 }
+extension mobile_flow_plugin_ios_framework.MobileFlowError {
+  public func name() -> Swift.String
+}
 extension mobile_flow_plugin_ios_framework.MobileFlowError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
     get

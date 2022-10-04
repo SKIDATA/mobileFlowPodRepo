@@ -3211,6 +3211,28 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "name",
+            "printedName": "name()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:32mobile_flow_plugin_ios_framework15MobileFlowErrorO4nameSSyF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO4nameSSyF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "errorDescription",
             "printedName": "errorDescription",
