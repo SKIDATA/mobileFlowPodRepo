@@ -1972,12 +1972,14 @@
                 "kind": "TypeNominal",
                 "name": "Date",
                 "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
                 "usr": "s:10Foundation4DateV"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Date",
                 "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
                 "usr": "s:10Foundation4DateV"
               },
               {
@@ -2058,12 +2060,14 @@
                 "kind": "TypeNominal",
                 "name": "Date",
                 "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
                 "usr": "s:10Foundation4DateV"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Date",
                 "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
                 "usr": "s:10Foundation4DateV"
               },
               {
@@ -5494,14 +5498,14 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 1535,
+      "offset": 1553,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 2152,
+      "offset": 2188,
       "length": 2,
       "value": "\"\""
     },

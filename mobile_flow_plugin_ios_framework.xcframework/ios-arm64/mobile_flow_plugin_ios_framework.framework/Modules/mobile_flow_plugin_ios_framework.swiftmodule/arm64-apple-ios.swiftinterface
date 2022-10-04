@@ -62,8 +62,8 @@ import _StringProcessing
   @objc public var downloadTimeStampDate: Foundation.Date {
     @objc get
   }
-  @objc public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Foundation.Date, validTo: Foundation.Date, psnr: Swift.String = "", image: UIKit.UIImage?)
-  @objc convenience public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Foundation.Date, validTo: Foundation.Date, psnr: Swift.String = "")
+  @objc public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Foundation.Date = Date(), validTo: Foundation.Date = Date(), psnr: Swift.String = "", image: UIKit.UIImage?)
+  @objc convenience public init(barcode: Swift.String, validAreaId: Swift.String, validAreaName: Swift.String, validInCompanyIds: Swift.String, productName: Swift.String, validFrom: Foundation.Date = Date(), validTo: Foundation.Date = Date(), psnr: Swift.String = "")
   @objc override dynamic public var description: Swift.String {
     @objc get
   }
