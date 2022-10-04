@@ -108,6 +108,7 @@ extension mobile_flow_plugin_ios_framework.MobileFlowError : Foundation.Localize
   case gateInUse
   case gateAccessCompleted
   case ticketValid
+  public func name() -> Swift.String
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {

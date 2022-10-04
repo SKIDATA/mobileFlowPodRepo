@@ -3697,6 +3697,27 @@
             "fixedbinaryorder": 3
           },
           {
+            "kind": "Function",
+            "name": "name",
+            "printedName": "name()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:32mobile_flow_plugin_ios_framework15MobileFlowEventO4nameSSyF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowEventO4nameSSyF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -5047,7 +5068,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 29332,
+      "offset": 29602,
       "length": 2,
       "value": "\"\""
     },
