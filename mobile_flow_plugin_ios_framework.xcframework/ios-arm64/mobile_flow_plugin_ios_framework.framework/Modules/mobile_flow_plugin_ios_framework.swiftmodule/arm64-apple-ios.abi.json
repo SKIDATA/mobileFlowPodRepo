@@ -5068,7 +5068,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 29783,
+      "offset": 29825,
       "length": 2,
       "value": "\"\""
     },
@@ -6040,6 +6040,34 @@
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 1088,
+      "length": 64,
+      "value": "\"BLEService | isScanning: \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 1,
+      "value": "\" | oldValue: \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 1151,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 1676,
+      "length": 58,
+      "value": "\"GATTError | Stopped scanning without connection attempt.\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "BooleanLiteral",
       "offset": 876,
       "length": 5,
@@ -6048,7 +6076,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 12657,
+      "offset": 12824,
       "length": 2,
       "value": "\"\""
     },
