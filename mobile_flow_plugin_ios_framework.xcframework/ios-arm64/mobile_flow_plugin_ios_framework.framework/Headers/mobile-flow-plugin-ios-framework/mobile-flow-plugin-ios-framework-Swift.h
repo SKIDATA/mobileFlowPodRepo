@@ -311,9 +311,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework21BlePeripheralDelegate_")
 /// Error occured for a Peripheral
 /// \param error the <code>Error</code>
 ///
-/// \param message the <code>String?</code>
-///
-- (void)blePeripheralWithError:(NSError * _Nonnull)error message:(NSString * _Nullable)message;
+- (void)blePeripheralWithError:(NSError * _Nonnull)error;
 /// RSSI was read for a Peripheral
 /// \param rssi the RSSI
 ///
@@ -369,7 +367,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework21BlePeripheralDelegate_")
 ///
 /// \param message <code>String?</code>
 ///
-- (void)blePeripheralWithError:(NSError * _Nonnull)error message:(NSString * _Nullable)message;
+- (void)blePeripheralWithError:(NSError * _Nonnull)error;
 /// Discovering of services is triggered
 - (void)discoveringServices;
 /// assign name to blePeripheral
@@ -627,7 +625,6 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
 
 
 /// MobileFlowState represents the state of the plugin.
