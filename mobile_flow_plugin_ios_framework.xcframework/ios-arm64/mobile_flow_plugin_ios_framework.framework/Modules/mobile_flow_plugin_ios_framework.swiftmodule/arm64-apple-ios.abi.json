@@ -5253,7 +5253,7 @@
       "kind": "IntegerLiteral",
       "offset": 1224,
       "length": 3,
-      "value": "65"
+      "value": "60"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/ConnectionParameter.swift",
@@ -5267,7 +5267,7 @@
       "kind": "IntegerLiteral",
       "offset": 1271,
       "length": 1,
-      "value": "5"
+      "value": "2"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowState.swift",
