@@ -614,6 +614,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// \param url of type <code>String</code> from where the ticket should be downloaded.
 ///
 - (void)downloadTicket:(NSString * _Nonnull)url;
+/// returns the current localizationstate
 - (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
 - (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 /// Stopped the activity and allow a new start of the plugin. The stored elements get cleared.
@@ -1306,6 +1307,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// \param url of type <code>String</code> from where the ticket should be downloaded.
 ///
 - (void)downloadTicket:(NSString * _Nonnull)url;
+/// returns the current localizationstate
 - (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
 - (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 /// Stopped the activity and allow a new start of the plugin. The stored elements get cleared.
