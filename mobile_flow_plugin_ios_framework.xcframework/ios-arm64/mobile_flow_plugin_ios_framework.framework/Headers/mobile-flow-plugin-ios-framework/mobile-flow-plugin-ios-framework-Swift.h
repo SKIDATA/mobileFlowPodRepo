@@ -365,8 +365,6 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework21BlePeripheralDelegate_")
 /// Error delegated from blePeripheral with <code>String?</code>
 /// \param error <code>Error</code>
 ///
-/// \param message <code>String?</code>
-///
 - (void)blePeripheralWithError:(NSError * _Nonnull)error;
 /// Discovering of services is triggered
 - (void)discoveringServices;
