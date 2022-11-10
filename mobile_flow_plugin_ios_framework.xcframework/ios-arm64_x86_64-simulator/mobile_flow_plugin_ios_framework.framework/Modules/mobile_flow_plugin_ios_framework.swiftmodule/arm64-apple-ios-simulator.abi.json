@@ -26,6 +26,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "mobile_flow_plugin_ios_framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AudioToolbox",
         "printedName": "AudioToolbox",
         "declKind": "Import",
@@ -3401,6 +3411,16 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "mobile_flow_plugin_ios_framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "mobile_flow_plugin_ios_framework"
       },
       {
@@ -5028,6 +5048,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34357,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
+      "kind": "StringLiteral",
+      "offset": 34492,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 1414,
@@ -6113,11 +6147,11 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/ThresholdBasedAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 38497,
-      "length": 3,
-      "value": "100"
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/Evaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 9,
+      "value": "\"mobile_flow_plugin_ios_framework.Evaluator\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
