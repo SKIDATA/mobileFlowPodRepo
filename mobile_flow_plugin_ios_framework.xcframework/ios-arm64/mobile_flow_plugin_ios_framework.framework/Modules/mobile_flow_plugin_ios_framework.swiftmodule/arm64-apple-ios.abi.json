@@ -5048,20 +5048,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 34357,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 34492,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 1414,
