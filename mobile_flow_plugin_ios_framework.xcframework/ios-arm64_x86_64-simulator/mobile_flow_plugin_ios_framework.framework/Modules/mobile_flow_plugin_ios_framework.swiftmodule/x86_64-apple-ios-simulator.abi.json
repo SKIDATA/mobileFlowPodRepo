@@ -5102,6 +5102,13 @@
       "value": "\"mobile_flow_plugin_ios_framework.MobileFlowPluginImpl\""
     },
     {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 19907,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "BooleanLiteral",
       "offset": 497,
