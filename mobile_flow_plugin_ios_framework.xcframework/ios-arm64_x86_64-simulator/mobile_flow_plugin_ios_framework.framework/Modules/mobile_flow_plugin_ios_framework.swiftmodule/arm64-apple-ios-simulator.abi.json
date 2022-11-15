@@ -4288,22 +4288,13 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "RxSwift",
         "printedName": "RxSwift",
         "declKind": "Import",
         "moduleName": "mobile_flow_plugin_ios_framework",
         "declAttributes": [
-          "ImplementationOnly"
+          "ImplementationOnly",
+          "RawDocComment"
         ]
       },
       {
@@ -5104,7 +5095,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 19935,
+      "offset": 20115,
       "length": 3,
       "value": "5.0"
     },
@@ -6609,7 +6600,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/AlgorithmManager.swift",
       "kind": "StringLiteral",
-      "offset": 174,
+      "offset": 159,
       "length": 16,
       "value": "\"mobile_flow_plugin_ios_framework.AlgorithmManager\""
     },
