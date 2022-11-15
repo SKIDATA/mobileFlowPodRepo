@@ -5244,28 +5244,28 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 2974,
+      "offset": 3039,
       "length": 64,
       "value": "\"BleService | isScanning: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 3013,
+      "offset": 3078,
       "length": 1,
       "value": "\" | oldValue: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 3037,
+      "offset": 3102,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2937,
+      "offset": 3002,
       "length": 5,
       "value": "false"
     },
