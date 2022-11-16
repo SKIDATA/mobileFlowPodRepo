@@ -1330,14 +1330,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(py)validAreaId",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC11validAreaIdSSvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC11validAreaIdSSSgvp",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "declAttributes": [
               "Final",
@@ -1355,14 +1363,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(im)validAreaId",
-                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC11validAreaIdSSvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC11validAreaIdSSSgvg",
                 "moduleName": "mobile_flow_plugin_ios_framework",
                 "implicit": true,
                 "declAttributes": [
@@ -1380,14 +1396,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(py)validAreaName",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC13validAreaNameSSvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC13validAreaNameSSSgvp",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "declAttributes": [
               "Final",
@@ -1405,14 +1429,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(im)validAreaName",
-                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC13validAreaNameSSvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC13validAreaNameSSSgvg",
                 "moduleName": "mobile_flow_plugin_ios_framework",
                 "implicit": true,
                 "declAttributes": [
@@ -1480,14 +1512,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(py)productName",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC11productNameSSvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC11productNameSSSgvp",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "declAttributes": [
               "Final",
@@ -1505,14 +1545,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(im)productName",
-                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC11productNameSSvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC11productNameSSSgvg",
                 "moduleName": "mobile_flow_plugin_ios_framework",
                 "implicit": true,
                 "declAttributes": [
@@ -1530,14 +1578,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(py)validFrom",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC9validFrom10Foundation4DateVvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC9validFrom10Foundation4DateVSgvp",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "declAttributes": [
               "Final",
@@ -1555,14 +1611,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(im)validFrom",
-                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC9validFrom10Foundation4DateVvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC9validFrom10Foundation4DateVSgvg",
                 "moduleName": "mobile_flow_plugin_ios_framework",
                 "implicit": true,
                 "declAttributes": [
@@ -1580,14 +1644,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(py)validTo",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC7validTo10Foundation4DateVvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC7validTo10Foundation4DateVSgvp",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "declAttributes": [
               "Final",
@@ -1605,14 +1677,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(im)validTo",
-                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC7validTo10Foundation4DateVvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC7validTo10Foundation4DateVSgvg",
                 "moduleName": "mobile_flow_plugin_ios_framework",
                 "implicit": true,
                 "declAttributes": [
@@ -1630,14 +1710,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(py)psnr",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC4psnrSSvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC4psnrSSSgvp",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "declAttributes": [
               "Final",
@@ -1655,14 +1743,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(im)psnr",
-                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC4psnrSSvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC4psnrSSSgvg",
                 "moduleName": "mobile_flow_plugin_ios_framework",
                 "implicit": true,
                 "declAttributes": [
@@ -1966,9 +2062,31 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1978,36 +2096,59 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "hasDefaultArg": true,
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "hasDefaultArg": true,
-                "usr": "s:10Foundation4DateV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -2026,12 +2167,13 @@
             ],
             "declKind": "Constructor",
             "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(im)initWithBarcode:validAreaId:validAreaName:validInCompanyIds:productName:validFrom:validTo:psnr:image:",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC7barcode11validAreaId0jK4Name0J12InCompanyIds07productM00J4From0J2To4psnr5imageACSS_S4S10Foundation4DateVAOSSSo7UIImageCSgtcfc",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC7barcode11validAreaId0jK4Name0J12InCompanyIds07productM00J4From0J2To4psnr5imageACSS_SSSgAMSSAM10Foundation4DateVSgAqMSo7UIImageCSgtcfc",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "objc_name": "initWithBarcode:validAreaId:validAreaName:validInCompanyIds:productName:validFrom:validTo:psnr:image:",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -2054,53 +2196,104 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:10Foundation4DateV"
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:10Foundation4DateV"
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
-                "hasDefaultArg": true,
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket(im)initWithBarcode:validAreaId:validAreaName:validInCompanyIds:productName:validFrom:validTo:psnr:",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC7barcode11validAreaId0jK4Name0J12InCompanyIds07productM00J4From0J2To4psnrACSS_S4S10Foundation4DateVANSStcfc",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16MobileFlowTicketC7barcode11validAreaId0jK4Name0J12InCompanyIds07productM00J4From0J2To4psnrACSS_SSSgALSSAL10Foundation4DateVSgApLtcfc",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "objc_name": "initWithBarcode:validAreaId:validAreaName:validInCompanyIds:productName:validFrom:validTo:psnr:",
             "declAttributes": [
@@ -5627,20 +5820,6 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 1553,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
-      "kind": "StringLiteral",
-      "offset": 2188,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
-      "kind": "StringLiteral",
       "offset": 273,
       "length": 16,
       "value": "\"mobile_flow_plugin_ios_framework.MobileFlowTicket\""
@@ -6481,7 +6660,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/TicketDto.swift",
       "kind": "Array",
-      "offset": 903,
+      "offset": 1010,
       "length": 2,
       "value": "[]"
     },
