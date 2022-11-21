@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "mobile_flow_plugin_ios_framework"
-  spec.version      = "3.1.1"
+  spec.version      = "3.2"
   spec.summary      = "A plugin for contactless entry via iPhone and BLE Technologly."
   
   spec.description  = <<-DESC
@@ -16,9 +16,9 @@ Pod::Spec.new do |spec|
                     }
   spec.author       = { "Denis Schüle" => "denis.schuele@skidata.com" }
 
-  spec.ios.deployment_target = "13.1.1.0"
+  spec.ios.deployment_target = "13.2.0"
   spec.ios.vendored_frameworks = 'mobile_flow_plugin_ios_framework.xcframework'
 
-  spec.source = { :git => "https://github.com/SKIDATA/mobileFlowPodRepo.git", :tag => "3.1.1" }
+  spec.source = { :git => "https://github.com/SKIDATA/mobileFlowPodRepo.git", :tag => "3.2" }
 
 end

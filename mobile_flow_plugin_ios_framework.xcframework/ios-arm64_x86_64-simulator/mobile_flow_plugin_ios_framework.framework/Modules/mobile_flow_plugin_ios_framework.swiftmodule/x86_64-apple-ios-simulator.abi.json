@@ -2172,8 +2172,7 @@
             "objc_name": "initWithBarcode:validAreaId:validAreaName:validInCompanyIds:productName:validFrom:validTo:psnr:image:",
             "declAttributes": [
               "AccessControl",
-              "ObjC",
-              "RawDocComment"
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -5288,7 +5287,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 19705,
+      "offset": 19691,
       "length": 3,
       "value": "5.0"
     },
