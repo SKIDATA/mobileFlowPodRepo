@@ -5614,6 +5614,13 @@
       "value": "3"
     },
     {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/MFSToken.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 32,
+      "value": "\"MobileFlowPlugin Invalid token\""
+    },
+    {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTResponseType.swift",
       "kind": "IntegerLiteral",
       "offset": 476,
@@ -6821,6 +6828,20 @@
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/SessionService.swift",
       "kind": "StringLiteral",
       "offset": 886,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/SessionService.swift",
+      "kind": "StringLiteral",
+      "offset": 1068,
+      "length": 41,
+      "value": "\"Deinit session | ticket.id: \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/SessionService.swift",
+      "kind": "StringLiteral",
+      "offset": 1108,
       "length": 3,
       "value": "\"\""
     },
