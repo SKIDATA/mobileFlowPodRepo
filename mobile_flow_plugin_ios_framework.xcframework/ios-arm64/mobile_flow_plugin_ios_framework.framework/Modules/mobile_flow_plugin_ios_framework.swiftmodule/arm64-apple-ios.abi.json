@@ -4215,16 +4215,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CoreBluetooth",
         "printedName": "CoreBluetooth",
         "declKind": "Import",
@@ -6398,13 +6388,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/SampleResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 200,
-      "length": 933,
-      "value": "\"{\n    \"companies\": [\n        {\n            \"id\": 11,\n            \"name\": \"HQ-Testenvironment- GW with Patch SL.10\",\n            \"gateway\": \"http:\/\/10.16.30.134\/BLEGateway\",\n            \"safe2SkiRequired\": false\n        },\n        {\n            \"id\": 25,\n            \"name\": \"Skimore\",\n            \"gateway\": \"https:\/\/skidata.skimore.no\",\n            \"safe2SkiRequired\": false\n        }\n    ],\n    \"logLevel\": \"INFO\",\n    \"phoneDetails\": {\n        \"categoryId\": 3,\n        \"marketingName\": \"iPhone 8\",\n        \"phoneIsKnown\": true\n    },\n    \"connectionParameter\": {\n        \"connectRSSI\": -65,\n        \"disconnectRSSI\": -85,\n        \"reConnectionTimeout\": 2\n    },\n    \"algorithmParameter\": {\n        \"algorithmParameterId\": 4,\n        \"threshold\": -45,\n        \"freeMotionV3Offset\": 0\n    }\n}\""
-    },
-    {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
       "kind": "StringLiteral",
       "offset": 397,
@@ -6580,6 +6563,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/SessionDto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 301,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
       "offset": 353,
@@ -6709,8 +6699,8 @@
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/InitialParameterResponse.swift",
       "kind": "StringLiteral",
       "offset": 2299,
-      "length": 837,
-      "value": "\"{\n  \"companies\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\",\n      \"gateway\": \"string\",\n      \"safe2SkiRequired\": true\n    }\n  ],\n  \"logLevel\": \"ERROR\",\n  \"deprecationDate\": \"2022-08-22T11:47:38.923Z\",\n  \"phoneDetails\": {\n    \"categoryId\": 0,\n    \"marketingName\": \"string\",\n    \"phoneIsKnown\": true\n  },\n  \"connectionParameter\": {\n    \"connectRSSI\": 0,\n    \"disconnectRSSI\": 0,\n    \"reConnectionTimeout\": 0\n  },\n  \"algorithmParameter\": {\n    \"algorithmParameterId\": 0,\n    \"deltaMinMaxRssi\": 0,\n    \"msExpiredBeacon\": 0,\n    \"smoothingparameterResult\": 0,\n    \"smoothingparameterRssi\": 0,\n    \"threshold\": 0,\n    \"pocketOffset\": 0,\n    \"trendBandwidth\": 0,\n    \"freeMotionV3Offset\": 0\n  }\n}\""
+      "length": 860,
+      "value": "\"{\n  \"companies\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\",\n      \"gateway\": \"string\",\n      \"safe2SkiRequired\": true\n    }\n  ],\n  \"logLevel\": \"ERROR\",\n  \"deprecationDate\": \"2022-08-22T11:47:38.923Z\",\n  \"phoneDetails\": {\n    \"categoryId\": 0,\n    \"marketingName\": \"string\",\n    \"phoneIsKnown\": true\n  },\n  \"connectionParameter\": {\n    \"connectRSSI\": 0,\n    \"disconnectRSSI\": 0,\n    \"reConnectionTimeout\": 0\n  },\n  \"algorithmParameter\": {\n    \"algorithmParameterId\": 0,\n    \"v2Offset\": 0,\n    \"deltaMinMaxRssi\": 0,\n    \"msExpiredBeacon\": 0,\n    \"smoothingparameterResult\": 0,\n    \"smoothingparameterRssi\": 0,\n    \"threshold\": 0,\n    \"pocketOffset\": 0,\n    \"trendBandwidth\": 0,\n    \"freeMotionV3Offset\": 0\n  }\n}\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/SessionService.swift",
