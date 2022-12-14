@@ -1151,6 +1151,26 @@
       },
       {
         "kind": "Import",
+        "name": "RxCocoa",
+        "printedName": "RxCocoa",
+        "declKind": "Import",
+        "moduleName": "mobile_flow_plugin_ios_framework",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "mobile_flow_plugin_ios_framework",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6101,7 +6121,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 21483,
+      "offset": 21512,
       "length": 3,
       "value": "0.5"
     },
@@ -6402,182 +6422,182 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "Array",
-      "offset": 332,
+      "offset": 407,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 733,
+      "offset": 808,
       "length": 38,
       "value": "\"41a09617-8504-4111-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 784,
+      "offset": 859,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 839,
+      "offset": 914,
       "length": 38,
       "value": "\"41a09617-8504-4112-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 890,
+      "offset": 965,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 945,
+      "offset": 1020,
       "length": 38,
       "value": "\"41a09617-8504-4113-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 996,
+      "offset": 1071,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1051,
+      "offset": 1126,
       "length": 38,
       "value": "\"41a09617-8504-4114-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1102,
+      "offset": 1177,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1232,
       "length": 38,
       "value": "\"41a09617-8504-4115-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1208,
+      "offset": 1283,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1263,
+      "offset": 1338,
       "length": 38,
       "value": "\"41a09617-8504-4116-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1314,
+      "offset": 1389,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1403,
+      "offset": 1478,
       "length": 38,
       "value": "\"41a09617-8504-4121-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1454,
+      "offset": 1529,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1511,
+      "offset": 1586,
       "length": 38,
       "value": "\"41a09617-8504-4122-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1562,
+      "offset": 1637,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1619,
+      "offset": 1694,
       "length": 38,
       "value": "\"41a09617-8504-4123-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1670,
+      "offset": 1745,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1727,
+      "offset": 1802,
       "length": 38,
       "value": "\"41a09617-8504-4124-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1778,
+      "offset": 1853,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1835,
+      "offset": 1910,
       "length": 38,
       "value": "\"41a09617-8504-4125-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1886,
+      "offset": 1961,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 2018,
       "length": 38,
       "value": "\"41a09617-8504-4126-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1994,
+      "offset": 2069,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 197,
+      "offset": 269,
       "length": 16,
       "value": "\"mobile_flow_plugin_ios_framework.BluetoothManager\""
     },
@@ -6650,6 +6670,13 @@
       "offset": 740,
       "length": 7,
       "value": "66"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkManager\/BaseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 11,
+      "value": "\"mobile_flow_plugin_ios_framework.BaseManager\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/DelegateProxys\/CLLocationManagerDelegateProxy.swift",
