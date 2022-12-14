@@ -6101,7 +6101,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 20933,
+      "offset": 21016,
       "length": 3,
       "value": "0.5"
     },
@@ -6230,27 +6230,6 @@
       "offset": 2517,
       "length": 3,
       "value": "\" #\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 3031,
-      "length": 64,
-      "value": "\"BleService | isScanning: \""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 3070,
-      "length": 1,
-      "value": "\" | oldValue: \""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 3094,
-      "length": 7,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
