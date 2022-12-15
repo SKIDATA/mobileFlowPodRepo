@@ -4380,43 +4380,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreBluetooth",
-        "printedName": "CoreBluetooth",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework"
-      },
-      {
-        "kind": "Import",
-        "name": "RxCocoa",
-        "printedName": "RxCocoa",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "RxSwift",
-        "printedName": "RxSwift",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5010,26 +4973,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "mobile_flow_plugin_ios_framework"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "RxSwift",
-        "printedName": "RxSwift",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
       },
       {
         "kind": "Import",
@@ -6079,35 +6022,35 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1414,
+      "offset": 1314,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1464,
+      "offset": 1364,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1517,
+      "offset": 1417,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 3039,
+      "offset": 2939,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "Array",
-      "offset": 3089,
+      "offset": 2989,
       "length": 2,
       "value": "[]"
     },
@@ -6121,7 +6064,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 22118,
+      "offset": 20175,
       "length": 3,
       "value": "0.5"
     },
@@ -7440,174 +7383,6 @@
       "offset": 1058,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 376,
-      "length": 38,
-      "value": "\"41a09617-8504-4111-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 427,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 482,
-      "length": 38,
-      "value": "\"41a09617-8504-4112-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 533,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 588,
-      "length": 38,
-      "value": "\"41a09617-8504-4113-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 639,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 694,
-      "length": 38,
-      "value": "\"41a09617-8504-4114-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 745,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 800,
-      "length": 38,
-      "value": "\"41a09617-8504-4115-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 851,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 906,
-      "length": 38,
-      "value": "\"41a09617-8504-4116-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 957,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1046,
-      "length": 38,
-      "value": "\"41a09617-8504-4121-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1097,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1154,
-      "length": 38,
-      "value": "\"41a09617-8504-4122-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1205,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1262,
-      "length": 38,
-      "value": "\"41a09617-8504-4123-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1313,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1370,
-      "length": 38,
-      "value": "\"41a09617-8504-4124-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1421,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1478,
-      "length": 38,
-      "value": "\"41a09617-8504-4125-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1529,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1586,
-      "length": 38,
-      "value": "\"41a09617-8504-4126-a771-077d42ed5bc5\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BeaconManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1637,
-      "length": 1,
-      "value": "6"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/TicketDto.swift",

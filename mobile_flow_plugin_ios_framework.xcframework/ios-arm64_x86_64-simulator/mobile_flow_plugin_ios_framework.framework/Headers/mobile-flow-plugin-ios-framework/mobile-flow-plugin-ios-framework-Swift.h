@@ -262,17 +262,6 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11BaseManager")
 @end
 
 
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16AlgorithmManager")
-@interface AlgorithmManager : BaseManager
-@end
-
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework13BeaconManager")
-@interface BeaconManager : BaseManager
-@end
-
-
 /// BleManager
 /// for handling the scanning, connection, transmitting and response process based on the GATT Protocol.
 SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework10BleManager")
@@ -998,17 +987,6 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11BaseManager")
 @interface BaseManager : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16AlgorithmManager")
-@interface AlgorithmManager : BaseManager
-@end
-
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework13BeaconManager")
-@interface BeaconManager : BaseManager
 @end
 
 
