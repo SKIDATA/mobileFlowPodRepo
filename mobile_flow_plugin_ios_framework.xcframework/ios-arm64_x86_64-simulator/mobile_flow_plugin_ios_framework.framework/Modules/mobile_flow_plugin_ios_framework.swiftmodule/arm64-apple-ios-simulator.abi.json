@@ -6013,7 +6013,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 20586,
+      "offset": 20598,
       "length": 3,
       "value": "0.5"
     },
@@ -7126,14 +7126,14 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "Dictionary",
-      "offset": 269,
+      "offset": 262,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "IntegerLiteral",
-      "offset": 329,
+      "offset": 322,
       "length": 1,
       "value": "0"
     },
