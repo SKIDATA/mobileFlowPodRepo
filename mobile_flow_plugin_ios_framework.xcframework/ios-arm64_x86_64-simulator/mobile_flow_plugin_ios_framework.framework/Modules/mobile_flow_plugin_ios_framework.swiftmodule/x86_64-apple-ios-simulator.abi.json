@@ -6741,14 +6741,14 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Extension\/ext_String.swift",
       "kind": "BooleanLiteral",
-      "offset": 1359,
+      "offset": 1368,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Extension\/ext_String.swift",
       "kind": "StringLiteral",
-      "offset": 1382,
+      "offset": 1391,
       "length": 2,
       "value": "\"\""
     },
