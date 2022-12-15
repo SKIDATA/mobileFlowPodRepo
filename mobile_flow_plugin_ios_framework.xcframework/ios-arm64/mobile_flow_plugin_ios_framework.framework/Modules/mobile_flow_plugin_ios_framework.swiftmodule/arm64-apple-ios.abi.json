@@ -5999,7 +5999,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "Array",
-      "offset": 3123,
+      "offset": 3292,
       "length": 2,
       "value": "[]"
     },
@@ -6013,7 +6013,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 20269,
+      "offset": 20358,
       "length": 3,
       "value": "0.5"
     },
