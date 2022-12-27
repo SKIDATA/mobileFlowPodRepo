@@ -3013,6 +3013,48 @@
           },
           {
             "kind": "Var",
+            "name": "LocationPrecisePermissionMissing",
+            "printedName": "LocationPrecisePermissionMissing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.MobileFlowError.Type) -> mobile_flow_plugin_ios_framework.MobileFlowError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileFlowError",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                    "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileFlowError",
+                        "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                        "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError@MobileFlowErrorLocationPrecisePermissionMissing",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO32LocationPrecisePermissionMissingyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
             "name": "PassageTimedOut",
             "printedName": "PassageTimedOut",
             "children": [
@@ -3051,7 +3093,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 7
+            "fixedbinaryorder": 8
           },
           {
             "kind": "Var",
@@ -3093,7 +3135,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 8
+            "fixedbinaryorder": 9
           },
           {
             "kind": "Var",
@@ -3135,7 +3177,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 9
+            "fixedbinaryorder": 10
           },
           {
             "kind": "Var",
@@ -3177,7 +3219,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 10
+            "fixedbinaryorder": 11
           },
           {
             "kind": "Var",
@@ -3219,7 +3261,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 11
+            "fixedbinaryorder": 12
           },
           {
             "kind": "Var",
@@ -3261,7 +3303,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 12
+            "fixedbinaryorder": 13
           },
           {
             "kind": "Var",
@@ -3303,7 +3345,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 13
+            "fixedbinaryorder": 14
           },
           {
             "kind": "Var",
@@ -3345,7 +3387,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 14
+            "fixedbinaryorder": 15
           },
           {
             "kind": "Var",
@@ -3387,7 +3429,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 15
+            "fixedbinaryorder": 16
           },
           {
             "kind": "Constructor",
@@ -6888,65 +6930,72 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1737,
-      "length": 15,
+      "offset": 1656,
+      "length": 32,
       "value": "7"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1921,
-      "length": 14,
+      "offset": 1928,
+      "length": 15,
       "value": "8"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2115,
-      "length": 18,
+      "offset": 2112,
+      "length": 14,
       "value": "9"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2320,
-      "length": 27,
+      "offset": 2306,
+      "length": 18,
       "value": "10"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2493,
-      "length": 18,
+      "offset": 2511,
+      "length": 27,
       "value": "11"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2670,
-      "length": 24,
+      "offset": 2684,
+      "length": 18,
       "value": "12"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2895,
-      "length": 18,
+      "offset": 2861,
+      "length": 24,
       "value": "13"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3064,
-      "length": 23,
+      "offset": 3086,
+      "length": 18,
       "value": "14"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3261,
-      "length": 17,
+      "offset": 3255,
+      "length": 23,
       "value": "15"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3452,
+      "length": 17,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
@@ -6993,65 +7042,72 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1737,
-      "length": 15,
+      "offset": 1656,
+      "length": 32,
       "value": "7"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1921,
-      "length": 14,
+      "offset": 1928,
+      "length": 15,
       "value": "8"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2115,
-      "length": 18,
+      "offset": 2112,
+      "length": 14,
       "value": "9"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2320,
-      "length": 27,
+      "offset": 2306,
+      "length": 18,
       "value": "10"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2493,
-      "length": 18,
+      "offset": 2511,
+      "length": 27,
       "value": "11"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2670,
-      "length": 24,
+      "offset": 2684,
+      "length": 18,
       "value": "12"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2895,
-      "length": 18,
+      "offset": 2861,
+      "length": 24,
       "value": "13"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3064,
-      "length": 23,
+      "offset": 3086,
+      "length": 18,
       "value": "14"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3261,
-      "length": 17,
+      "offset": 3255,
+      "length": 23,
       "value": "15"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3452,
+      "length": 17,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/DelegateProxys\/CBCentralManagerDelegateProxy.swift",

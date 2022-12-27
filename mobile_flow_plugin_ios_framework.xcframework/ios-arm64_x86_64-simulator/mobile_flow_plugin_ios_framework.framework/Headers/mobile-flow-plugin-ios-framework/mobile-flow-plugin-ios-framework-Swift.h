@@ -486,33 +486,36 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 /// LocationPermissionMissing
 /// If the plugin is missing the location permission which is required for the plugin to work.
   MobileFlowErrorLocationPermissionMissing = 6,
+/// LocationPrecisePermissionMissing
+/// If the plugin is missing the precisse location permission which is required for the plugin to work.
+  MobileFlowErrorLocationPrecisePermissionMissing = 7,
 /// PassageTimedOut
 /// If the ticket validation was successful but no passage has been detected at the gate for a certain timeout period. This only means that no person passed the gate which was activated be this ticket.
-  MobileFlowErrorPassageTimedOut = 7,
+  MobileFlowErrorPassageTimedOut = 8,
 /// PluginOutdated
 /// Error which is thrown when the plugin has expired. An expiration of a plugin will be communicate separately to all integrators.
-  MobileFlowErrorPluginOutdated = 8,
+  MobileFlowErrorPluginOutdated = 9,
 /// PluginOutdatedSoon
 /// Error which can be used as an indication that a plugin version will expire soon. This could be used to inform the user to update soon.
-  MobileFlowErrorPluginOutdatedSoon = 9,
+  MobileFlowErrorPluginOutdatedSoon = 10,
 /// TicketDownloadLimitExceeded
 /// Errors which is thrown when the download limit has been exceeded. This is an indication that the ticket has already been downloaded.
-  MobileFlowErrorTicketDownloadLimitExceeded = 10,
+  MobileFlowErrorTicketDownloadLimitExceeded = 11,
 /// TicketInvalidError
 /// The ticket was rejected by the SKIDATA access system (i.e. the ticket is not valid at the entrance).
-  MobileFlowErrorTicketInvalidError = 11,
+  MobileFlowErrorTicketInvalidError = 12,
 /// TicketNotValidForCompany
 /// If the phone is in the detection range of a gate which does not match the ticket which is currently in use.
-  MobileFlowErrorTicketNotValidForCompany = 12,
+  MobileFlowErrorTicketNotValidForCompany = 13,
 /// TicketParsingError
 /// Error which indicates that the ticket provided could bot be decoded. This could be caused by a faulty ticket or some missing information within the ticket.
-  MobileFlowErrorTicketParsingError = 13,
+  MobileFlowErrorTicketParsingError = 14,
 /// TicketTransmissionError
 /// Any error that occur in the ticket exchange process between phone and gate during a passage attempt.
-  MobileFlowErrorTicketTransmissionError = 14,
+  MobileFlowErrorTicketTransmissionError = 15,
 /// UnsupportedDevice
 /// The phone isn’t supported. If this error occurs <code>stopMobileFlow()</code> will be called. A list of unsupported phones will be provided.
-  MobileFlowErrorUnsupportedDevice = 15,
+  MobileFlowErrorUnsupportedDevice = 16,
 };
 static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_ios_framework.MobileFlowError";
 
@@ -1214,33 +1217,36 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 /// LocationPermissionMissing
 /// If the plugin is missing the location permission which is required for the plugin to work.
   MobileFlowErrorLocationPermissionMissing = 6,
+/// LocationPrecisePermissionMissing
+/// If the plugin is missing the precisse location permission which is required for the plugin to work.
+  MobileFlowErrorLocationPrecisePermissionMissing = 7,
 /// PassageTimedOut
 /// If the ticket validation was successful but no passage has been detected at the gate for a certain timeout period. This only means that no person passed the gate which was activated be this ticket.
-  MobileFlowErrorPassageTimedOut = 7,
+  MobileFlowErrorPassageTimedOut = 8,
 /// PluginOutdated
 /// Error which is thrown when the plugin has expired. An expiration of a plugin will be communicate separately to all integrators.
-  MobileFlowErrorPluginOutdated = 8,
+  MobileFlowErrorPluginOutdated = 9,
 /// PluginOutdatedSoon
 /// Error which can be used as an indication that a plugin version will expire soon. This could be used to inform the user to update soon.
-  MobileFlowErrorPluginOutdatedSoon = 9,
+  MobileFlowErrorPluginOutdatedSoon = 10,
 /// TicketDownloadLimitExceeded
 /// Errors which is thrown when the download limit has been exceeded. This is an indication that the ticket has already been downloaded.
-  MobileFlowErrorTicketDownloadLimitExceeded = 10,
+  MobileFlowErrorTicketDownloadLimitExceeded = 11,
 /// TicketInvalidError
 /// The ticket was rejected by the SKIDATA access system (i.e. the ticket is not valid at the entrance).
-  MobileFlowErrorTicketInvalidError = 11,
+  MobileFlowErrorTicketInvalidError = 12,
 /// TicketNotValidForCompany
 /// If the phone is in the detection range of a gate which does not match the ticket which is currently in use.
-  MobileFlowErrorTicketNotValidForCompany = 12,
+  MobileFlowErrorTicketNotValidForCompany = 13,
 /// TicketParsingError
 /// Error which indicates that the ticket provided could bot be decoded. This could be caused by a faulty ticket or some missing information within the ticket.
-  MobileFlowErrorTicketParsingError = 13,
+  MobileFlowErrorTicketParsingError = 14,
 /// TicketTransmissionError
 /// Any error that occur in the ticket exchange process between phone and gate during a passage attempt.
-  MobileFlowErrorTicketTransmissionError = 14,
+  MobileFlowErrorTicketTransmissionError = 15,
 /// UnsupportedDevice
 /// The phone isn’t supported. If this error occurs <code>stopMobileFlow()</code> will be called. A list of unsupported phones will be provided.
-  MobileFlowErrorUnsupportedDevice = 15,
+  MobileFlowErrorUnsupportedDevice = 16,
 };
 static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_ios_framework.MobileFlowError";
 

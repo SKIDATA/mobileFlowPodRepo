@@ -86,6 +86,7 @@ extension CoreLocation.CLLocationManager {
   case InvalidMobileFlowToken
   case InvalidTicketURL
   case LocationPermissionMissing
+  case LocationPrecisePermissionMissing
   case PassageTimedOut
   case PluginOutdated
   case PluginOutdatedSoon
