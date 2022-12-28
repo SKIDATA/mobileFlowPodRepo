@@ -13,6 +13,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 @_exported import mobile_flow_plugin_ios_framework
+import os
 @_hasMissingDesignatedInitializers @objc final public class MobileFlowPluginImpl : ObjectiveC.NSObject, mobile_flow_plugin_ios_framework.MobileFlowPlugin {
   @objc final public func getPluginUUID() -> Swift.String
   @objc public static func getInstance(token: Swift.String) throws -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
