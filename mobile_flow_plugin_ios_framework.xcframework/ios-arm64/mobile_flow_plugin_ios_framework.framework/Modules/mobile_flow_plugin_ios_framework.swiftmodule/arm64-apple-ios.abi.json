@@ -6061,6 +6061,13 @@
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3431,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
       "offset": 320,
       "length": 20,
@@ -6069,7 +6076,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 21951,
+      "offset": 22253,
       "length": 3,
       "value": "0.5"
     },
