@@ -267,13 +267,6 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework14ArchiveService")
 @end
 
 
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11BaseManager")
-@interface BaseManager : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
 
 /// BleManager
 /// for handling the scanning, connection, transmitting and response process based on the GATT Protocol.
@@ -283,12 +276,49 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework10BleManager")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class CBCentralManager;
+@class CBPeripheral;
+@class NSString;
+@class NSNumber;
+
+@interface BleManager (SWIFT_EXTENSION(mobile_flow_plugin_ios_framework)) <CBCentralManagerDelegate>
+- (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
+/// New Peripheral discovered
+/// <ul>
+///   <li>
+///     Parameters
+///   </li>
+///   <li>
+///     central: the CentralManager for this UIView
+///   </li>
+///   <li>
+///     peripheral: a discovered Peripheral
+///   </li>
+///   <li>
+///     advertisementData: the Bluetooth GAP data discovered
+///   </li>
+///   <li>
+///     rssi: the radio signal strength indicator for this Peripheral
+///   </li>
+/// </ul>
+- (void)centralManager:(CBCentralManager * _Nonnull)_ didDiscoverPeripheral:(CBPeripheral * _Nonnull)peripheral advertisementData:(NSDictionary<NSString *, id> * _Nonnull)advertisementData RSSI:(NSNumber * _Nonnull)RSSI;
+/// Peripheral connected.  Update UI
+- (void)centralManager:(CBCentralManager * _Nonnull)_ didConnectPeripheral:(CBPeripheral * _Nonnull)peripheral;
+/// Connection to Peripheral failed.
+- (void)centralManager:(CBCentralManager * _Nonnull)_ didFailToConnectPeripheral:(CBPeripheral * _Nonnull)peripheral error:(NSError * _Nullable)error;
+/// Peripheral disconnected.  Leave UIView
+/// <ul>
+///   <li>
+///     <a href="https://developer.apple.com/documentation/corebluetooth/cbatterror/code">Swift CBATTErrorCodes</a>
+///   </li>
+/// </ul>
+- (void)centralManager:(CBCentralManager * _Nonnull)_ didDisconnectPeripheral:(CBPeripheral * _Nonnull)peripheral error:(NSError * _Nullable)error;
+@end
+
 @class CBCharacteristic;
 @class BlePeripheral;
-@class NSString;
 @class NSData;
 @class CBService;
-@class NSNumber;
 
 /// BlePeripheralDelegate relays important status changes from BlePeripheral
 SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework21BlePeripheralDelegate_")
@@ -393,43 +423,6 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework21BlePeripheralDelegate_")
 /// \param name <code>String</code>
 ///
 - (void)blePeripheralWithName:(NSString * _Nonnull)name;
-@end
-
-@class CBCentralManager;
-@class CBPeripheral;
-
-@interface BleManager (SWIFT_EXTENSION(mobile_flow_plugin_ios_framework)) <CBCentralManagerDelegate>
-- (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
-/// New Peripheral discovered
-/// <ul>
-///   <li>
-///     Parameters
-///   </li>
-///   <li>
-///     central: the CentralManager for this UIView
-///   </li>
-///   <li>
-///     peripheral: a discovered Peripheral
-///   </li>
-///   <li>
-///     advertisementData: the Bluetooth GAP data discovered
-///   </li>
-///   <li>
-///     rssi: the radio signal strength indicator for this Peripheral
-///   </li>
-/// </ul>
-- (void)centralManager:(CBCentralManager * _Nonnull)_ didDiscoverPeripheral:(CBPeripheral * _Nonnull)peripheral advertisementData:(NSDictionary<NSString *, id> * _Nonnull)advertisementData RSSI:(NSNumber * _Nonnull)RSSI;
-/// Peripheral connected.  Update UI
-- (void)centralManager:(CBCentralManager * _Nonnull)_ didConnectPeripheral:(CBPeripheral * _Nonnull)peripheral;
-/// Connection to Peripheral failed.
-- (void)centralManager:(CBCentralManager * _Nonnull)_ didFailToConnectPeripheral:(CBPeripheral * _Nonnull)peripheral error:(NSError * _Nullable)error;
-/// Peripheral disconnected.  Leave UIView
-/// <ul>
-///   <li>
-///     <a href="https://developer.apple.com/documentation/corebluetooth/cbatterror/code">Swift CBATTErrorCodes</a>
-///   </li>
-/// </ul>
-- (void)centralManager:(CBCentralManager * _Nonnull)_ didDisconnectPeripheral:(CBPeripheral * _Nonnull)peripheral error:(NSError * _Nullable)error;
 @end
 
 
