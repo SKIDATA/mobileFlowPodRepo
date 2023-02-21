@@ -6075,7 +6075,7 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 22236,
+      "offset": 22283,
       "length": 3,
       "value": "0.5"
     },
@@ -6103,135 +6103,149 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "BooleanLiteral",
-      "offset": 959,
+      "offset": 976,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 1312,
+      "offset": 1431,
       "length": 24,
       "value": "\"init currentConnection\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 1406,
+      "offset": 1525,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1699,
+      "offset": 1818,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 1795,
+      "offset": 1914,
       "length": 25,
       "value": "\"gattState: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 1938,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1905,
+      "offset": 2024,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 2021,
+      "offset": 2140,
       "length": 41,
       "value": "\"GATT-ConnectionState off\n\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 2061,
+      "offset": 2180,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 2094,
+      "offset": 2213,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2232,
+      "offset": 2351,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 2563,
+      "offset": 2682,
       "length": 25,
       "value": "\"Connection Established \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2627,
+      "offset": 2746,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 2631,
+      "offset": 2750,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 2636,
+      "offset": 2755,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 2671,
+      "offset": 2790,
       "length": 3,
       "value": "\" #\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3116,
+      "offset": 3235,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4796,
+      "offset": 4915,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 1017,
+      "offset": 1136,
       "length": 10,
       "value": "\"mobile_flow_plugin_ios_framework.BleService\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13456,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTResponseCode.swift",
@@ -6397,170 +6411,177 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 800,
+      "offset": 857,
       "length": 38,
       "value": "\"41a09617-8504-4111-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 851,
+      "offset": 908,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 906,
+      "offset": 963,
       "length": 38,
       "value": "\"41a09617-8504-4112-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 957,
+      "offset": 1014,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1012,
+      "offset": 1069,
       "length": 38,
       "value": "\"41a09617-8504-4113-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1063,
+      "offset": 1120,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1118,
+      "offset": 1175,
       "length": 38,
       "value": "\"41a09617-8504-4114-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1169,
+      "offset": 1226,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1224,
+      "offset": 1281,
       "length": 38,
       "value": "\"41a09617-8504-4115-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1275,
+      "offset": 1332,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1330,
+      "offset": 1387,
       "length": 38,
       "value": "\"41a09617-8504-4116-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1381,
+      "offset": 1438,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1470,
+      "offset": 1527,
       "length": 38,
       "value": "\"41a09617-8504-4121-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1521,
+      "offset": 1578,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1578,
+      "offset": 1635,
       "length": 38,
       "value": "\"41a09617-8504-4122-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1629,
+      "offset": 1686,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1686,
+      "offset": 1743,
       "length": 38,
       "value": "\"41a09617-8504-4123-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1737,
+      "offset": 1794,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1794,
+      "offset": 1851,
       "length": 38,
       "value": "\"41a09617-8504-4124-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1845,
+      "offset": 1902,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 1902,
+      "offset": 1959,
       "length": 38,
       "value": "\"41a09617-8504-4125-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1953,
+      "offset": 2010,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "StringLiteral",
-      "offset": 2010,
+      "offset": 2067,
       "length": 38,
       "value": "\"41a09617-8504-4126-a771-077d42ed5bc5\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2061,
+      "offset": 2118,
       "length": 1,
       "value": "6"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2296,
+      "length": 3,
+      "value": "80"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Manager\/BluetoothManager.swift",
@@ -6873,14 +6894,14 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 1491,
+      "offset": 1531,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 1512,
+      "offset": 1552,
       "length": 1,
       "value": "0"
     },
