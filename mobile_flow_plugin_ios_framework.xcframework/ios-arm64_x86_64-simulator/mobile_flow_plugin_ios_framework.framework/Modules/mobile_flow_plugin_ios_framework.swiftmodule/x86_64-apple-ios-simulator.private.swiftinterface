@@ -152,6 +152,7 @@ public enum Permissions : Swift.CaseIterable {
 }
 @objc public protocol MobileFlowPlugin {
   @objc static func getInstance(token: Swift.String) throws -> mobile_flow_plugin_ios_framework.MobileFlowPlugin
+  @objc static func getPluginVersion() -> Swift.String
   @objc func setDelegate(_ delegate: mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
   @available(*, deprecated, renamed: "startMobileFlow")
   @objc func startSkiing(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)

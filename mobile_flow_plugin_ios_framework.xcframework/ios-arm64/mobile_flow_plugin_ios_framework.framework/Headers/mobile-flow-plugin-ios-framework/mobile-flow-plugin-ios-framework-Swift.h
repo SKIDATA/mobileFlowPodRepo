@@ -385,11 +385,6 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework21BlePeripheralDelegate_")
 /// \param blePeripheral _ from
 ///
 - (void)blePerihperalWithDiscoveredCharacteristics:(NSArray<CBCharacteristic *> * _Nonnull)characteristics forService:(CBService * _Nonnull)_ blePeripheral:(BlePeripheral * _Nonnull)peripheral;
-/// ReadRssi from bleperipheral
-/// \param readRssi rssi <code>NSNumber</code>
-///
-/// \param blePeripheral from  <code>BlePeripheral</code>
-///
 - (void)blePeripheralWithReadRssi:(NSNumber * _Nonnull)rssi blePeripheral:(BlePeripheral * _Nonnull)blePeripheral;
 /// Error delegated from blePeripheral with <code>String?</code>
 /// \param error <code>Error</code>
@@ -564,6 +559,11 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// This method returns the singelton instance of the plugin.
 /// If the passed token is invalid MobileFlowError.InvalidMobileFlowToken will be thrown, the token will be checked online and offline
 + (id <MobileFlowPlugin> _Nullable)getInstanceWithToken:(NSString * _Nonnull)token error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+/// Delivers the current version
+///
+/// returns:
+/// Current version of the plugin
++ (NSString * _Nonnull)getPluginVersion SWIFT_WARN_UNUSED_RESULT;
 /// This method sets the delegate which is used on the respective events.
 /// \param delegate 
 /// The delegate to use.
