@@ -415,7 +415,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework13BlePeripheral")
 /// Characteristic has been subscribed to or unsubscribed from
 - (void)peripheral:(CBPeripheral * _Nonnull)_ didUpdateNotificationStateForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
 /// Value was written to the Characteristic
-- (void)peripheral:(CBPeripheral * _Nonnull)_ didWriteValueForDescriptor:(CBDescriptor * _Nonnull)_ error:(NSError * _Nullable)error;
+- (void)peripheral:(CBPeripheral * _Nonnull)_ didWriteValueForDescriptor:(CBDescriptor * _Nonnull)descriptor error:(NSError * _Nullable)error;
 /// Value downloaded from Characteristic on connected Peripheral
 - (void)peripheral:(CBPeripheral * _Nonnull)_ didUpdateValueForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
 @end
