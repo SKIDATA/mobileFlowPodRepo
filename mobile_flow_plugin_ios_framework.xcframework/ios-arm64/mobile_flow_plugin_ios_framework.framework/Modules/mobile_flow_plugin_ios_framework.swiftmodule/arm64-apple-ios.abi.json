@@ -6991,15 +6991,22 @@
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1060,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 1163,
+      "offset": 1434,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 1213,
+      "offset": 1484,
       "length": 5,
       "value": "false"
     },
