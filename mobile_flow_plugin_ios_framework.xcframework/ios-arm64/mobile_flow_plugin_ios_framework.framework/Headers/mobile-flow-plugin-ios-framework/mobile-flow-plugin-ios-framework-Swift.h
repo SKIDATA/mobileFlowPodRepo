@@ -421,10 +421,6 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework13BlePeripheral")
 @end
 
 
-@interface BlePeripheral (SWIFT_EXTENSION(mobile_flow_plugin_ios_framework))
-- (void)peripheral:(CBPeripheral * _Nonnull)peripheral didWriteValueForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
-@end
-
 
 
 SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework10BleService")
