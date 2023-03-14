@@ -351,6 +351,10 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework21BlePeripheralDelegate_")
 /// \param blePeripheral the BlePeripheral
 ///
 - (void)discoveringServices;
+/// Detail should be logt
+/// \param message String
+///
+- (void)blePeripheralWithMessage:(NSString * _Nonnull)message;
 @end
 
 
@@ -392,6 +396,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework21BlePeripheralDelegate_")
 - (void)blePeripheralWithError:(NSError * _Nonnull)error;
 /// Discovering of services is triggered
 - (void)discoveringServices;
+- (void)blePeripheralWithMessage:(NSString * _Nonnull)message;
 @end
 
 
@@ -1117,6 +1122,10 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework21BlePeripheralDelegate_")
 /// \param blePeripheral the BlePeripheral
 ///
 - (void)discoveringServices;
+/// Detail should be logt
+/// \param message String
+///
+- (void)blePeripheralWithMessage:(NSString * _Nonnull)message;
 @end
 
 
@@ -1158,6 +1167,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework21BlePeripheralDelegate_")
 - (void)blePeripheralWithError:(NSError * _Nonnull)error;
 /// Discovering of services is triggered
 - (void)discoveringServices;
+- (void)blePeripheralWithMessage:(NSString * _Nonnull)message;
 @end
 
 
