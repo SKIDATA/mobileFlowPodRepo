@@ -7550,6 +7550,20 @@
       "value": "\"-\""
     },
     {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
+      "kind": "StringLiteral",
+      "offset": 2157,
+      "length": 10,
+      "value": "\"v2Offset\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
+      "kind": "StringLiteral",
+      "offset": 2157,
+      "length": 10,
+      "value": "\"v2Offset\""
+    },
+    {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Common\/PhoneDetails.swift",
       "kind": "IntegerLiteral",
       "offset": 1015,
