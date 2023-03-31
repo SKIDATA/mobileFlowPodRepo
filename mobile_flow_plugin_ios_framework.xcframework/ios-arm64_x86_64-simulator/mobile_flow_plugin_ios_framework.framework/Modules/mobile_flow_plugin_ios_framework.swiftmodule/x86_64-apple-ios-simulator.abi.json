@@ -7606,13 +7606,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/SessionDto.swift",
-      "kind": "IntegerLiteral",
-      "offset": 301,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
       "offset": 290,
