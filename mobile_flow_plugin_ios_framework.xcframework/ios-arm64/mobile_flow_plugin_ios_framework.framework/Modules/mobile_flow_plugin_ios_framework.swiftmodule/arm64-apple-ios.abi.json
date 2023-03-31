@@ -7540,40 +7540,40 @@
       "kind": "IntegerLiteral",
       "offset": 635,
       "length": 3,
-      "value": "65"
+      "value": "58"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "IntegerLiteral",
       "offset": 655,
-      "length": 2,
-      "value": "13"
+      "length": 3,
+      "value": "135"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1337,
+      "offset": 1514,
       "length": 10,
       "value": "\"v2Offset\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1369,
+      "offset": 1546,
       "length": 20,
       "value": "\"freeMotionV3Offset\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1337,
+      "offset": 1514,
       "length": 10,
       "value": "\"v2Offset\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1369,
+      "offset": 1546,
       "length": 20,
       "value": "\"freeMotionV3Offset\""
     },
