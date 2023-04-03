@@ -6432,28 +6432,28 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/ConnectionParameter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1207,
+      "offset": 1675,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/ConnectionParameter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1224,
+      "offset": 1692,
       "length": 3,
       "value": "60"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/ConnectionParameter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1245,
+      "offset": 1713,
       "length": 3,
       "value": "85"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/ConnectionParameter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1271,
+      "offset": 1739,
       "length": 1,
       "value": "2"
     },
