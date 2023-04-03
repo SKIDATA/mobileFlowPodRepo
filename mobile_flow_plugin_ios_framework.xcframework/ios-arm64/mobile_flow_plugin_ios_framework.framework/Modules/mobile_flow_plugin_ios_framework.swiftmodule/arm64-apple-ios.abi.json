@@ -6980,7 +6980,7 @@
       "kind": "IntegerLiteral",
       "offset": 870,
       "length": 2,
-      "value": "10"
+      "value": "15"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
