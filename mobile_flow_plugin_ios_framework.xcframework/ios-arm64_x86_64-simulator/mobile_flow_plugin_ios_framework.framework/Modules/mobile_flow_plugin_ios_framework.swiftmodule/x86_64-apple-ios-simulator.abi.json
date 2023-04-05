@@ -7547,7 +7547,7 @@
       "kind": "IntegerLiteral",
       "offset": 610,
       "length": 2,
-      "value": "26"
+      "value": "60"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
@@ -7561,40 +7561,40 @@
       "kind": "IntegerLiteral",
       "offset": 635,
       "length": 3,
-      "value": "58"
+      "value": "52"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "IntegerLiteral",
       "offset": 655,
-      "length": 3,
-      "value": "135"
+      "length": 2,
+      "value": "14"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1514,
+      "offset": 1513,
       "length": 10,
       "value": "\"v2Offset\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1546,
+      "offset": 1545,
       "length": 20,
       "value": "\"freeMotionV3Offset\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1514,
+      "offset": 1513,
       "length": 10,
       "value": "\"v2Offset\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1546,
+      "offset": 1545,
       "length": 20,
       "value": "\"freeMotionV3Offset\""
     },
