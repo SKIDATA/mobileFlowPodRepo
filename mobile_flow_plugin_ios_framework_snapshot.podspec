@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
                     }
   spec.author       = { "Denis Schüle" => "denis.schuele@skidata.com" }
 
-  spec.ios.deployment_target = "13.3.1.0"
+  spec.ios.deployment_target = "13.0"
   spec.ios.vendored_frameworks = 'mobile_flow_plugin_ios_framework.xcframework'
 
   spec.source = { :git => "https://github.com/SKIDATA/mobileFlowPodRepo.git", :tag => "3.7027-SNAPSHOT" }
