@@ -8,7 +8,6 @@ import CoreBluetooth
 import CoreLocation
 import Foundation
 import Network
-import RxSwift
 import Swift
 import UIKit
 import _Concurrency
