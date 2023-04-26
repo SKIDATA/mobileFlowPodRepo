@@ -43,6 +43,23 @@
       },
       {
         "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "mobile_flow_plugin_ios_framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "mobile_flow_plugin_ios_framework"
+      },
+      {
+        "kind": "Import",
         "name": "AudioToolbox",
         "printedName": "AudioToolbox",
         "declKind": "Import",
@@ -6758,6 +6775,195 @@
       "value": "\"\n------------------------------------------------------------\""
     },
     {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 254,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 277,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 19,
+      "value": "\"invalidParameters\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 15,
+      "value": "\"invalidHandle\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 14,
+      "value": "\"notConnected\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 12,
+      "value": "\"outOfSpace\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 433,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 20,
+      "value": "\"operationCancelled\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 477,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 19,
+      "value": "\"connectionTimeout\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 520,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 24,
+      "value": "\"peripheralDisconnected\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 568,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 578,
+      "length": 16,
+      "value": "\"uuidNotAllowed\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 608,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 618,
+      "length": 20,
+      "value": "\"alreadyAdvertising\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 18,
+      "value": "\"connectionFailed\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 695,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 706,
+      "length": 24,
+      "value": "\"connectionLimitReached\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 744,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 755,
+      "length": 23,
+      "value": "\"operationNotSupported\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/extCBError.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 1304,
@@ -6818,7 +7024,7 @@
       "kind": "StringLiteral",
       "offset": 5704,
       "length": 19,
-      "value": "\"3.7.1017-SNAPSHOT\""
+      "value": "\"3.7.1018-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
@@ -14054,434 +14260,420 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4408,
-      "length": 88,
+      "offset": 4432,
+      "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4416,
+      "offset": 4440,
       "length": 7,
       "value": "\" occured on: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4434,
+      "offset": 4458,
       "length": 1,
       "value": "\" | error: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4461,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
-      "kind": "StringLiteral",
-      "offset": 4495,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
-      "kind": "StringLiteral",
-      "offset": 4552,
+      "offset": 4826,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4560,
+      "offset": 4834,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4571,
+      "offset": 4845,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4822,
+      "offset": 5096,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4830,
+      "offset": 5104,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4843,
+      "offset": 5117,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4941,
+      "offset": 5215,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4949,
+      "offset": 5223,
       "length": 2,
       "value": "\" on: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 4959,
+      "offset": 5233,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5013,
+      "offset": 5287,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5021,
+      "offset": 5295,
       "length": 2,
       "value": "\" on: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5031,
+      "offset": 5305,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5085,
+      "offset": 5359,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5093,
+      "offset": 5367,
       "length": 2,
       "value": "\" on: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5103,
+      "offset": 5377,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5224,
+      "offset": 5498,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5232,
+      "offset": 5506,
       "length": 2,
       "value": "\" on: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5242,
+      "offset": 5516,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5395,
+      "offset": 5669,
       "length": 66,
       "value": "\"Disconnected GATT | RSSI: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5430,
+      "offset": 5704,
       "length": 5,
       "value": "\" below THRESHOLD: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5460,
+      "offset": 5734,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5550,
+      "offset": 5824,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5558,
+      "offset": 5832,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5570,
+      "offset": 5844,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5639,
+      "offset": 5913,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5647,
+      "offset": 5921,
       "length": 2,
       "value": "\" at: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5657,
+      "offset": 5931,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5742,
+      "offset": 6016,
       "length": 12,
       "value": "\"GATTError.\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5824,
+      "offset": 6098,
       "length": 25,
       "value": "\"ByteSizeOutOfRangeError\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5913,
+      "offset": 6187,
       "length": 41,
       "value": "\"CouldNotConnectToSurroundingPeripherals\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 5994,
+      "offset": 6268,
       "length": 17,
       "value": "\"ConnectionError\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6070,
+      "offset": 6344,
       "length": 36,
       "value": "\"FailedConnectionEstalishmentInTime\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6163,
+      "offset": 6437,
       "length": 34,
       "value": "\"FailedConnectionEstablishmentFor\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6241,
+      "offset": 6515,
       "length": 21,
       "value": "\"FailedOnDiscovering\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6303,
+      "offset": 6577,
       "length": 18,
       "value": "\"FailedToSendData\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6367,
+      "offset": 6641,
       "length": 23,
       "value": "\"GateNotReachableError\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6441,
+      "offset": 6715,
       "length": 28,
       "value": "\"InternalCoreBluetoothError\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6514,
+      "offset": 6788,
       "length": 22,
       "value": "\"InvalidResponseError\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6574,
+      "offset": 6848,
       "length": 15,
       "value": "\"InvalidTicket\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6640,
+      "offset": 6914,
       "length": 28,
       "value": "\"InvalidTicketArgumentError\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6709,
+      "offset": 6983,
       "length": 18,
       "value": "\"ReadingDataError\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6774,
+      "offset": 7048,
       "length": 24,
       "value": "\"ReceivedEmptyDataError\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6846,
+      "offset": 7120,
       "length": 25,
       "value": "\"ReceivedUnknownResponse\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6913,
+      "offset": 7187,
       "length": 19,
       "value": "\"MissingBleService\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 6977,
+      "offset": 7251,
       "length": 22,
       "value": "\"MissingBlePeripheral\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 7045,
+      "offset": 7319,
       "length": 23,
       "value": "\"MissingCentralManager\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 7114,
+      "offset": 7388,
       "length": 23,
       "value": "\"MissingCharacteristic\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 7179,
+      "offset": 7453,
       "length": 19,
       "value": "\"MissingConnection\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 7266,
+      "offset": 7540,
       "length": 45,
       "value": "\"NotificationCharacteristicNotAvailableError\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 7353,
+      "offset": 7627,
       "length": 19,
       "value": "\"NoResponseTimeout\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 7412,
+      "offset": 7686,
       "length": 17,
       "value": "\"PassageTimedOut\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 7473,
+      "offset": 7747,
       "length": 21,
       "value": "\"PeripheralRSSIBelow\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 7536,
+      "offset": 7810,
       "length": 19,
       "value": "\"TransmissionError\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 7587,
+      "offset": 7861,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "StringLiteral",
-      "offset": 7657,
+      "offset": 7931,
       "length": 38,
       "value": "\"WriteCharacteristicNotAvailableError\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "BooleanLiteral",
-      "offset": 8214,
+      "offset": 8488,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Errors\/GATTError.swift",
       "kind": "BooleanLiteral",
-      "offset": 8243,
+      "offset": 8517,
       "length": 5,
       "value": "false"
     },
