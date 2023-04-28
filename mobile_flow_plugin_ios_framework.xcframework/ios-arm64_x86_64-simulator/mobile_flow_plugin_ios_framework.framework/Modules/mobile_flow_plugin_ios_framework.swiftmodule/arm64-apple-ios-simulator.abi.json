@@ -7024,7 +7024,7 @@
       "kind": "StringLiteral",
       "offset": 5704,
       "length": 19,
-      "value": "\"3.7.1019-SNAPSHOT\""
+      "value": "\"3.7.1020-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
@@ -12363,84 +12363,84 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 10593,
+      "offset": 10590,
       "length": 11,
       "value": "\"sendAlive\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 11037,
+      "offset": 11034,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 11339,
+      "offset": 11336,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 11637,
+      "offset": 11634,
       "length": 132,
       "value": "\"BlePeripheral | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 11666,
+      "offset": 11663,
       "length": 1,
       "value": "\" | failedSendDataCounter: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 11716,
+      "offset": 11713,
       "length": 1,
       "value": "\" | activeDataTransmission: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 11768,
+      "offset": 11765,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "Array",
-      "offset": 12074,
+      "offset": 12071,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "Array",
-      "offset": 12155,
+      "offset": 12152,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 12388,
+      "offset": 12385,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 12875,
+      "offset": 12872,
       "length": 21,
       "value": "\"kCBAdvDataLocalName\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 12945,
+      "offset": 12942,
       "length": 21,
       "value": "\"kCBAdvDataLocalName\""
     },
@@ -12454,357 +12454,378 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 13999,
-      "length": 200,
+      "offset": 13953,
+      "length": 282,
       "value": "\"BlePeripheral | didWriteValueFor | activeDataTransmission: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 14084,
+      "offset": 14038,
       "length": 1,
       "value": "\" | failedSendDataCounter: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 14134,
+      "offset": 14088,
       "length": 1,
       "value": "\" | characteristic: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 14194,
+      "offset": 14148,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 14198,
+      "offset": 14152,
+      "length": 1,
+      "value": "\" | error == nil \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 14183,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 14231,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 14737,
+      "offset": 14234,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 14812,
       "length": 220,
       "value": "\"BlePeripheral | didUpdateValueFor | activeDataTransmission: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 14823,
+      "offset": 14898,
       "length": 1,
       "value": "\" | failedSendDataCounter: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 14873,
+      "offset": 14948,
       "length": 1,
       "value": "\" | | characteristic: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 14923,
+      "offset": 14998,
       "length": 1,
       "value": "\" | error == nil: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 14955,
+      "offset": 15030,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 17023,
+      "offset": 17098,
       "length": 186,
       "value": "\"BlePeripheral | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 17052,
+      "offset": 17127,
       "length": 1,
       "value": "\" | ackKnowledgeTimerActive: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 17106,
+      "offset": 17181,
       "length": 1,
       "value": "\" | activeDataTransmission: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 17158,
+      "offset": 17233,
       "length": 1,
       "value": "\" | failedSendDataCounter: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 17208,
+      "offset": 17283,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 17476,
+      "offset": 17551,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 17518,
+      "offset": 17593,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 17688,
+      "offset": 17763,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 18149,
+      "offset": 18224,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 18236,
+      "offset": 18311,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 18702,
+      "offset": 18777,
       "length": 25,
       "value": "\"kCBAdvDataIsConnectable\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 19135,
+      "offset": 19210,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 19158,
+      "offset": 19233,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 19188,
+      "offset": 19263,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 19559,
+      "offset": 19634,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 19675,
+      "offset": 19750,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 19706,
+      "offset": 19781,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 19736,
+      "offset": 19811,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 20147,
+      "offset": 20222,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 20170,
+      "offset": 20245,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 20200,
+      "offset": 20275,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 20642,
+      "offset": 20717,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 20665,
+      "offset": 20740,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 20695,
+      "offset": 20770,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 21070,
+      "offset": 21145,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 21093,
+      "offset": 21168,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 21123,
+      "offset": 21198,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "IntegerLiteral",
-      "offset": 21319,
+      "offset": 21394,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 21342,
+      "offset": 21417,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "BooleanLiteral",
-      "offset": 21372,
+      "offset": 21447,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 21494,
+      "offset": 21569,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 21531,
+      "offset": 21606,
       "length": 301,
       "value": "\"advertisedName: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 21565,
+      "offset": 21640,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 21575,
+      "offset": 21650,
       "length": 1,
       "value": "\" | major: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 21593,
+      "offset": 21668,
       "length": 1,
       "value": "\"  | minor: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 21612,
+      "offset": 21687,
       "length": 1,
       "value": "\" | tried: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 21639,
+      "offset": 21714,
       "length": 1,
       "value": "\" | failed: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 21668,
+      "offset": 21743,
       "length": 1,
       "value": "\" | rssi: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 21693,
+      "offset": 21768,
       "length": 1,
       "value": "\" | rssi > RSSIConnectionThreshold: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 21782,
+      "offset": 21857,
       "length": 1,
       "value": "\" | peripheral.state: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/BlePeripheral.swift",
       "kind": "StringLiteral",
-      "offset": 21831,
+      "offset": 21906,
       "length": 1,
       "value": "\"\""
     },
