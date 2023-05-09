@@ -7044,7 +7044,7 @@
       "kind": "StringLiteral",
       "offset": 5689,
       "length": 19,
-      "value": "\"3.7.1039-SNAPSHOT\""
+      "value": "\"3.7.1040-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
@@ -9759,7 +9759,7 @@
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
       "offset": 11788,
-      "length": 107,
+      "length": 201,
       "value": "\"BleService | \""
     },
     {
@@ -9787,237 +9787,237 @@
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
       "offset": 11894,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 12007,
-      "length": 68,
-      "value": "\"No PassageRequest found for this request | \""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 12074,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 12117,
-      "length": 28,
-      "value": "\"| \""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 12143,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 12266,
-      "length": 53,
-      "value": "\"BleService | \""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 12292,
-      "length": 1,
-      "value": "\" | NO passageRequest found\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 12576,
-      "length": 63,
-      "value": "\"BleService | \""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 12602,
       "length": 1,
       "value": "\" | passageRequest: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 12638,
+      "offset": 11988,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 12917,
+      "offset": 12101,
+      "length": 68,
+      "value": "\"No PassageRequest found for this request | \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 12168,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 12211,
+      "length": 28,
+      "value": "\"| \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 12237,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 12360,
+      "length": 53,
+      "value": "\"BleService | \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 12386,
+      "length": 1,
+      "value": "\" | NO passageRequest found\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 12670,
+      "length": 63,
+      "value": "\"BleService | \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 12696,
+      "length": 1,
+      "value": "\" | passageRequest: \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 12732,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
+      "kind": "StringLiteral",
+      "offset": 13011,
       "length": 59,
       "value": "\"BleService | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 12943,
+      "offset": 13037,
       "length": 1,
       "value": "\" | passageRequest.successClosure\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 13136,
+      "offset": 13230,
       "length": 44,
       "value": "\"Response | VALUE UNKNOWN \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 13179,
+      "offset": 13273,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 13386,
-      "length": 14,
-      "value": "\"Ack received\""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
-      "kind": "StringLiteral",
-      "offset": 13756,
+      "offset": 13856,
       "length": 48,
       "value": "\"GATTError | GateInUseError - | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 13803,
+      "offset": 13903,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 13806,
+      "offset": 13906,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 14345,
+      "offset": 14445,
       "length": 27,
       "value": "\"unknown \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 14371,
+      "offset": 14471,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 14488,
+      "offset": 14588,
       "length": 36,
       "value": "\"UNKNOWN RESPONSE \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 14523,
+      "offset": 14623,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 14643,
+      "offset": 14743,
       "length": 48,
       "value": "\"BleService | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 14669,
+      "offset": 14769,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 14690,
+      "offset": 14790,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 14894,
+      "offset": 14994,
       "length": 57,
       "value": "\"BleService | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 14920,
+      "offset": 15020,
       "length": 1,
       "value": "\" | withFailure: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 14950,
+      "offset": 15050,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "IntegerLiteral",
-      "offset": 15298,
+      "offset": 15398,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "BooleanLiteral",
-      "offset": 15344,
+      "offset": 15444,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 15361,
+      "offset": 15461,
       "length": 83,
       "value": "\"BleService | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 15387,
+      "offset": 15487,
       "length": 1,
       "value": "\" | withSuccess: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 15417,
+      "offset": 15517,
       "length": 1,
       "value": "\" | gattState: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "StringLiteral",
-      "offset": 15443,
+      "offset": 15543,
       "length": 7,
       "value": "\"\""
     },
@@ -10080,14 +10080,14 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTResponseCode.swift",
       "kind": "StringLiteral",
-      "offset": 1543,
-      "length": 5,
-      "value": "\"Ack\""
+      "offset": 1576,
+      "length": 14,
+      "value": "\"Ack received\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTResponseCode.swift",
       "kind": "StringLiteral",
-      "offset": 1766,
+      "offset": 1808,
       "length": 18,
       "value": "\"Unknown Response\""
     },
