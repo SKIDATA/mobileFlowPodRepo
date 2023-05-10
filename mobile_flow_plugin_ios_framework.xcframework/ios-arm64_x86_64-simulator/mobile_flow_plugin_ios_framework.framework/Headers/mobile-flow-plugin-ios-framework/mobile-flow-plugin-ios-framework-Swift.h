@@ -436,7 +436,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework13BlePeripheral")
 /// The Service was discovered
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverServices:(NSError * _Nullable)error;
 /// Characteristics were discovered for a Service on the connected Peripheral
-- (void)peripheral:(CBPeripheral * _Nonnull)_ didDiscoverCharacteristicsForService:(CBService * _Nonnull)service error:(NSError * _Nullable)error;
+- (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverCharacteristicsForService:(CBService * _Nonnull)service error:(NSError * _Nullable)error;
 /// RSSI read from peripheral.
 - (void)peripheral:(CBPeripheral * _Nonnull)_ didReadRSSI:(NSNumber * _Nonnull)RSSI error:(NSError * _Nullable)error;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -1237,7 +1237,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework13BlePeripheral")
 /// The Service was discovered
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverServices:(NSError * _Nullable)error;
 /// Characteristics were discovered for a Service on the connected Peripheral
-- (void)peripheral:(CBPeripheral * _Nonnull)_ didDiscoverCharacteristicsForService:(CBService * _Nonnull)service error:(NSError * _Nullable)error;
+- (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverCharacteristicsForService:(CBService * _Nonnull)service error:(NSError * _Nullable)error;
 /// RSSI read from peripheral.
 - (void)peripheral:(CBPeripheral * _Nonnull)_ didReadRSSI:(NSNumber * _Nonnull)RSSI error:(NSError * _Nullable)error;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
