@@ -7044,7 +7044,7 @@
       "kind": "StringLiteral",
       "offset": 5689,
       "length": 19,
-      "value": "\"3.7.1045-SNAPSHOT\""
+      "value": "\"3.7.1046-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
@@ -8309,65 +8309,65 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2470,
+      "offset": 1102,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
+      "kind": "StringLiteral",
+      "offset": 1107,
+      "length": 17,
+      "value": "\"missing message\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
+      "kind": "StringLiteral",
+      "offset": 2514,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2482,
+      "offset": 2526,
       "length": 1,
       "value": "\":\t\t\t\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2514,
+      "offset": 2558,
       "length": 24,
       "value": "\"hostApp: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2534,
+      "offset": 2578,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2562,
+      "offset": 2606,
       "length": 38,
       "value": "\"hostAppVersion: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2596,
+      "offset": 2640,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2624,
+      "offset": 2668,
       "length": 36,
       "value": "\"pluginVersion: \""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
-      "kind": "StringLiteral",
-      "offset": 2656,
-      "length": 1,
-      "value": "\" | \""
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
-      "kind": "StringLiteral",
-      "offset": 2684,
-      "length": 20,
-      "value": "\"level: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
@@ -8380,118 +8380,132 @@
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
       "offset": 2728,
+      "length": 20,
+      "value": "\"level: \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
+      "kind": "StringLiteral",
+      "offset": 2744,
+      "length": 1,
+      "value": "\" | \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
+      "kind": "StringLiteral",
+      "offset": 2772,
       "length": 24,
       "value": "\"message: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2748,
+      "offset": 2792,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2776,
+      "offset": 2820,
       "length": 52,
       "value": "\"batteryPercentage: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2824,
+      "offset": 2868,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2852,
+      "offset": 2896,
       "length": 34,
       "value": "\"screenOn: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2882,
+      "offset": 2926,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2910,
+      "offset": 2954,
       "length": 36,
       "value": "\"timestamp: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2942,
+      "offset": 2986,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 2970,
+      "offset": 3014,
       "length": 33,
       "value": "\"osVersion: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 3002,
+      "offset": 3046,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 3027,
+      "offset": 3071,
       "length": 32,
       "value": "\"sessionId: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 3054,
+      "offset": 3098,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 3058,
+      "offset": 3102,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 3186,
+      "offset": 3230,
       "length": 47,
       "value": "\" | gateCompanyId: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 3229,
+      "offset": 3273,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 3261,
+      "offset": 3305,
       "length": 39,
       "value": "\"gateDeviceId: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Request\/Log\/EventDto.swift",
       "kind": "StringLiteral",
-      "offset": 3299,
+      "offset": 3343,
       "length": 1,
       "value": "\"\""
     },
