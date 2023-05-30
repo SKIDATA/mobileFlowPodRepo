@@ -26,6 +26,7 @@ import os
   @objc final public func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc final public func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc deinit
+  @objc final public func getActivatedTicket() -> mobile_flow_plugin_ios_framework.MobileFlowTicket?
   @objc final public func stopSkiing()
   @objc final public func stopMobileFlow()
   @objc final public func isPhoneSupported() -> Swift.Bool
@@ -166,6 +167,7 @@ public enum Permissions : Swift.CaseIterable {
   @available(*, deprecated, renamed: "getMobileFlowState")
   @objc func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowState
+  @objc func getActivatedTicket() -> mobile_flow_plugin_ios_framework.MobileFlowTicket?
   @objc func isPhoneSupported() -> Swift.Bool
 }
 @objc public protocol MobileFlowPluginDelegate {

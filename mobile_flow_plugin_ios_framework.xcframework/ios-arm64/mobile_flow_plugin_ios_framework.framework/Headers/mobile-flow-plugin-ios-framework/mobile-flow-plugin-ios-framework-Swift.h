@@ -622,6 +622,10 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// This method return the current MobileFlow state of the MobileFlow Plugin
 - (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "getMobileFlowState");
 - (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
+///
+/// returns:
+/// the currently activated Ticket for this session.
+- (MobileFlowTicket * _Nullable)getActivatedTicket SWIFT_WARN_UNUSED_RESULT;
 /// This method returns true if the given model is supported for Mobile Flow
 - (BOOL)isPhoneSupported SWIFT_WARN_UNUSED_RESULT;
 @end
@@ -688,6 +692,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// returns the current localizationstate
 - (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
 - (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
+- (MobileFlowTicket * _Nullable)getActivatedTicket SWIFT_WARN_UNUSED_RESULT;
 /// Stopped the activity and allow a new start of the plugin. The stored elements get cleared.
 - (void)stopSkiing;
 - (void)stopMobileFlow;
