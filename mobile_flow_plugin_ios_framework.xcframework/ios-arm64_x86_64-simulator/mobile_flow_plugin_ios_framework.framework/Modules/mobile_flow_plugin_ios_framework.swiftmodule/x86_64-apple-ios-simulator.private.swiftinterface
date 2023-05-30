@@ -20,7 +20,7 @@ import os
   @objc public static func getPluginVersion() -> Swift.String
   @objc final public func setDelegate(_ delegate: any mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
   @objc final public func startSkiing(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
-  @objc final public func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
+  @objc final public func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket, shouldVibrate: Swift.Bool = true)
   @objc final public func downloadTicket(_ url: Swift.String)
   @objc final public func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc final public func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowState
@@ -155,7 +155,7 @@ public enum Permissions : Swift.CaseIterable {
   @objc func setDelegate(_ delegate: any mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
   @available(*, deprecated, renamed: "startMobileFlow")
   @objc func startSkiing(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
-  @objc func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
+  @objc func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket, shouldVibrate: Swift.Bool)
   @available(*, deprecated, renamed: "stopMobileFlow")
   @objc func stopSkiing()
   @objc func stopMobileFlow()
