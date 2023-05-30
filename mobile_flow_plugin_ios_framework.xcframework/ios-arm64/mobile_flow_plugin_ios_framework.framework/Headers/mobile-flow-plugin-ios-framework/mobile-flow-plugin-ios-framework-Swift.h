@@ -603,8 +603,9 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// \param ticket 
 /// The ticket used to access the gate.
 ///
-- (void)startSkiingWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_DEPRECATED_MSG("", "startMobileFlowWithTicket:shouldVibrate:");
+- (void)startSkiingWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_DEPRECATED_MSG("", "startMobileFlowWithTicket:");
 - (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate;
+- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket;
 /// This method stops the plugin.
 /// It also stops the region scan.
 - (void)stopSkiing SWIFT_DEPRECATED_MSG("", "stopMobileFlow");
@@ -677,6 +678,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// \param ticket from type <code>MobileFlowTicket</code>which should be used for skiing.
 ///
 - (void)startSkiingWithTicket:(MobileFlowTicket * _Nonnull)ticket;
+- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket;
 - (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate;
 /// Handles the download of the ticket.
 /// Errors will be handled with the <code>delegation.receivedError</code>.
