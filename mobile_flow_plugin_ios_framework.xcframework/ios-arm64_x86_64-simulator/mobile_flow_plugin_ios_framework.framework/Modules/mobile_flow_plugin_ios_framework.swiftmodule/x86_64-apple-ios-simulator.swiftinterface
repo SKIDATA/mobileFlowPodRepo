@@ -86,6 +86,7 @@ extension CoreLocation.CLLocationManager {
   case BluetoothPermissionMissing
   case DeviceOffline
   case GeneralError
+  case InsufficientBattery
   case InvalidMobileFlowToken
   case InvalidTicketURL
   case LocationPermissionMissing
