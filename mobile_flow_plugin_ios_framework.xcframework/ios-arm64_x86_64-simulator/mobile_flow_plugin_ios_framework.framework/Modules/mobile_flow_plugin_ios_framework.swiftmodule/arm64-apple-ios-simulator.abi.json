@@ -7377,7 +7377,7 @@
       "kind": "StringLiteral",
       "offset": 5787,
       "length": 19,
-      "value": "\"3.7.1067-SNAPSHOT\""
+      "value": "\"3.7.1068-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
@@ -11400,77 +11400,77 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 2880,
+      "offset": 2910,
       "length": 493,
       "value": "\"        Ticket:\n            -barcode: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 2940,
+      "offset": 2970,
       "length": 1,
       "value": "\"\n            -validAreaId: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 2985,
+      "offset": 3015,
       "length": 1,
       "value": "\"\n            -validAreaName: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3034,
+      "offset": 3064,
       "length": 1,
       "value": "\"\n            -validInCompanyIds: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3091,
+      "offset": 3121,
       "length": 1,
       "value": "\"\n            -productName: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3136,
+      "offset": 3166,
       "length": 1,
       "value": "\"\n            -validFrom: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3177,
+      "offset": 3207,
       "length": 1,
       "value": "\"\n            -validTo: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3214,
+      "offset": 3244,
       "length": 1,
       "value": "\"\n            -psnr: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3245,
+      "offset": 3275,
       "length": 1,
       "value": "\"\n            -consumerCategoryName: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3308,
+      "offset": 3338,
       "length": 1,
       "value": "\"\n            -downloadTimestamp: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3365,
+      "offset": 3395,
       "length": 389,
       "value": "\"\""
     },
@@ -11484,70 +11484,70 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3462,
+      "offset": 3492,
       "length": 288,
       "value": "\"MFTicket | barcode: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3493,
+      "offset": 3523,
       "length": 1,
       "value": "\" | validAreaId: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3523,
+      "offset": 3553,
       "length": 1,
       "value": "\" | validInCompanyIds: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3565,
+      "offset": 3595,
       "length": 1,
       "value": "\" | productName: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3595,
+      "offset": 3625,
       "length": 1,
       "value": "\" | validFrom: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3621,
+      "offset": 3651,
       "length": 1,
       "value": "\" | validTo: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3643,
+      "offset": 3673,
       "length": 1,
       "value": "\" | psnr: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3659,
+      "offset": 3689,
       "length": 1,
       "value": "\" | consumerCategoryName: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3707,
+      "offset": 3737,
       "length": 1,
       "value": "\" | downloadTimestamp: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/public\/MobileFlowTicket.swift",
       "kind": "StringLiteral",
-      "offset": 3749,
+      "offset": 3779,
       "length": 1,
       "value": "\"\""
     },
