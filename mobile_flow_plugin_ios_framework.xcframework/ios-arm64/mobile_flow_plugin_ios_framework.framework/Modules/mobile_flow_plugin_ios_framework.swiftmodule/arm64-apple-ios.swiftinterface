@@ -56,6 +56,7 @@ import os
   @objc final public let validTo: Foundation.Date?
   @objc final public let psnr: Swift.String?
   @objc final public let image: UIKit.UIImage?
+  @objc final public let consumerCategoryName: Swift.String?
   final public let downloadTimestamp: Swift.UInt
   public var validAreaIdInt: Swift.UInt? {
     get
@@ -66,8 +67,8 @@ import os
   @objc public var downloadTimeStampDate: Foundation.Date {
     @objc get
   }
-  @objc public init(barcode: Swift.String, validAreaId: Swift.String?, validAreaName: Swift.String?, validInCompanyIds: Swift.String, productName: Swift.String?, validFrom: Foundation.Date?, validTo: Foundation.Date?, psnr: Swift.String?, image: UIKit.UIImage?)
-  @objc convenience public init(barcode: Swift.String, validAreaId: Swift.String? = nil, validAreaName: Swift.String? = nil, validInCompanyIds: Swift.String, productName: Swift.String? = nil, validFrom: Foundation.Date? = nil, validTo: Foundation.Date? = nil, psnr: Swift.String? = nil)
+  @objc public init(barcode: Swift.String, validAreaId: Swift.String?, validAreaName: Swift.String?, validInCompanyIds: Swift.String, productName: Swift.String?, validFrom: Foundation.Date?, validTo: Foundation.Date?, psnr: Swift.String?, image: UIKit.UIImage?, consumerCategoryName: Swift.String?)
+  @objc convenience public init(barcode: Swift.String, validAreaId: Swift.String? = nil, validAreaName: Swift.String? = nil, validInCompanyIds: Swift.String, productName: Swift.String? = nil, validFrom: Foundation.Date? = nil, validTo: Foundation.Date? = nil, psnr: Swift.String? = nil, consumerCategoryName: Swift.String? = nil)
   @objc override dynamic public var description: Swift.String {
     @objc get
   }
@@ -94,7 +95,6 @@ extension CoreLocation.CLLocationManager {
   case PassageTimedOut
   case PluginOutdated
   case PluginOutdatedSoon
-  case RFIDDetected
   case TicketDownloadLimitExceeded
   case TicketInvalidError
   case TicketNotValidForCompany

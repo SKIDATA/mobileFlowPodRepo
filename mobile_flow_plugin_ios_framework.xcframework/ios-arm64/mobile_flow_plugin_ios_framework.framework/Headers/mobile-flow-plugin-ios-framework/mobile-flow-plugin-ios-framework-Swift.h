@@ -541,27 +541,24 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 /// PluginOutdatedSoon
 /// Error which can be used as an indication that a plugin version will expire soon. This could be used to inform the user to update soon.
   MobileFlowErrorPluginOutdatedSoon = 11,
-/// RFIDDetected
-/// Errors which is thrown when the reader shortly before Mobile Flow transmitted a <code>MobileFlowEvent.gateAccessTriggered</code> event read an invalid RFID card
-  MobileFlowErrorRFIDDetected = 12,
 /// TicketDownloadLimitExceeded
 /// Errors which is thrown when the download limit has been exceeded. This is an indication that the ticket has already been downloaded.
-  MobileFlowErrorTicketDownloadLimitExceeded = 13,
+  MobileFlowErrorTicketDownloadLimitExceeded = 12,
 /// TicketInvalidError
 /// The ticket was rejected by the SKIDATA access system (i.e. the ticket is not valid at the entrance).
-  MobileFlowErrorTicketInvalidError = 14,
+  MobileFlowErrorTicketInvalidError = 13,
 /// TicketNotValidForCompany
 /// If the phone is in the detection range of a gate which does not match the ticket which is currently in use.
-  MobileFlowErrorTicketNotValidForCompany = 15,
+  MobileFlowErrorTicketNotValidForCompany = 14,
 /// TicketParsingError
 /// Error which indicates that the ticket provided could bot be decoded. This could be caused by a faulty ticket or some missing information within the ticket.
-  MobileFlowErrorTicketParsingError = 16,
+  MobileFlowErrorTicketParsingError = 15,
 /// TicketTransmissionError
 /// Any error that occur in the ticket exchange process between phone and gate during a passage attempt.
-  MobileFlowErrorTicketTransmissionError = 17,
+  MobileFlowErrorTicketTransmissionError = 16,
 /// UnsupportedDevice
 /// The phone isn’t supported. If this error occurs <code>stopMobileFlow()</code> will be called. A list of unsupported phones will be provided.
-  MobileFlowErrorUnsupportedDevice = 18,
+  MobileFlowErrorUnsupportedDevice = 17,
 };
 static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_ios_framework.MobileFlowError";
 
@@ -757,10 +754,11 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16MobileFlowTicket")
 @property (nonatomic, readonly, copy) NSDate * _Nullable validTo;
 @property (nonatomic, readonly, copy) NSString * _Nullable psnr;
 @property (nonatomic, readonly, strong) UIImage * _Nullable image;
+@property (nonatomic, readonly, copy) NSString * _Nullable consumerCategoryName;
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull validInCompanyIdsList;
 @property (nonatomic, readonly, copy) NSDate * _Nonnull downloadTimeStampDate;
-- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nullable)validAreaId validAreaName:(NSString * _Nullable)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nullable)productName validFrom:(NSDate * _Nullable)validFrom validTo:(NSDate * _Nullable)validTo psnr:(NSString * _Nullable)psnr image:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nullable)validAreaId validAreaName:(NSString * _Nullable)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nullable)productName validFrom:(NSDate * _Nullable)validFrom validTo:(NSDate * _Nullable)validTo psnr:(NSString * _Nullable)psnr;
+- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nullable)validAreaId validAreaName:(NSString * _Nullable)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nullable)productName validFrom:(NSDate * _Nullable)validFrom validTo:(NSDate * _Nullable)validTo psnr:(NSString * _Nullable)psnr image:(UIImage * _Nullable)image consumerCategoryName:(NSString * _Nullable)consumerCategoryName OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nullable)validAreaId validAreaName:(NSString * _Nullable)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nullable)productName validFrom:(NSDate * _Nullable)validFrom validTo:(NSDate * _Nullable)validTo psnr:(NSString * _Nullable)psnr consumerCategoryName:(NSString * _Nullable)consumerCategoryName;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
