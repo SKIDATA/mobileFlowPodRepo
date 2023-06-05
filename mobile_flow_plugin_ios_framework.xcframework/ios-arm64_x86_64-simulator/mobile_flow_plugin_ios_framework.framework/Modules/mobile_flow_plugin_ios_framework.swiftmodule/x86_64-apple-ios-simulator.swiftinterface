@@ -95,6 +95,7 @@ extension CoreLocation.CLLocationManager {
   case PassageTimedOut
   case PluginOutdated
   case PluginOutdatedSoon
+  case RFIDDetected
   case TicketDownloadLimitExceeded
   case TicketInvalidError
   case TicketNotValidForCompany
