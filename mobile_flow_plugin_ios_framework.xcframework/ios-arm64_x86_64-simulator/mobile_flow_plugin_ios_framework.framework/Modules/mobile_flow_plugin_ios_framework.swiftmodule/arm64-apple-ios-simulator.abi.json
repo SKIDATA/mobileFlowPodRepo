@@ -7404,7 +7404,7 @@
       "kind": "StringLiteral",
       "offset": 5382,
       "length": 19,
-      "value": "\"3.7.1079-SNAPSHOT\""
+      "value": "\"3.7.1080-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
@@ -18679,147 +18679,161 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 11903,
+      "offset": 11720,
+      "length": 48,
+      "value": "\"BleManager | didDiscover: \""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11767,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12006,
       "length": 46,
       "value": "\"Connecting to: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 11948,
+      "offset": 12051,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 12327,
+      "offset": 12430,
       "length": 182,
       "value": "\"BleManager | didConnect | peripheral.name: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 12389,
+      "offset": 12492,
       "length": 1,
       "value": "\" | peripheral: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 12429,
+      "offset": 12532,
       "length": 1,
       "value": "\" | contains: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 12508,
+      "offset": 12611,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 12662,
+      "offset": 12765,
       "length": 12,
       "value": "\"didConnect\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 12855,
+      "offset": 12958,
       "length": 45,
       "value": "\"Connected Peripheral: \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 12899,
+      "offset": 13002,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13180,
+      "offset": 13283,
       "length": 58,
       "value": "\"Failed to connect to \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13237,
+      "offset": 13340,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13652,
+      "offset": 13755,
       "length": 73,
       "value": "\"BleManager | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13678,
+      "offset": 13781,
       "length": 12,
       "value": "\" DISCONNECTED from:  \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13720,
+      "offset": 13823,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13724,
+      "offset": 13827,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13758,
+      "offset": 13861,
       "length": 47,
       "value": "\"DISCONNECTED from:  \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13800,
+      "offset": 13903,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13804,
+      "offset": 13907,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13932,
+      "offset": 14035,
       "length": 57,
       "value": "\"BleManager | \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13958,
+      "offset": 14061,
       "length": 12,
       "value": "\" DISCONNECTED error:  \""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13988,
+      "offset": 14091,
       "length": 7,
       "value": "\"\""
     },
