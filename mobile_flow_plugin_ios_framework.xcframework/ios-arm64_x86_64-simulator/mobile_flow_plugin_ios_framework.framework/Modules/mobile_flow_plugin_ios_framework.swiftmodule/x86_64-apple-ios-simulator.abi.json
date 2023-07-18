@@ -6593,126 +6593,126 @@
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "Array",
-      "offset": 1108,
+      "offset": 1086,
       "length": 3,
       "value": "[6]"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1150,
+      "offset": 1128,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1169,
+      "offset": 1147,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1210,
+      "offset": 1188,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1229,
+      "offset": 1207,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1270,
+      "offset": 1248,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1289,
+      "offset": 1267,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1330,
+      "offset": 1308,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1349,
+      "offset": 1327,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1390,
+      "offset": 1368,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1409,
+      "offset": 1387,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1450,
+      "offset": 1428,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1469,
+      "offset": 1447,
       "length": 1,
       "value": "5"
-    },
-    {
-      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1669,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "FloatLiteral",
-      "offset": 1675,
-      "length": 3,
-      "value": "0.5"
+      "offset": 1670,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1700,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "StringLiteral",
-      "offset": 1722,
+      "offset": 1763,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "BooleanLiteral",
-      "offset": 1893,
+      "offset": 1934,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/PercentageBasedAlgorithm.swift",
       "kind": "BooleanLiteral",
-      "offset": 2081,
+      "offset": 2122,
       "length": 5,
       "value": "false"
     },
@@ -7232,7 +7232,7 @@
       "kind": "StringLiteral",
       "offset": 5382,
       "length": 19,
-      "value": "\"3.7.1095-SNAPSHOT\""
+      "value": "\"3.7.1096-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/innovationce\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
