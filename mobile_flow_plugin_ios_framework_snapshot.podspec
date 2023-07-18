@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "mobile_flow_plugin_ios_framework_snapshot"
-  spec.version      = "3.7.1093-SNAPSHOT"
+  spec.version      = "3.7.1094-SNAPSHOT"
   spec.summary      = "A plugin for contactless entry via iPhone and BLE Technologly."
   
   spec.description  = <<-DESC
@@ -19,6 +19,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
   spec.ios.vendored_frameworks = 'mobile_flow_plugin_ios_framework.xcframework'
 
-  spec.source = { :git => "https://github.com/SKIDATA/mobileFlowPodRepo.git", :tag => "3.7.1093-SNAPSHOT" }
+  spec.source = { :git => "https://github.com/SKIDATA/mobileFlowPodRepo.git", :tag => "3.7.1094-SNAPSHOT" }
 
 end

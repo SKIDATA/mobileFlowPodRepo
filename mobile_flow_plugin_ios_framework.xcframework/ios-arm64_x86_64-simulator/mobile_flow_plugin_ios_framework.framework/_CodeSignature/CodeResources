@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/mobile-flow-plugin-ios-framework/mobile-flow-plugin-ios-framework-Swift.h</key>
 		<data>
-		DLKlEBayhjUXTL5LO3MFcuQB3JU=
+		4k8kQhh4fx7Cx04U2fKUovMC+FM=
 		</data>
 		<key>Headers/mobile_flow_plugin_ios_framework.h</key>
 		<data>
@@ -14,51 +14,71 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eyet8GGwMyQyUEDq+7KjoAr2u88=
+		M5XilAS0zMvA6D5X8b584hMcQFQ=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+LgMoOaZgzPlyulpIfAimtQ1f08=
+		vNNMP5krsX670AFrSg1jM7lJu4U=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		91wBg3bKvL4L+0Tk/NGt9afdpdA=
+		QUHVQhwNp/ffP05kya/hRvZGF/c=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		oecNn5c4p4Ac97ig+uYYEif1JFo=
+		gIAOvn7hkbHRv7exan6AJmd9S8c=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		91wBg3bKvL4L+0Tk/NGt9afdpdA=
+		QUHVQhwNp/ffP05kya/hRvZGF/c=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5mJ4Ls8+ytmtvRFTQJyn1VOPMwA=
+		0vGUca8lMmSU7uG+kc2V+9PGIZM=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+LgMoOaZgzPlyulpIfAimtQ1f08=
+		vNNMP5krsX670AFrSg1jM7lJu4U=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		M7MjZViUAI+GaNys1noqkG8WT48=
+		73NIuTGrjwxavPmB1kAQ46ltcUQ=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		87qDrNDjWzY/ZNH4Nt98RpCiYSk=
+		abDUUNuXjS8mGpyjQZ1oxNCgmIo=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		M7MjZViUAI+GaNys1noqkG8WT48=
+		73NIuTGrjwxavPmB1kAQ46ltcUQ=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OkKFpV2b09NHY21sImkRgOdhRDA=
+		6RGQTEGdpU8R9qZOfOKHLDoGRqM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		+DW4AnfA4qkPZJ1bcFMuuqwyVdc=
+		</data>
+		<key>logistic_regression_model.mlmodelc/analytics/coremldata.bin</key>
+		<data>
+		lAp0Qa8KmB3tytCAk82TwIFcfq4=
+		</data>
+		<key>logistic_regression_model.mlmodelc/coremldata.bin</key>
+		<data>
+		FwJRJqgXcUyZ7u18hS2gNamclq0=
+		</data>
+		<key>logistic_regression_model.mlmodelc/metadata.json</key>
+		<data>
+		hFS9D6UgaeU1tK96A5OdwICOWdE=
+		</data>
+		<key>logistic_regression_model.mlmodelc/model0/coremldata.bin</key>
+		<data>
+		q9TtwhIIOnLcbJ03Hf94gMr90rg=
+		</data>
+		<key>logistic_regression_model.mlmodelc/model1/coremldata.bin</key>
+		<data>
+		KALVC4T/ijIKuhtdFJwuplVdVNY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +87,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W3nUU/xyuo9FSWDY2jgY4f1APM+2ypz162XR4wwiDKk=
+			dMkHvleBAgzMwzZ/yPtqc4yAu+E0z2NEfuebJ1aNtxU=
 			</data>
 		</dict>
 		<key>Headers/mobile_flow_plugin_ios_framework.h</key>
@@ -81,70 +101,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x0qhvU3vAT+y244VgoNZckOS7ul1JsBHzGCK4v3pxIA=
+			Do7TNThPE1mCdJt6CxZcvYAw4YNY5OtWzkRTN+wNe48=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lVC4pjOycA5X0GrVcwRlkrpjN4zqmrfnKewlgwVGjf0=
+			S2mSjPylcB8cx9ff8KXRfBhW88wcs4jiqbRZ31uZu/s=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eE2tBx2ZfVH7wNPYJO8L+W183p59MD97TOMLVfG7GC0=
+			RoHqvkdi6MoZeiDx2Z0HAl5qgPI9xp5CSGYhBjjuWRk=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lVC4pjOycA5X0GrVcwRlkrpjN4zqmrfnKewlgwVGjf0=
+			S2mSjPylcB8cx9ff8KXRfBhW88wcs4jiqbRZ31uZu/s=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QuhBMxt5K/+gaY35k81gpTJiqtePWpn759W3AURaavk=
+			2cvSFJxdkxYuHTrRXLMqe4dTzOpkAxm/vVTz0G50M+Y=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x0qhvU3vAT+y244VgoNZckOS7ul1JsBHzGCK4v3pxIA=
+			Do7TNThPE1mCdJt6CxZcvYAw4YNY5OtWzkRTN+wNe48=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			chGQ58nnqzm+kE8JDdXCfV3G0BjOK7ttxTqMlbP+mj0=
+			Ehry8+QsJ/X37NkovYLim/V0DsBVwANDr6YNn7nCfFU=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FhZgxHWQsydu29PKtheL1SSqsdORlAPub4TRQtutV0I=
+			Ye4KO/ZgPtP+UoYnfCZbVsWec8MbUgBi91K43EDnHDg=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			chGQ58nnqzm+kE8JDdXCfV3G0BjOK7ttxTqMlbP+mj0=
+			Ehry8+QsJ/X37NkovYLim/V0DsBVwANDr6YNn7nCfFU=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4EzjouAKJzE8dtlKAtRnVbXGoqCNuYdgUvAt0GZat0Y=
+			rOuqCQ/vHfKNWy5VAei2WtvOdRAThDMBbvK3+eiiKc4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -152,6 +172,41 @@
 			<key>hash2</key>
 			<data>
 			pjjy9/0Pjl6fe+aWtF8WJHeiaI5CjB+6ay79k+vvdXo=
+			</data>
+		</dict>
+		<key>logistic_regression_model.mlmodelc/analytics/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QueWIfZ7UeWI2vWs/OPaNElZvGF5ELc/NFAehCxE0p8=
+			</data>
+		</dict>
+		<key>logistic_regression_model.mlmodelc/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HPc/5Nraok/9ez9ZRXqsmBsoHuMNyw/TmxJs0rcJTQY=
+			</data>
+		</dict>
+		<key>logistic_regression_model.mlmodelc/metadata.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BG0cbS6fLKLKohBKwgszknO/ikJqGlW+xhuyD13WfIg=
+			</data>
+		</dict>
+		<key>logistic_regression_model.mlmodelc/model0/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zOGH1CQOED7zbQlhkWJ+yKlG6DgwLmC1frkyhSEAuI0=
+			</data>
+		</dict>
+		<key>logistic_regression_model.mlmodelc/model1/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fhXv9Yq7Q+6+jfglCvxS+1irjWRsa+yeLLKps2CjOss=
 			</data>
 		</dict>
 	</dict>
