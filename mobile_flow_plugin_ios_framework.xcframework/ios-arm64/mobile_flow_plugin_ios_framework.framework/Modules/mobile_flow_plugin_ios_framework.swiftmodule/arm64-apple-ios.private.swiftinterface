@@ -120,6 +120,11 @@ extension mobile_flow_plugin_ios_framework.MobileFlowError : Foundation.Localize
     get
   }
 }
+extension CoreML.MLMultiArray {
+  @objc override dynamic open var debugDescription: Swift.String {
+    @objc get
+  }
+}
 @objc public enum MobileFlowEvent : Swift.Int {
   case gateAccessTriggered
   case gateInUse

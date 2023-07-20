@@ -262,6 +262,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import CoreBluetooth;
 @import CoreLocation;
+@import CoreML;
 @import Foundation;
 @import ObjectiveC;
 #endif
@@ -501,6 +502,10 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11FileService")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@interface MLMultiArray (SWIFT_EXTENSION(mobile_flow_plugin_ios_framework))
+@property (nonatomic, readonly, copy) NSString * _Nonnull debugDescription;
+@end
 
 /// MobileFlowError represents the possible errors that can occur while using the plugin.
 typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
@@ -1080,6 +1085,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import CoreBluetooth;
 @import CoreLocation;
+@import CoreML;
 @import Foundation;
 @import ObjectiveC;
 #endif
@@ -1319,6 +1325,10 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11FileService")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@interface MLMultiArray (SWIFT_EXTENSION(mobile_flow_plugin_ios_framework))
+@property (nonatomic, readonly, copy) NSString * _Nonnull debugDescription;
+@end
 
 /// MobileFlowError represents the possible errors that can occur while using the plugin.
 typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
