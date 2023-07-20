@@ -501,6 +501,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11FileService")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 /// MobileFlowError represents the possible errors that can occur while using the plugin.
 typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 /// BluetoothNotActive
