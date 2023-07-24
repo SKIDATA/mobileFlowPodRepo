@@ -7505,7 +7505,7 @@
       "kind": "StringLiteral",
       "offset": 5482,
       "length": 19,
-      "value": "\"3.7.1103-SNAPSHOT\""
+      "value": "\"3.7.1104-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
@@ -12339,29 +12339,36 @@
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/ML\/MLAlgorithm.swift",
+      "kind": "IntegerLiteral",
+      "offset": 830,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/ML\/MLAlgorithm.swift",
       "kind": "StringLiteral",
-      "offset": 874,
+      "offset": 890,
       "length": 30,
       "value": "\"Couldn't create MLMultiArray\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/ML\/MLAlgorithm.swift",
       "kind": "FloatLiteral",
-      "offset": 1175,
+      "offset": 1191,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/ML\/MLAlgorithm.swift",
       "kind": "IntegerLiteral",
-      "offset": 1224,
+      "offset": 1240,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/ML\/MLAlgorithm.swift",
       "kind": "StringLiteral",
-      "offset": 1287,
+      "offset": 1303,
       "length": 2,
       "value": "\"\""
     },
@@ -19118,7 +19125,7 @@
       "kind": "IntegerLiteral",
       "offset": 300,
       "length": 1,
-      "value": "5"
+      "value": "6"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Algorithm\/ML\/MLUtils.swift",
