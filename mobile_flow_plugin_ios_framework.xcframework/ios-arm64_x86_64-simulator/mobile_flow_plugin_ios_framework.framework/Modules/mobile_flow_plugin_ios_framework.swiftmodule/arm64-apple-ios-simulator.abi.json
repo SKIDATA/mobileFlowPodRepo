@@ -7505,7 +7505,7 @@
       "kind": "StringLiteral",
       "offset": 5482,
       "length": 19,
-      "value": "\"3.7.1102-SNAPSHOT\""
+      "value": "\"3.7.1103-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
@@ -7582,7 +7582,7 @@
       "kind": "IntegerLiteral",
       "offset": 9220,
       "length": 1,
-      "value": "5"
+      "value": "6"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
@@ -19188,7 +19188,7 @@
       "kind": "IntegerLiteral",
       "offset": 176,
       "length": 2,
-      "value": "50"
+      "value": "10"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/BeaconHistory.swift",
