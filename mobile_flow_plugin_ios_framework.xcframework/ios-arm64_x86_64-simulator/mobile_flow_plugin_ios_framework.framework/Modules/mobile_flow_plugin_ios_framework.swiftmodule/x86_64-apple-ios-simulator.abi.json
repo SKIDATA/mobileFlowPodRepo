@@ -7487,7 +7487,7 @@
       "kind": "StringLiteral",
       "offset": 5471,
       "length": 19,
-      "value": "\"3.7.1106-SNAPSHOT\""
+      "value": "\"3.7.1107-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
@@ -16018,98 +16018,126 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1313,
+      "offset": 1272,
+      "length": 10,
+      "value": "\"deviceID\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 11,
+      "value": "\"companyID\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
+      "kind": "StringLiteral",
+      "offset": 1340,
       "length": 10,
       "value": "\"gateType\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1347,
+      "offset": 1374,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1313,
+      "offset": 1272,
+      "length": 10,
+      "value": "\"deviceID\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 11,
+      "value": "\"companyID\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
+      "kind": "StringLiteral",
+      "offset": 1340,
       "length": 10,
       "value": "\"gateType\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1347,
+      "offset": 1374,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "BooleanLiteral",
-      "offset": 2050,
+      "offset": 2077,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "BooleanLiteral",
-      "offset": 3295,
+      "offset": 3322,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "IntegerLiteral",
-      "offset": 3321,
+      "offset": 3348,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "Dictionary",
-      "offset": 3392,
+      "offset": 3419,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "Array",
-      "offset": 3496,
+      "offset": 3523,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "BooleanLiteral",
-      "offset": 4303,
+      "offset": 4330,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 4407,
+      "offset": 4434,
       "length": 36,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 4416,
+      "offset": 4443,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 4429,
+      "offset": 4456,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 4441,
+      "offset": 4468,
       "length": 1,
       "value": "\")\""
     },
