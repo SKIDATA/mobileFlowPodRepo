@@ -800,6 +800,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework14TokenValidator")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -1609,6 +1610,7 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework14TokenValidator")
 @interface TokenValidator : BaseService
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 #endif
 #if defined(__cplusplus)

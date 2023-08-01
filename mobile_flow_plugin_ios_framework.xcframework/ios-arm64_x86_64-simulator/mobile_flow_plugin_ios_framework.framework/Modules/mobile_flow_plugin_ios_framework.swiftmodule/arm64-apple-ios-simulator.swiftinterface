@@ -10,6 +10,7 @@ import CoreML
 import Foundation
 import Network
 import Swift
+import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
