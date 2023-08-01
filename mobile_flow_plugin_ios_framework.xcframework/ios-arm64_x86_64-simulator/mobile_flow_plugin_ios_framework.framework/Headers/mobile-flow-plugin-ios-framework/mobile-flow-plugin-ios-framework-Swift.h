@@ -502,7 +502,6 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11FileService")
 @end
 
 
-/// MobileFlowError represents the possible errors that can occur while using the plugin.
 typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 /// BluetoothNotActive
 /// If the Bluetooth module is not active.
@@ -586,13 +585,6 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
 @class MobileFlowTicket;
 enum MobileFlowState : NSInteger;
 
-/// @file
-/// @author  Denis Schüle
-/// @version 0.4
-/// @section LICENSE
-/// Copyright (c) SKIDATA GmbH 2021, all rights reserved.
-/// Protected intellectual property.
-/// Reverse-engineering prohibited by this protection.
 SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 @protocol MobileFlowPlugin
 /// This method returns the singelton instance of the plugin.
@@ -1320,7 +1312,6 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11FileService")
 @end
 
 
-/// MobileFlowError represents the possible errors that can occur while using the plugin.
 typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 /// BluetoothNotActive
 /// If the Bluetooth module is not active.
@@ -1404,13 +1395,6 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
 @class MobileFlowTicket;
 enum MobileFlowState : NSInteger;
 
-/// @file
-/// @author  Denis Schüle
-/// @version 0.4
-/// @section LICENSE
-/// Copyright (c) SKIDATA GmbH 2021, all rights reserved.
-/// Protected intellectual property.
-/// Reverse-engineering prohibited by this protection.
 SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 @protocol MobileFlowPlugin
 /// This method returns the singelton instance of the plugin.
