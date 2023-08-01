@@ -7561,7 +7561,7 @@
       "kind": "StringLiteral",
       "offset": 5471,
       "length": 19,
-      "value": "\"3.7.1113-SNAPSHOT\""
+      "value": "\"3.7.1114-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios\/MobileFlowPluginImpl.swift",
@@ -18040,7 +18040,7 @@
       "kind": "IntegerLiteral",
       "offset": 610,
       "length": 2,
-      "value": "60"
+      "value": "99"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
