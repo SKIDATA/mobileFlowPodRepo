@@ -7429,7 +7429,7 @@
       "kind": "StringLiteral",
       "offset": 4499,
       "length": 19,
-      "value": "\"3.7.1120-SNAPSHOT\""
+      "value": "\"3.7.1121-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
@@ -9233,394 +9233,296 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 339,
+      "offset": 338,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 389,
+      "offset": 388,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 718,
-      "length": 23,
-      "value": "\"- download: \""
+      "offset": 771,
+      "length": 12,
+      "value": "\"mobileflow\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 740,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 812,
-      "length": 56,
-      "value": "\"- download: failed to create URL from String \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 867,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 1105,
-      "length": 33,
-      "value": "\"- download: tempURL: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 1137,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 1205,
-      "length": 29,
-      "value": "\"- download: error: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 1233,
-      "length": 2,
-      "value": "\"\""
+      "offset": 805,
+      "length": 12,
+      "value": "\"User-Agent\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1383,
+      "offset": 1125,
       "length": 3,
       "value": "429"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 1415,
-      "length": 52,
-      "value": "\"- download: 429: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1462,
-      "length": 3,
-      "value": "429"
+      "offset": 1321,
+      "length": 39,
+      "value": "\"No suggested filename in the response\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 1466,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 1610,
-      "length": 33,
-      "value": "\"- download: tempURL: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 1642,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 1868,
-      "length": 58,
-      "value": "\"- download: moveItem before: at \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 1911,
-      "length": 2,
-      "value": "\" to \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 1925,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 2041,
-      "length": 51,
-      "value": "\"- download: moveItem: at \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 2077,
-      "length": 2,
-      "value": "\" to \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 2091,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 2328,
-      "length": 34,
-      "value": "\"Failed to get temporary file URL\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
-      "kind": "StringLiteral",
-      "offset": 4261,
+      "offset": 1883,
       "length": 11,
       "value": "\"pass.json\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 4284,
+      "offset": 1906,
       "length": 11,
       "value": "\"pass.json\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 4491,
+      "offset": 2113,
       "length": 10,
       "value": "\"icon.png\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 4513,
+      "offset": 2135,
       "length": 10,
       "value": "\"icon.png\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 4832,
+      "offset": 2454,
       "length": 34,
       "value": "\"Ticketdownload \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 4865,
+      "offset": 2487,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 6079,
+      "offset": 2887,
       "length": 32,
       "value": "\"for URL: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 6110,
+      "offset": 2918,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 6695,
+      "offset": 3503,
       "length": 9,
       "value": "\"barcode\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 6869,
+      "offset": 3677,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 7057,
+      "offset": 3865,
       "length": 14,
       "value": "\"relevantDate\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 7111,
+      "offset": 3919,
       "length": 14,
       "value": "\"relevantDate\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 7262,
+      "offset": 4070,
       "length": 16,
       "value": "\"expirationDate\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 7319,
+      "offset": 4127,
       "length": 16,
       "value": "\"expirationDate\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 7545,
+      "offset": 4353,
       "length": 13,
       "value": "\"eventTicket\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 7727,
+      "offset": 4535,
       "length": 17,
       "value": "\"auxiliaryFields\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 7902,
+      "offset": 4710,
       "length": 12,
       "value": "\"backFields\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 8277,
+      "offset": 5085,
       "length": 14,
       "value": "\"(\\d(,\\d)*)\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 8345,
+      "offset": 5153,
       "length": 19,
       "value": "\"ValidInCompanyIds\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 8623,
+      "offset": 5431,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "Array",
-      "offset": 8667,
+      "offset": 5475,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 9066,
+      "offset": 5874,
       "length": 22,
       "value": "\"ConsumerCategoryName\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 9158,
+      "offset": 5966,
       "length": 22,
       "value": "\"ConsumerCategoryName\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 9270,
+      "offset": 6078,
       "length": 13,
       "value": "\"ProductName\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 9344,
+      "offset": 6152,
       "length": 13,
       "value": "\"ProductName\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 9440,
+      "offset": 6248,
       "length": 15,
       "value": "\"ValidAreaName\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 9508,
+      "offset": 6316,
       "length": 15,
       "value": "\"ValidAreaName\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 9607,
+      "offset": 6415,
       "length": 13,
       "value": "\"ValidAreaId\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 9674,
+      "offset": 6482,
       "length": 13,
       "value": "\"ValidAreaId\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 9766,
+      "offset": 6574,
       "length": 6,
       "value": "\"PSNR\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 9821,
+      "offset": 6629,
       "length": 6,
       "value": "\"PSNR\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 14582,
+      "offset": 7459,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
       "kind": "StringLiteral",
-      "offset": 14643,
+      "offset": 7520,
       "length": 7,
       "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7764,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7850,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/TicketService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7882,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Algorithm\/Algorithm.swift",
@@ -20371,27 +20273,34 @@
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/SystemServices\/ArchiveService.swift",
       "kind": "StringLiteral",
       "offset": 440,
-      "length": 22,
-      "value": "\"could not unzip file\""
+      "length": 37,
+      "value": "\"could not unzip file: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/SystemServices\/ArchiveService.swift",
       "kind": "StringLiteral",
-      "offset": 566,
+      "offset": 476,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/SystemServices\/ArchiveService.swift",
+      "kind": "StringLiteral",
+      "offset": 581,
       "length": 17,
       "value": "\"could not find \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/SystemServices\/ArchiveService.swift",
       "kind": "StringLiteral",
-      "offset": 763,
+      "offset": 778,
       "length": 36,
       "value": "\"coult not get document dir for app\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/Services\/SystemServices\/ArchiveService.swift",
       "kind": "StringLiteral",
-      "offset": 1176,
+      "offset": 1191,
       "length": 24,
       "value": "\"could not extract file\""
     },
