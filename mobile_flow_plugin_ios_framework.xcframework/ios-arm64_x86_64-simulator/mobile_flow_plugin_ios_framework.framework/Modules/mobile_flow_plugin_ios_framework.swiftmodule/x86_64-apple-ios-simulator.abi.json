@@ -7429,7 +7429,7 @@
       "kind": "StringLiteral",
       "offset": 4499,
       "length": 19,
-      "value": "\"3.7.1119-SNAPSHOT\""
+      "value": "\"3.7.1120-SNAPSHOT\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
