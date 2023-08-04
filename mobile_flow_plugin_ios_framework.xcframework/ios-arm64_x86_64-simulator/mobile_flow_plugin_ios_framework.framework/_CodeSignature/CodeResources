@@ -4,17 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/mobile-flow-plugin-ios-framework/mobile-flow-plugin-ios-framework-Swift.h</key>
+		<key>CHANGELOG</key>
 		<data>
-		G+3MQ04coY2JS1dgL5RpyDVDE6I=
+		JBsAQz9hUDkEIGRn2H8l5mZtxOw=
+		</data>
+		<key>Headers/mobile_flow_plugin_ios_framework-Swift.h</key>
+		<data>
+		9hLwR8/a/vncywVc+lX65E3r7Rc=
 		</data>
 		<key>Headers/mobile_flow_plugin_ios_framework.h</key>
 		<data>
-		8RrLqXoKJdDMXvVLlROWz44GTOo=
+		xtvTRelBIOb/GyQzr4UwcpIU09Y=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zBvi3URIG2TE/x9RREYRWHuHpC4=
+		j0+9omQFA+i04qOSQf4hBvj/2kk=
 		</data>
 		<key>MobileFlowAlgorithmModel.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -22,7 +26,7 @@
 		</data>
 		<key>MobileFlowAlgorithmModel.mlmodelc/coremldata.bin</key>
 		<data>
-		urhKa8qVFin5yedWX1kNULvx1pU=
+		69Koi5y0cikFn1QKj4Gvlfbtz7U=
 		</data>
 		<key>MobileFlowAlgorithmModel.mlmodelc/metadata.json</key>
 		<data>
@@ -50,63 +54,74 @@
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		BKRf71nBlq4OSsOZGehbXwi1GTw=
+		D4nXUpNVqnTULhsMMdA3knRDHfM=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Y7YG2lsozichC9nhKca2ARJBRX4=
+		zMMTGH6coIr5OICQ6QB1eEpmMKg=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		6N/Mk/T1jM2iCvGmG3lt0IqziWI=
+		kAcr9YaixbMcK+peMiThn5U2WCU=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Y7YG2lsozichC9nhKca2ARJBRX4=
+		zMMTGH6coIr5OICQ6QB1eEpmMKg=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Geh1NF/T15omOAN6/IhlmOHPUak=
+		+xsCjUd8CXGqhFe1phYVg633vqo=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		BKRf71nBlq4OSsOZGehbXwi1GTw=
+		D4nXUpNVqnTULhsMMdA3knRDHfM=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eeo1AXmnthgf9bct1YLy9pwz4GI=
+		8iu3knJqM5aKcW20dU5SnQScfUI=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dLhwo+xW+X3pVcIBzdr/PPy1iWQ=
+		70bs/kYYrT/QhS0C6uDkONTm0Sc=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eeo1AXmnthgf9bct1YLy9pwz4GI=
+		8iu3knJqM5aKcW20dU5SnQScfUI=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sdrvTxzO95YCzbd5CyoyfthjMZM=
+		bQHjA0sAgHzebx077RiB6Q588Ec=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		+DW4AnfA4qkPZJ1bcFMuuqwyVdc=
+		Rt/NN7j2+NfmlHa932UvqOKPe4Q=
+		</data>
+		<key>ticketblackicon.sdticket</key>
+		<data>
+		ywCqQkBuFm8l5MJtRDozHIS7RRg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/mobile-flow-plugin-ios-framework/mobile-flow-plugin-ios-framework-Swift.h</key>
+		<key>CHANGELOG</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DWlgGbxPpK/8EIO4lMbHYBpJGuhr/JGZBRiWGcfqHm0=
+			Mfr1NmtkrmCDeHjdEOr3FQfy2owrmltLJpLAWq61QL8=
+			</data>
+		</dict>
+		<key>Headers/mobile_flow_plugin_ios_framework-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IiohSB7n1104GKwl/W8ZjZKhQmO2eNRM8xMhKzLAH1w=
 			</data>
 		</dict>
 		<key>Headers/mobile_flow_plugin_ios_framework.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PiWfIbWVD68ILBhEVuETY7g7PlJQh4L5Pq2W1SAujFc=
+			UYtEqNyyPJ1ABup+oSYswiXMXOVVLuOQXtveymn01xk=
 			</data>
 		</dict>
 		<key>MobileFlowAlgorithmModel.mlmodelc/analytics/coremldata.bin</key>
@@ -120,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jmeq6zoj71x7mFNG/M8M2S5lgGxWlDjXeD50zlMvSm8=
+			2fg26NSentxrOBwVOs/FBYTaSs7r7AW7bmSW0n8G764=
 			</data>
 		</dict>
 		<key>MobileFlowAlgorithmModel.mlmodelc/metadata.json</key>
@@ -169,77 +184,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WqP50gX8ljA03hM/vtKFozP5r2xmVihuLDTRSuxPE/I=
+			DvScQA76TVcDf/6EqHBf5FRYg1l5P4943NO21V0f8EE=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			df1FXQxaIsFm3j2cPlYiy2cBbtmzCPm0Sq7Mb4KV37k=
+			CUV9A570lY/4IK3zK6JQc9KLQwv7Q9PNEOC2wBgCsSE=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6c2UnhJTC3jkZFlcHtTR8GONCHYD8pv8tPhGZhmds0A=
+			80ep5wqa7J+d9z1sgYRrTgfsSXNFBlP3X5ehghpFShE=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			df1FXQxaIsFm3j2cPlYiy2cBbtmzCPm0Sq7Mb4KV37k=
+			CUV9A570lY/4IK3zK6JQc9KLQwv7Q9PNEOC2wBgCsSE=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			62IOaRQxbF/KZEaaXBs57VZJ/Gm+aVcQdPAgCGoT6Fs=
+			CPet1DNaW7RDRcufi+IWjRme55S+TXr7jhEoiH+hMP0=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WqP50gX8ljA03hM/vtKFozP5r2xmVihuLDTRSuxPE/I=
+			DvScQA76TVcDf/6EqHBf5FRYg1l5P4943NO21V0f8EE=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			APjdwkPzg4enelcTnr6k+gz0QYsustpnR7siHnfnm/c=
+			d4hX9R1BSTnX0VfSumh6I1QxcWgdcc5AcuYDP2DgLqk=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6NlyTxmEqb5PQRyTW8iN2id59s02AGJojnapp1EYiGA=
+			4WTRIq9FdP8RyGOsaEhWilFrZ26YqB2JOcWS8eALkHo=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			APjdwkPzg4enelcTnr6k+gz0QYsustpnR7siHnfnm/c=
+			d4hX9R1BSTnX0VfSumh6I1QxcWgdcc5AcuYDP2DgLqk=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1dPbbu9W7xqYaacjOCKA67Ex18vGMsq6qLx6lx1QquU=
+			nTmvFUNFTDfSDta/LWspRmE8XGW2zwHbTvAbhDkNMos=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pjjy9/0Pjl6fe+aWtF8WJHeiaI5CjB+6ay79k+vvdXo=
+			D9Outzw3PeT9mg7AeRIBLDK9b1qdigNKUHow+lSnXm4=
+			</data>
+		</dict>
+		<key>ticketblackicon.sdticket</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IqgN4IJUIME70mMWDGOzpfQ8rUIDRExjwg1wTOWqs3E=
 			</data>
 		</dict>
 	</dict>

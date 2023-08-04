@@ -260,8 +260,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreBluetooth;
-@import CoreLocation;
 @import Foundation;
 @import ObjectiveC;
 #endif
@@ -285,221 +283,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11BaseService")
-@interface BaseService : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework14ArchiveService")
-@interface ArchiveService : BaseService
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-/// BleManager
-/// for handling the scanning, connection, transmitting and response process based on the GATT Protocol.
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework10BleManager")
-@interface BleManager : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class CBCentralManager;
-@class CBPeripheral;
-@class NSString;
-@class NSNumber;
-
-@interface BleManager (SWIFT_EXTENSION(mobile_flow_plugin_ios_framework)) <CBCentralManagerDelegate>
-- (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
-- (void)centralManager:(CBCentralManager * _Nonnull)_ didDiscoverPeripheral:(CBPeripheral * _Nonnull)peripheral advertisementData:(NSDictionary<NSString *, id> * _Nonnull)advertisementData RSSI:(NSNumber * _Nonnull)RSSI;
-/// Peripheral connected.  Update UI
-- (void)centralManager:(CBCentralManager * _Nonnull)_ didConnectPeripheral:(CBPeripheral * _Nonnull)peripheral;
-/// Connection to Peripheral failed.
-- (void)centralManager:(CBCentralManager * _Nonnull)_ didFailToConnectPeripheral:(CBPeripheral * _Nonnull)peripheral error:(NSError * _Nullable)error;
-/// Peripheral disconnected.  Leave UIView
-/// <ul>
-///   <li>
-///     <a href="https://developer.apple.com/documentation/corebluetooth/cbatterror/code">Swift CBATTErrorCodes</a>
-///   </li>
-/// </ul>
-- (void)centralManager:(CBCentralManager * _Nonnull)_ didDisconnectPeripheral:(CBPeripheral * _Nonnull)peripheral error:(NSError * _Nullable)error;
-@end
-
-@class CBCharacteristic;
-@class BlePeripheral;
-@class NSData;
-@class CBService;
-
-/// BlePeripheralDelegate relays important status changes from BlePeripheral
-SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework21BlePeripheralDelegate_")
-@protocol BlePeripheralDelegate
-/// Value written to Characteristic
-/// \param characteristic the Characteristic that was written to
-///
-/// \param blePeripheral the BlePeripheral
-///
-- (void)blePeripheralWithValueWritten:(CBCharacteristic * _Nonnull)characteristic blePeripheral:(BlePeripheral * _Nonnull)blePeripheral;
-/// Characteristic was read
-/// \param stringValue the value read from the Charactersitic
-///
-/// \param characteristic the Characteristic that was read
-///
-/// \param blePeripheral the BlePeripheral
-///
-- (void)blePeripheralWithCharacteristicRead:(NSString * _Nonnull)stringValue characteristic:(CBCharacteristic * _Nonnull)characteristic blePeripheral:(BlePeripheral * _Nonnull)blePeripheral;
-/// Characteristic was read
-/// \param dataValue the value read from the Charactersitic
-///
-/// \param characteristic the Characteristic that was read
-///
-/// \param blePeripheral the BlePeripheral
-///
-- (void)blePeripheralWithCharacteristicDataValue:(NSData * _Nullable)dataValue characteristic:(CBCharacteristic * _Nonnull)characteristic blePeripheral:(BlePeripheral * _Nonnull)blePeripheral;
-/// Characteristics were discovered for a Service
-/// \param characteristics the Characteristic list
-///
-/// \param forService the Service these Characteristics are under
-///
-/// \param blePeripheral the BlePeripheral
-///
-- (void)blePerihperalWithDiscoveredCharacteristics:(NSArray<CBCharacteristic *> * _Nonnull)characteristics forService:(CBService * _Nonnull)forService blePeripheral:(BlePeripheral * _Nonnull)blePeripheral;
-/// RSSI was read for a Peripheral
-/// \param rssi the RSSI
-///
-/// \param blePeripheral the BlePeripheral
-///
-- (void)blePeripheralWithReadRssi:(NSNumber * _Nonnull)rssi blePeripheral:(BlePeripheral * _Nonnull)blePeripheral;
-/// Error occured for a Peripheral
-/// \param error the <code>Error</code>
-///
-- (void)blePeripheralWithError:(NSError * _Nonnull)error;
-/// RSSI was read for a Peripheral
-/// \param rssi the RSSI
-///
-/// \param blePeripheral the BlePeripheral
-///
-- (void)discoveringServices;
-/// Detail should be logt
-/// \param message String
-///
-- (void)blePeripheralWithMessage:(NSString * _Nonnull)message;
-@end
-
-
-@interface BleManager (SWIFT_EXTENSION(mobile_flow_plugin_ios_framework)) <BlePeripheralDelegate>
-/// value was written to characteristic  by BLE Peripheral
-/// \param valueWritten to CBCharacterisic
-///
-/// \param blePeripheral from BlePeripheral
-///
-- (void)blePeripheralWithValueWritten:(CBCharacteristic * _Nonnull)characteristic blePeripheral:(BlePeripheral * _Nonnull)_;
-/// String value was read on characteristic
-/// \param stringValue of read data
-///
-/// \param characteristic _ from where the stringValue was read
-///
-/// \param blePeripheral _ which read the value
-///
-- (void)blePeripheralWithCharacteristicRead:(NSString * _Nonnull)stringValue characteristic:(CBCharacteristic * _Nonnull)_ blePeripheral:(BlePeripheral * _Nonnull)_;
-/// Data value  was read on characteristic
-/// \param characteristicDataValue dataValue of read data
-///
-/// \param characteristic _ from where the stringValue was read
-///
-/// \param blePeripheral _ which read the value
-///
-- (void)blePeripheralWithCharacteristicDataValue:(NSData * _Nullable)dataValue characteristic:(CBCharacteristic * _Nonnull)_ blePeripheral:(BlePeripheral * _Nonnull)_;
-/// Characteristics where discovered
-/// \param discoveredCharacteristics characteristics array of <code>[CBCharacteristic]</code>
-///
-/// \param forService _ for <code>CBService</code>
-///
-/// \param blePeripheral _ from
-///
-- (void)blePerihperalWithDiscoveredCharacteristics:(NSArray<CBCharacteristic *> * _Nonnull)characteristics forService:(CBService * _Nonnull)_ blePeripheral:(BlePeripheral * _Nonnull)peripheral;
-- (void)blePeripheralWithReadRssi:(NSNumber * _Nonnull)rssi blePeripheral:(BlePeripheral * _Nonnull)blePeripheral;
-/// Error delegated from blePeripheral with <code>String?</code>
-/// \param error <code>Error</code>
-///
-- (void)blePeripheralWithError:(NSError * _Nonnull)error;
-/// Discovering of services is triggered
-- (void)discoveringServices;
-- (void)blePeripheralWithMessage:(NSString * _Nonnull)message;
-@end
-
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework13BlePeripheral")
-@interface BlePeripheral : NSObject
-/// The Service was discovered
-- (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverServices:(NSError * _Nullable)error;
-/// Characteristics were discovered for a Service on the connected Peripheral
-- (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverCharacteristicsForService:(CBService * _Nonnull)service error:(NSError * _Nullable)error;
-/// RSSI read from peripheral.
-- (void)peripheral:(CBPeripheral * _Nonnull)_ didReadRSSI:(NSNumber * _Nonnull)RSSI error:(NSError * _Nullable)error;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-
-@interface BlePeripheral (SWIFT_EXTENSION(mobile_flow_plugin_ios_framework)) <CBPeripheralDelegate>
-/// Characteristic has been subscribed to or unsubscribed from
-- (void)peripheral:(CBPeripheral * _Nonnull)_ didUpdateNotificationStateForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
-/// Value was written to the Characteristic
-- (void)peripheral:(CBPeripheral * _Nonnull)peripheral didWriteValueForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
-/// Value downloaded from Characteristic on connected Peripheral
-- (void)peripheral:(CBPeripheral * _Nonnull)peripheral didUpdateValueForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
-@end
-
-
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework10BleService")
-@interface BleService : BaseService
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16BluetoothManager")
-@interface BluetoothManager : BaseService
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class CLLocationManager;
-@class CLBeacon;
-@class CLBeaconRegion;
-
-@interface BluetoothManager (SWIFT_EXTENSION(mobile_flow_plugin_ios_framework)) <CLLocationManagerDelegate>
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didRangeBeacons:(NSArray<CLBeacon *> * _Nonnull)beacons inRegion:(CLBeaconRegion * _Nonnull)region;
-@end
-
-
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework17ConnectionService")
-@interface ConnectionService : BaseService
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework13DeviceService")
-@interface DeviceService : BaseService
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11FileService")
-@interface FileService : BaseService
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
@@ -581,6 +365,7 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
   MobileFlowEventTicketValid = 3,
 };
 
+@class NSString;
 @protocol MobileFlowPluginDelegate;
 @class MobileFlowTicket;
 enum MobileFlowState : NSInteger;
@@ -760,45 +545,6 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16MobileFlowTicket")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework17PermissionService")
-@interface PermissionService : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-@interface PermissionService (SWIFT_EXTENSION(mobile_flow_plugin_ios_framework)) <CBCentralManagerDelegate>
-- (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
-@end
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework14SessionService")
-@interface SessionService : BaseService
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework13TicketService")
-@interface TicketService : BaseService
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework25TicketTransmissionService")
-@interface TicketTransmissionService : BaseService
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework14TokenValidator")
-@interface TokenValidator : BaseService
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 #endif

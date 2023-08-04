@@ -4,17 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/mobile-flow-plugin-ios-framework/mobile-flow-plugin-ios-framework-Swift.h</key>
+		<key>CHANGELOG</key>
 		<data>
-		qvhpug/iD6hMeBDjlhtqLuI/dVc=
+		JBsAQz9hUDkEIGRn2H8l5mZtxOw=
+		</data>
+		<key>Headers/mobile_flow_plugin_ios_framework-Swift.h</key>
+		<data>
+		UGMe6nZPZF/gqUfCFUUFySoEKNg=
 		</data>
 		<key>Headers/mobile_flow_plugin_ios_framework.h</key>
 		<data>
-		8RrLqXoKJdDMXvVLlROWz44GTOo=
+		xtvTRelBIOb/GyQzr4UwcpIU09Y=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AjGoNMYN4qq4rLqljpxIvoJDno8=
+		GCk9RuaUzudlR/cgc0u3XP3AJ+E=
 		</data>
 		<key>MobileFlowAlgorithmModel.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -50,43 +54,54 @@
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Ee1jz9uZeP/7ueJCQL6kLqZszhQ=
+		r5ZJMQrQKkHD6UX6U1p+4yCCDik=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		lPbAesmHF2c0HvDLItowPXl3/7M=
+		FCe2PhUPtinacMO1f1jHsI/lgBM=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		O7/XP6NrCx5ekKjNBFt2WePmBNM=
+		hLbIKIpj8fqnHCEX5rrzst+U/wM=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		lPbAesmHF2c0HvDLItowPXl3/7M=
+		FCe2PhUPtinacMO1f1jHsI/lgBM=
 		</data>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		7OynOCjZrdOazXJgjzw6iYNJVxM=
+		gzrg0ZasFbspNXslkQ6hBxGLLUg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		+DW4AnfA4qkPZJ1bcFMuuqwyVdc=
+		Rt/NN7j2+NfmlHa932UvqOKPe4Q=
+		</data>
+		<key>ticketblackicon.sdticket</key>
+		<data>
+		ywCqQkBuFm8l5MJtRDozHIS7RRg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/mobile-flow-plugin-ios-framework/mobile-flow-plugin-ios-framework-Swift.h</key>
+		<key>CHANGELOG</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d9cNcKR9ala/z2A5PYzpC+c4517/PphsdtoOEh+Vyt8=
+			Mfr1NmtkrmCDeHjdEOr3FQfy2owrmltLJpLAWq61QL8=
+			</data>
+		</dict>
+		<key>Headers/mobile_flow_plugin_ios_framework-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cncV/ucadLOpt+xMoqcXxEQVPtpzXxS6fiCVf4/kTck=
 			</data>
 		</dict>
 		<key>Headers/mobile_flow_plugin_ios_framework.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PiWfIbWVD68ILBhEVuETY7g7PlJQh4L5Pq2W1SAujFc=
+			UYtEqNyyPJ1ABup+oSYswiXMXOVVLuOQXtveymn01xk=
 			</data>
 		</dict>
 		<key>MobileFlowAlgorithmModel.mlmodelc/analytics/coremldata.bin</key>
@@ -149,42 +164,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZswokufD9QwXqhe5+dM/8szYxmznCcWcuYDzHHrdPkc=
+			PYqBIzP7GWt/ePjqAK53V1XUU7LHEoVSSQ2JcumL23U=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3kV0/PIO/2hCohGFkO9eauzuyEf+rFDQjcIDw06I94M=
+			kM9+LEiasMnEPYYlizynyvyQmYVMCpV7CAp9cl2HLmE=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SnOfwKLAQIs21W7YhcaNbtZjO/qLy2HkIZWqFSmtaoI=
+			bN73s/7ceyv03j8mT0lkhbh2XVturVy9JesMK8/9fDw=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3kV0/PIO/2hCohGFkO9eauzuyEf+rFDQjcIDw06I94M=
+			kM9+LEiasMnEPYYlizynyvyQmYVMCpV7CAp9cl2HLmE=
 			</data>
 		</dict>
 		<key>Modules/mobile_flow_plugin_ios_framework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P6ozaQUYvNkl1nezKORqbAYM4ZG5MJD6jjgNadvFXhc=
+			Kibmjq1vzWNtgWTta3AyaM3l2HmrnGQYmqlZGm2mnVA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pjjy9/0Pjl6fe+aWtF8WJHeiaI5CjB+6ay79k+vvdXo=
+			D9Outzw3PeT9mg7AeRIBLDK9b1qdigNKUHow+lSnXm4=
+			</data>
+		</dict>
+		<key>ticketblackicon.sdticket</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IqgN4IJUIME70mMWDGOzpfQ8rUIDRExjwg1wTOWqs3E=
 			</data>
 		</dict>
 	</dict>

@@ -6,6 +6,6 @@ framework module mobile_flow_plugin_ios_framework {
 }
 
 module mobile_flow_plugin_ios_framework.Swift {
-  header "mobile-flow-plugin-ios-framework/mobile-flow-plugin-ios-framework-Swift.h"
+  header "mobile_flow_plugin_ios_framework-Swift.h"
   requires objc
 }
