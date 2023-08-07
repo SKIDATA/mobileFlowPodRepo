@@ -20,17 +20,11 @@ import os
   @objc static func getInstance(token: Swift.String) throws -> any mobile_flow_plugin_ios_framework.MobileFlowPlugin
   @objc static func getPluginVersion() -> Swift.String
   @objc func setDelegate(_ delegate: any mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
-  @available(*, deprecated, renamed: "startMobileFlow")
-  @objc func startSkiing(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
-  @objc func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket, shouldVibrate: Swift.Bool)
-  @objc func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
-  @available(*, deprecated, renamed: "stopMobileFlow")
-  @objc func stopSkiing()
+  @objc func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket, shouldVibrate: Swift.Bool) -> Foundation.UUID?
+  @objc func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket) -> Foundation.UUID?
   @objc func stopMobileFlow()
   @objc func downloadTicket(_ url: Swift.String)
   @objc func getPluginUUID() -> Swift.String
-  @available(*, deprecated, renamed: "getMobileFlowState")
-  @objc func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc func getActivatedTicket() -> mobile_flow_plugin_ios_framework.MobileFlowTicket?
   @objc func isPhoneSupported() -> Swift.Bool
@@ -39,26 +33,20 @@ import os
   @objc func newTicket(_ ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
   @objc func receivedError(_ error: mobile_flow_plugin_ios_framework.MobileFlowError)
   @objc func receivedEvent(_ event: mobile_flow_plugin_ios_framework.MobileFlowEvent)
-  @available(*, deprecated, renamed: "mobileFlowStateChanged")
-  @objc func localizationStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowState)
   @objc func mobileFlowStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowState)
-  @available(*, deprecated, message: "Function isn't needed with MF-Plugin 3.*")
-  @objc func awakeScreen()
 }
 @_hasMissingDesignatedInitializers @objc final public class MobileFlowPluginImpl : ObjectiveC.NSObject, mobile_flow_plugin_ios_framework.MobileFlowPlugin {
   @objc final public func getPluginUUID() -> Swift.String
   @objc public static func getInstance(token: Swift.String) throws -> any mobile_flow_plugin_ios_framework.MobileFlowPlugin
   @objc public static func getPluginVersion() -> Swift.String
   @objc final public func setDelegate(_ delegate: any mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
-  @objc final public func startSkiing(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
-  @objc final public func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
-  @objc final public func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket, shouldVibrate: Swift.Bool = true)
+  @objc final public func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket) -> Foundation.UUID?
+  @objc final public func startMobileFlow(ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket, shouldVibrate: Swift.Bool = true) -> Foundation.UUID?
   @objc final public func downloadTicket(_ url: Swift.String)
   @objc final public func getLocalizationState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc final public func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc deinit
   @objc final public func getActivatedTicket() -> mobile_flow_plugin_ios_framework.MobileFlowTicket?
-  @objc final public func stopSkiing()
   @objc final public func stopMobileFlow()
   @objc final public func isPhoneSupported() -> Swift.Bool
 }

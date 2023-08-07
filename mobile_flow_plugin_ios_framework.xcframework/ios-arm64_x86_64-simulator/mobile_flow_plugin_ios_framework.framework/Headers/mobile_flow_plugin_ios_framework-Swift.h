@@ -368,6 +368,7 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
 @class NSString;
 @protocol MobileFlowPluginDelegate;
 @class MobileFlowTicket;
+@class NSUUID;
 enum MobileFlowState : NSInteger;
 
 SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
@@ -389,12 +390,14 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// \param ticket 
 /// The ticket used to access the gate.
 ///
-- (void)startSkiingWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_DEPRECATED_MSG("", "startMobileFlowWithTicket:");
-- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate;
-- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket;
+///
+/// returns:
+///
+/// String with the session id which is created, if the creation of the session was successful. The session id can be used in the future to trace issues of single user issues.
+- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate SWIFT_WARN_UNUSED_RESULT;
+- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_WARN_UNUSED_RESULT;
 /// This method stops the plugin.
 /// It also stops the region scan.
-- (void)stopSkiing SWIFT_DEPRECATED_MSG("", "stopMobileFlow");
 - (void)stopMobileFlow;
 /// This method downloads a ticket.
 /// On success, the ‘newTicket’ method of the registered delegate is called.
@@ -406,7 +409,6 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// This method return the UUID from the plugin for the current user
 - (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
 /// This method return the current MobileFlow state of the MobileFlow Plugin
-- (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "getMobileFlowState");
 - (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 ///
 /// returns:
@@ -436,11 +438,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 /// This method is called when the pluginState change
 /// \param to state of type <code>MobileFlowLocalizationState</code>´
 ///
-- (void)localizationStateChangedTo:(enum MobileFlowState)state SWIFT_DEPRECATED_MSG("", "mobileFlowStateChangedTo:");
 - (void)mobileFlowStateChangedTo:(enum MobileFlowState)state;
-/// This method is called when a notification should be presented to awake the locked screen
-/// The method is only called if the device require a non-idle mode for passing gates.
-- (void)awakeScreen SWIFT_DEPRECATED_MSG("Function isn't needed with MF-Plugin 3.*");
 @end
 
 
@@ -467,9 +465,8 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// Errors will be handled with the <code>delegation.receivedError</code>.
 /// \param ticket from type <code>MobileFlowTicket</code>which should be used for skiing.
 ///
-- (void)startSkiingWithTicket:(MobileFlowTicket * _Nonnull)ticket;
-- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket;
-- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate;
+- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_WARN_UNUSED_RESULT;
+- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate SWIFT_WARN_UNUSED_RESULT;
 /// Handles the download of the ticket.
 /// Errors will be handled with the <code>delegation.receivedError</code>.
 /// \param url of type <code>String</code> from where the ticket should be downloaded.
@@ -480,7 +477,6 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 - (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 - (MobileFlowTicket * _Nullable)getActivatedTicket SWIFT_WARN_UNUSED_RESULT;
 /// Stopped the activity and allow a new start of the plugin. The stored elements get cleared.
-- (void)stopSkiing;
 - (void)stopMobileFlow;
 - (BOOL)isPhoneSupported SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -925,6 +921,7 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
 @class NSString;
 @protocol MobileFlowPluginDelegate;
 @class MobileFlowTicket;
+@class NSUUID;
 enum MobileFlowState : NSInteger;
 
 SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
@@ -946,12 +943,14 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// \param ticket 
 /// The ticket used to access the gate.
 ///
-- (void)startSkiingWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_DEPRECATED_MSG("", "startMobileFlowWithTicket:");
-- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate;
-- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket;
+///
+/// returns:
+///
+/// String with the session id which is created, if the creation of the session was successful. The session id can be used in the future to trace issues of single user issues.
+- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate SWIFT_WARN_UNUSED_RESULT;
+- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_WARN_UNUSED_RESULT;
 /// This method stops the plugin.
 /// It also stops the region scan.
-- (void)stopSkiing SWIFT_DEPRECATED_MSG("", "stopMobileFlow");
 - (void)stopMobileFlow;
 /// This method downloads a ticket.
 /// On success, the ‘newTicket’ method of the registered delegate is called.
@@ -963,7 +962,6 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// This method return the UUID from the plugin for the current user
 - (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
 /// This method return the current MobileFlow state of the MobileFlow Plugin
-- (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "getMobileFlowState");
 - (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 ///
 /// returns:
@@ -993,11 +991,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 /// This method is called when the pluginState change
 /// \param to state of type <code>MobileFlowLocalizationState</code>´
 ///
-- (void)localizationStateChangedTo:(enum MobileFlowState)state SWIFT_DEPRECATED_MSG("", "mobileFlowStateChangedTo:");
 - (void)mobileFlowStateChangedTo:(enum MobileFlowState)state;
-/// This method is called when a notification should be presented to awake the locked screen
-/// The method is only called if the device require a non-idle mode for passing gates.
-- (void)awakeScreen SWIFT_DEPRECATED_MSG("Function isn't needed with MF-Plugin 3.*");
 @end
 
 
@@ -1024,9 +1018,8 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 /// Errors will be handled with the <code>delegation.receivedError</code>.
 /// \param ticket from type <code>MobileFlowTicket</code>which should be used for skiing.
 ///
-- (void)startSkiingWithTicket:(MobileFlowTicket * _Nonnull)ticket;
-- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket;
-- (void)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate;
+- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_WARN_UNUSED_RESULT;
+- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate SWIFT_WARN_UNUSED_RESULT;
 /// Handles the download of the ticket.
 /// Errors will be handled with the <code>delegation.receivedError</code>.
 /// \param url of type <code>String</code> from where the ticket should be downloaded.
@@ -1037,7 +1030,6 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 - (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 - (MobileFlowTicket * _Nullable)getActivatedTicket SWIFT_WARN_UNUSED_RESULT;
 /// Stopped the activity and allow a new start of the plugin. The stored elements get cleared.
-- (void)stopSkiing;
 - (void)stopMobileFlow;
 - (BOOL)isPhoneSupported SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
