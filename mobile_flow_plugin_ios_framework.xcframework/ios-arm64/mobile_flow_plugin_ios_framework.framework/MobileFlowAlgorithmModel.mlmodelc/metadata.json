@@ -1,14 +1,14 @@
 [
   {
+    "shortDescription" : "cnn_10_steps_v03",
     "metadataOutputVersion" : "3.0",
-    "storagePrecision" : "Float32",
     "outputSchema" : [
       {
         "hasShapeFlexibility" : "0",
         "isOptional" : "0",
         "dataType" : "Float32",
         "formattedType" : "MultiArray (Float32)",
-        "shortDescription" : "",
+        "shortDescription" : "--",
         "shape" : "[]",
         "name" : "var_45",
         "type" : "MultiArray"
@@ -20,6 +20,8 @@
     ],
     "author" : "Sebastian Landl",
     "specificationVersion" : 4,
+    "storagePrecision" : "Float32",
+    "license" : "--",
     "computePrecision" : "Float16",
     "isUpdatable" : "0",
     "availability" : {
@@ -38,7 +40,7 @@
         "isOptional" : "0",
         "dataType" : "Float32",
         "formattedType" : "MultiArray (Float32 1 × 1 × 11 × 6)",
-        "shortDescription" : "",
+        "shortDescription" : "--",
         "shape" : "[1, 1, 11, 6]",
         "name" : "x_1",
         "type" : "MultiArray"
