@@ -74,7 +74,7 @@
       "weights" : {
 
       },
-      "dst_w" : 768,
+      "dst_w" : 288,
       "version" : 1,
       "dst_n" : 1,
       "dst_nd_rank" : 2,
@@ -89,7 +89,7 @@
       "top" : "33"
     },
     {
-      "nB" : 768,
+      "nB" : 288,
       "top" : "37",
       "has_biases" : 1,
       "weights" : {

@@ -37,9 +37,9 @@
         "hasShapeFlexibility" : "0",
         "isOptional" : "0",
         "dataType" : "Float32",
-        "formattedType" : "MultiArray (Float32 1 × 1 × 11 × 6)",
+        "formattedType" : "MultiArray (Float32 1 × 1 × 6 × 6)",
         "shortDescription" : "",
-        "shape" : "[1, 1, 11, 6]",
+        "shape" : "[1, 1, 6, 6]",
         "name" : "x_1",
         "type" : "MultiArray"
       }
