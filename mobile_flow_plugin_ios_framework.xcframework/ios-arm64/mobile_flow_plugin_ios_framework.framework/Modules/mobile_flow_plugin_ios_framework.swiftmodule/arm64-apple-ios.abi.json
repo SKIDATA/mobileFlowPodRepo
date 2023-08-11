@@ -9823,7 +9823,7 @@
       "kind": "StringLiteral",
       "offset": 374,
       "length": 7,
-      "value": "\"3.8.0\""
+      "value": "\"3.8.1\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
