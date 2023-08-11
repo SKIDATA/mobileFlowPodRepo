@@ -390,6 +390,9 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// \param ticket 
 /// The ticket used to access the gate.
 ///
+/// \param shouldVibrate 
+/// tells the plugin whether it should vibrate on passage or not. By default the plugin doesn’t vibrate, if set to <code>true</code> it will vibrate on <code>gateAccessTriggered</code> event.
+///
 ///
 /// returns:
 ///
@@ -942,6 +945,9 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 /// This method starts the plugin.
 /// \param ticket 
 /// The ticket used to access the gate.
+///
+/// \param shouldVibrate 
+/// tells the plugin whether it should vibrate on passage or not. By default the plugin doesn’t vibrate, if set to <code>true</code> it will vibrate on <code>gateAccessTriggered</code> event.
 ///
 ///
 /// returns:
