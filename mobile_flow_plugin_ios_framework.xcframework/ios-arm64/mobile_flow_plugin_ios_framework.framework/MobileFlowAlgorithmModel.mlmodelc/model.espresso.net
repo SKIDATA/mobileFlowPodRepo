@@ -30,7 +30,7 @@
       "pad_t" : 1,
       "has_biases" : 1,
       "C" : 32,
-      "bottom" : "x_1",
+      "bottom" : "beacons",
       "weights" : {
 
       },
@@ -149,7 +149,7 @@
       },
       "mode" : 3,
       "debug_info" : "45",
-      "top" : "var_45",
+      "top" : "output",
       "type" : "activation",
       "name" : "45",
       "attributes" : {
