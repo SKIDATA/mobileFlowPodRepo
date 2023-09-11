@@ -12827,6 +12827,27 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
+      "offset": 1089,
+      "length": 55,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Configuration\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 1107,
+      "length": 6,
+      "value": "\"%03d\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Configuration\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 1134,
+      "length": 1,
+      "value": "\"-SNAPSHOT\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Configuration\/Configuration.swift",
+      "kind": "StringLiteral",
       "offset": 1296,
       "length": 19,
       "value": "\"MF_PLUGIN_VERSION\""
