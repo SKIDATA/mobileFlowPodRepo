@@ -1,7 +1,7 @@
 framework module mobile_flow_plugin_ios_framework {
   umbrella header "mobile_flow_plugin_ios_framework.h"
-
   export *
+
   module * { export * }
 }
 
