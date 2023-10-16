@@ -37,7 +37,7 @@
       "weights" : {
 
       },
-      "nC" : 100,
+      "nC" : 200,
       "blob_weights" : 3,
       "type" : "inner_product",
       "has_relu" : 1,
@@ -49,13 +49,13 @@
       "has_prelu" : 0
     },
     {
-      "nB" : 100,
+      "nB" : 200,
       "top" : "17",
       "has_biases" : 1,
       "weights" : {
 
       },
-      "nC" : 100,
+      "nC" : 200,
       "blob_weights" : 7,
       "type" : "inner_product",
       "has_relu" : 1,
@@ -67,13 +67,13 @@
       "has_prelu" : 0
     },
     {
-      "nB" : 100,
+      "nB" : 200,
       "top" : "21",
       "has_biases" : 1,
       "weights" : {
 
       },
-      "nC" : 100,
+      "nC" : 200,
       "blob_weights" : 11,
       "type" : "inner_product",
       "has_relu" : 1,
@@ -85,7 +85,7 @@
       "has_prelu" : 0
     },
     {
-      "nB" : 100,
+      "nB" : 200,
       "top" : "input.1",
       "has_biases" : 1,
       "weights" : {
