@@ -12781,6 +12781,45 @@
           },
           {
             "kind": "Var",
+            "name": "antennaLastTimestamp",
+            "printedName": "antennaLastTimestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.Int : Foundation.Date]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework4GateC20antennaLastTimestamp33_5F66575747668DB6A55BF8D175D28567LLSDySi10Foundation4DateVGvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework4GateC20antennaLastTimestamp33_5F66575747668DB6A55BF8D175D28567LLSDySi10Foundation4DateVGvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 7,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "updated",
             "printedName": "updated",
             "children": [
@@ -16910,6 +16949,53 @@
           },
           {
             "kind": "Var",
+            "name": "algorithmModelDescription",
+            "printedName": "algorithmModelDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework15PhoneLogDetailsV25algorithmModelDescriptionSSvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15PhoneLogDetailsV25algorithmModelDescriptionSSvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework15PhoneLogDetailsV25algorithmModelDescriptionSSvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework15PhoneLogDetailsV25algorithmModelDescriptionSSvg",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "osVersion",
             "printedName": "osVersion",
             "children": [
@@ -16927,7 +17013,7 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -16974,7 +17060,7 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -17021,7 +17107,7 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -17068,7 +17154,7 @@
             "declAttributes": [
               "HasStorage"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -17099,7 +17185,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(applicationUUID:hostApp:hostAppVersion:pluginVersion:osVersion:model:marketingName:buildNr:)",
+            "printedName": "init(applicationUUID:hostApp:hostAppVersion:pluginVersion:algorithmModelDescription:osVersion:model:marketingName:buildNr:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -17154,11 +17240,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:32mobile_flow_plugin_ios_framework15PhoneLogDetailsV15applicationUUID7hostApp0kL7Version0cM002osM05model13marketingName7buildNrACSS_S7Stcfc",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework15PhoneLogDetailsV15applicationUUID7hostApp0kL7Version0cM002osM05model13marketingName7buildNrACSS_S7Stcfc",
+            "usr": "s:32mobile_flow_plugin_ios_framework15PhoneLogDetailsV15applicationUUID7hostApp0kL7Version0cM025algorithmModelDescription02osM05model13marketingName7buildNrACSS_S8Stcfc",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15PhoneLogDetailsV15applicationUUID7hostApp0kL7Version0cM025algorithmModelDescription02osM05model13marketingName7buildNrACSS_S8Stcfc",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "implicit": true,
             "init_kind": "Designated"
@@ -25292,8 +25384,7 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "RawDocComment"
+              "HasStorage"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -25349,7 +25440,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -31593,6 +31685,44 @@
           },
           {
             "kind": "Var",
+            "name": "MLP",
+            "printedName": "MLP",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.MLModelType.Type) -> mobile_flow_plugin_ios_framework.MLModelType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLModelType",
+                    "printedName": "mobile_flow_plugin_ios_framework.MLModelType",
+                    "usr": "s:32mobile_flow_plugin_ios_framework11MLModelTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.MLModelType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MLModelType",
+                        "printedName": "mobile_flow_plugin_ios_framework.MLModelType",
+                        "usr": "s:32mobile_flow_plugin_ios_framework11MLModelTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework11MLModelTypeO3MLPyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11MLModelTypeO3MLPyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
             "name": "Unknown",
             "printedName": "Unknown",
             "children": [
@@ -31627,7 +31757,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework11MLModelTypeO7UnknownyA2CmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework11MLModelTypeO7UnknownyA2CmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 2
+            "fixedbinaryorder": 3
           },
           {
             "kind": "Constructor",
@@ -31792,9 +31922,6 @@
             "usr": "s:32mobile_flow_plugin_ios_framework11MLModelTypeO14shapeInputDate17beaconsPerAntenna11historySizeSo12MLMultiArrayCSgSDySiSayAA6BeaconCGG_SitF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework11MLModelTypeO14shapeInputDate17beaconsPerAntenna11historySizeSo12MLMultiArrayCSgSDySiSayAA6BeaconCGG_SitF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -82457,78 +82584,85 @@
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
+      "kind": "Dictionary",
+      "offset": 485,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1272,
+      "offset": 1329,
       "length": 10,
       "value": "\"deviceID\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1308,
+      "offset": 1365,
       "length": 11,
       "value": "\"companyID\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1340,
+      "offset": 1397,
       "length": 10,
       "value": "\"gateType\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1374,
+      "offset": 1431,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1272,
+      "offset": 1329,
       "length": 10,
       "value": "\"deviceID\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1308,
+      "offset": 1365,
       "length": 11,
       "value": "\"companyID\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1340,
+      "offset": 1397,
       "length": 10,
       "value": "\"gateType\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "StringLiteral",
-      "offset": 1374,
+      "offset": 1431,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "BooleanLiteral",
-      "offset": 3317,
+      "offset": 3374,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "IntegerLiteral",
-      "offset": 3343,
+      "offset": 3400,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Gate.swift",
       "kind": "IntegerLiteral",
-      "offset": 3365,
+      "offset": 3422,
       "length": 4,
       "value": "-127"
     },
@@ -82983,49 +83117,49 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 2709,
+      "offset": 2705,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "Array",
-      "offset": 2751,
+      "offset": 2747,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 2829,
+      "offset": 2825,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 2863,
+      "offset": 2859,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 2889,
+      "offset": 2885,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 2936,
+      "offset": 2932,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 5070,
+      "offset": 5066,
       "length": 5,
       "value": "false"
     },
@@ -83039,7 +83173,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 24335,
+      "offset": 24388,
       "length": 3,
       "value": "0.5"
     },
