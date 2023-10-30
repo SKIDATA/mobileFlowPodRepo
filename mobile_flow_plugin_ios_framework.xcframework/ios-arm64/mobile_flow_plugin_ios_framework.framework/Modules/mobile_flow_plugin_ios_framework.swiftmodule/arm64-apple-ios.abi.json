@@ -56374,8 +56374,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "createMultiArray",
-            "printedName": "createMultiArray(beaconsPerAntenna:historySize:)",
+            "name": "createMultiArrayForCNN",
+            "printedName": "createMultiArrayForCNN(beaconsPerAntenna:historySize:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -56428,8 +56428,73 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:32mobile_flow_plugin_ios_framework7MLUtilsV16createMultiArray17beaconsPerAntenna11historySizeSo07MLMultiI0CSgSDySiSayAA6BeaconCGG_SitFZ",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework7MLUtilsV16createMultiArray17beaconsPerAntenna11historySizeSo07MLMultiI0CSgSDySiSayAA6BeaconCGG_SitFZ",
+            "usr": "s:32mobile_flow_plugin_ios_framework7MLUtilsV22createMultiArrayForCNN17beaconsPerAntenna11historySizeSo07MLMultiI0CSgSDySiSayAA6BeaconCGG_SitFZ",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework7MLUtilsV22createMultiArrayForCNN17beaconsPerAntenna11historySizeSo07MLMultiI0CSgSDySiSayAA6BeaconCGG_SitFZ",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createMultiArrayForMLP",
+            "printedName": "createMultiArrayForMLP(beaconsPerAntenna:historySize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreML.MLMultiArray?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLMultiArray",
+                    "printedName": "CoreML.MLMultiArray",
+                    "usr": "c:objc(cs)MLMultiArray"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.Int : [mobile_flow_plugin_ios_framework.Beacon]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[mobile_flow_plugin_ios_framework.Beacon]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Beacon",
+                        "printedName": "mobile_flow_plugin_ios_framework.Beacon",
+                        "usr": "s:32mobile_flow_plugin_ios_framework6BeaconC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:32mobile_flow_plugin_ios_framework7MLUtilsV22createMultiArrayForMLP17beaconsPerAntenna11historySizeSo07MLMultiI0CSgSDySiSayAA6BeaconCGG_SitFZ",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework7MLUtilsV22createMultiArrayForMLP17beaconsPerAntenna11historySizeSo07MLMultiI0CSgSDySiSayAA6BeaconCGG_SitFZ",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "static": true,
             "declAttributes": [
@@ -84181,7 +84246,14 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Algorithm\/ML\/MLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 300,
+      "offset": 306,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Algorithm\/ML\/MLUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1343,
       "length": 1,
       "value": "6"
     },
