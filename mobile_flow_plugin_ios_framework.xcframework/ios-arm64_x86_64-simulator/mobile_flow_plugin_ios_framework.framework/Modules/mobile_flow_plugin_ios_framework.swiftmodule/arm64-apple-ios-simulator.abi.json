@@ -22039,7 +22039,6 @@
               "HasStorage"
             ],
             "fixedbinaryorder": 2,
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -22063,6 +22062,54 @@
                   "Transparent"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework18AlgorithmParameterV7versionSSvs",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework18AlgorithmParameterV7versionSSvs",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework18AlgorithmParameterV7versionSSvM",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework18AlgorithmParameterV7versionSSvM",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -22248,6 +22295,32 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "addUsedAlgoVersion",
+            "printedName": "addUsedAlgoVersion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:32mobile_flow_plugin_ios_framework18AlgorithmParameterV18addUsedAlgoVersionyySSF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework18AlgorithmParameterV18addUsedAlgoVersionyySSF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "Mutating"
+            ],
+            "funcSelfKind": "Mutating"
           },
           {
             "kind": "Constructor",
@@ -64440,6 +64513,32 @@
           },
           {
             "kind": "Var",
+            "name": "usedAlgorithmVersion",
+            "printedName": "usedAlgorithmVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework14SessionServiceC20usedAlgorithmVersion33_4CB43CD861D2A402AD7AF767B2E5E8B4LLSSvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework14SessionServiceC20usedAlgorithmVersion33_4CB43CD861D2A402AD7AF767B2E5E8B4LLSSvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "thresholdInUse",
             "printedName": "thresholdInUse",
             "children": [
@@ -64585,7 +64684,7 @@
               "HasStorage",
               "SetterAccess"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true,
             "accessors": [
               {
@@ -64648,7 +64747,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true
           },
           {
@@ -64813,7 +64912,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "hasStorage": true,
             "accessors": [
               {
@@ -64918,7 +65017,7 @@
               "Final",
               "HasStorage"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -64966,7 +65065,7 @@
               "Final",
               "HasStorage"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -64997,7 +65096,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(_:networkMonitor:localStorageService:defaultAlgorithmParameter:defaultConnectionParameter:)",
+            "printedName": "init(_:networkMonitor:localStorageService:defaultAlgorithmParameter:defaultConnectionParameter:usedAlgorithmVersion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -65037,11 +65136,17 @@
                 "printedName": "mobile_flow_plugin_ios_framework.ConnectionParameter",
                 "hasDefaultArg": true,
                 "usr": "s:32mobile_flow_plugin_ios_framework19ConnectionParameterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:32mobile_flow_plugin_ios_framework14SessionServiceC_14networkMonitor012localStorageG025defaultAlgorithmParameter0l10ConnectionN0AcA24MobileFlowAPIServiceable_p_AA07NetworkI0CAA05LocalkG8Protocol_pAA0mN0VAA0oN0Vtcfc",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework14SessionServiceC_14networkMonitor012localStorageG025defaultAlgorithmParameter0l10ConnectionN0AcA24MobileFlowAPIServiceable_p_AA07NetworkI0CAA05LocalkG8Protocol_pAA0mN0VAA0oN0Vtcfc",
+            "usr": "s:32mobile_flow_plugin_ios_framework14SessionServiceC_14networkMonitor012localStorageG025defaultAlgorithmParameter0l10ConnectionN004usedM7VersionAcA24MobileFlowAPIServiceable_p_AA07NetworkI0CAA05LocalkG8Protocol_pAA0mN0VAA0oN0VSStcfc",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework14SessionServiceC_14networkMonitor012localStorageG025defaultAlgorithmParameter0l10ConnectionN004usedM7VersionAcA24MobileFlowAPIServiceable_p_AA07NetworkI0CAA05LocalkG8Protocol_pAA0mN0VAA0oN0VSStcfc",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "init_kind": "Designated"
           },
@@ -83164,28 +83269,28 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1506,
+      "offset": 1614,
       "length": 10,
       "value": "\"v2Offset\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1646,
       "length": 20,
       "value": "\"freeMotionV3Offset\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1506,
+      "offset": 1614,
       "length": 10,
       "value": "\"v2Offset\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1646,
       "length": 20,
       "value": "\"freeMotionV3Offset\""
     },
@@ -83276,7 +83381,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 24388,
+      "offset": 24438,
       "length": 3,
       "value": "0.5"
     },
@@ -84550,14 +84655,14 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/SessionService.swift",
       "kind": "StringLiteral",
-      "offset": 1269,
+      "offset": 1313,
       "length": 41,
       "value": "\"Deinit session | ticket.id: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/SessionService.swift",
       "kind": "StringLiteral",
-      "offset": 1309,
+      "offset": 1353,
       "length": 3,
       "value": "\"\""
     },
