@@ -83138,7 +83138,7 @@
       "kind": "IntegerLiteral",
       "offset": 601,
       "length": 3,
-      "value": "960"
+      "value": "955"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
