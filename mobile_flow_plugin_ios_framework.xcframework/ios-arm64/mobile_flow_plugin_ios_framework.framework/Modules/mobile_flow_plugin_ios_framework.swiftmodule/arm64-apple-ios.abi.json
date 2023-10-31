@@ -64513,6 +64513,32 @@
           },
           {
             "kind": "Var",
+            "name": "phoneLogDetails",
+            "printedName": "phoneLogDetails",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PhoneLogDetails",
+                "printedName": "mobile_flow_plugin_ios_framework.PhoneLogDetails",
+                "usr": "s:32mobile_flow_plugin_ios_framework15PhoneLogDetailsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework14SessionServiceC15phoneLogDetails33_4CB43CD861D2A402AD7AF767B2E5E8B4LLAA05PhoneiJ0Vvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework14SessionServiceC15phoneLogDetails33_4CB43CD861D2A402AD7AF767B2E5E8B4LLAA05PhoneiJ0Vvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "usedAlgorithmVersion",
             "printedName": "usedAlgorithmVersion",
             "children": [
@@ -64533,7 +64559,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "isLet": true,
             "hasStorage": true
           },
@@ -64684,7 +64710,7 @@
               "HasStorage",
               "SetterAccess"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true,
             "accessors": [
               {
@@ -64747,7 +64773,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "hasStorage": true
           },
           {
@@ -64912,7 +64938,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "hasStorage": true,
             "accessors": [
               {
@@ -65017,7 +65043,7 @@
               "Final",
               "HasStorage"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -65065,7 +65091,7 @@
               "Final",
               "HasStorage"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -65096,7 +65122,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(_:networkMonitor:localStorageService:defaultAlgorithmParameter:defaultConnectionParameter:usedAlgorithmVersion:)",
+            "printedName": "init(_:networkMonitor:localStorageService:defaultAlgorithmParameter:defaultConnectionParameter:phoneLogDetails:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -65139,21 +65165,21 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "PhoneLogDetails",
+                "printedName": "mobile_flow_plugin_ios_framework.PhoneLogDetails",
+                "usr": "s:32mobile_flow_plugin_ios_framework15PhoneLogDetailsV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:32mobile_flow_plugin_ios_framework14SessionServiceC_14networkMonitor012localStorageG025defaultAlgorithmParameter0l10ConnectionN004usedM7VersionAcA24MobileFlowAPIServiceable_p_AA07NetworkI0CAA05LocalkG8Protocol_pAA0mN0VAA0oN0VSStcfc",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework14SessionServiceC_14networkMonitor012localStorageG025defaultAlgorithmParameter0l10ConnectionN004usedM7VersionAcA24MobileFlowAPIServiceable_p_AA07NetworkI0CAA05LocalkG8Protocol_pAA0mN0VAA0oN0VSStcfc",
+            "usr": "s:32mobile_flow_plugin_ios_framework14SessionServiceC_14networkMonitor012localStorageG025defaultAlgorithmParameter0l10ConnectionN015phoneLogDetailsAcA24MobileFlowAPIServiceable_p_AA07NetworkI0CAA05LocalkG8Protocol_pAA0mN0VAA0oN0VAA05PhoneqR0Vtcfc",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework14SessionServiceC_14networkMonitor012localStorageG025defaultAlgorithmParameter0l10ConnectionN015phoneLogDetailsAcA24MobileFlowAPIServiceable_p_AA07NetworkI0CAA05LocalkG8Protocol_pAA0mN0VAA0oN0VAA05PhoneqR0Vtcfc",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "init_kind": "Designated"
           },
           {
             "kind": "Function",
             "name": "createSession",
-            "printedName": "createSession(with:phoneLogDetails:)",
+            "printedName": "createSession(with:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -65165,17 +65191,11 @@
                 "name": "MobileFlowTicket",
                 "printedName": "mobile_flow_plugin_ios_framework.MobileFlowTicket",
                 "usr": "c:@M@mobile_flow_plugin_ios_framework@objc(cs)MobileFlowTicket"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PhoneLogDetails",
-                "printedName": "mobile_flow_plugin_ios_framework.PhoneLogDetails",
-                "usr": "s:32mobile_flow_plugin_ios_framework15PhoneLogDetailsV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:32mobile_flow_plugin_ios_framework14SessionServiceC06createF04with15phoneLogDetailsyAA16MobileFlowTicketC_AA05PhonekL0VtF",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework14SessionServiceC06createF04with15phoneLogDetailsyAA16MobileFlowTicketC_AA05PhonekL0VtF",
+            "usr": "s:32mobile_flow_plugin_ios_framework14SessionServiceC06createF04withyAA16MobileFlowTicketC_tF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework14SessionServiceC06createF04withyAA16MobileFlowTicketC_tF",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -83381,7 +83401,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 24438,
+      "offset": 24388,
       "length": 3,
       "value": "0.5"
     },
@@ -84655,14 +84675,14 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/SessionService.swift",
       "kind": "StringLiteral",
-      "offset": 1313,
+      "offset": 1362,
       "length": 41,
       "value": "\"Deinit session | ticket.id: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/SessionService.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 1402,
       "length": 3,
       "value": "\"\""
     },
