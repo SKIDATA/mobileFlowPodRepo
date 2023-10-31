@@ -47860,7 +47860,7 @@
           {
             "kind": "Function",
             "name": "handleNetworkError",
-            "printedName": "handleNetworkError(with:)",
+            "printedName": "handleNetworkError(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -47869,14 +47869,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "HTTPResponse",
-                "printedName": "mobile_flow_plugin_ios_framework.HTTPResponse",
-                "usr": "s:32mobile_flow_plugin_ios_framework12HTTPResponseV"
+                "name": "NetworkError",
+                "printedName": "mobile_flow_plugin_ios_framework.NetworkError",
+                "usr": "s:32mobile_flow_plugin_ios_framework12NetworkErrorO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:32mobile_flow_plugin_ios_framework20MobileFlowLogServiceC18handleNetworkError4withyAA12HTTPResponseV_tF",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework20MobileFlowLogServiceC18handleNetworkError4withyAA12HTTPResponseV_tF",
+            "usr": "s:32mobile_flow_plugin_ios_framework20MobileFlowLogServiceC18handleNetworkErroryyAA0kL0OF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework20MobileFlowLogServiceC18handleNetworkErroryyAA0kL0OF",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -56757,6 +56757,44 @@
           },
           {
             "kind": "Var",
+            "name": "connectionLost",
+            "printedName": "connectionLost",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.NetworkError.Type) -> mobile_flow_plugin_ios_framework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "mobile_flow_plugin_ios_framework.NetworkError",
+                    "usr": "s:32mobile_flow_plugin_ios_framework12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "mobile_flow_plugin_ios_framework.NetworkError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework12NetworkErrorO14connectionLostyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework12NetworkErrorO14connectionLostyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
             "name": "invalidJSON",
             "printedName": "invalidJSON",
             "children": [
@@ -56804,7 +56842,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework12NetworkErrorO11invalidJSONyACSScACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework12NetworkErrorO11invalidJSONyACSScACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 2
+            "fixedbinaryorder": 3
           },
           {
             "kind": "Var",
@@ -56855,7 +56893,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework12NetworkErrorO12invalidTokenyACSScACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework12NetworkErrorO12invalidTokenyACSScACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 3
+            "fixedbinaryorder": 4
           },
           {
             "kind": "Var",
@@ -56906,7 +56944,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework12NetworkErrorO10noResponseyACSScACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework12NetworkErrorO10noResponseyACSScACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 4
+            "fixedbinaryorder": 5
           },
           {
             "kind": "Var",
@@ -56957,7 +56995,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework12NetworkErrorO06serverG0yAcA12HTTPResponseVcACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework12NetworkErrorO06serverG0yAcA12HTTPResponseVcACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 5
+            "fixedbinaryorder": 6
           },
           {
             "kind": "Var",
@@ -57008,7 +57046,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework12NetworkErrorO17unableToParseDatayACSScACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework12NetworkErrorO17unableToParseDatayACSScACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 6
+            "fixedbinaryorder": 7
           },
           {
             "kind": "Var",
@@ -57059,7 +57097,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework12NetworkErrorO12unauthorizedyAcA12HTTPResponseVcACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework12NetworkErrorO12unauthorizedyAcA12HTTPResponseVcACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 7
+            "fixedbinaryorder": 8
           },
           {
             "kind": "Var",
@@ -57117,7 +57155,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework12NetworkErrorO7unknownyACSS_tcACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework12NetworkErrorO7unknownyACSS_tcACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 8
+            "fixedbinaryorder": 9
           },
           {
             "kind": "Function",
