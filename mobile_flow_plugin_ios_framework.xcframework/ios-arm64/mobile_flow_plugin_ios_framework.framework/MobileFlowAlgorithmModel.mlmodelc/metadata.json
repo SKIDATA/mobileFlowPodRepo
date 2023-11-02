@@ -1,6 +1,6 @@
 [
   {
-    "shortDescription" : "mlp_3_steps_v12",
+    "shortDescription" : "mlp_3_steps_v13",
     "metadataOutputVersion" : "3.0",
     "outputSchema" : [
       {
@@ -47,11 +47,11 @@
       }
     ],
     "userDefinedMetadata" : {
-      "use_phone_model" : "FALSE",
+      "library" : "PYTORCH",
       "model" : "MLP",
       "com.github.apple.coremltools.source" : "torch==1.13.1+cu117",
       "com.github.apple.coremltools.version" : "6.3.0",
-      "library" : "PYTORCH"
+      "use_phone_model" : "FALSE"
     },
     "generatedClassName" : "MobileFlowAlgorithmModel",
     "neuralNetworkLayerTypeHistogram" : {
