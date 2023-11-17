@@ -5266,6 +5266,71 @@
           },
           {
             "kind": "Var",
+            "name": "lastBeacons",
+            "printedName": "lastBeacons",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[mobile_flow_plugin_ios_framework.Beacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Beacon",
+                    "printedName": "mobile_flow_plugin_ios_framework.Beacon",
+                    "usr": "s:32mobile_flow_plugin_ios_framework6BeaconC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC11lastBeaconsSayAA6BeaconCGvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16EvaluationResultC11lastBeaconsSayAA6BeaconCGvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[mobile_flow_plugin_ios_framework.Beacon]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Beacon",
+                        "printedName": "mobile_flow_plugin_ios_framework.Beacon",
+                        "usr": "s:32mobile_flow_plugin_ios_framework6BeaconC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC11lastBeaconsSayAA6BeaconCGvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework16EvaluationResultC11lastBeaconsSayAA6BeaconCGvg",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "evaluatedAt",
             "printedName": "evaluatedAt",
             "children": [
@@ -5285,7 +5350,7 @@
               "Final",
               "HasStorage"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 4,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -5317,7 +5382,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(_:with:probability:)",
+            "printedName": "init(_:with:probability:lastBeacons:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5343,11 +5408,25 @@
                 "printedName": "Swift.Double",
                 "hasDefaultArg": true,
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[mobile_flow_plugin_ios_framework.Beacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Beacon",
+                    "printedName": "mobile_flow_plugin_ios_framework.Beacon",
+                    "usr": "s:32mobile_flow_plugin_ios_framework6BeaconC"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC_4with11probabilityAcA0fG5ValueO_SSSdtcfc",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework16EvaluationResultC_4with11probabilityAcA0fG5ValueO_SSSdtcfc",
+            "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC_4with11probability11lastBeaconsAcA0fG5ValueO_SSSdSayAA6BeaconCGtcfc",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16EvaluationResultC_4with11probability11lastBeaconsAcA0fG5ValueO_SSSdSayAA6BeaconCGtcfc",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "init_kind": "Designated"
           },
@@ -5411,6 +5490,47 @@
                 "declKind": "Accessor",
                 "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC16debugDescriptionSSvg",
                 "mangledName": "$s32mobile_flow_plugin_ios_framework16EvaluationResultC16debugDescriptionSSvg",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "isOpen": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logDetails",
+            "printedName": "logDetails",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC10logDetailsSSvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16EvaluationResultC10logDetailsSSvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "isOpen": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC10logDetailsSSvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework16EvaluationResultC10logDetailsSSvg",
                 "moduleName": "mobile_flow_plugin_ios_framework",
                 "isOpen": true,
                 "isFromExtension": true,
@@ -11619,6 +11739,125 @@
           },
           {
             "kind": "Var",
+            "name": "evaluationResult",
+            "printedName": "evaluationResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "mobile_flow_plugin_ios_framework.EvaluationResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationResult",
+                    "printedName": "mobile_flow_plugin_ios_framework.EvaluationResult",
+                    "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework21MobileFlowEventInternV16evaluationResultAA010EvaluationK0CSgvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework21MobileFlowEventInternV16evaluationResultAA010EvaluationK0CSgvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "mobile_flow_plugin_ios_framework.EvaluationResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EvaluationResult",
+                        "printedName": "mobile_flow_plugin_ios_framework.EvaluationResult",
+                        "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework21MobileFlowEventInternV16evaluationResultAA010EvaluationK0CSgvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework21MobileFlowEventInternV16evaluationResultAA010EvaluationK0CSgvg",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "mobile_flow_plugin_ios_framework.EvaluationResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EvaluationResult",
+                        "printedName": "mobile_flow_plugin_ios_framework.EvaluationResult",
+                        "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework21MobileFlowEventInternV16evaluationResultAA010EvaluationK0CSgvs",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework21MobileFlowEventInternV16evaluationResultAA010EvaluationK0CSgvs",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework21MobileFlowEventInternV16evaluationResultAA010EvaluationK0CSgvM",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework21MobileFlowEventInternV16evaluationResultAA010EvaluationK0CSgvM",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "message",
             "printedName": "message",
             "children": [
@@ -11719,7 +11958,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -11775,7 +12014,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true,
             "accessors": [
               {
@@ -11853,7 +12092,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(_:on:connectionDto:)",
+            "printedName": "init(_:on:connectionDto:evaluationResult:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11896,11 +12135,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "mobile_flow_plugin_ios_framework.EvaluationResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationResult",
+                    "printedName": "mobile_flow_plugin_ios_framework.EvaluationResult",
+                    "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:32mobile_flow_plugin_ios_framework21MobileFlowEventInternV_2on13connectionDtoAcA0fgH0O_AA4GateCSgAA010ConnectionL0VSgtcfc",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework21MobileFlowEventInternV_2on13connectionDtoAcA0fgH0O_AA4GateCSgAA010ConnectionL0VSgtcfc",
+            "usr": "s:32mobile_flow_plugin_ios_framework21MobileFlowEventInternV_2on13connectionDto16evaluationResultAcA0fgH0O_AA4GateCSgAA010ConnectionL0VSgAA010EvaluationN0CSgtcfc",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework21MobileFlowEventInternV_2on13connectionDto16evaluationResultAcA0fgH0O_AA4GateCSgAA010ConnectionL0VSgAA010EvaluationN0CSgtcfc",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "init_kind": "Designated"
           },
@@ -29117,7 +29371,7 @@
           {
             "kind": "Function",
             "name": "evaluate",
-            "printedName": "evaluate(beaconsPerAntenna:threshold:fence:rssiThreshold:)",
+            "printedName": "evaluate(beaconsPerAntenna:lastBeacons:threshold:fence:rssiThreshold:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29155,6 +29409,20 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[mobile_flow_plugin_ios_framework.Beacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Beacon",
+                    "printedName": "mobile_flow_plugin_ios_framework.Beacon",
+                    "usr": "s:32mobile_flow_plugin_ios_framework6BeaconC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
@@ -29173,8 +29441,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:32mobile_flow_plugin_ios_framework9AlgorithmP8evaluate17beaconsPerAntenna9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_S3itF",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework9AlgorithmP8evaluate17beaconsPerAntenna9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_S3itF",
+            "usr": "s:32mobile_flow_plugin_ios_framework9AlgorithmP8evaluate17beaconsPerAntenna11lastBeacons9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_ANS3itF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework9AlgorithmP8evaluate17beaconsPerAntenna11lastBeacons9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_ANS3itF",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "genericSig": "<τ_0_0 where τ_0_0 : mobile_flow_plugin_ios_framework.Algorithm>",
             "sugared_genericSig": "<Self where Self : mobile_flow_plugin_ios_framework.Algorithm>",
@@ -29949,7 +30217,7 @@
           {
             "kind": "Function",
             "name": "evaluate",
-            "printedName": "evaluate(beaconsPerAntenna:threshold:fence:rssiThreshold:)",
+            "printedName": "evaluate(beaconsPerAntenna:lastBeacons:threshold:fence:rssiThreshold:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29987,6 +30255,20 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[mobile_flow_plugin_ios_framework.Beacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Beacon",
+                    "printedName": "mobile_flow_plugin_ios_framework.Beacon",
+                    "usr": "s:32mobile_flow_plugin_ios_framework6BeaconC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
@@ -30005,8 +30287,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:32mobile_flow_plugin_ios_framework11MLAlgorithmV8evaluate17beaconsPerAntenna9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_S3itF",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework11MLAlgorithmV8evaluate17beaconsPerAntenna9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_S3itF",
+            "usr": "s:32mobile_flow_plugin_ios_framework11MLAlgorithmV8evaluate17beaconsPerAntenna11lastBeacons9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_ANS3itF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework11MLAlgorithmV8evaluate17beaconsPerAntenna11lastBeacons9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_ANS3itF",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "funcSelfKind": "NonMutating"
           },
@@ -53838,7 +54120,7 @@
           {
             "kind": "Function",
             "name": "evaluate",
-            "printedName": "evaluate(beaconsPerAntenna:threshold:fence:rssiThreshold:)",
+            "printedName": "evaluate(beaconsPerAntenna:lastBeacons:threshold:fence:rssiThreshold:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -53876,6 +54158,20 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[mobile_flow_plugin_ios_framework.Beacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Beacon",
+                    "printedName": "mobile_flow_plugin_ios_framework.Beacon",
+                    "usr": "s:32mobile_flow_plugin_ios_framework6BeaconC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
@@ -53894,8 +54190,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:32mobile_flow_plugin_ios_framework13BaseAlgorithmV8evaluate17beaconsPerAntenna9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_S3itF",
-            "mangledName": "$s32mobile_flow_plugin_ios_framework13BaseAlgorithmV8evaluate17beaconsPerAntenna9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_S3itF",
+            "usr": "s:32mobile_flow_plugin_ios_framework13BaseAlgorithmV8evaluate17beaconsPerAntenna11lastBeacons9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_ANS3itF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework13BaseAlgorithmV8evaluate17beaconsPerAntenna11lastBeacons9threshold5fence13rssiThresholdAA16EvaluationResultCSDySiSayAA6BeaconCGG_ANS3itF",
             "moduleName": "mobile_flow_plugin_ios_framework",
             "funcSelfKind": "NonMutating"
           },
@@ -83693,7 +83989,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Algorithm\/EvaluationResult.swift",
       "kind": "FloatLiteral",
-      "offset": 385,
+      "offset": 415,
       "length": 4,
       "value": "-1.0"
     },
@@ -83819,7 +84115,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/MobileFlowInternalEvent.swift",
       "kind": "BooleanLiteral",
-      "offset": 596,
+      "offset": 640,
       "length": 5,
       "value": "false"
     },
@@ -84624,7 +84920,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 24426,
+      "offset": 24671,
       "length": 3,
       "value": "0.5"
     },
