@@ -21128,6 +21128,375 @@
           },
           {
             "kind": "Var",
+            "name": "areaFull",
+            "printedName": "areaFull",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type) -> mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GATTErrorResponseCode",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                    "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GATTErrorResponseCode",
+                        "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                        "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO8areaFullyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO8areaFullyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "wrongLocation",
+            "printedName": "wrongLocation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type) -> mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GATTErrorResponseCode",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                    "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GATTErrorResponseCode",
+                        "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                        "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO13wrongLocationyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO13wrongLocationyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "wrongTime",
+            "printedName": "wrongTime",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type) -> mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GATTErrorResponseCode",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                    "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GATTErrorResponseCode",
+                        "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                        "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO9wrongTimeyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO9wrongTimeyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "blocked",
+            "printedName": "blocked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type) -> mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GATTErrorResponseCode",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                    "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GATTErrorResponseCode",
+                        "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                        "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO7blockedyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO7blockedyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 9
+          },
+          {
+            "kind": "Var",
+            "name": "doubleUsage",
+            "printedName": "doubleUsage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type) -> mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GATTErrorResponseCode",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                    "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GATTErrorResponseCode",
+                        "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                        "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO11doubleUsageyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO11doubleUsageyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 10
+          },
+          {
+            "kind": "Var",
+            "name": "expired",
+            "printedName": "expired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type) -> mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GATTErrorResponseCode",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                    "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GATTErrorResponseCode",
+                        "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                        "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO7expiredyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO7expiredyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 11
+          },
+          {
+            "kind": "Var",
+            "name": "tooLessRemainingValue",
+            "printedName": "tooLessRemainingValue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type) -> mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GATTErrorResponseCode",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                    "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GATTErrorResponseCode",
+                        "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                        "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO21tooLessRemainingValueyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO21tooLessRemainingValueyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 12
+          },
+          {
+            "kind": "Var",
+            "name": "ticketUnknown",
+            "printedName": "ticketUnknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type) -> mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GATTErrorResponseCode",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                    "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GATTErrorResponseCode",
+                        "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                        "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO13ticketUnknownyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO13ticketUnknownyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 13
+          },
+          {
+            "kind": "Var",
+            "name": "ticketInvalidHereNow",
+            "printedName": "ticketInvalidHereNow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type) -> mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GATTErrorResponseCode",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                    "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GATTErrorResponseCode",
+                        "printedName": "mobile_flow_plugin_ios_framework.GATTErrorResponseCode",
+                        "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO20ticketInvalidHereNowyA2CmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework21GATTErrorResponseCodeO20ticketInvalidHereNowyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 14
+          },
+          {
+            "kind": "Var",
             "name": "unknown",
             "printedName": "unknown",
             "children": [
@@ -21165,7 +21534,7 @@
             "declAttributes": [
               "RawDocComment"
             ],
-            "fixedbinaryorder": 6
+            "fixedbinaryorder": 15
           },
           {
             "kind": "Function",
@@ -33224,6 +33593,384 @@
           },
           {
             "kind": "Var",
+            "name": "TicketCheckError_AreaFull",
+            "printedName": "TicketCheckError_AreaFull",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.MobileFlowError.Type) -> mobile_flow_plugin_ios_framework.MobileFlowError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileFlowError",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                    "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileFlowError",
+                        "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                        "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError@MobileFlowErrorTicketCheckError_AreaFull",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO011TicketCheckH9_AreaFullyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 13
+          },
+          {
+            "kind": "Var",
+            "name": "TicketCheckError_Blocked",
+            "printedName": "TicketCheckError_Blocked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.MobileFlowError.Type) -> mobile_flow_plugin_ios_framework.MobileFlowError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileFlowError",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                    "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileFlowError",
+                        "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                        "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError@MobileFlowErrorTicketCheckError_Blocked",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO011TicketCheckH8_BlockedyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 14
+          },
+          {
+            "kind": "Var",
+            "name": "TicketCheckError_DoubleUsage",
+            "printedName": "TicketCheckError_DoubleUsage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.MobileFlowError.Type) -> mobile_flow_plugin_ios_framework.MobileFlowError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileFlowError",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                    "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileFlowError",
+                        "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                        "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError@MobileFlowErrorTicketCheckError_DoubleUsage",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO011TicketCheckH12_DoubleUsageyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 15
+          },
+          {
+            "kind": "Var",
+            "name": "TicketCheckError_Expired",
+            "printedName": "TicketCheckError_Expired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.MobileFlowError.Type) -> mobile_flow_plugin_ios_framework.MobileFlowError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileFlowError",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                    "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileFlowError",
+                        "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                        "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError@MobileFlowErrorTicketCheckError_Expired",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO011TicketCheckH8_ExpiredyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 16
+          },
+          {
+            "kind": "Var",
+            "name": "TicketCheckError_TicketUnknown",
+            "printedName": "TicketCheckError_TicketUnknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.MobileFlowError.Type) -> mobile_flow_plugin_ios_framework.MobileFlowError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileFlowError",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                    "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileFlowError",
+                        "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                        "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError@MobileFlowErrorTicketCheckError_TicketUnknown",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO011TicketCheckh1_I7UnknownyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 17
+          },
+          {
+            "kind": "Var",
+            "name": "TicketCheckError_TicketInvalidHereNow",
+            "printedName": "TicketCheckError_TicketInvalidHereNow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.MobileFlowError.Type) -> mobile_flow_plugin_ios_framework.MobileFlowError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileFlowError",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                    "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileFlowError",
+                        "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                        "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError@MobileFlowErrorTicketCheckError_TicketInvalidHereNow",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO011TicketCheckh1_I14InvalidHereNowyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 18
+          },
+          {
+            "kind": "Var",
+            "name": "TicketCheckError_TooLessRemainingValue",
+            "printedName": "TicketCheckError_TooLessRemainingValue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.MobileFlowError.Type) -> mobile_flow_plugin_ios_framework.MobileFlowError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileFlowError",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                    "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileFlowError",
+                        "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                        "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError@MobileFlowErrorTicketCheckError_TooLessRemainingValue",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO011TicketCheckH22_TooLessRemainingValueyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 19
+          },
+          {
+            "kind": "Var",
+            "name": "TicketCheckError_WrongLocation",
+            "printedName": "TicketCheckError_WrongLocation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.MobileFlowError.Type) -> mobile_flow_plugin_ios_framework.MobileFlowError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileFlowError",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                    "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileFlowError",
+                        "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                        "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError@MobileFlowErrorTicketCheckError_WrongLocation",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO011TicketCheckH14_WrongLocationyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 20
+          },
+          {
+            "kind": "Var",
+            "name": "TicketCheckError_WrongTime",
+            "printedName": "TicketCheckError_WrongTime",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.MobileFlowError.Type) -> mobile_flow_plugin_ios_framework.MobileFlowError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileFlowError",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                    "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileFlowError",
+                        "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                        "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError@MobileFlowErrorTicketCheckError_WrongTime",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO011TicketCheckH10_WrongTimeyA2CmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 21
+          },
+          {
+            "kind": "Var",
             "name": "TicketDownloadLimitExceeded",
             "printedName": "TicketDownloadLimitExceeded",
             "children": [
@@ -33262,7 +34009,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 13
+            "fixedbinaryorder": 22
           },
           {
             "kind": "Var",
@@ -33304,7 +34051,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 14
+            "fixedbinaryorder": 23
           },
           {
             "kind": "Var",
@@ -33346,7 +34093,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 15
+            "fixedbinaryorder": 24
           },
           {
             "kind": "Var",
@@ -33388,7 +34135,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 16
+            "fixedbinaryorder": 25
           },
           {
             "kind": "Var",
@@ -33430,7 +34177,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 17
+            "fixedbinaryorder": 26
           },
           {
             "kind": "Var",
@@ -33472,7 +34219,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 18
+            "fixedbinaryorder": 27
           },
           {
             "kind": "Constructor",
@@ -83304,149 +84051,338 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 548,
+      "offset": 623,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 604,
+      "offset": 679,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 837,
+      "offset": 912,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 919,
+      "offset": 994,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 1036,
+      "offset": 1111,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 1148,
+      "offset": 1223,
       "length": 4,
       "value": "0x05"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 1210,
-      "length": 7,
-      "value": "6"
+      "offset": 1331,
+      "length": 4,
+      "value": "0x06"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 548,
+      "offset": 1444,
+      "length": 4,
+      "value": "0x07"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1553,
+      "length": 4,
+      "value": "0x08"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1660,
+      "length": 4,
+      "value": "0x09"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1771,
+      "length": 4,
+      "value": "0x0A"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1878,
+      "length": 4,
+      "value": "0x0B"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1999,
+      "length": 4,
+      "value": "0x0C"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2112,
+      "length": 4,
+      "value": "0x0D"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2232,
+      "length": 4,
+      "value": "0x0E"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2294,
+      "length": 7,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 623,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 604,
+      "offset": 679,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 837,
+      "offset": 912,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 919,
+      "offset": 994,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 1036,
+      "offset": 1111,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 1148,
+      "offset": 1223,
       "length": 4,
       "value": "0x05"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 1210,
-      "length": 7,
-      "value": "6"
+      "offset": 1331,
+      "length": 4,
+      "value": "0x06"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 548,
+      "offset": 1444,
+      "length": 4,
+      "value": "0x07"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1553,
+      "length": 4,
+      "value": "0x08"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1660,
+      "length": 4,
+      "value": "0x09"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1771,
+      "length": 4,
+      "value": "0x0A"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1878,
+      "length": 4,
+      "value": "0x0B"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1999,
+      "length": 4,
+      "value": "0x0C"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2112,
+      "length": 4,
+      "value": "0x0D"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2232,
+      "length": 4,
+      "value": "0x0E"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2294,
+      "length": 7,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 623,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 604,
+      "offset": 679,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 837,
+      "offset": 912,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 919,
+      "offset": 994,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 1036,
+      "offset": 1111,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 1148,
+      "offset": 1223,
       "length": 4,
       "value": "0x05"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 1210,
+      "offset": 1331,
+      "length": 4,
+      "value": "0x06"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1444,
+      "length": 4,
+      "value": "0x07"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1553,
+      "length": 4,
+      "value": "0x08"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1660,
+      "length": 4,
+      "value": "0x09"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1771,
+      "length": 4,
+      "value": "0x0A"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1878,
+      "length": 4,
+      "value": "0x0B"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1999,
+      "length": 4,
+      "value": "0x0C"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2112,
+      "length": 4,
+      "value": "0x0D"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2232,
+      "length": 4,
+      "value": "0x0E"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2294,
       "length": 7,
-      "value": "6"
+      "value": "15"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Network\/NetworkModels\/Response\/AlgorithmParameter.swift",
@@ -83815,44 +84751,107 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2985,
-      "length": 27,
+      "offset": 2982,
+      "length": 25,
       "value": "13"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3158,
-      "length": 18,
+      "offset": 3169,
+      "length": 24,
       "value": "14"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3335,
-      "length": 24,
+      "offset": 3371,
+      "length": 28,
       "value": "15"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3560,
-      "length": 18,
+      "offset": 3561,
+      "length": 24,
       "value": "16"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3729,
-      "length": 23,
+      "offset": 3753,
+      "length": 30,
       "value": "17"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3926,
-      "length": 17,
+      "offset": 3976,
+      "length": 37,
       "value": "18"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4221,
+      "length": 38,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4434,
+      "length": 30,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4634,
+      "length": 26,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4847,
+      "length": 27,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5020,
+      "length": 18,
+      "value": "23"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5197,
+      "length": 24,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5422,
+      "length": 18,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5591,
+      "length": 23,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5788,
+      "length": 17,
+      "value": "27"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
@@ -83941,44 +84940,107 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2985,
-      "length": 27,
+      "offset": 2982,
+      "length": 25,
       "value": "13"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3158,
-      "length": 18,
+      "offset": 3169,
+      "length": 24,
       "value": "14"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3335,
-      "length": 24,
+      "offset": 3371,
+      "length": 28,
       "value": "15"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3560,
-      "length": 18,
+      "offset": 3561,
+      "length": 24,
       "value": "16"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3729,
-      "length": 23,
+      "offset": 3753,
+      "length": 30,
       "value": "17"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3926,
-      "length": 17,
+      "offset": 3976,
+      "length": 37,
       "value": "18"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4221,
+      "length": 38,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4434,
+      "length": 30,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4634,
+      "length": 26,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4847,
+      "length": 27,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5020,
+      "length": 18,
+      "value": "23"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5197,
+      "length": 24,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5422,
+      "length": 18,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5591,
+      "length": 23,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5788,
+      "length": 17,
+      "value": "27"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Configuration\/Configuration.swift",
@@ -84809,7 +85871,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "BooleanLiteral",
-      "offset": 16552,
+      "offset": 17432,
       "length": 5,
       "value": "false"
     },

@@ -83,6 +83,15 @@ public enum Permissions : Swift.CaseIterable {
   case PluginOutdated
   case PluginOutdatedSoon
   case RFIDDetected
+  case TicketCheckError_AreaFull
+  case TicketCheckError_Blocked
+  case TicketCheckError_DoubleUsage
+  case TicketCheckError_Expired
+  case TicketCheckError_TicketUnknown
+  case TicketCheckError_TicketInvalidHereNow
+  case TicketCheckError_TooLessRemainingValue
+  case TicketCheckError_WrongLocation
+  case TicketCheckError_WrongTime
   case TicketDownloadLimitExceeded
   case TicketInvalidError
   case TicketNotValidForCompany

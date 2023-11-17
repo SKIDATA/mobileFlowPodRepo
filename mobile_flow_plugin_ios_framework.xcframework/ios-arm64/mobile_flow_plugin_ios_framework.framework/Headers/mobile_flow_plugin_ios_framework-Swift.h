@@ -345,24 +345,51 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 /// RFIDDetected
 /// Errors which is thrown when the reader shortly before Mobile Flow transmitted a <code>MobileFlowEvent.gateAccessTriggered</code> event read an invalid RFID card
   MobileFlowErrorRFIDDetected = 12,
+/// TicketCheckError_AreaFull
+/// Errors which is returned from the reader after ticket check. This is an indication that the area the user wanted to access is full.
+  MobileFlowErrorTicketCheckError_AreaFull = 13,
+/// TicketCheckError_Blocked
+/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is blocked.
+  MobileFlowErrorTicketCheckError_Blocked = 14,
+/// TicketCheckError_DoubleUsage
+/// Errors which is returned from the reader after ticket check. This is an indication that the ticket double usage detected”.
+  MobileFlowErrorTicketCheckError_DoubleUsage = 15,
+/// TicketCheckError_Expired
+/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is expired.
+  MobileFlowErrorTicketCheckError_Expired = 16,
+/// TicketCheckError_TicketUnknown
+/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is unknown.
+  MobileFlowErrorTicketCheckError_TicketUnknown = 17,
+/// TicketCheckError_TicketInvalidHereNow
+/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is not valid here and/or now.
+  MobileFlowErrorTicketCheckError_TicketInvalidHereNow = 18,
+/// TicketCheckError_TooLessRemainingValue
+/// Errors which is returned from the reader after ticket check. This is an indication that the ticket has sufficient value (points, hours, days).
+  MobileFlowErrorTicketCheckError_TooLessRemainingValue = 19,
+/// TicketCheckError_WrongLocation
+/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is not valid here.
+  MobileFlowErrorTicketCheckError_WrongLocation = 20,
+/// TicketCheckError_WrongTime
+/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is not valid now.
+  MobileFlowErrorTicketCheckError_WrongTime = 21,
 /// TicketDownloadLimitExceeded
 /// Errors which is thrown when the download limit has been exceeded. This is an indication that the ticket has already been downloaded.
-  MobileFlowErrorTicketDownloadLimitExceeded = 13,
+  MobileFlowErrorTicketDownloadLimitExceeded = 22,
 /// TicketInvalidError
 /// The ticket was rejected by the SKIDATA access system (i.e. the ticket is not valid at the entrance).
-  MobileFlowErrorTicketInvalidError = 14,
+  MobileFlowErrorTicketInvalidError = 23,
 /// TicketNotValidForCompany
 /// If the phone is in the detection range of a gate which does not match the ticket which is currently in use.
-  MobileFlowErrorTicketNotValidForCompany = 15,
+  MobileFlowErrorTicketNotValidForCompany = 24,
 /// TicketParsingError
 /// Error which indicates that the ticket provided could bot be decoded. This could be caused by a faulty ticket or some missing information within the ticket.
-  MobileFlowErrorTicketParsingError = 16,
+  MobileFlowErrorTicketParsingError = 25,
 /// TicketTransmissionError
 /// Any error that occur in the ticket exchange process between phone and gate during a passage attempt.
-  MobileFlowErrorTicketTransmissionError = 17,
+  MobileFlowErrorTicketTransmissionError = 26,
 /// UnsupportedDevice
 /// The phone isn’t supported. If this error occurs <code>stopMobileFlow()</code> will be called. A list of unsupported phones will be provided.
-  MobileFlowErrorUnsupportedDevice = 18,
+  MobileFlowErrorUnsupportedDevice = 27,
 };
 static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_ios_framework.MobileFlowError";
 
