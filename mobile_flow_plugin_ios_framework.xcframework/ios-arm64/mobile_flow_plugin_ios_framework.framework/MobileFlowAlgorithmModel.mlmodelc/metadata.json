@@ -47,11 +47,11 @@
       }
     ],
     "userDefinedMetadata" : {
-      "library" : "PYTORCH",
+      "use_phone_model" : "FALSE",
       "model" : "MLP",
       "com.github.apple.coremltools.source" : "torch==1.13.1+cu117",
       "com.github.apple.coremltools.version" : "6.3.0",
-      "use_phone_model" : "FALSE"
+      "library" : "PYTORCH"
     },
     "generatedClassName" : "MobileFlowAlgorithmModel",
     "neuralNetworkLayerTypeHistogram" : {
