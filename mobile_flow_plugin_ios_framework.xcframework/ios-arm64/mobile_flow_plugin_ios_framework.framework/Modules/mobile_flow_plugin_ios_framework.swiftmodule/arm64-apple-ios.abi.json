@@ -34452,6 +34452,45 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorRequireDisconnect",
+            "printedName": "errorRequireDisconnect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework15MobileFlowErrorO22errorRequireDisconnectSbvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO22errorRequireDisconnectSbvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework15MobileFlowErrorO22errorRequireDisconnectSbvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework15MobileFlowErrorO22errorRequireDisconnectSbvg",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -56134,6 +56173,57 @@
           },
           {
             "kind": "Var",
+            "name": "GateAccessError",
+            "printedName": "GateAccessError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobile_flow_plugin_ios_framework.GATTError.Type) -> (mobile_flow_plugin_ios_framework.MobileFlowError) -> mobile_flow_plugin_ios_framework.GATTError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(mobile_flow_plugin_ios_framework.MobileFlowError) -> mobile_flow_plugin_ios_framework.GATTError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GATTError",
+                        "printedName": "mobile_flow_plugin_ios_framework.GATTError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileFlowError",
+                        "printedName": "mobile_flow_plugin_ios_framework.MobileFlowError",
+                        "usr": "c:@M@mobile_flow_plugin_ios_framework@E@MobileFlowError"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "mobile_flow_plugin_ios_framework.GATTError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GATTError",
+                        "printedName": "mobile_flow_plugin_ios_framework.GATTError",
+                        "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO15GateAccessErroryAcA010MobileFlowI0OcACmF",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO15GateAccessErroryAcA010MobileFlowI0OcACmF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
             "name": "GateNotReachableError",
             "printedName": "GateNotReachableError",
             "children": [
@@ -56168,7 +56258,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO21GateNotReachableErroryA2CmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO21GateNotReachableErroryA2CmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 7
+            "fixedbinaryorder": 8
           },
           {
             "kind": "Var",
@@ -56240,7 +56330,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO26InternalCoreBluetoothErroryAcA0ghiJ9OccuranceO_s0J0_pSgtcACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO26InternalCoreBluetoothErroryAcA0ghiJ9OccuranceO_s0J0_pSgtcACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 8
+            "fixedbinaryorder": 9
           },
           {
             "kind": "Var",
@@ -56294,7 +56384,7 @@
             "declAttributes": [
               "RawDocComment"
             ],
-            "fixedbinaryorder": 9
+            "fixedbinaryorder": 10
           },
           {
             "kind": "Var",
@@ -56332,7 +56422,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO13InvalidTicketyA2CmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO13InvalidTicketyA2CmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 10
+            "fixedbinaryorder": 11
           },
           {
             "kind": "Var",
@@ -56370,7 +56460,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO26InvalidTicketArgumentErroryA2CmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO26InvalidTicketArgumentErroryA2CmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 11
+            "fixedbinaryorder": 12
           },
           {
             "kind": "Var",
@@ -56408,7 +56498,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO16ReadingDataErroryA2CmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO16ReadingDataErroryA2CmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 12
+            "fixedbinaryorder": 13
           },
           {
             "kind": "Var",
@@ -56446,7 +56536,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO22ReceivedEmptyDataErroryA2CmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO22ReceivedEmptyDataErroryA2CmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 13
+            "fixedbinaryorder": 14
           },
           {
             "kind": "Var",
@@ -56497,7 +56587,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO23ReceivedUnknownResponseyACSScACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO23ReceivedUnknownResponseyACSScACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 14
+            "fixedbinaryorder": 15
           },
           {
             "kind": "Var",
@@ -56535,7 +56625,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO17MissingBleServiceyA2CmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO17MissingBleServiceyA2CmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 15
+            "fixedbinaryorder": 16
           },
           {
             "kind": "Var",
@@ -56586,7 +56676,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO20MissingBlePeripheralyACSScACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO20MissingBlePeripheralyACSScACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 16
+            "fixedbinaryorder": 17
           },
           {
             "kind": "Var",
@@ -56637,7 +56727,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO21MissingCentralManageryACSScACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO21MissingCentralManageryACSScACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 17
+            "fixedbinaryorder": 18
           },
           {
             "kind": "Var",
@@ -56688,7 +56778,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO21MissingCharacteristicyACSScACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO21MissingCharacteristicyACSScACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 18
+            "fixedbinaryorder": 19
           },
           {
             "kind": "Var",
@@ -56726,7 +56816,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO17MissingConnectionyA2CmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO17MissingConnectionyA2CmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 19
+            "fixedbinaryorder": 20
           },
           {
             "kind": "Var",
@@ -56777,7 +56867,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO43NotificationCharacteristicNotAvailableErroryACSScACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO43NotificationCharacteristicNotAvailableErroryACSScACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 20
+            "fixedbinaryorder": 21
           },
           {
             "kind": "Var",
@@ -56815,7 +56905,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO17NoResponseTimeoutyA2CmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO17NoResponseTimeoutyA2CmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 21
+            "fixedbinaryorder": 22
           },
           {
             "kind": "Var",
@@ -56853,7 +56943,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO15PassageTimedOutyA2CmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO15PassageTimedOutyA2CmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 22
+            "fixedbinaryorder": 23
           },
           {
             "kind": "Var",
@@ -56917,7 +57007,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO19PeripheralRSSIBelowyACSi_SitcACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO19PeripheralRSSIBelowyACSi_SitcACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 23
+            "fixedbinaryorder": 24
           },
           {
             "kind": "Var",
@@ -56955,7 +57045,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO17TransmissionErroryA2CmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO17TransmissionErroryA2CmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 24
+            "fixedbinaryorder": 25
           },
           {
             "kind": "Var",
@@ -57006,7 +57096,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO7UnknownyACSScACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO7UnknownyACSScACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 25
+            "fixedbinaryorder": 26
           },
           {
             "kind": "Var",
@@ -57057,7 +57147,7 @@
             "usr": "s:32mobile_flow_plugin_ios_framework9GATTErrorO36WriteCharacteristicNotAvailableErroryACSScACmF",
             "mangledName": "$s32mobile_flow_plugin_ios_framework9GATTErrorO36WriteCharacteristicNotAvailableErroryACSScACmF",
             "moduleName": "mobile_flow_plugin_ios_framework",
-            "fixedbinaryorder": 26
+            "fixedbinaryorder": 27
           },
           {
             "kind": "Function",
@@ -85871,7 +85961,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "BooleanLiteral",
-      "offset": 17432,
+      "offset": 17461,
       "length": 5,
       "value": "false"
     },
