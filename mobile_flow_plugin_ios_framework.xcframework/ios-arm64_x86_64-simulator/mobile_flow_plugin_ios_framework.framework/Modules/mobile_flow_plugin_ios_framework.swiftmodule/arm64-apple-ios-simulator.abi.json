@@ -5431,6 +5431,45 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Var",
+            "name": "probabilityShorted",
+            "printedName": "probabilityShorted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC18probabilityShortedSSvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework16EvaluationResultC18probabilityShortedSSvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework16EvaluationResultC18probabilityShortedSSvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework16EvaluationResultC18probabilityShortedSSvg",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
