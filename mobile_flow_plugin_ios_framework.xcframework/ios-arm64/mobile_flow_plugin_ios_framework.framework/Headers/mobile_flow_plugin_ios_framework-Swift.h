@@ -325,7 +325,7 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 /// Error is thown if the plugin is initialized with an invalid token.
   MobileFlowErrorInvalidMobileFlowToken = 5,
 /// InvalidTicketURL
-/// Errors which the downloadTicket function can throw if the passed URL is no valid URL or no ticket could be downloaded from this URL.
+/// Error which the downloadTicket function can throw if the passed URL is no valid URL or no ticket could be downloaded from this URL.
   MobileFlowErrorInvalidTicketURL = 6,
 /// LocationPermissionMissing
 /// If the plugin is missing the location permission which is required for the plugin to work.
@@ -343,37 +343,37 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 /// Error which can be used as an indication that a plugin version will expire soon. This could be used to inform the user to update soon.
   MobileFlowErrorPluginOutdatedSoon = 11,
 /// RFIDDetected
-/// Errors which is thrown when the reader shortly before Mobile Flow transmitted a <code>MobileFlowEvent.gateAccessTriggered</code> event read an invalid RFID card
+/// Error which is thrown when the reader shortly before Mobile Flow transmitted a <code>MobileFlowEvent.gateAccessTriggered</code> event read an invalid RFID card
   MobileFlowErrorRFIDDetected = 12,
 /// TicketCheckError_AreaFull
-/// Errors which is returned from the reader after ticket check. This is an indication that the area the user wanted to access is full.
+/// Error which is returned from the reader after ticket check. This is an indication that the area the user wanted to access is full.
   MobileFlowErrorTicketCheckError_AreaFull = 13,
 /// TicketCheckError_Blocked
-/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is blocked.
+/// Error which is returned from the reader after ticket check. This is an indication that the ticket is blocked.
   MobileFlowErrorTicketCheckError_Blocked = 14,
 /// TicketCheckError_DoubleUsage
-/// Errors which is returned from the reader after ticket check. This is an indication that the ticket double usage detected”.
+/// Error which is returned from the reader after ticket check. This is an indication that a “ticket double usage” was detected”.
   MobileFlowErrorTicketCheckError_DoubleUsage = 15,
 /// TicketCheckError_Expired
-/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is expired.
+/// Error which is returned from the reader after ticket check. This is an indication that the ticket is expired.
   MobileFlowErrorTicketCheckError_Expired = 16,
 /// TicketCheckError_TicketUnknown
-/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is unknown.
+/// Error which is returned from the reader after ticket check. This is an indication that the ticket is unknown.
   MobileFlowErrorTicketCheckError_TicketUnknown = 17,
 /// TicketCheckError_TicketInvalidHereNow
-/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is not valid here and/or now.
+/// Error which is returned from the reader after ticket check. This is an indication that the ticket is not valid here and/or now.
   MobileFlowErrorTicketCheckError_TicketInvalidHereNow = 18,
 /// TicketCheckError_TooLessRemainingValue
-/// Errors which is returned from the reader after ticket check. This is an indication that the ticket has sufficient value (points, hours, days).
+/// Error which is returned from the reader after ticket check. This is an indication that the ticket has insufficient value (points, hours, days).
   MobileFlowErrorTicketCheckError_TooLessRemainingValue = 19,
 /// TicketCheckError_WrongLocation
-/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is not valid here.
+/// Error which is returned from the reader after ticket check. This is an indication that the ticket is not valid here.
   MobileFlowErrorTicketCheckError_WrongLocation = 20,
 /// TicketCheckError_WrongTime
-/// Errors which is returned from the reader after ticket check. This is an indication that the ticket is not valid now.
+/// Error which is returned from the reader after ticket check. This is an indication that the ticket is not valid now.
   MobileFlowErrorTicketCheckError_WrongTime = 21,
 /// TicketDownloadLimitExceeded
-/// Errors which is thrown when the download limit has been exceeded. This is an indication that the ticket has already been downloaded.
+/// Error which is thrown when the download limit has been exceeded. This is an indication that the ticket has already been downloaded.
   MobileFlowErrorTicketDownloadLimitExceeded = 22,
 /// TicketInvalidError
 /// The ticket was rejected by the SKIDATA access system (i.e. the ticket is not valid at the entrance).
