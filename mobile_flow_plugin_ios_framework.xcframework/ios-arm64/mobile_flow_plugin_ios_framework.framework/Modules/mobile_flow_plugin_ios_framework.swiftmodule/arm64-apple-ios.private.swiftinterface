@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name mobile_flow_plugin_ios_framework
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name mobile_flow_plugin_ios_framework
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AudioToolbox
 import Combine
@@ -29,12 +29,48 @@ import os
   @objc func getMobileFlowState() -> mobile_flow_plugin_ios_framework.MobileFlowState
   @objc func getActivatedTicket() -> mobile_flow_plugin_ios_framework.MobileFlowTicket?
   @objc func isPhoneSupported() -> Swift.Bool
+  @objc func getMock() throws -> any mobile_flow_plugin_ios_framework.MobileFlowMock
 }
 @objc public protocol MobileFlowPluginDelegate {
   @objc func newTicket(_ ticket: mobile_flow_plugin_ios_framework.MobileFlowTicket)
   @objc func receivedError(_ error: mobile_flow_plugin_ios_framework.MobileFlowError)
   @objc func receivedEvent(_ event: mobile_flow_plugin_ios_framework.MobileFlowEvent)
   @objc func mobileFlowStateChanged(to state: mobile_flow_plugin_ios_framework.MobileFlowState)
+}
+@objc(MockErrorWrapper) public class MockErrorWrapper : ObjectiveC.NSObject {
+  public init(_ error: mobile_flow_plugin_ios_framework.MobileFlowError)
+  @objc deinit
+}
+@objc(MockStateWrapper) public class MockStateWrapper : ObjectiveC.NSObject {
+  public init(_ state: mobile_flow_plugin_ios_framework.MobileFlowState)
+  @objc deinit
+}
+@objc(MockEventWrapper) public class MockEventWrapper : ObjectiveC.NSObject {
+  public init(_ event: mobile_flow_plugin_ios_framework.MobileFlowEvent)
+  @objc deinit
+}
+@objc public protocol MobileFlowMock {
+  @objc var delegate: any mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate { get }
+  @objc func cleanPassage(delayConfig: mobile_flow_plugin_ios_framework.DelayConfig)
+  @objc func startup(delayConfig: mobile_flow_plugin_ios_framework.DelayConfig)
+  @objc func offlineStartup(delayConfig: mobile_flow_plugin_ios_framework.DelayConfig)
+  @objc func fullLifecycleWithPassage(delayConfig: mobile_flow_plugin_ios_framework.DelayConfig) throws
+  @objc func ticketInvalid(delayConfig: mobile_flow_plugin_ios_framework.DelayConfig)
+  @objc func customEvents(events: [Foundation.NSNumber], delayConfig: mobile_flow_plugin_ios_framework.DelayConfig) throws
+  @objc func customErrors(errors: [Foundation.NSNumber], delayConfig: mobile_flow_plugin_ios_framework.DelayConfig) throws
+  @objc func customStates(states: [Foundation.NSNumber], delayConfig: mobile_flow_plugin_ios_framework.DelayConfig) throws
+  @objc func custom(errorEventStateWrapperItems: [ObjectiveC.NSObject], delayConfig: mobile_flow_plugin_ios_framework.DelayConfig) throws
+}
+extension mobile_flow_plugin_ios_framework.MobileFlowMock {
+  public func cleanPassage()
+  public func startup()
+  public func offlineStartup()
+  public func ticketInvalid()
+  public func customEvents(events: [Foundation.NSNumber]) throws
+  public func customErrors(errors: [Foundation.NSNumber]) throws
+  public func customStates(states: [Foundation.NSNumber]) throws
+  public func fullLifecycleWithPassage() throws
+  public func custom(errorEventStateWrapperItems: [ObjectiveC.NSObject]) throws
 }
 @_hasMissingDesignatedInitializers @objc final public class MobileFlowPluginImpl : ObjectiveC.NSObject, mobile_flow_plugin_ios_framework.MobileFlowPlugin {
   @objc final public func getPluginUUID() -> Swift.String
@@ -50,6 +86,10 @@ import os
   @objc final public func getActivatedTicket() -> mobile_flow_plugin_ios_framework.MobileFlowTicket?
   @objc final public func stopMobileFlow()
   @objc final public func isPhoneSupported() -> Swift.Bool
+  @objc final public func getMock() throws -> any mobile_flow_plugin_ios_framework.MobileFlowMock
+}
+extension mobile_flow_plugin_ios_framework.MobileFlowPluginImpl {
+  final public func activateTestMode()
 }
 public enum Permissions : Swift.CaseIterable {
   case Location
@@ -106,6 +146,9 @@ public enum Permissions : Swift.CaseIterable {
 }
 extension mobile_flow_plugin_ios_framework.MobileFlowError {
   public func name() -> Swift.String
+  public var nsNumber: Foundation.NSNumber {
+    get
+  }
 }
 extension mobile_flow_plugin_ios_framework.MobileFlowError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
@@ -121,11 +164,74 @@ extension mobile_flow_plugin_ios_framework.MobileFlowError : Foundation.Localize
     get
   }
   public func name() -> Swift.String
+  public var nsNumber: Foundation.NSNumber {
+    get
+  }
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
+}
+@_inheritsConvenienceInitializers @objc public class DelayConfig : ObjectiveC.NSObject {
+  public var delayBeforeGateAccessTriggered: Swift.Int
+  public var delayBeforeTicketValid: Swift.Int
+  public var delayBeforeGateAccessCompleted: Swift.Int
+  public var delayBeforeGateGateInUse: Swift.Int
+  public var delayBeforeOff: Swift.Int
+  public var delayBeforeRunning: Swift.Int
+  public var delayBeforePreparing: Swift.Int
+  public var delayBeforeRunningWithIssues: Swift.Int
+  public var delayBeforeLocationPermissionMissing: Swift.Int
+  public var delayBeforeLocationServicesDisabled: Swift.Int
+  public var delayBeforeBluetoothNotActive: Swift.Int
+  public var delayBeforeBluetoothPermissionMissing: Swift.Int
+  public var delayBeforeBatteryOptimizationActive: Swift.Int
+  public var delayBeforeDeviceOffline: Swift.Int
+  public var delayBeforeTicketNotValidForCompany: Swift.Int
+  public var delayBeforeTicketDownloadLimitExceeded: Swift.Int
+  public var delayBeforeUnsupportedDevice: Swift.Int
+  public var delayBeforeGeneralError: Swift.Int
+  public var delayBeforeTicketInvalid: Swift.Int
+  public var delayBeforeInvalidTicketUrl: Swift.Int
+  public var delayBeforeInvalidMobileFlowToken: Swift.Int
+  public var delayBeforePluginOutdated: Swift.Int
+  public var delayBeforePluginOutdatedSoon: Swift.Int
+  public var delayBeforeTicketTransmissionError: Swift.Int
+  public var delayBeforePassageTimeout: Swift.Int
+  public var delayBeforeTicketParsingError: Swift.Int
+  public var delayBeforeUnknownDevice: Swift.Int
+  public var delayBeforeInsufficientBattery: Swift.Int
+  public var delayBeforeRfidDetected: Swift.Int
+  public var delayBeforeBleNotAvailable: Swift.Int
+  public var delayBeforeTicketCheckError_AreaFull: Swift.Int
+  public var delayBeforeTicketCheckError_Blocked: Swift.Int
+  public var delayBeforeTicketCheckError_DoubleUsage: Swift.Int
+  public var delayBeforeTicketCheckError_Expired: Swift.Int
+  public var delayBeforeTicketCheckError_TicketUnknown: Swift.Int
+  public var delayBeforeTicketCheckError_TicketInvalidHereNow: Swift.Int
+  public var delayBeforeTicketCheckError_TooLessRemainingValue: Swift.Int
+  public var delayBeforeTicketCheckError_WrongLocation: Swift.Int
+  public var delayBeforeTicketCheckError_WrongTime: Swift.Int
+  public func getDelayForEvent(_ mobileFlowEvent: mobile_flow_plugin_ios_framework.MobileFlowEvent) -> Swift.Int
+  public func getDelayForState(_ mobileFlowState: mobile_flow_plugin_ios_framework.MobileFlowState) -> Swift.Int
+  public func getDelayForError(_ mobileFlowError: mobile_flow_plugin_ios_framework.MobileFlowError) -> Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+public class MobileFlowMockImpl : mobile_flow_plugin_ios_framework.MobileFlowMock {
+  @objc final public let delegate: any mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate
+  public init(delegate: any mobile_flow_plugin_ios_framework.MobileFlowPluginDelegate)
+  @objc public func startup(delayConfig: mobile_flow_plugin_ios_framework.DelayConfig)
+  @objc public func cleanPassage(delayConfig: mobile_flow_plugin_ios_framework.DelayConfig)
+  @objc public func offlineStartup(delayConfig: mobile_flow_plugin_ios_framework.DelayConfig)
+  @objc public func ticketInvalid(delayConfig: mobile_flow_plugin_ios_framework.DelayConfig)
+  @objc public func fullLifecycleWithPassage(delayConfig: mobile_flow_plugin_ios_framework.DelayConfig) throws
+  @objc public func customEvents(events: [Foundation.NSNumber], delayConfig: mobile_flow_plugin_ios_framework.DelayConfig) throws
+  @objc public func customErrors(errors: [Foundation.NSNumber], delayConfig: mobile_flow_plugin_ios_framework.DelayConfig) throws
+  @objc public func customStates(states: [Foundation.NSNumber], delayConfig: mobile_flow_plugin_ios_framework.DelayConfig) throws
+  @objc public func custom(errorEventStateWrapperItems: [ObjectiveC.NSObject], delayConfig: mobile_flow_plugin_ios_framework.DelayConfig) throws
+  @objc deinit
 }
 extension CoreLocation.CLLocationManager {
   public static func publishLocationPermission() -> CoreLocation.CLLocationManager.LocationPermissionPublisher
@@ -149,6 +255,9 @@ extension CoreLocation.CLLocationManager {
   case gateAccessCompleted
   case ticketValid
   public func name() -> Swift.String
+  public var nsNumber: Foundation.NSNumber {
+    get
+  }
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
