@@ -6882,6 +6882,33 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "blePeripheralQueue",
+            "printedName": "blePeripheralQueue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework10BleManagerC18blePeripheralQueue33_84081E25FB3994B432B9DE2B774B4830LLSo17OS_dispatch_queueCvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework10BleManagerC18blePeripheralQueue33_84081E25FB3994B432B9DE2B774B4830LLSo17OS_dispatch_queueCvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 10,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(delegate:bleServices:gateResolver:)",
@@ -24009,6 +24036,45 @@
             "moduleName": "mobile_flow_plugin_ios_framework",
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isACK",
+            "printedName": "isACK",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:32mobile_flow_plugin_ios_framework12GATTResponseV5isACKSbvp",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework12GATTResponseV5isACKSbvp",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:32mobile_flow_plugin_ios_framework12GATTResponseV5isACKSbvg",
+                "mangledName": "$s32mobile_flow_plugin_ios_framework12GATTResponseV5isACKSbvg",
+                "moduleName": "mobile_flow_plugin_ios_framework",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -90558,6 +90624,13 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
       "kind": "StringLiteral",
+      "offset": 1075,
+      "length": 55,
+      "value": "\"com.skidata.mobileflow.blemanager.bleperipheral.queue\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Manager\/BleManager.swift",
+      "kind": "StringLiteral",
       "offset": 281,
       "length": 10,
       "value": "\"mobile_flow_plugin_ios_framework.BleManager\""
@@ -91468,7 +91541,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 25167,
+      "offset": 25185,
       "length": 3,
       "value": "0.5"
     },
