@@ -7723,6 +7723,48 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManager",
+            "printedName": "centralManager(_:connectionEventDidOccur:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBConnectionEvent",
+                "printedName": "CoreBluetooth.CBConnectionEvent",
+                "usr": "c:@E@CBConnectionEvent"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@mobile_flow_plugin_ios_framework@objc(cs)BleManager(im)centralManager:connectionEventDidOccur:forPeripheral:",
+            "mangledName": "$s32mobile_flow_plugin_ios_framework10BleManagerC07centralG0_23connectionEventDidOccur3forySo09CBCentralG0C_So012CBConnectionJ0VSo12CBPeripheralCtF",
+            "moduleName": "mobile_flow_plugin_ios_framework",
+            "isOpen": true,
+            "objc_name": "centralManager:connectionEventDidOccur:forPeripheral:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -91056,6 +91098,34 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 74,
+      "value": "\"connectingTimeStamp: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 72,
+      "value": "\"connectedTimestamp: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Models\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/GATT\/Models\/GATTErrorResponseCode.swift",
       "kind": "IntegerLiteral",
       "offset": 623,
@@ -91527,7 +91597,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 5150,
+      "offset": 5198,
       "length": 5,
       "value": "false"
     },
@@ -91541,7 +91611,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 25185,
+      "offset": 25488,
       "length": 3,
       "value": "0.5"
     },
@@ -93172,7 +93242,7 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-ios\/mobile-flow-plugin-ios-framework\/mobile-flow-plugin-ios-framework\/Services\/BusinessServices\/BleService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3491,
+      "offset": 3533,
       "length": 4,
       "value": "true"
     },
