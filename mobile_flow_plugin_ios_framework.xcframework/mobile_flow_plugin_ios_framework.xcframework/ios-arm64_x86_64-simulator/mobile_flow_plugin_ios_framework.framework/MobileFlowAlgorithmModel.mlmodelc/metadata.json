@@ -1,0 +1,65 @@
+[
+  {
+    "shortDescription" : "mlp_3_steps_v13",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32)",
+        "shortDescription" : "",
+        "shape" : "[]",
+        "name" : "output",
+        "type" : "MultiArray"
+      }
+    ],
+    "version" : "1.0",
+    "modelParameters" : [
+
+    ],
+    "author" : "Sebastian Landl",
+    "specificationVersion" : 4,
+    "storagePrecision" : "Float32",
+    "computePrecision" : "Float16",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.15",
+      "tvOS" : "13.0",
+      "visionOS" : "1.0",
+      "watchOS" : "6.0",
+      "iOS" : "13.0",
+      "macCatalyst" : "13.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 1 × 18)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 18]",
+        "name" : "beacons",
+        "type" : "MultiArray"
+      }
+    ],
+    "userDefinedMetadata" : {
+      "use_phone_model" : "FALSE",
+      "model" : "MLP",
+      "com.github.apple.coremltools.source" : "torch==1.13.1+cu117",
+      "com.github.apple.coremltools.version" : "6.3.0",
+      "library" : "PYTORCH"
+    },
+    "generatedClassName" : "MobileFlowAlgorithmModel",
+    "neuralNetworkLayerTypeHistogram" : {
+      "InnerProduct" : 4,
+      "ActivationSigmoid" : 1,
+      "ReshapeStatic" : 1,
+      "ActivationReLU" : 3
+    },
+    "method" : "predict"
+  }
+]
