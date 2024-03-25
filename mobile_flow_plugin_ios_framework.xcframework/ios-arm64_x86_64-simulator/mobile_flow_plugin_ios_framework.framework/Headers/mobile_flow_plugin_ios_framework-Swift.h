@@ -301,14 +301,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11DelayConfig")
-@interface DelayConfig : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 /// BluetoothNotActive
 /// If the Bluetooth module is not active.
@@ -415,149 +407,8 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
   MobileFlowEventTicketValid = 3,
 };
 
-@protocol MobileFlowPluginDelegate;
-@class NSNumber;
-
-SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework14MobileFlowMock_")
-@protocol MobileFlowMock
-@property (nonatomic, readonly, strong) id <MobileFlowPluginDelegate> _Nonnull delegate;
-/// Sends the events gateAccessTriggered, ticketValid and gateAccessCompleted to the event callback
-/// with the corresponding delay in the passed [delayConfig] before each of the events.
-- (void)cleanPassageWithDelayConfig:(DelayConfig * _Nonnull)delayConfig;
-/// Sends the states off, preparing, running.
-- (void)startupWithDelayConfig:(DelayConfig * _Nonnull)delayConfig;
-/// Sends the states off, preparing, runningWithIssues.
-- (void)offlineStartupWithDelayConfig:(DelayConfig * _Nonnull)delayConfig;
-/// Sends a off, preparing, running, gateAccessTriggered, ticketValid, gateAccessCompleted
-/// and off with the corresponding delay in the passed [delayConfig] before each of the events and states.
-- (BOOL)fullLifecycleWithPassageWithDelayConfig:(DelayConfig * _Nonnull)delayConfig error:(NSError * _Nullable * _Nullable)error;
-/// Sends a TICKET_INVALID error with the corresponding delay before the event.
-- (void)ticketInvalidWithDelayConfig:(DelayConfig * _Nonnull)delayConfig;
-/// Processes a collection of <code>MobileFlowEvent</code> objects using the specified delay configuration.
-/// This function takes a collection of event objects of type <code>MobileFlowEvent</code> and delegates it to the definied delegate of type <code>MobileFlowDelegate</code> via the method <code>receivedEvent</code>,  utilizing the delay settings specified in <code>DelayConfig</code>.
-/// <ul>
-///   <li>
-///     Parameters:
-///   </li>
-///   <li>
-///     events: An array of <code>MobileFlowEvent</code> instances. Each event in this array represents a specific flow or action that needs to be processed.
-///   </li>
-///   <li>
-///     delayConfig: A <code>DelayConfig</code> object that contains delay-related configurations. This configuration is used to modulate the processing of each event, potentially introducing delays or timing adjustments as required.
-///   </li>
-///   <li>
-///     Example:
-///     // Given
-///     mock = try plugin.getMock()
-///     let customEventsChain: [NSNumber] = [
-///     MobileFlowEvent.gateInUse.nsNumber,
-///     MobileFlowEvent.ticketValid.nsNumber,
-///     MobileFlowEvent.gateAccessTriggered.nsNumber
-///     ]
-///   </li>
-/// </ul>
-/// // When
-/// try! mock.customEvents(events: customEventsChain)
-///
-/// throws:
-/// <code>MockProcessingError.unexpectedTypeForEventWrapperItem</code> if an item of an unexpected type is encountered.
-- (BOOL)customEventsWithEvents:(NSArray<NSNumber *> * _Nonnull)events delayConfig:(DelayConfig * _Nonnull)delayConfig error:(NSError * _Nullable * _Nullable)error;
-/// Processes an array of <code>MobileFlowError</code> objects using the provided delay configuration.
-/// This function takes a collection of error objects of type <code>MobileFlowError</code> and delegates it to the definied delegate of type <code>MobileFlowDelegate</code> via the method <code>receivedError</code>,  utilizing the delay settings specified in <code>DelayConfig</code>.
-/// <ul>
-///   <li>
-///     Parameters:
-///   </li>
-///   <li>
-///     errors: An array of <code>MobileFlowError</code> instances. Each <code>MobileFlowError</code> represents a specific error condition encountered in a mobile flow process.
-///   </li>
-///   <li>
-///     delayConfig: A <code>DelayConfig</code> object used to determine the timing and delay strategies when processing each error. This can be useful for managing error handling in a controlled and consistent manner, especially in asynchronous or time-sensitive operations.
-///   </li>
-///   <li>
-///     Example:
-///     // Given
-///     mock = try plugin.getMock()
-///     let customErrorChain: [NSNumber] = [
-///     MobileFlowError.BluetoothNotActive.nsNumber,
-///     MobileFlowError.TicketCheckError_Blocked.nsNumber,
-///     MobileFlowError.TicketCheckError_Expired.nsNumber,
-///     MobileFlowError.TicketCheckError_TicketUnknown.nsNumber,
-///     ]
-///     // When
-///     try! mock.customErrors(errors: customErrorChain)
-///   </li>
-/// </ul>
-///
-/// throws:
-/// <code>MockProcessingError.unexpectedTypeForErrorWrapperItem</code> if an item of an unexpected type is encountered.
-- (BOOL)customErrorsWithErrors:(NSArray<NSNumber *> * _Nonnull)errors delayConfig:(DelayConfig * _Nonnull)delayConfig error:(NSError * _Nullable * _Nullable)error;
-/// Processes a collection of <code>MobileFlowState</code> objects using the specified delay configuration.
-/// This function takes a collection of state objects of type <code>MobileFlowState</code> and delegates it to the definied delegate of type <code>MobileFlowDelegate</code> via the method <code>mobileFlowStateChanged</code>,  utilizing the delay settings specified in <code>DelayConfig</code>.
-/// <ul>
-///   <li>
-///     Parameters:
-///   </li>
-///   <li>
-///     events: An array of <code>MobileFlowEvent</code> instances. Each event in this array represents a specific flow or action that needs to be processed.
-///   </li>
-///   <li>
-///     delayConfig: A <code>DelayConfig</code> object that contains delay-related configurations. This configuration is used to modulate the processing of each event, potentially introducing delays or timing adjustments as required.
-///   </li>
-///   <li>
-///     Example:
-///     // Given
-///     mock = try plugin.getMock()
-///     let customStateChain: [NSNumber] = [
-///     MobileFlowState.preparing.nsNumber,
-///     MobileFlowState.off.nsNumber,
-///     MobileFlowState.running.nsNumber,
-///     ]
-///   </li>
-/// </ul>
-/// // When
-/// try! mock.customStates(states: customStateChain)
-///
-/// throws:
-/// <code>MockProcessingError.unexpectedTypeForStateWrapperItem</code> if an item of an unexpected type is encountered.
-- (BOOL)customStatesWithStates:(NSArray<NSNumber *> * _Nonnull)states delayConfig:(DelayConfig * _Nonnull)delayConfig error:(NSError * _Nullable * _Nullable)error;
-/// Processes an array of objects that represent different types of error, event, or state.
-/// This function iterates over a collection of <code>NSObject</code> items where each object is expected to be one of the custom types that conform to specific error, event, or state representations. The function will handle each object based on its actual type. The <code>delayConfig</code> parameter is used to manage any delays associated with processing these items.
-/// <ul>
-///   <li>
-///     Parameters:
-///   </li>
-///   <li>
-///     errorEventStateWrapperItems: This parameter is an array of <code>NSObject</code> items. Each item in the array must be an instance of either <code>MockErrorWrapper</code>, <code>MockStateWrapper</code>, or <code>MockEventWrapper</code> type
-///   </li>
-///   <li>
-///     delayConfig: A <code>DelayConfig</code> object used to configure delay settings for processing each item.
-///   </li>
-///   <li>
-///     Example:
-///     mock = try plugin.getMock()
-///     delayConfiguration = DelayConfig()
-///     delayConfiguration.delayBeforeGateAccessTriggered = 3
-///     let customEventChain: [NSObject] = [
-///     MockEventWrapper(.gateAccessTriggered),
-///     MockEventWrapper(.gateInUse),
-///     MockEventWrapper(.gateAccessTriggered),
-///     MockErrorWrapper(.TicketInvalidError),
-///     MockEventWrapper(.gateAccessTriggered),
-///     MockEventWrapper(.ticketValid),
-///     MockEventWrapper(.gateAccessCompleted),
-///     ]
-///   </li>
-/// </ul>
-/// // When
-/// try? mock.custom(errorEventStateWrapperItems: customEventChain, delayConfig: delayConfiguration)
-///
-/// throws:
-/// <code>MockProcessingError.unexpectedTypeForErrorEventStateWrapperItems</code> if an item of an unexpected type is encountered.
-- (BOOL)customWithErrorEventStateWrapperItems:(NSArray<NSObject *> * _Nonnull)errorEventStateWrapperItems delayConfig:(DelayConfig * _Nonnull)delayConfig error:(NSError * _Nullable * _Nullable)error;
-@end
-
 @class NSString;
+@protocol MobileFlowPluginDelegate;
 @class MobileFlowTicket;
 @class NSUUID;
 enum MobileFlowState : NSInteger;
@@ -610,15 +461,6 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 - (MobileFlowTicket * _Nullable)getActivatedTicket SWIFT_WARN_UNUSED_RESULT;
 /// This method returns true if the given model is supported for Mobile Flow
 - (BOOL)isPhoneSupported SWIFT_WARN_UNUSED_RESULT;
-/// Retrieves an instance of <code>MobileFlowMock</code>.
-/// This method attempts to obtain a <code>MobileFlowMock</code> object. It may throw an error if the mock cannot be created or retrieved due to specific conditions or constraints.
-///
-/// throws:
-/// An error of type <code>MockProcessingError</code> if the <code>MobileFlowDelegate</code> isn’t set.
-///
-/// returns:
-/// A <code>MobileFlowMock</code> object representing a mock for mobile flow operations.
-- (id <MobileFlowMock> _Nullable)getMockAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -645,48 +487,22 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 @end
 
 
-/// Handles the ability to pass gates with digital tickets via short-range radio.
 SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @interface MobileFlowPluginImpl : NSObject <MobileFlowPlugin>
-- (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
-/// To be used to get an instance of the plugin.
-///
-/// returns:
-/// Instance of the <code>MobileFlowPlugin</code>
 + (id <MobileFlowPlugin> _Nullable)getInstanceWithToken:(NSString * _Nonnull)token error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Delivers the current version
-///
-/// returns:
-/// Current version of the plugin
 + (NSString * _Nonnull)getPluginVersion SWIFT_WARN_UNUSED_RESULT;
-/// Set the delegation of the plugin to the passed object
-/// \param delegate from type <code>MobileFlowPluginDelegate</code>
-///
 - (void)setDelegate:(id <MobileFlowPluginDelegate> _Nonnull)delegate;
-/// Initial call to start the scanning of the ble-beacons with the passed ticket.
-/// For usage it is required that the gateway for the companyId is configured.
-/// Errors will be handled with the <code>delegation.receivedError</code>.
-/// \param ticket from type <code>MobileFlowTicket</code>which should be used for skiing.
-///
-- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_WARN_UNUSED_RESULT;
 - (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate SWIFT_WARN_UNUSED_RESULT;
-/// Handles the download of the ticket.
-/// Errors will be handled with the <code>delegation.receivedError</code>.
-/// \param url of type <code>String</code> from where the ticket should be downloaded.
-///
+- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_WARN_UNUSED_RESULT;
+- (void)stopMobileFlow;
 - (void)downloadTicket:(NSString * _Nonnull)url;
-/// returns the current localizationstate
-- (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
 - (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 - (MobileFlowTicket * _Nullable)getActivatedTicket SWIFT_WARN_UNUSED_RESULT;
-/// Stopped the activity and allow a new start of the plugin. The stored elements get cleared.
-- (void)stopMobileFlow;
 - (BOOL)isPhoneSupported SWIFT_WARN_UNUSED_RESULT;
-- (id <MobileFlowMock> _Nullable)getMockAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
 
 /// MobileFlowState represents the state of the plugin.
 /// <ul>
@@ -739,33 +555,13 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16MobileFlowTicket")
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull validInCompanyIdsList;
 @property (nonatomic, readonly, copy) NSDate * _Nonnull downloadTimeStampDate;
 - (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nullable)validAreaId validAreaName:(NSString * _Nullable)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nullable)productName validFrom:(NSDate * _Nullable)validFrom validTo:(NSDate * _Nullable)validTo psnr:(NSString * _Nullable)psnr image:(UIImage * _Nullable)image consumerCategoryName:(NSString * _Nullable)consumerCategoryName OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nullable)validAreaId validAreaName:(NSString * _Nullable)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nullable)productName validFrom:(NSDate * _Nullable)validFrom validTo:(NSDate * _Nullable)validTo psnr:(NSString * _Nullable)psnr consumerCategoryName:(NSString * _Nullable)consumerCategoryName;
+- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nullable)validAreaId validAreaName:(NSString * _Nullable)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nullable)productName validFrom:(NSDate * _Nullable)validFrom validTo:(NSDate * _Nullable)validTo psnr:(NSString * _Nullable)psnr consumerCategoryName:(NSString * _Nullable)consumerCategoryName OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-
-SWIFT_CLASS_NAMED("MockErrorWrapper")
-@interface MockErrorWrapper : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS_NAMED("MockEventWrapper")
-@interface MockEventWrapper : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS_NAMED("MockStateWrapper")
-@interface MockStateWrapper : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 #endif
@@ -1079,14 +875,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
-
-
-SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework11DelayConfig")
-@interface DelayConfig : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 typedef SWIFT_ENUM(NSInteger, MobileFlowError, open) {
 /// BluetoothNotActive
 /// If the Bluetooth module is not active.
@@ -1193,149 +981,8 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
   MobileFlowEventTicketValid = 3,
 };
 
-@protocol MobileFlowPluginDelegate;
-@class NSNumber;
-
-SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework14MobileFlowMock_")
-@protocol MobileFlowMock
-@property (nonatomic, readonly, strong) id <MobileFlowPluginDelegate> _Nonnull delegate;
-/// Sends the events gateAccessTriggered, ticketValid and gateAccessCompleted to the event callback
-/// with the corresponding delay in the passed [delayConfig] before each of the events.
-- (void)cleanPassageWithDelayConfig:(DelayConfig * _Nonnull)delayConfig;
-/// Sends the states off, preparing, running.
-- (void)startupWithDelayConfig:(DelayConfig * _Nonnull)delayConfig;
-/// Sends the states off, preparing, runningWithIssues.
-- (void)offlineStartupWithDelayConfig:(DelayConfig * _Nonnull)delayConfig;
-/// Sends a off, preparing, running, gateAccessTriggered, ticketValid, gateAccessCompleted
-/// and off with the corresponding delay in the passed [delayConfig] before each of the events and states.
-- (BOOL)fullLifecycleWithPassageWithDelayConfig:(DelayConfig * _Nonnull)delayConfig error:(NSError * _Nullable * _Nullable)error;
-/// Sends a TICKET_INVALID error with the corresponding delay before the event.
-- (void)ticketInvalidWithDelayConfig:(DelayConfig * _Nonnull)delayConfig;
-/// Processes a collection of <code>MobileFlowEvent</code> objects using the specified delay configuration.
-/// This function takes a collection of event objects of type <code>MobileFlowEvent</code> and delegates it to the definied delegate of type <code>MobileFlowDelegate</code> via the method <code>receivedEvent</code>,  utilizing the delay settings specified in <code>DelayConfig</code>.
-/// <ul>
-///   <li>
-///     Parameters:
-///   </li>
-///   <li>
-///     events: An array of <code>MobileFlowEvent</code> instances. Each event in this array represents a specific flow or action that needs to be processed.
-///   </li>
-///   <li>
-///     delayConfig: A <code>DelayConfig</code> object that contains delay-related configurations. This configuration is used to modulate the processing of each event, potentially introducing delays or timing adjustments as required.
-///   </li>
-///   <li>
-///     Example:
-///     // Given
-///     mock = try plugin.getMock()
-///     let customEventsChain: [NSNumber] = [
-///     MobileFlowEvent.gateInUse.nsNumber,
-///     MobileFlowEvent.ticketValid.nsNumber,
-///     MobileFlowEvent.gateAccessTriggered.nsNumber
-///     ]
-///   </li>
-/// </ul>
-/// // When
-/// try! mock.customEvents(events: customEventsChain)
-///
-/// throws:
-/// <code>MockProcessingError.unexpectedTypeForEventWrapperItem</code> if an item of an unexpected type is encountered.
-- (BOOL)customEventsWithEvents:(NSArray<NSNumber *> * _Nonnull)events delayConfig:(DelayConfig * _Nonnull)delayConfig error:(NSError * _Nullable * _Nullable)error;
-/// Processes an array of <code>MobileFlowError</code> objects using the provided delay configuration.
-/// This function takes a collection of error objects of type <code>MobileFlowError</code> and delegates it to the definied delegate of type <code>MobileFlowDelegate</code> via the method <code>receivedError</code>,  utilizing the delay settings specified in <code>DelayConfig</code>.
-/// <ul>
-///   <li>
-///     Parameters:
-///   </li>
-///   <li>
-///     errors: An array of <code>MobileFlowError</code> instances. Each <code>MobileFlowError</code> represents a specific error condition encountered in a mobile flow process.
-///   </li>
-///   <li>
-///     delayConfig: A <code>DelayConfig</code> object used to determine the timing and delay strategies when processing each error. This can be useful for managing error handling in a controlled and consistent manner, especially in asynchronous or time-sensitive operations.
-///   </li>
-///   <li>
-///     Example:
-///     // Given
-///     mock = try plugin.getMock()
-///     let customErrorChain: [NSNumber] = [
-///     MobileFlowError.BluetoothNotActive.nsNumber,
-///     MobileFlowError.TicketCheckError_Blocked.nsNumber,
-///     MobileFlowError.TicketCheckError_Expired.nsNumber,
-///     MobileFlowError.TicketCheckError_TicketUnknown.nsNumber,
-///     ]
-///     // When
-///     try! mock.customErrors(errors: customErrorChain)
-///   </li>
-/// </ul>
-///
-/// throws:
-/// <code>MockProcessingError.unexpectedTypeForErrorWrapperItem</code> if an item of an unexpected type is encountered.
-- (BOOL)customErrorsWithErrors:(NSArray<NSNumber *> * _Nonnull)errors delayConfig:(DelayConfig * _Nonnull)delayConfig error:(NSError * _Nullable * _Nullable)error;
-/// Processes a collection of <code>MobileFlowState</code> objects using the specified delay configuration.
-/// This function takes a collection of state objects of type <code>MobileFlowState</code> and delegates it to the definied delegate of type <code>MobileFlowDelegate</code> via the method <code>mobileFlowStateChanged</code>,  utilizing the delay settings specified in <code>DelayConfig</code>.
-/// <ul>
-///   <li>
-///     Parameters:
-///   </li>
-///   <li>
-///     events: An array of <code>MobileFlowEvent</code> instances. Each event in this array represents a specific flow or action that needs to be processed.
-///   </li>
-///   <li>
-///     delayConfig: A <code>DelayConfig</code> object that contains delay-related configurations. This configuration is used to modulate the processing of each event, potentially introducing delays or timing adjustments as required.
-///   </li>
-///   <li>
-///     Example:
-///     // Given
-///     mock = try plugin.getMock()
-///     let customStateChain: [NSNumber] = [
-///     MobileFlowState.preparing.nsNumber,
-///     MobileFlowState.off.nsNumber,
-///     MobileFlowState.running.nsNumber,
-///     ]
-///   </li>
-/// </ul>
-/// // When
-/// try! mock.customStates(states: customStateChain)
-///
-/// throws:
-/// <code>MockProcessingError.unexpectedTypeForStateWrapperItem</code> if an item of an unexpected type is encountered.
-- (BOOL)customStatesWithStates:(NSArray<NSNumber *> * _Nonnull)states delayConfig:(DelayConfig * _Nonnull)delayConfig error:(NSError * _Nullable * _Nullable)error;
-/// Processes an array of objects that represent different types of error, event, or state.
-/// This function iterates over a collection of <code>NSObject</code> items where each object is expected to be one of the custom types that conform to specific error, event, or state representations. The function will handle each object based on its actual type. The <code>delayConfig</code> parameter is used to manage any delays associated with processing these items.
-/// <ul>
-///   <li>
-///     Parameters:
-///   </li>
-///   <li>
-///     errorEventStateWrapperItems: This parameter is an array of <code>NSObject</code> items. Each item in the array must be an instance of either <code>MockErrorWrapper</code>, <code>MockStateWrapper</code>, or <code>MockEventWrapper</code> type
-///   </li>
-///   <li>
-///     delayConfig: A <code>DelayConfig</code> object used to configure delay settings for processing each item.
-///   </li>
-///   <li>
-///     Example:
-///     mock = try plugin.getMock()
-///     delayConfiguration = DelayConfig()
-///     delayConfiguration.delayBeforeGateAccessTriggered = 3
-///     let customEventChain: [NSObject] = [
-///     MockEventWrapper(.gateAccessTriggered),
-///     MockEventWrapper(.gateInUse),
-///     MockEventWrapper(.gateAccessTriggered),
-///     MockErrorWrapper(.TicketInvalidError),
-///     MockEventWrapper(.gateAccessTriggered),
-///     MockEventWrapper(.ticketValid),
-///     MockEventWrapper(.gateAccessCompleted),
-///     ]
-///   </li>
-/// </ul>
-/// // When
-/// try? mock.custom(errorEventStateWrapperItems: customEventChain, delayConfig: delayConfiguration)
-///
-/// throws:
-/// <code>MockProcessingError.unexpectedTypeForErrorEventStateWrapperItems</code> if an item of an unexpected type is encountered.
-- (BOOL)customWithErrorEventStateWrapperItems:(NSArray<NSObject *> * _Nonnull)errorEventStateWrapperItems delayConfig:(DelayConfig * _Nonnull)delayConfig error:(NSError * _Nullable * _Nullable)error;
-@end
-
 @class NSString;
+@protocol MobileFlowPluginDelegate;
 @class MobileFlowTicket;
 @class NSUUID;
 enum MobileFlowState : NSInteger;
@@ -1388,15 +1035,6 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 - (MobileFlowTicket * _Nullable)getActivatedTicket SWIFT_WARN_UNUSED_RESULT;
 /// This method returns true if the given model is supported for Mobile Flow
 - (BOOL)isPhoneSupported SWIFT_WARN_UNUSED_RESULT;
-/// Retrieves an instance of <code>MobileFlowMock</code>.
-/// This method attempts to obtain a <code>MobileFlowMock</code> object. It may throw an error if the mock cannot be created or retrieved due to specific conditions or constraints.
-///
-/// throws:
-/// An error of type <code>MockProcessingError</code> if the <code>MobileFlowDelegate</code> isn’t set.
-///
-/// returns:
-/// A <code>MobileFlowMock</code> object representing a mock for mobile flow operations.
-- (id <MobileFlowMock> _Nullable)getMockAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -1423,48 +1061,22 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 @end
 
 
-/// Handles the ability to pass gates with digital tickets via short-range radio.
 SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @interface MobileFlowPluginImpl : NSObject <MobileFlowPlugin>
-- (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
-/// To be used to get an instance of the plugin.
-///
-/// returns:
-/// Instance of the <code>MobileFlowPlugin</code>
 + (id <MobileFlowPlugin> _Nullable)getInstanceWithToken:(NSString * _Nonnull)token error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Delivers the current version
-///
-/// returns:
-/// Current version of the plugin
 + (NSString * _Nonnull)getPluginVersion SWIFT_WARN_UNUSED_RESULT;
-/// Set the delegation of the plugin to the passed object
-/// \param delegate from type <code>MobileFlowPluginDelegate</code>
-///
 - (void)setDelegate:(id <MobileFlowPluginDelegate> _Nonnull)delegate;
-/// Initial call to start the scanning of the ble-beacons with the passed ticket.
-/// For usage it is required that the gateway for the companyId is configured.
-/// Errors will be handled with the <code>delegation.receivedError</code>.
-/// \param ticket from type <code>MobileFlowTicket</code>which should be used for skiing.
-///
-- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_WARN_UNUSED_RESULT;
 - (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate SWIFT_WARN_UNUSED_RESULT;
-/// Handles the download of the ticket.
-/// Errors will be handled with the <code>delegation.receivedError</code>.
-/// \param url of type <code>String</code> from where the ticket should be downloaded.
-///
+- (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_WARN_UNUSED_RESULT;
+- (void)stopMobileFlow;
 - (void)downloadTicket:(NSString * _Nonnull)url;
-/// returns the current localizationstate
-- (enum MobileFlowState)getLocalizationState SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getPluginUUID SWIFT_WARN_UNUSED_RESULT;
 - (enum MobileFlowState)getMobileFlowState SWIFT_WARN_UNUSED_RESULT;
 - (MobileFlowTicket * _Nullable)getActivatedTicket SWIFT_WARN_UNUSED_RESULT;
-/// Stopped the activity and allow a new start of the plugin. The stored elements get cleared.
-- (void)stopMobileFlow;
 - (BOOL)isPhoneSupported SWIFT_WARN_UNUSED_RESULT;
-- (id <MobileFlowMock> _Nullable)getMockAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
 
 /// MobileFlowState represents the state of the plugin.
 /// <ul>
@@ -1517,33 +1129,13 @@ SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework16MobileFlowTicket")
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull validInCompanyIdsList;
 @property (nonatomic, readonly, copy) NSDate * _Nonnull downloadTimeStampDate;
 - (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nullable)validAreaId validAreaName:(NSString * _Nullable)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nullable)productName validFrom:(NSDate * _Nullable)validFrom validTo:(NSDate * _Nullable)validTo psnr:(NSString * _Nullable)psnr image:(UIImage * _Nullable)image consumerCategoryName:(NSString * _Nullable)consumerCategoryName OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nullable)validAreaId validAreaName:(NSString * _Nullable)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nullable)productName validFrom:(NSDate * _Nullable)validFrom validTo:(NSDate * _Nullable)validTo psnr:(NSString * _Nullable)psnr consumerCategoryName:(NSString * _Nullable)consumerCategoryName;
+- (nonnull instancetype)initWithBarcode:(NSString * _Nonnull)barcode validAreaId:(NSString * _Nullable)validAreaId validAreaName:(NSString * _Nullable)validAreaName validInCompanyIds:(NSString * _Nonnull)validInCompanyIds productName:(NSString * _Nullable)productName validFrom:(NSDate * _Nullable)validFrom validTo:(NSDate * _Nullable)validTo psnr:(NSString * _Nullable)psnr consumerCategoryName:(NSString * _Nullable)consumerCategoryName OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-
-SWIFT_CLASS_NAMED("MockErrorWrapper")
-@interface MockErrorWrapper : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS_NAMED("MockEventWrapper")
-@interface MockEventWrapper : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS_NAMED("MockStateWrapper")
-@interface MockStateWrapper : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 #endif

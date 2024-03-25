@@ -1,4 +1,0 @@
-framework module mobile_flow_plugin_ios_framework {
-  header "mobile_flow_plugin_ios_framework-Swift.h"
-  requires objc
-}
