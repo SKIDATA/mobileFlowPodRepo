@@ -11763,45 +11763,17 @@
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
-      "kind": "StringLiteral",
-      "offset": 2494,
-      "length": 8,
-      "value": "\"HyLo-1\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
-      "kind": "StringLiteral",
-      "offset": 2510,
-      "length": 3,
-      "value": "\"-\""
+      "kind": "BooleanLiteral",
+      "offset": 2409,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
       "kind": "IntegerLiteral",
-      "offset": 2624,
+      "offset": 2549,
       "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2676,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2735,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2794,
-      "length": 1,
-      "value": "2"
+      "value": "6"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
@@ -14725,56 +14697,70 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 32685,
+      "offset": 32469,
+      "length": 46,
+      "value": "\"EvaluationResult: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 32514,
+      "length": 70,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 32866,
       "length": 18,
       "value": "\"HyLo-1 triggered\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33067,
+      "offset": 33248,
       "length": 35,
       "value": "\"MISSING self.getActivatedTicket()\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33185,
+      "offset": 33366,
       "length": 34,
       "value": "\"MISSING sessionService.sessionId\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33702,
+      "offset": 33883,
       "length": 73,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33737,
+      "offset": 33918,
       "length": 5,
       "value": "\" error: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33774,
+      "offset": 33955,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34356,
+      "offset": 34537,
       "length": 17,
       "value": "\"ERROR: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34372,
+      "offset": 34553,
       "length": 7,
       "value": "\"\""
     },
@@ -15082,14 +15068,14 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Configuration\/PackageInfo.swift",
       "kind": "StringLiteral",
-      "offset": 139,
+      "offset": 148,
       "length": 7,
-      "value": "\"4.0.1\""
+      "value": "\"4.0.2\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Configuration\/PackageInfo.swift",
       "kind": "StringLiteral",
-      "offset": 216,
+      "offset": 225,
       "length": 7,
       "value": "\"-.-.-\""
     },
