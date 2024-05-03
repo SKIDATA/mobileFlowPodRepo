@@ -411,6 +411,9 @@ typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
 /// ticketValid
 /// Event which indicates that the ticket sent to the access system is valid.
   MobileFlowEventTicketValid = 3,
+/// ticketPassed
+/// Event which indicates that the ticket is forwarded from the reader to the ticket evaluation system.
+  MobileFlowEventTicketPassed = 4,
 };
 
 @protocol MobileFlowPluginDelegate;

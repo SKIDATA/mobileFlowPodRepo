@@ -18,6 +18,7 @@ import _SwiftConcurrencyShims
   public var delayBeforeTicketValid: Swift.Int
   public var delayBeforeGateAccessCompleted: Swift.Int
   public var delayBeforeGateGateInUse: Swift.Int
+  public var delayBeforeTicketPassed: Swift.Int
   public var delayBeforeOff: Swift.Int
   public var delayBeforeRunning: Swift.Int
   public var delayBeforePreparing: Swift.Int
@@ -114,10 +115,12 @@ extension mobile_flow_plugin_ios_framework.MobileFlowError : Swift.CustomStringC
   }
 }
 @objc public enum MobileFlowEvent : Swift.Int {
+  @available(*, deprecated, message: "Use `ticketPassed` instead.")
   case gateAccessTriggered
   case gateInUse
   case gateAccessCompleted
   case ticketValid
+  case ticketPassed
   public func name() -> Swift.String
   public var nsNumber: Foundation.NSNumber {
     get
