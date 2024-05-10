@@ -15416,13 +15416,13 @@
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Configuration\/PackageInfo.swift",
       "kind": "StringLiteral",
       "offset": 146,
-      "length": 20,
-      "value": "\"4.0.20012-SNAPSHOT\""
+      "length": 11,
+      "value": "\"4.0.20013\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Configuration\/PackageInfo.swift",
       "kind": "StringLiteral",
-      "offset": 236,
+      "offset": 227,
       "length": 7,
       "value": "\"-.-.-\""
     },
