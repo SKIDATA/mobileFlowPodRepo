@@ -15170,14 +15170,14 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 38306,
+      "offset": 38703,
       "length": 17,
       "value": "\"ERROR: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 38322,
+      "offset": 38719,
       "length": 7,
       "value": "\"\""
     },
@@ -15487,7 +15487,7 @@
       "kind": "StringLiteral",
       "offset": 146,
       "length": 11,
-      "value": "\"4.0.20016\""
+      "value": "\"4.0.20017\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Configuration\/PackageInfo.swift",
