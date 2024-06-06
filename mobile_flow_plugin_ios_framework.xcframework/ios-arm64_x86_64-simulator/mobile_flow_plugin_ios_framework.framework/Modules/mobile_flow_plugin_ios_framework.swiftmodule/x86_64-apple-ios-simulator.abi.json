@@ -16,26 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "SDMFBLE",
-        "printedName": "SDMFBLE",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "ZIPFoundation",
         "printedName": "ZIPFoundation",
         "declKind": "Import",
@@ -3959,97 +3939,6 @@
         "kind": "Import",
         "name": "SDSwiftExtensions",
         "printedName": "SDSwiftExtensions",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework"
-      },
-      {
-        "kind": "Import",
-        "name": "SDMFBLE",
-        "printedName": "SDMFBLE",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework"
-      },
-      {
-        "kind": "Import",
-        "name": "SDMFBLE",
-        "printedName": "SDMFBLE",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SDMFBLE",
-        "printedName": "SDMFBLE",
         "declKind": "Import",
         "moduleName": "mobile_flow_plugin_ios_framework",
         "declAttributes": [
@@ -11010,16 +10899,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "mobile_flow_plugin_ios_framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "CLLocationManager",
         "printedName": "CLLocationManager",
@@ -11873,49 +11752,49 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
       "kind": "Array",
-      "offset": 1283,
+      "offset": 1217,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
       "kind": "StringLiteral",
-      "offset": 4092,
+      "offset": 2783,
       "length": 8,
       "value": "\"HyLo-1\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
       "kind": "StringLiteral",
-      "offset": 4108,
+      "offset": 2799,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
       "kind": "IntegerLiteral",
-      "offset": 4222,
+      "offset": 2913,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
       "kind": "IntegerLiteral",
-      "offset": 4274,
+      "offset": 2965,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
       "kind": "IntegerLiteral",
-      "offset": 4333,
+      "offset": 3024,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/BeaconHandler\/LocalizationEvaluator.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 526,
       "length": 21,
       "value": "\"mobile_flow_plugin_ios_framework.LocalizationEvaluator\""
     },
@@ -12125,723 +12004,135 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "FloatLiteral",
-      "offset": 1654,
+      "offset": 1685,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "FloatLiteral",
-      "offset": 1722,
+      "offset": 1753,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "FloatLiteral",
-      "offset": 1776,
+      "offset": 1807,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "FloatLiteral",
-      "offset": 1827,
+      "offset": 1858,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "FloatLiteral",
-      "offset": 1879,
+      "offset": 1910,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "FloatLiteral",
-      "offset": 1943,
+      "offset": 1974,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "FloatLiteral",
-      "offset": 2023,
+      "offset": 2054,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "StringLiteral",
-      "offset": 2568,
+      "offset": 2599,
       "length": 372,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "StringLiteral",
-      "offset": 2580,
+      "offset": 2611,
       "length": 1,
       "value": "\" | ResponseTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "StringLiteral",
-      "offset": 2618,
+      "offset": 2649,
       "length": 1,
       "value": "\", ConnectionEstablishmentTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "StringLiteral",
-      "offset": 2685,
+      "offset": 2716,
       "length": 1,
       "value": "\", ReaderEvaluation: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "StringLiteral",
-      "offset": 2724,
+      "offset": 2755,
       "length": 13,
       "value": "\" ResendTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "StringLiteral",
-      "offset": 2756,
+      "offset": 2787,
       "length": 1,
       "value": "\", PassageTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "StringLiteral",
-      "offset": 2791,
+      "offset": 2822,
       "length": 1,
       "value": "\", NextAllowedPassageTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "StringLiteral",
-      "offset": 2848,
+      "offset": 2879,
       "length": 1,
       "value": "\", NextAllowedPassageTimeoutAfterErrorTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "StringLiteral",
-      "offset": 2939,
+      "offset": 2970,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
+      "kind": "FloatLiteral",
+      "offset": 3587,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "StringLiteral",
-      "offset": 3545,
+      "offset": 3617,
       "length": 16,
       "value": "\"timeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/MFTimeout.swift",
       "kind": "StringLiteral",
-      "offset": 3559,
+      "offset": 3631,
       "length": 7,
       "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 472,
-      "length": 13,
-      "value": "\"MLAlgorithm\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "Array",
-      "offset": 726,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 767,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 835,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "Array",
-      "offset": 1004,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 1094,
-      "length": 21,
-      "value": "\"missing-description\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 1619,
-      "length": 7,
-      "value": "\"model\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 2124,
-      "length": 52,
-      "value": "\"Couldn't create MobileFlowAlgorithmModel: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 2175,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2566,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 2656,
-      "length": 67,
-      "value": "\"Not enough beacons received: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 2712,
-      "length": 8,
-      "value": "\" antennas.\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 2882,
-      "length": 25,
-      "value": "\"highRSSIValideAccess | \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 3102,
-      "length": 12,
-      "value": "\"lowRSSI | \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "FloatLiteral",
-      "offset": 3965,
-      "length": 6,
-      "value": "1000.0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4076,
-      "length": 73,
-      "value": "\" | prop: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4103,
-      "length": 6,
-      "value": "\"%.2f\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4130,
-      "length": 1,
-      "value": "\" | t: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4148,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4458,
-      "length": 17,
-      "value": "\"Error: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4474,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4602,
-      "length": 28,
-      "value": "\"Unexpected error: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 4629,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "Array",
-      "offset": 4792,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4937,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5050,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5345,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5361,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5460,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5474,
-      "length": 3,
-      "value": "-35"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5513,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5527,
-      "length": 3,
-      "value": "-10"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5566,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5580,
-      "length": 3,
-      "value": "-38"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5619,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5633,
-      "length": 3,
-      "value": "-10"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 5817,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 5900,
-      "length": 16,
-      "value": "\"aId(%1d): %2d#\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 6014,
-      "length": 6,
-      "value": "\" %3d\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 6073,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 6102,
-      "length": 58,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 6111,
-      "length": 1,
-      "value": "\" | \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 6137,
-      "length": 1,
-      "value": "\" | \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 6159,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6249,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6265,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6364,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6378,
-      "length": 3,
-      "value": "-70"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6417,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLAlgorithm.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6431,
-      "length": 3,
-      "value": "-70"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLModelType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 322,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLModelType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 332,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLModelType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 346,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLModelType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 389,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLModelType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 399,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLModelType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 413,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLModelType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 417,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLModelType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 460,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLModelType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 486,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLModelType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1239,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 360,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 471,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 474,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 758,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 847,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 895,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 962,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 965,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 1166,
-      "length": 39,
-      "value": "\"Error creating MLMultiArray: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 1204,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1397,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1563,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1566,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1824,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1913,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1961,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2087,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2090,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2190,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2301,
-      "length": 39,
-      "value": "\"Error creating MLMultiArray: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2339,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2841,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2930,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 3151,
-      "length": 39,
-      "value": "\"Error creating MLMultiArray: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/SDMFLocalization\/Algorithm\/MLUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 3189,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/public\/MobileFlowError.swift",
@@ -13728,1456 +13019,1624 @@
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 2630,
+      "offset": 2577,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 2683,
+      "offset": 2630,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 2723,
+      "offset": 2670,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 2778,
+      "offset": 2725,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "Dictionary",
-      "offset": 2835,
+      "offset": 2782,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2941,
+      "offset": 2888,
       "length": 66,
       "value": "\"evaluationResultPerGate didSet: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3006,
+      "offset": 2953,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "Dictionary",
-      "offset": 2906,
+      "offset": 2853,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3811,
+      "offset": 3771,
       "length": 8,
       "value": "\"deinit\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4003,
+      "offset": 3963,
       "length": 75,
       "value": "\"token: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4019,
+      "offset": 3979,
       "length": 1,
       "value": "\" \n Self.getHostAppPackage(): \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4077,
+      "offset": 4037,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4341,
+      "offset": 4301,
       "length": 16,
       "value": "\"NO MOBILE FLOW\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 4661,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 5290,
+      "offset": 5226,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 6752,
+      "offset": 5593,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 6641,
       "length": 17,
       "value": "\"token: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 6768,
+      "offset": 6657,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 6908,
+      "offset": 6797,
       "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 6933,
+      "offset": 6822,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7070,
+      "offset": 6959,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 7213,
+      "offset": 7102,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7239,
+      "offset": 7128,
       "length": 154,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7249,
+      "offset": 7138,
       "length": 1,
       "value": "\" | shouldVibrate: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7283,
+      "offset": 7172,
       "length": 1,
       "value": "\" | session.id: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7340,
+      "offset": 7229,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7344,
+      "offset": 7233,
       "length": 1,
       "value": "\" | hasActive: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7392,
+      "offset": 7281,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7951,
+      "offset": 7840,
       "length": 49,
       "value": "\"sessionUUID: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7999,
+      "offset": 7888,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 8179,
+      "offset": 8068,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8250,
+      "offset": 8139,
       "length": 69,
       "value": "\"sessionService.hasActiveSession: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8318,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8504,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8538,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 8749,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 8973,
-      "length": 75,
-      "value": "\"tokenValidator.tokenIsValid: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 9033,
-      "length": 1,
-      "value": "\" | url: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 9047,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 9205,
-      "length": 91,
-      "value": "\"networkMonitor.networkStatusSubject$.value: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 9295,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 10442,
-      "length": 37,
-      "value": "\"applicationUUID: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 10478,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 10637,
-      "length": 37,
-      "value": "\"mobileFlowState: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 10673,
+      "offset": 8207,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 10977,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 11750,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 12676,
-      "length": 18,
-      "value": "\"MISSING delegate\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 14011,
-      "length": 80,
-      "value": "\"MobileFlowPluginImpl.evaluationResultPublisher: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 14090,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 14731,
-      "length": 18,
-      "value": "\"MISSING delegate\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 15733,
-      "length": 35,
-      "value": "\"timeoutPublisher: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 15767,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 15944,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 16003,
-      "length": 18,
-      "value": "\"MISSING delegate\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 17344,
-      "length": 31,
-      "value": "\"timeoutEvent: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 17374,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 17531,
-      "length": 40,
-      "value": "\"handleTimeout: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 17570,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 17700,
-      "length": 26,
-      "value": "\".connectionEstablishment\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 17913,
-      "length": 96,
-      "value": "\"Couldn't establish connection in \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 18008,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18136,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18509,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18673,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 18876,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 19121,
-      "length": 148,
-      "value": "\"connectionEventsPublisher: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 19172,
-      "length": 6,
-      "value": "\" BEFORE ticket == nil: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 19225,
-      "length": 4,
-      "value": "\" gate == nil: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 19268,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 19356,
-      "length": 56,
-      "value": "\"connectionEventsPublisher.gate: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 19411,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 19484,
-      "length": 46,
-      "value": "\"connectionEventsPublisher: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 19529,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 20019,
-      "length": 21,
-      "value": "\"MISSING gattAntenna\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20109,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "Array",
-      "offset": 20380,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 20439,
-      "length": 134,
-      "value": "\"ConnectionEstablished \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 20503,
-      "length": 1,
-      "value": "\" | fw: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 20539,
-      "length": 1,
-      "value": "\" | type: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 20572,
-      "length": 69,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 20818,
-      "length": 21,
-      "value": "\"MISSING gattAntenna\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 21508,
-      "length": 21,
-      "value": "\"MISSING gattAntenna\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 21651,
-      "length": 39,
-      "value": "\"Nothing to cancel for: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 21689,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 22009,
-      "length": 21,
-      "value": "\"MISSING gattAntenna\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 22373,
-      "length": 14,
-      "value": "\"disconnected\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22518,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 22532,
-      "length": 7,
-      "value": "\"error\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 22794,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 22898,
-      "length": 56,
-      "value": "\" | aId: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 22953,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 23539,
-      "length": 165,
-      "value": "\" | evaluationThreshold: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 23620,
-      "length": 1,
-      "value": "\" | readerEvaluationRSSI: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 23668,
-      "length": 1,
-      "value": "\" | aId: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 23703,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 23851,
-      "length": 34,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 23884,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 23998,
-      "length": 46,
-      "value": "\"shouldBlur: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 24043,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 24507,
-      "length": 31,
-      "value": "\"gattResponse: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 24537,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 24764,
-      "length": 50,
-      "value": "\"ACK isRequired: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 24813,
-      "length": 18,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 25442,
-      "length": 161,
-      "value": "\"handleGATTResponse: shouldDisconnect: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 25515,
-      "length": 1,
-      "value": "\" | alreadyReceivedResponse: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 25569,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 25602,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 25859,
-      "length": 53,
-      "value": "\"FIRST TicketPassed for: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 25911,
-      "length": 18,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 25963,
-      "length": 49,
-      "value": "\"gattResponse: !responseHandler.alreadyReceived \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 27562,
-      "length": 80,
-      "value": "\"handleGATTResponse: should disconnect due to: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 27641,
-      "length": 18,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27785,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27802,
+      "offset": 8391,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 27817,
-      "length": 18,
-      "value": "\"shouldDisconnect\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28340,
-      "length": 1,
-      "value": "0"
+      "offset": 8408,
+      "length": 9,
+      "value": "\"outside\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 28470,
-      "length": 128,
-      "value": "\"handleGATTResponse shouldResend: \""
+      "offset": 8470,
+      "length": 77,
+      "value": "\"inside all: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 28513,
-      "length": 1,
-      "value": "\" | resendTicketCounter: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 28559,
-      "length": 1,
-      "value": "\" | resendTicketMax: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 28597,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 28627,
-      "length": 141,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 28662,
-      "length": 1,
-      "value": "\" | resend: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 28682,
-      "length": 1,
-      "value": "\"  | resendTicketCounter: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 28729,
-      "length": 1,
-      "value": "\" | resendTicketMax: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 28767,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28810,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 28941,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 28958,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 28972,
-      "length": 53,
-      "value": "\"Failed resending ticket for: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 29024,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 29241,
-      "length": 57,
-      "value": "\"resendTicketCounter: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 29285,
-      "length": 11,
-      "value": "\" incremented\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "Array",
-      "offset": 29550,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 29922,
-      "length": 88,
-      "value": "\"writeTicket: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 29953,
-      "length": 3,
-      "value": "\" aId: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 29983,
-      "length": 4,
-      "value": "\" gate: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 30009,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 30516,
-      "length": 122,
-      "value": "\"No readerEvaluation passed in \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 30608,
+      "offset": 8489,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 30637,
-      "length": 69,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 31143,
-      "length": 16,
-      "value": "\"MISSING TICKET\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 31281,
-      "length": 111,
-      "value": "\"Resendet ticket \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 31320,
-      "length": 1,
-      "value": "\"# on: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 31349,
-      "length": 1,
-      "value": "\" | gattAntenna: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 31391,
-      "length": 69,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31807,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 31957,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 31983,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 32148,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 32182,
-      "length": 121,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 32192,
-      "length": 1,
-      "value": "\" | for: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 32230,
+      "offset": 8515,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 32234,
+      "offset": 8546,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8642,
       "length": 1,
-      "value": "\" | shouldDisconnect: \""
+      "value": "0"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 32274,
-      "length": 1,
-      "value": "\" | dueToError: \""
+      "offset": 9374,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9528,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 32302,
+      "offset": 9606,
+      "length": 75,
+      "value": "\"tokenValidator.tokenIsValid: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 9666,
+      "length": 1,
+      "value": "\" | url: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 9680,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 9838,
+      "length": 91,
+      "value": "\"networkMonitor.networkStatusSubject$.value: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 9928,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 11075,
+      "length": 37,
+      "value": "\"applicationUUID: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 11111,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 11270,
+      "length": 37,
+      "value": "\"mobileFlowState: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 11306,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11610,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 12383,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 13309,
+      "length": 18,
+      "value": "\"MISSING delegate\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 14644,
+      "length": 80,
+      "value": "\"MobileFlowPluginImpl.evaluationResultPublisher: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 14723,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 15292,
+      "length": 18,
+      "value": "\"MISSING delegate\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 15777,
+      "length": 39,
+      "value": "\"gateTimeoutPublisher: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 15815,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 16129,
+      "length": 35,
+      "value": "\"timeoutPublisher: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 16163,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 16386,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 16445,
+      "length": 18,
+      "value": "\"MISSING delegate\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 17840,
+      "length": 59,
+      "value": "\"timeoutEvent: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 17870,
+      "length": 3,
+      "value": "\" for gate: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 17888,
+      "length": 5,
+      "value": "\" CLEAR ALL\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17941,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 18191,
+      "length": 55,
+      "value": "\"timeoutEvent: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 18221,
+      "length": 3,
+      "value": "\" for antenna: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 18245,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 18522,
+      "length": 56,
+      "value": "\"handleTimeout: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 18561,
+      "length": 3,
+      "value": "\" for: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 18577,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 18696,
+      "length": 26,
+      "value": "\".connectionEstablishment\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 18909,
+      "length": 96,
+      "value": "\"Couldn't establish connection in \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 19004,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19121,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19494,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19657,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19815,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 20348,
+      "length": 148,
+      "value": "\"connectionEventsPublisher: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 20399,
+      "length": 6,
+      "value": "\" BEFORE ticket == nil: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 20452,
+      "length": 4,
+      "value": "\" gate == nil: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 20495,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 20583,
+      "length": 56,
+      "value": "\"connectionEventsPublisher.gate: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 20638,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 20711,
+      "length": 46,
+      "value": "\"connectionEventsPublisher: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 20756,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 21246,
+      "length": 21,
+      "value": "\"MISSING gattAntenna\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21336,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "Array",
+      "offset": 21607,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 21666,
+      "length": 134,
+      "value": "\"ConnectionEstablished \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 21730,
+      "length": 1,
+      "value": "\" | fw: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 21766,
+      "length": 1,
+      "value": "\" | type: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 21799,
+      "length": 69,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 22045,
+      "length": 21,
+      "value": "\"MISSING gattAntenna\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 22394,
+      "length": 21,
+      "value": "\"MISSING gattAntenna\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 22691,
+      "length": 14,
+      "value": "\"disconnected\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22836,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 22850,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 23112,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 23216,
+      "length": 56,
+      "value": "\" | aId: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 23271,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 32346,
-      "length": 20,
-      "value": "\"\""
+      "offset": 23857,
+      "length": 196,
+      "value": "\" | evaluationThreshold: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 32356,
+      "offset": 23938,
+      "length": 1,
+      "value": "\" | readerEvaluationRSSI: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 23986,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 32365,
+      "offset": 24016,
+      "length": 1,
+      "value": "\" | \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 24052,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 32745,
+      "offset": 24200,
+      "length": 34,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 24233,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 24347,
+      "length": 46,
+      "value": "\"shouldBlur: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 24392,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 24952,
+      "length": 31,
+      "value": "\"gattResponse: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 24982,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 25454,
+      "length": 50,
+      "value": "\"ACK isRequired: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 25503,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 25748,
+      "length": 161,
+      "value": "\"handleGATTResponse: shouldDisconnect: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 25821,
+      "length": 1,
+      "value": "\" | alreadyReceivedResponse: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 25875,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 25908,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 26328,
+      "length": 39,
+      "value": "\"Nothing to cancel for: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 26366,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 26534,
+      "length": 40,
+      "value": "\"FIRST TicketPassed for: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 26573,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 26633,
+      "length": 49,
+      "value": "\"gattResponse: !responseHandler.alreadyReceived \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 29240,
+      "length": 80,
+      "value": "\"handleGATTResponse: should disconnect due to: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 29319,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 30044,
+      "length": 61,
+      "value": "\"Missed \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 30069,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 30104,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 30480,
+      "length": 49,
+      "value": "\"ALL-RESPONSES-AFTER-MISSED: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 30528,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 30600,
+      "length": 49,
+      "value": "\"ALL-RESPONSES-AFTER-MISSED: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 30648,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 30849,
+      "length": 48,
+      "value": "\"gattResponse: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 30896,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 30976,
+      "length": 43,
+      "value": "\"NOT gattResponse.isReaderValidationPassed\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 31120,
+      "length": 36,
+      "value": "\"NOT gattResponse.hasLastResponse()\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 31457,
+      "length": 35,
+      "value": "\"NOT GATTResponse.initLastResponse\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 31634,
+      "length": 17,
+      "value": "\"alreadyReceived\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 31749,
+      "length": 58,
+      "value": "\"Generated lastResponse: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 31806,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "Array",
+      "offset": 32025,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 32397,
+      "length": 93,
+      "value": "\"writeTicket: sId: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 32433,
+      "length": 3,
+      "value": "\" aId: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 32463,
+      "length": 4,
+      "value": "\" gate: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 32489,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33084,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 33290,
+      "length": 180,
+      "value": "\"handleReaderEvaluationTimeout: shouldDisconnect: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 33359,
+      "length": 1,
+      "value": "\" | otherGateTriggered: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 33403,
+      "length": 1,
+      "value": "\" | isNotConnected: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 33439,
+      "length": 1,
+      "value": "\" | gattAntenna: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 33469,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 33699,
+      "length": 194,
+      "value": "\"handleReaderEvaluationTimeout | No readerEvaluation passed in \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 33823,
+      "length": 1,
+      "value": "\" | \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 33852,
+      "length": 1,
+      "value": "\" | shouldDisconnect: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 33892,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 33918,
+      "length": 125,
+      "value": "\"handleReaderEvaluationTimeout-gattAntenna: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 33976,
+      "length": 1,
+      "value": "\" | evaluationResultPerGate.count: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 34042,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 34610,
+      "length": 16,
+      "value": "\"MISSING TICKET\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 34748,
+      "length": 111,
+      "value": "\"Resendet ticket \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 34787,
+      "length": 1,
+      "value": "\"# on: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 34816,
+      "length": 1,
+      "value": "\" | gattAntenna: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 34858,
+      "length": 69,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35274,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 35424,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 35450,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 35651,
+      "length": 121,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 35661,
+      "length": 1,
+      "value": "\" | for: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 35699,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 35703,
+      "length": 1,
+      "value": "\" | shouldDisconnect: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 35743,
+      "length": 1,
+      "value": "\" | dueToError: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 35771,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 35815,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 35825,
+      "length": 1,
+      "value": "\" | \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 35834,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 36212,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 32755,
+      "offset": 36222,
       "length": 11,
       "value": "\" gattAntenna is nil\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33172,
+      "offset": 36663,
       "length": 227,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33182,
+      "offset": 36673,
       "length": 12,
       "value": "\" timeoutEvent: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33212,
+      "offset": 36703,
       "length": 1,
       "value": "\" | != \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33288,
+      "offset": 36779,
       "length": 2,
       "value": "\" && timeoutEvent.timeout != .nextAllowedPassageTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33398,
+      "offset": 36889,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33470,
+      "offset": 36961,
       "length": 46,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33480,
+      "offset": 36971,
       "length": 1,
       "value": "\" | timeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33515,
+      "offset": 37006,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33876,
+      "offset": 37366,
       "length": 115,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33886,
+      "offset": 37376,
       "length": 1,
       "value": "\" | timeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33921,
+      "offset": 37411,
       "length": 1,
       "value": "\" | clearing evaluationResultPerGate: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 33990,
+      "offset": 37480,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34170,
+      "offset": 37593,
+      "length": 43,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 37603,
+      "length": 1,
+      "value": "\" | NO timeout for \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 37635,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 37778,
       "length": 62,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34201,
+      "offset": 37809,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34220,
+      "offset": 37828,
       "length": 10,
       "value": "\"Name_N\/A\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34231,
+      "offset": 37839,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34322,
+      "offset": 37930,
       "length": 79,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34353,
+      "offset": 37961,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34386,
+      "offset": 37994,
       "length": 13,
       "value": "\"Version_N\/A\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34400,
+      "offset": 38008,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34422,
+      "offset": 38030,
       "length": 68,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34453,
+      "offset": 38061,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34475,
+      "offset": 38083,
       "length": 13,
       "value": "\"BuildNr_N\/A\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34489,
+      "offset": 38097,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34506,
+      "offset": 38114,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34517,
+      "offset": 38125,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34527,
+      "offset": 38135,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34644,
+      "offset": 38252,
       "length": 34,
       "value": "\"package_identifier_not_available\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34895,
-      "length": 312,
+      "offset": 38503,
+      "length": 342,
       "value": "\"evaluationResult: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34923,
+      "offset": 38531,
       "length": 1,
       "value": "\" | !hasActiveTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 34965,
+      "offset": 38573,
       "length": 1,
-      "value": "\" | contain: \""
+      "value": "\" | evaluationResultPerGate !contain gate: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 35036,
+      "offset": 38674,
       "length": 1,
       "value": "\" | self.evaluationResultPerGate: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 35100,
+      "offset": 38738,
       "length": 10,
       "value": "\" bleManager: isScanning\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 35152,
+      "offset": 38790,
       "length": 1,
       "value": "\" | allowed: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 35206,
+      "offset": 38844,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 35538,
+      "offset": 39176,
       "length": 46,
       "value": "\"EvaluationResult: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 35583,
+      "offset": 39221,
       "length": 70,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 35800,
+      "offset": 39438,
       "length": 66,
       "value": "\"FAILED to timeoutHandler.triggerTimeout(.connectionEstablishment\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 35941,
+      "offset": 39579,
       "length": 69,
       "value": "\"HyLo-1 triggered FAILED to .triggerTimeout(.connectionEstablishment\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 36436,
+      "offset": 40080,
       "length": 18,
       "value": "\"HyLo-1 triggered\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 36781,
+      "offset": 40425,
       "length": 19,
       "value": "\"result: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 36799,
+      "offset": 40443,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 36867,
+      "offset": 40511,
       "length": 35,
       "value": "\"MISSING self.getActivatedTicket()\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 36985,
+      "offset": 40629,
       "length": 34,
       "value": "\"MISSING sessionService.sessionId\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 37496,
+      "offset": 41140,
       "length": 73,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 37531,
+      "offset": 41175,
       "length": 5,
       "value": "\" error: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 37568,
+      "offset": 41212,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 41701,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 38703,
+      "offset": 42355,
       "length": 17,
       "value": "\"ERROR: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/MobileFlowPluginImpl.swift",
       "kind": "StringLiteral",
-      "offset": 38719,
+      "offset": 42371,
       "length": 7,
       "value": "\"\""
     },
@@ -15487,7 +14946,7 @@
       "kind": "StringLiteral",
       "offset": 146,
       "length": 11,
-      "value": "\"4.0.20017\""
+      "value": "\"4.0.20013\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Configuration\/PackageInfo.swift",
@@ -16751,722 +16210,778 @@
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
-      "kind": "Dictionary",
-      "offset": 2222,
-      "length": 3,
-      "value": "[]"
+      "kind": "StringLiteral",
+      "offset": 2352,
+      "length": 48,
+      "value": "\"didSet: antennaTimerDict\n \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2399,
+      "length": 7,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "Dictionary",
-      "offset": 2318,
+      "offset": 2313,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2948,
+      "offset": 2535,
+      "length": 63,
+      "value": "\"didSet: connectionEstablishmentTimoutDict\n \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2597,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "Dictionary",
+      "offset": 2496,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3228,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2958,
+      "offset": 3238,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3587,
+      "offset": 3848,
       "length": 56,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3622,
+      "offset": 3883,
       "length": 1,
       "value": "\" | for gate: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3642,
+      "offset": 3903,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4544,
+      "offset": 4748,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4605,
+      "offset": 4809,
       "length": 36,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4640,
+      "offset": 4844,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "Dictionary",
-      "offset": 4780,
+      "offset": 4984,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "Dictionary",
-      "offset": 4963,
+      "offset": 5129,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5198,
+      "offset": 5382,
       "length": 78,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5233,
+      "offset": 5417,
       "length": 2,
       "value": "\" no active timeout for for: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5275,
+      "offset": 5459,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5299,
+      "offset": 5483,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5333,
+      "offset": 5517,
       "length": 104,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5368,
+      "offset": 5552,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5394,
+      "offset": 5578,
       "length": 1,
       "value": "\" | gattAntenna: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5436,
+      "offset": 5620,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5620,
+      "offset": 5804,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5768,
-      "length": 51,
+      "offset": 5895,
+      "length": 46,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5803,
+      "offset": 5930,
+      "length": 7,
+      "value": "\" forGate |\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6049,
+      "length": 26,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6059,
       "length": 2,
       "value": "\" no gate passed\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 5842,
+      "offset": 6098,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5967,
-      "length": 105,
+      "offset": 6189,
+      "length": 29,
+      "value": "\" gate: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6216,
+      "length": 1,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6258,
+      "length": 50,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6002,
-      "length": 3,
-      "value": "\" for gate: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6032,
+      "offset": 6268,
       "length": 6,
       "value": "\" BEFORE removal: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6071,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6142,
-      "length": 127,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6177,
-      "length": 3,
-      "value": "\" for gate: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6207,
+      "offset": 6307,
       "length": 1,
-      "value": "\" | aID: \""
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6242,
+      "offset": 6452,
+      "length": 70,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6462,
+      "length": 3,
+      "value": "\" aID: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6495,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6268,
+      "offset": 6521,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6669,
-      "length": 109,
+      "offset": 6884,
+      "length": 54,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6704,
-      "length": 3,
-      "value": "\" for gate: \""
-    },
-    {
-      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6734,
+      "offset": 6894,
       "length": 5,
       "value": "\" AFTER removal: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6777,
-      "length": 3,
+      "offset": 6937,
+      "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 6797,
+      "offset": 7031,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7063,
+      "offset": 7320,
       "length": 78,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7098,
+      "offset": 7355,
       "length": 2,
       "value": "\" no active timeout for for: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7140,
+      "offset": 7397,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7164,
+      "offset": 7421,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7198,
+      "offset": 7455,
       "length": 104,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7233,
+      "offset": 7490,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7259,
+      "offset": 7516,
       "length": 1,
       "value": "\" | gattAntenna: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7301,
+      "offset": 7558,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7548,
+      "offset": 7805,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7780,
+      "offset": 8059,
       "length": 94,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7815,
+      "offset": 8094,
       "length": 16,
       "value": "\" hasActiveTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7853,
+      "offset": 8132,
       "length": 3,
       "value": "\" for: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 7873,
+      "offset": 8152,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7936,
+      "offset": 8215,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8039,
+      "offset": 8318,
       "length": 181,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8050,
+      "offset": 8329,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8071,
+      "offset": 8350,
       "length": 6,
       "value": "\"%.2f\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8095,
+      "offset": 8374,
       "length": 1,
       "value": "\" | for: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8117,
+      "offset": 8396,
       "length": 1,
       "value": "\" | !hasActiveTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8159,
+      "offset": 8438,
       "length": 2,
       "value": "\" -> \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8219,
+      "offset": 8498,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8292,
+      "offset": 8571,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8327,
+      "offset": 8606,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8334,
+      "offset": 8613,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8714,
+      "offset": 8799,
       "length": 65,
       "value": "\"TIMEOUT-FIRED: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8740,
+      "offset": 8825,
       "length": 1,
       "value": "\" | timeoutDuration: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8778,
+      "offset": 8863,
       "length": 7,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 8879,
+      "offset": 9158,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9089,
+      "offset": 9391,
       "length": 87,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9124,
+      "offset": 9426,
       "length": 16,
       "value": "\" hasActiveTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9162,
+      "offset": 9464,
       "length": 3,
       "value": "\" for: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9175,
+      "offset": 9477,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9238,
+      "offset": 9540,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9335,
+      "offset": 9637,
       "length": 114,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9346,
+      "offset": 9648,
       "length": 1,
       "value": "\" | \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9367,
+      "offset": 9669,
       "length": 6,
       "value": "\"%.2f\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9391,
+      "offset": 9693,
       "length": 1,
       "value": "\" | for: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9406,
+      "offset": 9708,
       "length": 1,
       "value": "\" | !hasActiveTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9448,
+      "offset": 9750,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9520,
+      "offset": 9822,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9555,
+      "offset": 9857,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 9562,
+      "offset": 9864,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
-      "kind": "BooleanLiteral",
+      "kind": "StringLiteral",
       "offset": 10045,
+      "length": 65,
+      "value": "\"TIMEOUT-FIRED: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 10071,
+      "length": 1,
+      "value": "\" | timeoutDuration: \""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 10109,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10393,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10290,
+      "offset": 10638,
       "length": 125,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10325,
+      "offset": 10673,
       "length": 1,
       "value": "\" | activeTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10380,
+      "offset": 10728,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10384,
+      "offset": 10732,
       "length": 1,
       "value": "\" | gattAntenna: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10414,
+      "offset": 10762,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10734,
+      "offset": 11082,
       "length": 175,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10769,
+      "offset": 11117,
       "length": 16,
       "value": "\" hasActiveTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10807,
+      "offset": 11155,
       "length": 1,
       "value": "\" | activeTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10862,
+      "offset": 11210,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10866,
+      "offset": 11214,
       "length": 1,
       "value": "\" | timeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10888,
+      "offset": 11236,
       "length": 3,
       "value": "\" for: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10908,
+      "offset": 11256,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11184,
+      "offset": 11513,
       "length": 136,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11219,
+      "offset": 11548,
       "length": 39,
       "value": "\" hasActiveConnectionEstablishmentTimeout: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11303,
+      "offset": 11632,
       "length": 1,
       "value": "\" | for: \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 11318,
+      "offset": 11647,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11573,
+      "offset": 11902,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11617,
+      "offset": 11946,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11825,
+      "offset": 12154,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11869,
+      "offset": 12198,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "Array",
-      "offset": 12415,
+      "offset": 12744,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Feature\/TimeoutHandling\/TimeoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1826,
+      "offset": 1917,
       "length": 14,
       "value": "\"mobile_flow_plugin_ios_framework.TimeoutHandler\""
     },
@@ -17707,62 +17222,6 @@
       "offset": 370,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shde\/Library\/Developer\/Xcode\/DerivedData\/mobile-flow-plugin-ios-framework-anqvfwpoifhrtogtxlrwqaufwtgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/mobile_flow_plugin_ios_framework\/IntermediateBuildFilesPath\/mobile-flow-plugin-ios-framework.build\/Release-iphonesimulator\/mobile_flow_plugin_ios_framework.build\/DerivedSources\/CoreMLGenerated\/MobileFlowAlgorithmModel\/MobileFlowAlgorithmModel.swift",
-      "kind": "Array",
-      "offset": 441,
-      "length": 11,
-      "value": "[\"beacons\"]"
-    },
-    {
-      "filePath": "\/Users\/shde\/Library\/Developer\/Xcode\/DerivedData\/mobile-flow-plugin-ios-framework-anqvfwpoifhrtogtxlrwqaufwtgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/mobile_flow_plugin_ios_framework\/IntermediateBuildFilesPath\/mobile-flow-plugin-ios-framework.build\/Release-iphonesimulator\/mobile_flow_plugin_ios_framework.build\/DerivedSources\/CoreMLGenerated\/MobileFlowAlgorithmModel\/MobileFlowAlgorithmModel.swift",
-      "kind": "StringLiteral",
-      "offset": 569,
-      "length": 9,
-      "value": "\"beacons\""
-    },
-    {
-      "filePath": "\/Users\/shde\/Library\/Developer\/Xcode\/DerivedData\/mobile-flow-plugin-ios-framework-anqvfwpoifhrtogtxlrwqaufwtgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/mobile_flow_plugin_ios_framework\/IntermediateBuildFilesPath\/mobile-flow-plugin-ios-framework.build\/Release-iphonesimulator\/mobile_flow_plugin_ios_framework.build\/DerivedSources\/CoreMLGenerated\/MobileFlowAlgorithmModel\/MobileFlowAlgorithmModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1291,
-      "length": 8,
-      "value": "\"output\""
-    },
-    {
-      "filePath": "\/Users\/shde\/Library\/Developer\/Xcode\/DerivedData\/mobile-flow-plugin-ios-framework-anqvfwpoifhrtogtxlrwqaufwtgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/mobile_flow_plugin_ios_framework\/IntermediateBuildFilesPath\/mobile-flow-plugin-ios-framework.build\/Release-iphonesimulator\/mobile_flow_plugin_ios_framework.build\/DerivedSources\/CoreMLGenerated\/MobileFlowAlgorithmModel\/MobileFlowAlgorithmModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1874,
-      "length": 8,
-      "value": "\"output\""
-    },
-    {
-      "filePath": "\/Users\/shde\/Library\/Developer\/Xcode\/DerivedData\/mobile-flow-plugin-ios-framework-anqvfwpoifhrtogtxlrwqaufwtgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/mobile_flow_plugin_ios_framework\/IntermediateBuildFilesPath\/mobile-flow-plugin-ios-framework.build\/Release-iphonesimulator\/mobile_flow_plugin_ios_framework.build\/DerivedSources\/CoreMLGenerated\/MobileFlowAlgorithmModel\/MobileFlowAlgorithmModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2376,
-      "length": 26,
-      "value": "\"MobileFlowAlgorithmModel\""
-    },
-    {
-      "filePath": "\/Users\/shde\/Library\/Developer\/Xcode\/DerivedData\/mobile-flow-plugin-ios-framework-anqvfwpoifhrtogtxlrwqaufwtgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/mobile_flow_plugin_ios_framework\/IntermediateBuildFilesPath\/mobile-flow-plugin-ios-framework.build\/Release-iphonesimulator\/mobile_flow_plugin_ios_framework.build\/DerivedSources\/CoreMLGenerated\/MobileFlowAlgorithmModel\/MobileFlowAlgorithmModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2418,
-      "length": 10,
-      "value": "\"mlmodelc\""
-    },
-    {
-      "filePath": "\/Users\/shde\/Library\/Developer\/Xcode\/DerivedData\/mobile-flow-plugin-ios-framework-anqvfwpoifhrtogtxlrwqaufwtgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/mobile_flow_plugin_ios_framework\/IntermediateBuildFilesPath\/mobile-flow-plugin-ios-framework.build\/Release-iphonesimulator\/mobile_flow_plugin_ios_framework.build\/DerivedSources\/CoreMLGenerated\/MobileFlowAlgorithmModel\/MobileFlowAlgorithmModel.swift",
-      "kind": "Array",
-      "offset": 11856,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shde\/Library\/Developer\/Xcode\/DerivedData\/mobile-flow-plugin-ios-framework-anqvfwpoifhrtogtxlrwqaufwtgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/mobile_flow_plugin_ios_framework\/IntermediateBuildFilesPath\/mobile-flow-plugin-ios-framework.build\/Release-iphonesimulator\/mobile_flow_plugin_ios_framework.build\/DerivedSources\/CoreMLGenerated\/MobileFlowAlgorithmModel\/MobileFlowAlgorithmModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11922,
-      "length": 1,
-      "value": "0"
     }
   ]
 }
