@@ -14945,13 +14945,13 @@
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Configuration\/PackageInfo.swift",
       "kind": "StringLiteral",
       "offset": 146,
-      "length": 11,
-      "value": "\"4.0.20018\""
+      "length": 7,
+      "value": "\"4.0.3\""
     },
     {
       "filePath": "\/Users\/shde\/dev\/mobile-flow-plugin-ios-framework\/Sources\/mobile-flow-plugin-ios-framework\/Configuration\/PackageInfo.swift",
       "kind": "StringLiteral",
-      "offset": 227,
+      "offset": 223,
       "length": 7,
       "value": "\"-.-.-\""
     },
