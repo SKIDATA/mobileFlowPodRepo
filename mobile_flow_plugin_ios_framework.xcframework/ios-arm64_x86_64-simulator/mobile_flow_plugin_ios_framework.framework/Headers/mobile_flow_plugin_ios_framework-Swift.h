@@ -399,21 +399,18 @@ static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_io
 
 /// MobileFlowEvent represents the events that occur during the access process.
 typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
-/// gateAccessTriggered
-/// This event indicates that the phone has been localized at an access gate and the ticket is sent to the access system.
-  MobileFlowEventGateAccessTriggered = 0,
 /// gateInUse
 /// This event indicates that the gate is currently in use (i.e. a passage of another person is not yet completed).
-  MobileFlowEventGateInUse = 1,
+  MobileFlowEventGateInUse = 0,
 /// gateAccessCompleted
 /// Event indicates that an access has been completed. This is the case when the person passed the gate.
-  MobileFlowEventGateAccessCompleted = 2,
+  MobileFlowEventGateAccessCompleted = 1,
 /// ticketValid
 /// Event which indicates that the ticket sent to the access system is valid.
-  MobileFlowEventTicketValid = 3,
+  MobileFlowEventTicketValid = 2,
 /// ticketPassed
 /// Event which indicates that the ticket is forwarded from the reader to the ticket evaluation system.
-  MobileFlowEventTicketPassed = 4,
+  MobileFlowEventTicketPassed = 3,
 };
 
 @protocol MobileFlowPluginDelegate;
@@ -579,16 +576,18 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 ///
 - (void)setDelegate:(id <MobileFlowPluginDelegate> _Nonnull)delegate;
 /// This method starts the plugin.
+/// It won’t start multiple times. If <code>nil</code> is returned instead of an <code>UUID</code> the plugin-state didn’t change.
+/// Before activating another ticket <code>stopMobileFlow</code> needs to be called.
 /// \param ticket 
 /// The ticket used to access the gate.
 ///
 /// \param shouldVibrate 
-/// tells the plugin whether it should vibrate on passage or not. By default the plugin doesn’t vibrate, if set to <code>true</code> it will vibrate on <code>gateAccessTriggered</code> event.
+/// tells the plugin whether it should vibrate on passage or not. By default the plugin doesn’t vibrate, if set to <code>true</code> it will vibrate on <code>ticketPassed</code> event.
 ///
 ///
 /// returns:
 ///
-/// String with the session id which is created, if the creation of the session was successful. The session id can be used in the future to trace issues of single user issues.
+/// The session id (<code>UUID</code>) which is returned, if the creation of the session was successful. The session id can be used in the future to trace issues of single user issues.
 - (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate SWIFT_WARN_UNUSED_RESULT;
 - (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_WARN_UNUSED_RESULT;
 /// This method stops the plugin.
@@ -619,7 +618,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 ///
 /// returns:
 /// A <code>MobileFlowMock</code> object representing a mock for mobile flow operations.
-- (id <MobileFlowMock> _Nullable)getMockAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+- (id <MobileFlowMock> _Nullable)getMockWith:(id <MobileFlowPluginDelegate> _Nonnull)delegate error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -648,7 +647,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 
 SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @interface MobileFlowPluginImpl : NSObject <MobileFlowPlugin>
-- (id <MobileFlowMock> _Nullable)getMockAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+- (id <MobileFlowMock> _Nullable)getMockWith:(id <MobileFlowPluginDelegate> _Nonnull)delegate error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 + (id <MobileFlowPlugin> _Nullable)getInstanceWithToken:(NSString * _Nonnull)token error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nonnull)getPluginVersion SWIFT_WARN_UNUSED_RESULT;
 - (void)setDelegate:(id <MobileFlowPluginDelegate> _Nonnull)delegate;
@@ -1154,21 +1153,18 @@ static NSString * _Nonnull const MobileFlowErrorDomain = @"mobile_flow_plugin_io
 
 /// MobileFlowEvent represents the events that occur during the access process.
 typedef SWIFT_ENUM(NSInteger, MobileFlowEvent, open) {
-/// gateAccessTriggered
-/// This event indicates that the phone has been localized at an access gate and the ticket is sent to the access system.
-  MobileFlowEventGateAccessTriggered = 0,
 /// gateInUse
 /// This event indicates that the gate is currently in use (i.e. a passage of another person is not yet completed).
-  MobileFlowEventGateInUse = 1,
+  MobileFlowEventGateInUse = 0,
 /// gateAccessCompleted
 /// Event indicates that an access has been completed. This is the case when the person passed the gate.
-  MobileFlowEventGateAccessCompleted = 2,
+  MobileFlowEventGateAccessCompleted = 1,
 /// ticketValid
 /// Event which indicates that the ticket sent to the access system is valid.
-  MobileFlowEventTicketValid = 3,
+  MobileFlowEventTicketValid = 2,
 /// ticketPassed
 /// Event which indicates that the ticket is forwarded from the reader to the ticket evaluation system.
-  MobileFlowEventTicketPassed = 4,
+  MobileFlowEventTicketPassed = 3,
 };
 
 @protocol MobileFlowPluginDelegate;
@@ -1334,16 +1330,18 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 ///
 - (void)setDelegate:(id <MobileFlowPluginDelegate> _Nonnull)delegate;
 /// This method starts the plugin.
+/// It won’t start multiple times. If <code>nil</code> is returned instead of an <code>UUID</code> the plugin-state didn’t change.
+/// Before activating another ticket <code>stopMobileFlow</code> needs to be called.
 /// \param ticket 
 /// The ticket used to access the gate.
 ///
 /// \param shouldVibrate 
-/// tells the plugin whether it should vibrate on passage or not. By default the plugin doesn’t vibrate, if set to <code>true</code> it will vibrate on <code>gateAccessTriggered</code> event.
+/// tells the plugin whether it should vibrate on passage or not. By default the plugin doesn’t vibrate, if set to <code>true</code> it will vibrate on <code>ticketPassed</code> event.
 ///
 ///
 /// returns:
 ///
-/// String with the session id which is created, if the creation of the session was successful. The session id can be used in the future to trace issues of single user issues.
+/// The session id (<code>UUID</code>) which is returned, if the creation of the session was successful. The session id can be used in the future to trace issues of single user issues.
 - (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket shouldVibrate:(BOOL)shouldVibrate SWIFT_WARN_UNUSED_RESULT;
 - (NSUUID * _Nullable)startMobileFlowWithTicket:(MobileFlowTicket * _Nonnull)ticket SWIFT_WARN_UNUSED_RESULT;
 /// This method stops the plugin.
@@ -1374,7 +1372,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework16MobileFlowPlugin_")
 ///
 /// returns:
 /// A <code>MobileFlowMock</code> object representing a mock for mobile flow operations.
-- (id <MobileFlowMock> _Nullable)getMockAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+- (id <MobileFlowMock> _Nullable)getMockWith:(id <MobileFlowPluginDelegate> _Nonnull)delegate error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -1403,7 +1401,7 @@ SWIFT_PROTOCOL("_TtP32mobile_flow_plugin_ios_framework24MobileFlowPluginDelegate
 
 SWIFT_CLASS("_TtC32mobile_flow_plugin_ios_framework20MobileFlowPluginImpl")
 @interface MobileFlowPluginImpl : NSObject <MobileFlowPlugin>
-- (id <MobileFlowMock> _Nullable)getMockAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+- (id <MobileFlowMock> _Nullable)getMockWith:(id <MobileFlowPluginDelegate> _Nonnull)delegate error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 + (id <MobileFlowPlugin> _Nullable)getInstanceWithToken:(NSString * _Nonnull)token error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nonnull)getPluginVersion SWIFT_WARN_UNUSED_RESULT;
 - (void)setDelegate:(id <MobileFlowPluginDelegate> _Nonnull)delegate;
